@@ -30,3 +30,12 @@ params:
   fbappId: '808819212572711'
 outputs:
   home: [HTML, JSON, RSS]
+related:
+  includeNewer: true
+  indices:
+  - name: categories
+    weight: 100
+  - name: date
+    weight: 10
+  threshold: 20
+  toLower: false
