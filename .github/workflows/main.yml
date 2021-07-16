@@ -33,7 +33,7 @@ jobs:
            date: ${{ github.event.issue.updated_at }}   
            type: post
            slug: $POST_ID
-           category: ["${POST_CATEGORY}"]
+           categories: ["${POST_CATEGORY}"]
            ---
            EOF
           
