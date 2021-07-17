@@ -24,7 +24,7 @@ jobs:
            YEAR=`date "+%Y"`
            MONTH=`date "+%m"`
            mkdir -p content/posts/$YEAR/$MONTH
-           mkdir -p uploads/$YEAR/$MONTH
+           mkdir -p content/uploads/$YEAR/$MONTH
            
            cat > content/posts/$YEAR/$MONTH/$POST_ID.md << EOF
            ---
@@ -40,7 +40,7 @@ jobs:
            echo "$POST_BODY" | while read line; do
              if [[ "$line" =~ \!\[.*\]\(https://(.*)\) ]]; then
                url="https://${BASH_REMATCH[1]}"
-               wget -P uploads/$YEAR/$MONTH "$url"
+               wget -P content/uploads/$YEAR/$MONTH "$url"
                line=${line//$url/\/uploads\/$YEAR\/$MONTH\/$(basename "$url")}
              fi
              echo $line >> content/posts/$YEAR/$MONTH/$POST_ID.md
