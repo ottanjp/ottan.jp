@@ -76,5 +76,6 @@
     {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
     {{- partial "site-scripts.html" -}}
     {{ block "katex-javascript" . }}{{ end }}
+    {{ block "addscripts" . }}{{ end }}
   </body>
 </html>

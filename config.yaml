@@ -28,8 +28,6 @@ params:
   description: iPhone、Mac、Windows、ブログに関する様々なTips、トラブルシューティングをご紹介します
   locale: ja_JP
   fbappId: '808819212572711'
-outputs:
-  home: [HTML, JSON, RSS]
 related:
   includeNewer: true
   indices:
@@ -39,3 +37,11 @@ related:
     weight: 10
   threshold: 20
   toLower: false
+outputFormats:
+  Algolia:
+    baseName: algolia
+    isPlainText: true
+    mediaType: application/json
+    notAlternative: true    
+outputs:
+  home: [HTML, RSS, Algolia]

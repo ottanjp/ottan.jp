@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "fuse.js": "^6.0.0"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "algolia": "atomic-algolia"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ottanjp/ottanxyz.git"
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ottanjp/ottanxyz/issues"
   },
-  "homepage": "https://github.com/ottanjp/ottanxyz#readme"
+  "homepage": "https://github.com/ottanjp/ottanxyz#readme",
+  "dependencies": {
+    "algoliasearch": "^3.35.1",
+    "atomic-algolia": "^0.3.19"
+  }
 }
