@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "algolia": "atomic-algolia"
+    "algolia": "atomic-algolia",
+    "build": "hugo --gc --minify & npm run algolia"
   },
   "repository": {
     "type": "git",
