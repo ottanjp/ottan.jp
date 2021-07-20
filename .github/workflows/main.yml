@@ -43,7 +43,7 @@ jobs:
                wget -P content/uploads/$YEAR/$MONTH "$url"
                line=${line//$url/\/uploads\/$YEAR\/$MONTH\/$(basename "$url")}
              fi
-             echo $line >> content/posts/$YEAR/$MONTH/$POST_ID.md
+             echo "$line" >> content/posts/$YEAR/$MONTH/$POST_ID.md
            done
             
       - name: Create Pull Request
