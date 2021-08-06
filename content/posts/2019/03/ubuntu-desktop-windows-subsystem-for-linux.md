@@ -56,7 +56,7 @@ sudo apt-get upgrade
 以下のコマンドを実行して、Ubuntu Desktopをインストールします。インストールには時間を要しますので気長に待ちましょう。
 
 ```bash
-sudo apt-get ubuntu-desktop
+sudo apt-get install ubuntu-desktop
 ```
 
 #### （オプション）日本語化
