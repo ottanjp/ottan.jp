@@ -24,7 +24,7 @@ docker run --rm -p 10000:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/jovyan/w
 
 あとは、ブラウザから以下のURLへアクセスするだけです。ターミナル上にURLが表示されますので、そちらをクリックして起動してください。
 
-```
+```text
     To access the notebook, open this file in a browser:
         file:///home/jovyan/.local/share/jupyter/runtime/nbserver-6-open.html
     Or copy and paste one of these URLs:

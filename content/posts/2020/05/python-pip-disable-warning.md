@@ -13,7 +13,7 @@ PythonのパッケージをPyPIからインストールする際に用いる`pip
 
 例えば、現在アクティブな環境にインストールされているパッケージ一覧を表示した際にも表示されます。`pip list`を実行してみます。
 
-```
+```text
 Package    Version
 ---------- -------
 pip        19.2.3
@@ -37,7 +37,7 @@ disable-pip-version-check = True
 
 この状態で、冒頭の`pip list`をもう一度打ってみます。
 
-```
+```text
 Package    Version
 ---------- -------
 pip        19.2.3
@@ -64,7 +64,7 @@ disable-pip-version-check = True
 
 環境を`deactivate`すると、以下のように再度表示されるようになります。
 
-```
+```text
 Package    Version
 ---------- -------
 pip        19.2.3

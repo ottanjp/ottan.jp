@@ -49,7 +49,7 @@ $$
 $$
  \begin{bmatrix}
   a & b \cr
-  c & d 
+  c & d
   \end{bmatrix}
 $$
 

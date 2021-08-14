@@ -19,16 +19,16 @@ VS Codeの[チュートリアル](https://code.visualstudio.com/docs/containers/
 
 試した環境は以下の通りです。
 
-```
+```text
 $ sw_vers
-ProductName:	Mac OS X
-ProductVersion:	10.15.3
-BuildVersion:	19D76
+ProductName:  Mac OS X
+ProductVersion: 10.15.3
+BuildVersion: 19D76
 ```
 
 また、`python`はHomebrewでインストールした、下記のバージョンで確認しています。
 
-```
+```text
 $ python3
 Python 3.7.7 (default, Mar 10 2020, 15:43:33)
 [Clang 11.0.0 (clang-1100.0.33.17)] on darwin
@@ -58,7 +58,7 @@ code .
 
 VS Codeが起動されます。`Dockerfile`の作成、およびビルド、コンテナの起動を行います。全て、VS Codeが自動的に実施してくれます。
 
-コマンドパレット（<kbd>Shift</kbd> + <kbd>Command</kbd> + <kbd>P</kbd>）を開き、`Docker: Add Docker Files to Workspace...`を選択します。
+コマンドパレット（Shift + Command + P）を開き、`Docker: Add Docker Files to Workspace...`を選択します。
 
 ![](/uploads/2020/04/screenshot-2020-03-20-11.39.22.png)
 

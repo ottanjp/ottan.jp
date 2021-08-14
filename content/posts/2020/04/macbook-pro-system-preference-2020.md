@@ -10,10 +10,10 @@ slug: macbook-pro-system-preference-2020
 ---
 Ansibleで環境構築を自動化しようかどうか悩みつつ、一から少しずつ手を加えていくことが好きな自分のためのメモを残しておきます。
 
-```
-ProductName:	Mac OS X
-ProductVersion:	10.15.4
-BuildVersion:	19E266
+```text
+ProductName:  Mac OS X
+ProductVersion:  10.15.4
+BuildVersion:  19E266
 ```
 
 ## システム環境設定

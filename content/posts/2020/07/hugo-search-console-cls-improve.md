@@ -52,7 +52,7 @@ CLSは、「読み込みフェーズにおけるページレイアウトの移�
 
 前置きが長くなりましたが、本記事の本題にようやく突入できました。ある日、Google Search Consoleをのぞくと、**「CLSに関する問題: 0.25超 (パソコン)」**と表示されていました。モバイルに関する指標は、すべて良好でした。CLSは、前述の通り「ページ読み込み時のレイアウトのぐらつき」に関する問題です。パソコンとモバイルの違いを検討した結果、問題は`<img>`タグで表示される画像にあることが分かりました。
 
-### 原因は<img>タグに"width"、"height"属性を指定していなかったこと
+### 原因は&lt;img&gt;タグに"width"、"height"属性を指定していなかったこと
 
 詳細は、[【2020年夏】imgタグにはwidthとheight属性を書くのがいいらしい | Rriver](https://parashuto.com/rriver/development/img-size-attributes-are-back)の記事が大変分かりやすく勉強になりました。ブラウザが賢くなったのです。[Can I use](https://caniuse.com/#feat=mdn-css_properties_aspect-ratio)によると、Chrome、Firefox、Edge （Chromium)など主要ブラウザで対応していることが分かります。
 
@@ -64,7 +64,7 @@ CLSは、「読み込みフェーズにおけるページレイアウトの移�
 
 当サイトの構成は、WordPress時代の名残を（私自身が）受けて、`content`ディレクトリの下に`posts`（記事）、`uploads`（画像）が、**年月毎に保存される**ようになっています。すべてのディレクトリを表示すると数が多くなるため、一部のみ掲載しています。
 
-```
+```plain
 ├── archetypes
 ├── content
 │   ├── pages
@@ -131,7 +131,7 @@ headless: true
 
 この方法により、ようやく画像をPage Resourcesとして取得することができます。なお、`GetMatch`関数は最初に見つかったリソースファイルを返却します。次に、リソースのファイル名（`.Name`）を元に、`imageConfig`関数により画像の情報を取得します。あとは、`imageConfig`の`Width`、および`Height`プロパティを、`<img>`タグの属性に指定することで完成です。
 
-#### `imageConfig`関数に直接画像ファイルのパスを指定できない理由
+### `imageConfig`関数に直接画像ファイルのパスを指定できない理由
 
 `imageConfig`関数で必要なのは、Page Resourcesではなくファイルのパスです。画像ファイルのリサイズ等、画像を変更する操作を行う場合、Page Resourcesである必要がありますが、`imageConfig`関数は対象外です。では、なんでこんなまどろっこしい事をする必要があるのか疑問に思われたかもしれません。`imageConfig`に直接`.Destination`を指定すれば良いように思います。あるサイトでは十分に機能するでしょう。
 
