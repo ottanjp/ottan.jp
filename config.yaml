@@ -18,6 +18,9 @@ permalinks:
 markup:
   highlight:
     style: github
+  goldmark:
+    renderer:
+      unsafe: true
 params:
   author: ottanxyz
   favicon: images/favicon.ico

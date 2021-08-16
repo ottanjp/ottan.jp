@@ -9,9 +9,8 @@ categories:
   - Blog
 slug: support-hugo-katex
 katex: true
-markup: mmark
 ---
-Hugoで、KaTeXというブラウザで数式を表現するためのライブラリをサポートする方法です。Hugo 0.70.0（Extended）で正常に表示されることを確認していますが、今後のバージョンアップ等により、以下の方法がサポートされなくなる可能性がありますので、ご注意ください。特に、Markdownパーサの変更が発生した場合、影響を受ける可能性があります。
+Hugoで、\\(KaTeX\\)というブラウザで数式を表現するためのライブラリをサポートする方法です。Hugo 0.70.0（Extended）で正常に表示されることを確認していますが、今後のバージョンアップ等により、以下の方法がサポートされなくなる可能性がありますので、ご注意ください。特に、Markdownパーサの変更が発生した場合、影響を受ける可能性があります。
 
 ## 表示
 
@@ -113,6 +112,6 @@ Front Matterの`katex`が`true`の場合のみ、KaTexのライブラリを読�
 
 ### Front Matterの`markup`を`mmark`に変更する
 
-Hugo 0.60.0以降、Markdownパーサに[Goldmark](https://github.com/yuin/goldmark)が使用されています。Goldmarkで、KaTexの記法（$$〜$$）を使用した場合、冒頭の行列など、改行が含まれる場合の数式を上手く表現することができませんでした。
+Hugo 0.60.0以降、Markdownパーサに[Goldmark](https://github.com/yuin/goldmark)が使用されています。Goldmarkで、KaTexの記法（`$$〜$$`）を使用した場合、冒頭の行列など、改行が含まれる場合の数式を上手く表現することができませんでした。
 
 そこで、そのような数式を含む場合、もしくはKaTexによる数式を使用する可能性がある場合、Front Matterの`markup`を`mmark`に変更しておきます。ただし、[Mmark](https://github.com/miekg/mmark)は、記事執筆時点の最新版であるHugo 0.67.0（Extended）では非推奨（deprecated）となっており、将来廃止される可能性があります。

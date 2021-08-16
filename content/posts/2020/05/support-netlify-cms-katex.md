@@ -10,11 +10,10 @@ categories:
   - Blog
 slug: support-netlify-cms-katex
 katex: true
-markup: mmark
 ---
-[HugoのMarkdownで数式組版ライブラリであるKaTeXをサポートする](/posts/2020/05/support-hugo-katex/)で、Hugoに$\KaTeX$を組み込みました。$\KaTeX$は、MathJaxより高速にレンダリングできる、ブラウザで動作する数式組版ライブラリです。
+[HugoのMarkdownで数式組版ライブラリであるKaTeXをサポートする](/posts/2020/05/support-hugo-katex/)で、Hugoに\\(KaTeX\\)を組み込みました。\\(KaTeX\\)は、MathJaxより高速にレンダリングできる、ブラウザで動作する数式組版ライブラリです。
 
-今回は、Netlify CMSのプレビューで、リアルタイムで$\KaTeX$による変換を行います。また、おまけ要素ですが、ついでにHighlight.jsを組み込み、プレビューでシンタックスハイライトが可能になるようにします。
+今回は、Netlify CMSのプレビューで、リアルタイムで\\(KaTeX\\)による変換を行います。また、おまけ要素ですが、ついでにHighlight.jsを組み込み、プレビューでシンタックスハイライトが可能になるようにします。
 
 ブラウザだけで完結します。
 
@@ -55,7 +54,7 @@ Marked.jsでMarkdownをそのままレンダリングした場合、Netlify CMS�
 
 まず、必要なライブラリを読み込みます。Netlify CMSのMarkdown Parserは、[remarkjs/remark](https://github.com/remarkjs/remark)です（記事執筆時点）。Remarkは、ブラウザから利用できません。今回は、ブラウザで利用可能な[markedjs/marked](https://github.com/markedjs/marked)を代わりに利用します。標準で組み込まれている機能を利用しないのは気が引けますが、現時点で代替手段が見当たりませんでした。（Netlify CMSで公開されているAPIが存在しない）
 
-$\KaTeX$に必要なスクリプトは、冒頭の記事でご紹介しているため、そちらを参照してください。
+\\(KaTeX\\)に必要なスクリプトは、冒頭の記事でご紹介しているため、そちらを参照してください。
 
 ```html
 <body>
@@ -155,9 +154,9 @@ Netlify CMS用にカスタマイズされた`createClass`関数、および`Reac
 
 Markdownパーサとして、ブラウザで利用可能な[markedjs/marked](https://github.com/markedjs/marked)を使用します。また、シンタックスハイライト用のライブラリで、Hugoでも標準で使用されている[highlight.js](https://highlightjs.org/)と連携が可能です。詳細は、上記のソースコードを参照してください。`setOptions`関数を使用します。
 
-ポイントとなる$\KaTeX$との連携は、少々小細工しています。$\KaTeX$ライブラリでは、`render`、`renderToString`関数の2種類が用意されています。前者は指定したDOMへ描画、後者文字列として変換後の文字列を返却する関数です。いずれの関数も、前提としてHTMLでマークアップしたい文字列のみ、あらかじめ抽出した上で関数へと渡す必要があります。Markdownから、特定の文字列（例：`$$`）に囲まれた部分を抽出し、`renderToString`関数でHTMLに変換する、もしくはMarked.jsのプラグインとして別途実装するという方法も考えられます。しかし、高度な正規表現や、別途ライブラリを用意する必要があるため手間がかかります。
+ポイントとなる\\(KaTeX\\)との連携は、少々小細工しています。\\(KaTeX\\)ライブラリでは、`render`、`renderToString`関数の2種類が用意されています。前者は指定したDOMへ描画、後者文字列として変換後の文字列を返却する関数です。いずれの関数も、前提としてHTMLでマークアップしたい文字列のみ、あらかじめ抽出した上で関数へと渡す必要があります。Markdownから、特定の文字列（例：`$$`）に囲まれた部分を抽出し、`renderToString`関数でHTMLに変換する、もしくはMarked.jsのプラグインとして別途実装するという方法も考えられます。しかし、高度な正規表現や、別途ライブラリを用意する必要があるため手間がかかります。
 
-そこで、利用したいのが、$\KaTeX$の[Auto-render Extension · KaTeX](https://katex.org/docs/autorender.html)です。`renderMathInElement`関数のみが用意されている、シンプルなライブラリです。HTMLElementを引数として渡すと、HTMLを解釈して必要な部分のみ自動的に変換してHTMLElementとして返却してくれる便利なライブラリです。`renderMathInElement`関数を利用するためには、事前にHTMLElementを生成して準備しておく必要があることから、今回はダミーの`div`Elementを生成しています。より良い方法はあるかもしれません。
+そこで、利用したいのが、\\(KaTeX\\)の[Auto-render Extension · KaTeX](https://katex.org/docs/autorender.html)です。`renderMathInElement`関数のみが用意されている、シンプルなライブラリです。HTMLElementを引数として渡すと、HTMLを解釈して必要な部分のみ自動的に変換してHTMLElementとして返却してくれる便利なライブラリです。`renderMathInElement`関数を利用するためには、事前にHTMLElementを生成して準備しておく必要があることから、今回はダミーの`div`Elementを生成しています。より良い方法はあるかもしれません。
 
 なお、`renderMathInElement`関数のオプションとして、デリミタや無視するHTMLタグ等を変更できます。今回は、デリミタを`$$`と`$`に変更しました。無視するタグは、デフォルトでは`<pre>`、`<code>`、`<script>`等です。通常はデフォルトのままで良いでしょう。その他、無視する（変換したくない）クラス名を指定することもできます。
 
