@@ -116,13 +116,14 @@ Marked.jsでMarkdownをそのままレンダリングした場合、Netlify CMS�
         // 事前に生成したDOMにMarkdown→HTML変換済みの文字列を格納
         div.innerHTML = marked(body);
         // KaTeXのAuto Rendering Extensionを利用して変換
-        // デフォルトのデリミタから、LaTeXと同様の形式へ変更
+        // デフォルトのデリミタから変更
+        // Hugo 0.85.0でのMarkdownパーサの仕様変更に伴う対応
         renderMathInElement(div, {
           delimiters: [
             // display: true はHTMLのBlock Element
             { left: '$$', right: '$$', display: true },
             // display; falseはHTMLのInline Element
-            { left: '$', right: '$', display: false },
+            { left: '\\(', right: '\\)', display: false },
           ],
         });
 
