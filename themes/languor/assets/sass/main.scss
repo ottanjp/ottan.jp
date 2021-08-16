@@ -67,3 +67,22 @@ body {
     right: 0.25rem;
   }
 }
+
+.note,
+.warning {
+  border-left-width: 4px;
+  border-left-style: solid;
+  position: relative;
+  border-color: #0594cb;
+  display: block;
+}
+
+.admonition-content {
+  display: block;
+  margin: 0;
+  padding: 0.125em 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  overflow-x: auto;
+  background-color: rgba(0,0,0,0.05);
+}
