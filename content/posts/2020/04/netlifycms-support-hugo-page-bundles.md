@@ -13,7 +13,7 @@ slug: netlifycms-support-hugo-page-bundles
 
 最終的なディレクトリ構成は以下の通りです。Page Bundlesに無関係な項目は割愛、一部名称の変更を行っています。
 
-```
+```text
 .
 ├── archetypes
 ├── assets
@@ -107,13 +107,13 @@ collections:
 
 生成されるMarkdownのファイルが格納される場所です。`{{year}}`や`{{month}}`はNetlify CMSで使用できる独自テンプレートです。Markdownのファイルが生成された年（西暦4桁）、月（ゼロ埋め2桁）になります。
 
-```
+```text
 {{year}}/{{month}}/{{slug}}
 ```
 
 前述の`slug`を指定した場合、`folder`を考慮すると、以下のMarkdownファイルが生成されます。ディレクトリが存在しない場合は、Netlify CMSが自動的に生成します。
 
-```
+```text
 content/posts/2020/04/netlifycms-support-hugo-page-bundles.md
 ```
 
@@ -129,13 +129,13 @@ media_folder: '../../../uploads/{{year}}/{{month}}'
 
 パスの指定方法は、絶対パスで指定、もしくは**生成されるMarkdownを起点とした相対パス**での指定が可能です。前述の`path`を指定した場合、
 
-```
+```text
 content/posts/2020/04/../../../uploads/2020/04/image1.png
 ```
 
 つまり、
 
-```
+```text
 content/uploads/2020/04/image1.png
 ```
 
@@ -145,13 +145,13 @@ content/uploads/2020/04/image1.png
 
 Markdownに実際に記載される画像ファイルのパスです。アップロードした画像ファイルは、
 
-```
+```text
 content/uploads/2020/04/image1.png
 ```
 
 配下に格納されますが、実際のMarkdownには、
 
-```
+```text
 ![](/uploads/2020/04/image1.png)
 ```
 
@@ -161,7 +161,7 @@ content/uploads/2020/04/image1.png
 
 以上の設定をもとに、`hugo`コマンドで生成した`public`ディレクトリ配下の構造は以下の通りです。（一部、割愛しています）
 
-```
+```text
 public
 ├── admin
 │   ├── config.yml

@@ -13,7 +13,7 @@ slug: vscode-jupyter-notebook-not-working
 ---
 VS Codeで[Python - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-python.python)の拡張機能を使用すると、Pythonで記述されたプログラムのデバッグや、Jupyter Notebook環境をVS Codeで実行できて大変重宝します。たまに、このJupyter Notebookが、以下のエラーにより起動しなくなったことがあったため、その対処法をメモしておきます。
 
-```
+```text
 Failed to connect to Jupyter notebook
 Jupyter Server: Not Started
 ```
