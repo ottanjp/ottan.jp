@@ -3,17 +3,7 @@
   {{ $caption = . | safeHTMLAttr }}
 {{ end }}
 
-{{ $imageSrc := $.Destination }}
-{{ $hashedDestination := sha256 $imageSrc }}
-{{ $extension := path.Ext $imageSrc }}
-{{ $localPath := delimit (slice "images/" $hashedDestination $extension) "" }}
-{{ $assetPath := delimit (slice "assets/" $localPath) "" }}
-{{ $imagePath := $imageSrc }}
-{{ if (fileExists $assetPath) }}
-  {{ $imagePath = $localPath }}
-{{ end }}
-
-{{ with (site.GetPage "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" $.Destination) }}
+{{ with .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) }}
   {{ $image := . }}
   {{ $small := . }}
   {{ $medium := . }}
