@@ -75,19 +75,19 @@ body {
 
 .note,
 .warning {
+
   border-left-width: 4px;
   border-left-style: solid;
-  position: relative;
-  border-color: #0594cb;
+  border-color: #0594CB;
   display: block;
 }
 
 .admonition-content {
-  display: block;
-  margin: 0;
-  padding: 0.125em 1em;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  overflow-x: auto;
-  background-color: rgba(0,0,0,0.05);
-}
+    display: block;
+    margin: 0px;
+    padding: 1em 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    overflow-x: auto;
+    background-color: rgba(0, 0, 0, .05);
+  }

@@ -1,4 +1,3 @@
 <aside class="admonition note">
-	<div class="note-icon">{{ .Get "title" }}</div>
-	<div class="admonition-content">{{ string .Inner | markdownify }}</div>
+	<div class="admonition-content">{{- .Inner -}}</div>
 </aside>
