@@ -9,3 +9,4 @@ themes/ottanxyz/src/node_modules
 .env
 yarn-error.log
 .vercel
+.hugo_build.lock
