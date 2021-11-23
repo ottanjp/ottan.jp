@@ -4,7 +4,6 @@ date: 2017-01-14T00:00:00+00:00
 draft: false
 title: Googleが公開したJPEGエンコーダー「Guetzli」をMacでコンパイルして使用する方法
 type: post
-slug: google-guetzli-mac-5466
 categories:
 - Mac
 tags:
@@ -68,7 +67,7 @@ GitHubからソースコードをダウンロードして、そのままコン�
 
 
 
-    
+
     git clone https://github.com/google/guetzli
 
 
@@ -80,7 +79,7 @@ GitHubからソースコードをダウンロードして、そのままコン�
 
 
 
-    
+
     cd guetzli
 
 
@@ -92,7 +91,7 @@ GitHubからソースコードをダウンロードして、そのままコン�
 
 
 
-    
+
     brew install libpng gflags
 
 
@@ -110,7 +109,7 @@ Homebrewを使用すれば、パッケージのインストールの前提とな
 
 
 
-    
+
     make
 
 
@@ -134,7 +133,7 @@ Homebrewを使用すれば、パッケージのインストールの前提とな
 
 
 
-    
+
     ./bin/Release/guetzli <input file> <output file>
 
 
@@ -158,5 +157,5 @@ Homebrewを使用すれば、パッケージのインストールの前提とな
 
 
 
-    
+
     cp ./bin/Release/guetzli /usr/local/bin/guetzli

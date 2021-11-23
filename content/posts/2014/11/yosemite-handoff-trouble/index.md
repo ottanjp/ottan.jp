@@ -4,7 +4,6 @@ date: 2014-11-13T00:00:00+00:00
 draft: false
 title: macOS YosemiteでHandoffが使用できない場合に見直したい項目
 type: post
-slug: yosemite-handoff-trouble-697
 categories:
 - iPhone
 - Mac

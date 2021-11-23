@@ -4,7 +4,6 @@ date: 2015-08-08T00:00:00+00:00
 draft: false
 title: Gmailを一工夫！EvernoteベーシックプランでEvernoteメール転送機能の制限を回避する方法
 type: post
-slug: evernote-basic-email-transfer-1963
 categories:
   - Web
 tags:

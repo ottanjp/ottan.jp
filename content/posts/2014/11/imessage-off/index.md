@@ -4,7 +4,6 @@ date: 2014-11-11T00:00:00+00:00
 draft: false
 title: アップルが公開したiMessageをオフにしてくれるツールを試してみました
 type: post
-slug: imessage-off-681
 categories:
 - iPhone
 - Mac

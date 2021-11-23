@@ -4,7 +4,6 @@ date: 2017-11-11T00:00:00+00:00
 draft: false
 title: 取り込んだ楽曲を手動でiPhoneにコピーする方法とiTunesの同期にまつわるトラブルシューティング
 type: post
-slug: itunes-iphone-music-copy-trouble-6269
 categories:
 - iPhone
 - Mac

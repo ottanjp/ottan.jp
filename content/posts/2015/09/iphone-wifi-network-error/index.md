@@ -4,7 +4,6 @@ date: 2015-09-30T00:00:00+00:00
 draft: false
 title: iPhoneでWi-Fiネットワークからモバイルネットワークに切り替え後、ネットワークエラーが発生する場合の対処法
 type: post
-slug: iphone-wifi-network-error-2669
 categories:
 - iPhone
 tags:

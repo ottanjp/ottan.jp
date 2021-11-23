@@ -4,7 +4,6 @@ date: 2018-01-17T00:00:00+00:00
 draft: false
 title: AirMac（Express、Extreme、Time Capsule）の Wi-Fiの「体感の」速度が遅い問題を見直す
 type: post
-slug: airmac-express-extreme-time-capsule-wifi-speed-slow-6529
 categories:
     - iPhone
     - Mac

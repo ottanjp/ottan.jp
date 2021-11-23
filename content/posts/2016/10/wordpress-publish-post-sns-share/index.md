@@ -4,7 +4,6 @@ date: 2016-10-29T00:00:00+00:00
 draft: false
 title: WordPressで記事を投稿した瞬間に各種SNSに簡単にシェアする方法
 type: post
-slug: wordpress-publish-post-sns-share-5156
 categories:
   - Blog
 tags:

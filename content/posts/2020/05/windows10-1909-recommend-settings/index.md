@@ -6,7 +6,6 @@ tags:
   - Windows 10
 categories:
   - Windows
-slug: windows10-1909-recommend-settings
 ---
 Parallels Desktop、およびWindows 10 Home Editionで確認しています。また、Windows 10のバージョンは以下の通りです。なお、ここでご紹介する設定は一例です。あくまでご参考までにご覧いただけると助かります。
 

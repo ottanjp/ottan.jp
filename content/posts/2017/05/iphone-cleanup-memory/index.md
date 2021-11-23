@@ -4,7 +4,6 @@ date: 2017-05-02T00:00:00+00:00
 draft: false
 title: iPhoneのメモリを5秒で解放し空きメモリを増やす方法
 type: post
-slug: iphone-cleanup-memory-5723
 categories:
 - iPhone
 tags:

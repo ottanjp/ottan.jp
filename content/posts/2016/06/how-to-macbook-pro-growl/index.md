@@ -4,7 +4,6 @@ date: 2016-06-10T00:00:00+00:00
 draft: false
 title: MacBook Proのファンが唸り続ける時に試したい効果的な方法
 type: post
-slug: how-to-macbook-pro-growl-4423
 categories:
   - Mac
 tags:

@@ -4,7 +4,6 @@ date: 2016-04-10T00:00:00+00:00
 draft: false
 title: MarsEditのプレビュー画面で、「highlight.js」のシンタックスハイライトをリアルタイムでプレビューする
 type: post
-slug: marsedit-preview-syntax-highlight-6853
 categories:
   - Mac
   - Blog

@@ -4,7 +4,6 @@ date: 2017-01-15T00:00:00+00:00
 draft: false
 title: ブログを訪れたユーザーがどれだけGoogle AdSenseをブロックしているかを簡単に計測する方法
 type: post
-slug: blog-google-adsense-block-5470
 categories:
   - Blog
 tags:

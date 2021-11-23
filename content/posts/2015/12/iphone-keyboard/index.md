@@ -4,7 +4,6 @@ date: 2015-12-22T00:00:00+00:00
 draft: false
 title: 意外と知られていないiPhoneのキーボードの便利な使い方
 type: post
-slug: iphone-keyboard-6822
 categories:
 - iPhone
 tags:

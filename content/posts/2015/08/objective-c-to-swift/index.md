@@ -4,7 +4,6 @@ date: 2015-08-06T00:00:00+00:00
 draft: false
 title: Objective-Cで書かれたソースコードをSwiftに変換してくれる「Objective-C to Swift Converter」
 type: post
-slug: objective-c-to-swift-1915
 categories:
 - Web
 tags:
@@ -37,7 +36,7 @@ https://objectivec2swift.com/?ref=producthunt#/converter/code
 
 
 
-    
+
     @implementation SampleClass
     - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
     {
@@ -48,7 +47,7 @@ https://objectivec2swift.com/?ref=producthunt#/converter/code
         }
         NSString *continent = [self tableView:tableView titleForHeaderInSection:indexPath.section];
         NSString *country = [[self.countries valueForKey:continent] objectAtIndex:indexPath.row];
-        cell.textLabel.text = country; 
+        cell.textLabel.text = country;
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         return cell;
     }
@@ -63,7 +62,7 @@ https://objectivec2swift.com/?ref=producthunt#/converter/code
 
 
 
-    
+
     class SampleClass {
         func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
             static var CellIdentifier: String = "CountryCell"

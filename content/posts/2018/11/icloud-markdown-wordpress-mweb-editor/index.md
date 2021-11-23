@@ -4,7 +4,6 @@ date: 2018-11-22T00:00:00+00:00
 draft: false
 title: iCloud同期可能でWordPressや静的サイト向けデプロイ機能付きのMarkdownエディター
 type: post
-slug: icloud-markdown-wordpress-mweb-editor-7069
 categories:
 - iPhone
 - Mac
@@ -73,7 +72,7 @@ Mac版は14日間のトライアル期間があります。トライアル期間
 ￼
 
 ![](181122-5bf6a6ae792f0.jpg)
-￼  
+￼
 
 WordPressへのパブリッシング機能以外に重視した点が、画像ファイルの扱いでした。Markdown記法で写真等の画像ファイルを挿入する場合、すでにアップロード済み、もしくはローカルの特定のパスに格納されているメディアファイルを指定する必要があります。MWebでは、ローカルのファイル（iOSの場合、写真アプリのフォトライブラリ）から選択、もしくはドラッグ & ドロップで挿入できて、非常に便利です。
 
@@ -159,17 +158,17 @@ MWeb for MacとiOS間ではライブラリや画像ファイル等のメディ�
 まず、MWeb for iOSで、トップ画面左上の歯車アイコンをタップして、「Settings」画面を開きます。
 
 ![](181122-5bf6a6bb9a62e.jpg)
-￼  
+￼
 
 「CLOUD DOCUMENT LIBRARY」という項目があります。「Enable iCloud」「Enable MWeb for Mac Library」を有効化してください。その後、「Change Library Location」をタップします。
 
 ![](181122-5bf6a6bc3d9cd.jpg)
-￼  
+￼
 
 「Set to MWeb 3 iCloud’s Library」をタップしてください。これで、ロケーションが自動的に、MWeb for Macインストール時に作成されるiCloud Drive上のディレクトリが指定されます。
 
 ![](181122-5bf6a6bc66a0f.jpg)
-￼  
+￼
 
 MWeb for Macと同期したファイルは、ライブラリの中に表示されます。Macと共有するライブラリ上に作成したファイルも、ローカルで作成したファイルと同様に扱えます。ファイル新規作成時にロケーションを選択できますので、前述のロケーションを選択してください。
 

@@ -4,7 +4,6 @@ date: 2014-09-09T00:00:00+00:00
 draft: false
 title: Google Chromeのメモリ使用量を50%以上削減する魔法のコマンド
 type: post
-slug: chrome-memory-reduce-219
 categories:
 - Mac
 tags:
@@ -172,7 +171,7 @@ Google Chromeがメモリを食い潰してしまう原因は、レンダリン�
 
 
 
-    
+
     open "/Applications/Google Chrome.app/" --args --renderer-process-limit=1
 
 
@@ -184,7 +183,7 @@ Google Chromeがメモリを食い潰してしまう原因は、レンダリン�
 
 
 
-    
+
     "C:¥Users¥%USERNAME%¥AppData¥Local¥Google¥Chrome¥Application¥chrome.exe" --renderer-process-limit=1
 
 
@@ -234,7 +233,7 @@ Automatorを起動したら「アプリケーション」を選択します。
 
 
 
-    
+
     open "/Applications/Google Chrome.app/" --args --renderer-process-limit=1
 
 

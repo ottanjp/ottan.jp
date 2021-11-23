@@ -4,7 +4,6 @@ date: 2016-04-07T00:00:00+00:00
 draft: false
 title: VMware Fusion 8.1のWindows上でUSBメモリを初期化できない問題の対処法
 type: post
-slug: vmware-fusion-8-1-usb-format-6851
 categories:
 - Mac
 - Windows

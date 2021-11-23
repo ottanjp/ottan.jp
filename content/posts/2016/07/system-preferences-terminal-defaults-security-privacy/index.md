@@ -4,7 +4,6 @@ date: 2016-07-24T00:00:00+00:00
 draft: false
 title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（セキュリティとプライバシー）
 type: post
-slug: system-preferences-terminal-defaults-security-privacy-4674
 categories:
   - Mac
 tags:

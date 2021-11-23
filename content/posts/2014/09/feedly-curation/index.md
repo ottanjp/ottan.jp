@@ -4,7 +4,6 @@ date: 2014-09-13T00:00:00+00:00
 draft: false
 title: feedlyで作る自分だけのキュレーションアプリ
 type: post
-slug: feedly-curation-314
 categories:
 - iPhone
 tags:
@@ -79,7 +78,7 @@ tags:
 
 
 
-    
+
     http://b.hatena.ne.jp/search/text?safe=on&q;=iPhone&users;=20
 
 

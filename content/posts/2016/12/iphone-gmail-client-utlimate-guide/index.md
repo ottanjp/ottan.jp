@@ -4,7 +4,6 @@ date: 2016-12-06T00:00:00+00:00
 draft: false
 title: iPhoneのGmailクライアントを徹底比較。あなたにとって最適なGmailクライアントは？
 type: post
-slug: iphone-gmail-client-utlimate-guide-5302
 categories:
 - iPhone
 tags:

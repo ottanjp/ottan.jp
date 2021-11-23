@@ -4,7 +4,6 @@ date: 2016-07-02T00:00:00+00:00
 draft: false
 title: VMware Fusion 8で作成した仮想マシンで静的IPアドレスを使用する方法
 type: post
-slug: vmware-fusion-8-static-ip-address-4533
 categories:
 - Mac
 tags:
@@ -123,7 +122,7 @@ VMware Fusion 8で仮想マシンを構築する場合、仮想マシンの再�
 
 
 
-    
+
     $ sudo vi /Library/Preferences/VMware\ Fusion/vmnet8/dhcpd.conf
 
 
@@ -135,7 +134,7 @@ VMware Fusion 8で仮想マシンを構築する場合、仮想マシンの再�
 
 
 
-    
+
     subnet 192.168.201.0 netmask 255.255.255.0 {
     	range 192.168.201.128 192.168.201.254;
     	option broadcast-address 192.168.201.255;
@@ -162,7 +161,7 @@ VMware Fusion 8で仮想マシンを構築する場合、仮想マシンの再�
 
 
 
-    
+
     host rhel7-x64 {
     	hardware ethernet 00:0c:29:89:be:26;
     	fixed-address 192.168.201.102;
@@ -189,13 +188,13 @@ VMware Fusion 8で仮想マシンを構築する場合、仮想マシンの再�
 
 
 
-    
+
     $ sudo /Applications/VMware\ Fusion.app/Contents/Library/services/services.sh --stop
 
 
 
 
-    
+
     $ sudo /Applications/VMware\ Fusion.app/Contents/Library/services/services.sh --start
 
 
@@ -213,7 +212,7 @@ VMware Fusion 8で仮想マシンを構築する場合、仮想マシンの再�
 
 
 
-    
+
     $ sudo vi /etc/hosts
 
 
@@ -225,7 +224,7 @@ VMware Fusion 8で仮想マシンを構築する場合、仮想マシンの再�
 
 
 
-    
+
     192.168.201.102 rhel7-x64.local
 
 
@@ -243,7 +242,7 @@ VMware Fusion 8で仮想マシンを構築する場合、仮想マシンの再�
 
 
 
-    
+
     $ ping -c 1 rhel7-x64.local
 
 

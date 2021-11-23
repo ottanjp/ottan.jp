@@ -4,7 +4,6 @@ date: 2017-05-19T00:00:00+00:00
 draft: false
 title: Instagramのアカウントを一時停止、削除する方法
 type: post
-slug: instagram-account-delete-5858
 categories:
 - Android
 - iPhone

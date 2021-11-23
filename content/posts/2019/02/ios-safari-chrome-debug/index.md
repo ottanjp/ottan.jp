@@ -4,7 +4,6 @@ date: 2019-02-23T00:00:00+00:00
 draft: false
 title: 'MacのGoogle Chromeを使用して、iPhone、iPadのSafariでデバッグを行う方法'
 type: post
-slug: ios-safari-chrome-debug-20190202
 categories: ['iPhone', 'Mac']
 tags: ['Safari', 'Google Chrome']
 toc: true

@@ -4,7 +4,6 @@ date: 2015-06-03T00:00:00+00:00
 draft: false
 title: VirtualBoxにmacOS Yosemiteをインストールする
 type: post
-slug: virtualbox-yosemite-1605
 categories:
 - Mac
 tags:
@@ -166,7 +165,7 @@ macOS Yosemiteの起動ディスクを作成します。仮想マシン用の起
 
 
 
-    
+
     $ git clone https://github.com/ntkme/InstallESD.dmg.tool
     $ cd InstallESD.dmg.tool
     $ bin/iesd -t BaseSystem -i /Applications/Install\ OS\ X\ Yosemite.app/Contents/SharedSupport/InstallESD.dmg -o Output.dmg
@@ -186,7 +185,7 @@ CPUが**Haswell**世代以降を搭載したMacの場合、仮想マシンのCPU
 
 
 
-    
+
     $ VBoxManage list vms
     "macOS Yosemite" {0f86aef6-e197-4cb4-aeb5-0677edd6eb1f}
 

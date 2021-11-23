@@ -4,7 +4,6 @@ date: 2017-11-23T00:00:00+00:00
 draft: false
 title: Docker for Macのホスト、コンテナー間の同期が遅い問題をDocker標準機能で解決する
 type: post
-slug: docker-for-mac-sync-host-container-6326
 categories:
   - Mac
 tags:

@@ -4,7 +4,6 @@ date: 2015-06-05T00:00:00+00:00
 draft: false
 title: controlキーを使ってMacの作業効率は倍増！絶対に覚えるべきショートカット5つ
 type: post
-slug: control-mac-1630
 categories:
 - Mac
 tags:

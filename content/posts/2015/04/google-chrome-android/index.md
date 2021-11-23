@@ -4,7 +4,6 @@ date: 2015-04-04T00:00:00+00:00
 draft: false
 title: Google Chromeの拡張機能「ARC Welder」でAndroidのアプリケーションを動かそう！
 type: post
-slug: google-chrome-android-859
 categories:
 - Android
 - Mac

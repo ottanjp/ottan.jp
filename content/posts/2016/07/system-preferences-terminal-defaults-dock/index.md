@@ -4,7 +4,6 @@ date: 2016-07-11T00:00:00+00:00
 draft: false
 title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（Dock）
 type: post
-slug: system-preferences-terminal-defaults-dock-4644
 categories:
   - Mac
 tags:

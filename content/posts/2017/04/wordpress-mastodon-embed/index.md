@@ -4,7 +4,6 @@ date: 2017-04-22T00:00:00+00:00
 draft: false
 title: WordPressにMastodonのURLを貼り付けただけでトゥートを埋め込む方法
 type: post
-slug: wordpress-mastodon-embed-5700
 categories:
   - Blog
 tags:

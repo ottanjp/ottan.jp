@@ -5,7 +5,6 @@ tags:
   - iOS14
 categories:
   - iPhone
-slug: Perform-any-action-using-rear-tap-iPhone-iOS14
 katex: false
 ---
 iPhone（iOS14）で背面タップを使用する方法です。iPhone 8以降で利用可能です。

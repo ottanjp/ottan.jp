@@ -4,7 +4,6 @@ date: 2014-11-11T00:00:00+00:00
 draft: false
 title: macOS Yosemiteインストール後にプリンターが追加できない場合の対処法
 type: post
-slug: yosemite-printer-install-674
 categories:
 - Mac
 tags:
@@ -124,7 +123,7 @@ http://support.apple.com/kb/DL899?viewlocale=ja_JP
 プリンタードライバーのインストールが完了したら、再度プリンターのセットアップを行います。「システム環境設定」→「プリンターのセットアップ」を開いたら、「ドライバー」からドライバーを選択します。
 
 
-	
+
 
 
 ![](141111-5461a2bea55d1.png)

@@ -4,7 +4,6 @@ date: 2016-03-19T00:00:00+00:00
 draft: false
 title: Windows 10でゲストアカウントを作成する方法
 type: post
-slug: Windows 10-create-guest-account-6844
 categories:
 - Windows
 tags:
@@ -86,7 +85,7 @@ UAC（User Account Control）が有効になっている場合は、コマンド
 
 
 
-    
+
     net user Visitor /add /active:yes
 
 
@@ -105,7 +104,7 @@ UAC（User Account Control）が有効になっている場合は、コマンド
 
 
 
-    
+
     net user Visitor *
 
 
@@ -124,7 +123,7 @@ UAC（User Account Control）が有効になっている場合は、コマンド
 
 
 
-    
+
     net localgroup users Visitor /delete
 
 
@@ -143,7 +142,7 @@ UAC（User Account Control）が有効になっている場合は、コマンド
 
 
 
-    
+
     net localgroup guests Visitor /add
 
 
@@ -187,7 +186,7 @@ UAC（User Account Control）が有効になっている場合は、コマンド
 
 
 
-    
+
     net user Visitor /delete
 
 

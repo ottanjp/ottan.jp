@@ -4,7 +4,6 @@ date: 2016-01-25T00:00:00+00:00
 draft: false
 title: Twitterのエゴサーチに便利！Twitterで特定の文字列が含まれるツイートを検知すると、スマホに通知する方法
 type: post
-slug: twitter-egosearching-6829
 categories:
   - iPhone
   - Web

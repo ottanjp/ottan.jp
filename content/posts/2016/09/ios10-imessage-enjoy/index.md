@@ -4,7 +4,6 @@ date: 2016-09-17T00:00:00+00:00
 draft: false
 title: iOS 10で大幅に進化したiMessageを楽しもう！快適に使用するための設定方法もご紹介
 type: post
-slug: ios10-imessage-enjoy-4939
 categories:
   - iPhone
 tags:

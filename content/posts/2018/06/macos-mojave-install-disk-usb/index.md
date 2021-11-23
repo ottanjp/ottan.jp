@@ -4,7 +4,6 @@ date: 2018-06-30T00:00:00+00:00
 draft: false
 title: macOS Mojaveのインストールディスク（USBメモリ）を作成する方法
 type: post
-slug: macos-mojave-install-disk-usb-6869
 categories:
   - Mac
 tags:

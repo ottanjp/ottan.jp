@@ -4,7 +4,6 @@ date: 2017-12-05T00:00:00+00:00
 draft: false
 title: 【iPhone X体験記】iPhone Xのホーム画面やアプリ起動時に突如現れる四角いウインドウの正体は？！
 type: post
-slug: iphone-x-ios-zoom-6399
 categories:
 - iPhone
 tags:

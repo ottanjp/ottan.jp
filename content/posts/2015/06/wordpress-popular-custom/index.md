@@ -4,7 +4,6 @@ date: 2015-06-13T00:00:00+00:00
 draft: false
 title: 今日からコピペで使えるWordPressで人気記事や最新記事を取得する方法のまとめ
 type: post
-slug: wordpress-popular-custom-1701
 categories:
 - Blog
 tags:

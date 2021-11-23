@@ -4,7 +4,6 @@ date: 2017-04-19T00:00:00+00:00
 draft: false
 title: Docker ComposeでWordPress環境をもっと楽に管理しよう！
 type: post
-slug: docker-compose-wordpress-5694
 categories:
 - Blog
 tags:

@@ -1,9 +1,8 @@
 ---
 draft: false
 title: BitwardenとAlfredを連携して、AlfredからBitwardenに登録されているパスワードやURLを呼び出す
-date: 2021-08-18T14:05:46Z   
+date: 2021-08-18T14:05:46Z
 type: post
-slug: 972424246
 categories: ["Mac"]
 ---
 今回は、弊サイトでも度々登場する、Macの主役級といっても過言ではないランチャーアプリであるAlfredと、パスワード管理ソフトウェアであるBitwardenを連携する方法をご紹介します。AlfredのPowerPack（有償版ライセンス）の1Password並みの快適さを求めるなら必須の設定です。

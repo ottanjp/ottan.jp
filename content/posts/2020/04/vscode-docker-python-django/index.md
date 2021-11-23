@@ -8,7 +8,6 @@ tags:
   - VS Code
 categories:
   - Mac
-slug: vscode-docker-python-django
 ---
 VS Codeの[チュートリアル](https://code.visualstudio.com/docs/containers/quickstart-python)を試してみました。事前に、Python、Dockerの拡張機能をインストールしておく必要があります。なお、Django、Flaskに関する説明は本記事にはありません。
 

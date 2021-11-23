@@ -4,7 +4,6 @@ date: 2015-05-24T00:00:00+00:00
 draft: false
 title: Safariで閲覧しているページをGoogle Chromeで開く「Switch」
 type: post
-slug: safari-google-chrome-switch-1480
 categories:
 - Mac
 tags:

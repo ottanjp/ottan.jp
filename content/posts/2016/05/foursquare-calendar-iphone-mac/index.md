@@ -4,7 +4,6 @@ date: 2016-05-23T00:00:00+00:00
 draft: false
 title: Foursquareのチェックイン履歴をiCloudのカレンダーに簡単に追加する方法
 type: post
-slug: foursquare-calendar-iphone-mac-4334
 categories:
 - iPhone
 - Mac

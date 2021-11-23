@@ -4,7 +4,6 @@ date: 2015-06-28T00:00:00+00:00
 draft: false
 title: iMacでBluetoothのマウスとキーボードが認識されなくなった！PRAMクリアで解決
 type: post
-slug: imac-bluetooth-keyboard-mouse-1753
 categories:
   - Mac
 tags:

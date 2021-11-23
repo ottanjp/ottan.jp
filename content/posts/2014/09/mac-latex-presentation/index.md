@@ -4,7 +4,6 @@ date: 2014-09-08T00:00:00+00:00
 draft: false
 title: Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」
 type: post
-slug: mac-latex-presentation-92
 categories:
 - Mac
 tags:
@@ -31,7 +30,7 @@ brew doctor
 
 「Your system is ready to brew.」と表示されればインストールは完了しています。もし、エラーが表示された場合は、表示されたエラーの内容にしたがって処置してください。Homebrewインストール時、インストール後の代表的なエラーは以下の通りです。
 
--   環境変数PATHの設定で「/usr/local/bin」よりも「/usr/bin」が優先されている  
+-   環境変数PATHの設定で「/usr/local/bin」よりも「/usr/bin」が優先されている
 
 →ホームディレクトリの「.bashrc」[^1]、「.zshrc」[^2]に、**PATH=/usr/local/bin:$PATH**を追加してください。
 
@@ -39,7 +38,7 @@ brew doctor
 
 [^2]: ログインシェルが/bin/zshの場合
 
--   Homebrewが最新にアップデートされていない。  
+-   Homebrewが最新にアップデートされていない。
 
 →「brew update」コマンドで最新にアップデートしてください。
 
@@ -87,7 +86,7 @@ which mktexlsr
 
 「/usr/texbin/mktexlsr」と表示されれば正常にインストールされています。
 
--   「command not found: mktexlsr」と表示される  
+-   「command not found: mktexlsr」と表示される
 
 →ホームディレクトリの「.bashrc」[^1]、「.zshrc」[^2]に、**PATH=$PATH:/usr/texbin**を追加してください。
 

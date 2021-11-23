@@ -4,7 +4,6 @@ date: 2016-12-09T00:00:00+00:00
 draft: false
 title: WordPressをAMPに対応させる方法とそのカスタマイズ
 type: post
-slug: wordpress-amp-adsense-sns-custom-csss-5319
 categories:
   - Blog
 tags:

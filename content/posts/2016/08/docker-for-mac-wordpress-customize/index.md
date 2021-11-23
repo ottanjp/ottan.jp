@@ -4,7 +4,6 @@ date: 2016-08-04T00:00:00+00:00
 draft: false
 title: Docker for Macで始めるお手軽WordPress環境のさまざまなカスタマイズ
 type: post
-slug: docker-for-mac-wordpress-customize-4714
 categories:
   - Mac
   - Blog

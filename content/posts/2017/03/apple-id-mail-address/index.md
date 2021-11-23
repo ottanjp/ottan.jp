@@ -4,7 +4,6 @@ date: 2017-03-26T00:00:00+00:00
 draft: false
 title: Apple IDのメールアドレスを変更する方法
 type: post
-slug: apple-id-mail-address-5599
 categories:
   - iPhone
   - Mac

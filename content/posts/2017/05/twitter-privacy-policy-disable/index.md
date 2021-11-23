@@ -4,7 +4,6 @@ date: 2017-05-20T00:00:00+00:00
 draft: false
 title: Twitterのプライバシーポリシーの変更に伴い無効化しておきたいプライバシー設定
 type: post
-slug: twitter-privacy-policy-disable-5874
 categories:
 - iPhone
 - Mac

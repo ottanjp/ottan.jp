@@ -4,7 +4,6 @@ date: 2014-11-20T00:00:00+00:00
 draft: false
 title: iPhoneのカレンダーに過去のイベントが表示されない場合の対処法
 type: post
-slug: iphone-calendar-event-715
 categories:
 - iPhone
 tags:

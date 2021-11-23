@@ -7,7 +7,6 @@ tags:
   - KaTeX
 categories:
   - Blog
-slug: support-hugo-katex
 katex: true
 ---
 Hugoで、\\(KaTeX\\)というブラウザで数式を表現するためのライブラリをサポートする方法です。Hugo 0.70.0（Extended）で正常に表示されることを確認していますが、今後のバージョンアップ等により、以下の方法がサポートされなくなる可能性がありますので、ご注意ください。特に、Markdownパーサの変更が発生した場合、影響を受ける可能性があります。
@@ -44,7 +43,7 @@ $$
 $$
  \begin{bmatrix}
   a & b \cr
-  c & d 
+  c & d
   \end{bmatrix}
 $$
 ```

@@ -4,7 +4,6 @@ date: 2014-09-19T00:00:00+00:00
 draft: false
 title: Macがスリープから復帰するのが遅い場合の対処法
 type: post
-slug: mac-sleep-468
 categories:
 - Mac
 tags:
@@ -64,7 +63,7 @@ Sleepモード、Safe Sleepモードの場合、メモリの状態を維持し�
 デフォルトの保存先は`/var/vm/sleepimage`です。`pmset`コマンドの実行結果にある`hibernatefile`がイメージファイルの保存場所を表しています。
 
 ```bash
-ls -l /var/vm/sleepimage 
+ls -l /var/vm/sleepimage
 ```
 
     -rw------T  1 root  wheel  1073741824  9 18 08:29 /var/vm/sleepimage
@@ -112,17 +111,17 @@ pmset -g log
 
 これで電源管理（スリープ、休止）に関するログが出力されます。その中から「Timedout」を探します。
 
-    2014/09/18 21:38:10 JST  Sleep               	Idle Sleep: Using BATT (Charge:57%)                                        	673 secs  
-    2014/09/18 21:38:11 JST  SlowResponse        	PMConnection: Response from mDNSResponder is slow (powercaps:0x0)          	          614 ms    	
-    2014/09/18 21:38:11 JST  WakeRequests        	Clients requested wake events: None                                        	          
-    2014/09/18 21:49:23 JST  DarkWake            	DarkWake [CDN] due to EC.LidClose/Maintenance: Using BATT (Charge:57%)     	          
-    2014/09/18 21:49:23 JST  HibernateStats      	hibmode=3 standbydelay=10800                                               	          rd=224 ms 	
-    2014/09/18 21:49:23 JST  Timedout            	Kernel: Response from Creative Cloud timed out (powercaps:0x9)             	          30000 ms  	
-    2014/09/18 21:49:23 JST  Timedout            	Kernel: Response from Adobe CEF Helper timed out (powercaps:0x9)           	          30000 ms  	
-    2014/09/18 21:49:23 JST  Sleep               	Maintenance Sleep: Using BATT (Charge:57%)                                 	2014 secs 
-    2014/09/18 21:49:23 JST  WakeRequests        	Clients requested wake events: None                                        	          
-    2014/09/18 22:22:57 JST  Wake                	Wake [CDNVA] due to EC.LidOpen/Lid Open: Using BATT (Charge:56%)           	          
-    2014/09/18 22:22:57 JST  HibernateStats      	hibmode=3 standbydelay=10800      
+    2014/09/18 21:38:10 JST  Sleep               	Idle Sleep: Using BATT (Charge:57%)                                        	673 secs
+    2014/09/18 21:38:11 JST  SlowResponse        	PMConnection: Response from mDNSResponder is slow (powercaps:0x0)          	          614 ms
+    2014/09/18 21:38:11 JST  WakeRequests        	Clients requested wake events: None
+    2014/09/18 21:49:23 JST  DarkWake            	DarkWake [CDN] due to EC.LidClose/Maintenance: Using BATT (Charge:57%)
+    2014/09/18 21:49:23 JST  HibernateStats      	hibmode=3 standbydelay=10800                                               	          rd=224 ms
+    2014/09/18 21:49:23 JST  Timedout            	Kernel: Response from Creative Cloud timed out (powercaps:0x9)             	          30000 ms
+    2014/09/18 21:49:23 JST  Timedout            	Kernel: Response from Adobe CEF Helper timed out (powercaps:0x9)           	          30000 ms
+    2014/09/18 21:49:23 JST  Sleep               	Maintenance Sleep: Using BATT (Charge:57%)                                 	2014 secs
+    2014/09/18 21:49:23 JST  WakeRequests        	Clients requested wake events: None
+    2014/09/18 22:22:57 JST  Wake                	Wake [CDNVA] due to EC.LidOpen/Lid Open: Using BATT (Charge:56%)
+    2014/09/18 22:22:57 JST  HibernateStats      	hibmode=3 standbydelay=10800
 
 Adobe Creative Cloudが原因で30,000ミリ秒（30秒）間待機していることがわかります。最近、Adobe製品を触る機会はめっきりなくなったので、Adobe Creative Cloudは真っ先に削除しました。
 

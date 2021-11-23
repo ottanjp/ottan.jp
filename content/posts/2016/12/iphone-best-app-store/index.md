@@ -4,7 +4,6 @@ date: 2016-12-22T00:00:00+00:00
 draft: false
 title: iPhoneを購入したらダウンロードしたいオススメのアプリ（2016年版）
 type: post
-slug: iphone-best-app-store-5402
 categories:
   - iPhone
 tags:

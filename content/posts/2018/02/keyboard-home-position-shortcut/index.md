@@ -4,7 +4,6 @@ date: 2018-02-04T00:00:00+00:00
 draft: false
 title: ホームポジションから指を離さず文字入力を高速化するキーボードショートカット
 type: post
-slug: keyboard-home-position-shortcut-6605
 categories:
 - Mac
 tags:

@@ -4,7 +4,6 @@ date: 2019-03-23T00:00:00+00:00
 draft: false
 title: "Git初心者が最初から学ぶGitの入門"
 type: post
-slug: git-basis-beginner-20190303
 categories: ["Mac"]
 tags: ["Git","GitHub","VS Code"]
 toc: true
@@ -700,7 +699,7 @@ git reset --soft HEAD^
     Date:   Thu Mar 21 11:23:48 2019 +0900
 
         Revert "add training-4.txt"
-        
+
         This reverts commit 53f30defe10aad3e13dccafd24d13e902a6cf3dd.
 
     commit 53f30defe10aad3e13dccafd24d13e902a6cf3dd
@@ -798,7 +797,7 @@ git log
     Date:   Thu Mar 21 11:23:48 2019 +0900
 
         Revert "add training-4.txt"
-        
+
         This reverts commit 53f30defe10aad3e13dccafd24d13e902a6cf3dd.
 
 #### 作業ツリーのファイルを最新のコミット状態に戻す
@@ -867,7 +866,7 @@ git log
     Date:   Thu Mar 21 11:23:48 2019 +0900
 
         Revert "add training-4.txt"
-        
+
         This reverts commit 53f30defe10aad3e13dccafd24d13e902a6cf3dd.
 
 作業ツリー上のファイルの状態は以下のようになっています。
@@ -893,7 +892,7 @@ git log
     Date:   Thu Mar 21 11:23:48 2019 +0900
 
         Revert "add training-4.txt"
-        
+
         This reverts commit 53f30defe10aad3e13dccafd24d13e902a6cf3dd.
 
 `master`ブランチでは、`issue1`ブランチで作成したファイルのコミットは表示されず、また作業ツリー上にもファイルは存在しません。
@@ -953,7 +952,7 @@ git log
     Date:   Thu Mar 21 11:23:48 2019 +0900
 
         Revert "add training-4.txt"
-        
+
         This reverts commit 53f30defe10aad3e13dccafd24d13e902a6cf3dd.
 
 #### ブランチの削除

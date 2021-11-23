@@ -4,7 +4,6 @@ date: 2016-07-22T00:00:00+00:00
 draft: false
 title: 使用しているmacOSのセキュリティ強化、プライバシー保護が設定されているかどうかを自動的にチェックする
 type: post
-slug: macon-security-privacy-4664
 categories:
 - Mac
 tags:
@@ -49,10 +48,10 @@ https://github.com/kristovatlas/osx-config-check
 
 
 
-    
+
     $ git clone https://github.com/kristovatlas/osx-config-check
     $ cd osx-config-check
-    $ python app.py 
+    $ python app.py
 
 
 
@@ -209,7 +208,7 @@ http://rcmdnk.github.io/blog/2016/04/28/computer-mac-homebrew/
 
 
 
-    
+
     $ brew analytics off
 
 

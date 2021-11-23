@@ -4,7 +4,6 @@ date: 2016-11-20T00:00:00+00:00
 draft: false
 title: Macの標準アプリを使用して、スポットライト効果のような画像を作成する方法
 type: post
-slug: mac-preview-spotlight-mask-5258
 categories:
 - Mac
 tags:

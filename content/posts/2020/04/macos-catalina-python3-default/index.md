@@ -6,7 +6,6 @@ tags:
   - Python
 categories:
   - Mac
-slug: macos-catalina-python3-default
 ---
 macOS Catalinaに搭載されているPythonの実行環境を3.x.xへ変更する方法です。ただ、`python`コマンドで、3.x.xを実行したいだけの記事です。Pythonの開発環境についてどうこう議論する場でないことは最初に申し上げておきます。次期のmacOSでは、Python 2.x.x系は駆逐されているでしょう。以下の環境で確認しています。
 

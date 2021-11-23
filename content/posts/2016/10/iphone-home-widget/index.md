@@ -4,7 +4,6 @@ date: 2016-10-22T00:00:00+00:00
 draft: false
 title: iPhoneのホーム画面でいつでもどこでもウィジェットを確認する簡単な方法
 type: post
-slug: iphone-home-widget-5130
 categories:
 - iPhone
 tags:

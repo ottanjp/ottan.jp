@@ -4,7 +4,6 @@ date: 2014-09-08T00:00:00+00:00
 draft: false
 title: Macを購入したら最初に導入しておきたいQuick Lookのプラグイン
 type: post
-slug: quick-look-plugin-78
 categories:
 - Mac
 tags:
@@ -23,11 +22,11 @@ Quick Lookは、macOSを代表する便利な機能です。フォルダーや�
 
 ダウンロードしたプラグイン（`.qlgenerator`という拡張子のファイル）を、以下のどちらかにコピーしてください。
 
--   ~/Library/QuickLook  
+-   ~/Library/QuickLook
 
 →「~」（チルダ）は現在のユーザーのホームディレクトリを表しています。プラグインは現在のユーザーにのみ適用されます。
 
--   /Library/QuickLook  
+-   /Library/QuickLook
 
 →そのMacを使用するすべてのユーザーに適用されます。
 
@@ -370,7 +369,7 @@ defaults write com.apple.finder QLEnableTextSelection -bool true && killall Find
 今回ご紹介したプラグインは、以下のコマンドを実行するだけですべて導入可能です。1つずつインストールするのが面倒だ、という方はこのコマンドを使用してください。
 
 ```bash
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json quicklook-csv betterzipql 
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json quicklook-csv betterzipql
 ```
 
 また、Homebrew Caskでは、以下のコマンドを実行することで、インストール可能なパッケージやアプリケーションを検索できます。おもしろいものが見つかったら、ぜひ[@ottanxyz](https://twitter.com/ottanxyz)またはコメント欄で教えてくださいね。

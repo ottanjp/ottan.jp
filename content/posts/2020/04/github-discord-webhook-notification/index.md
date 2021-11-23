@@ -6,7 +6,6 @@ tags:
   - Netlify
 categories:
   - Blog
-slug: github-discord-webhook-notification
 ---
 Slackであれば、AppディレクトリからGitHubアプリをインストールすれば、GitHubと簡単に連携できます。Discordでも同様の連携ができないかどうか試してみたところ、一癖ありましたが連携可能でした。以下で使用している画像は、Mac版のDiscordアプリ（0.0.256）のスクリーンショットです。
 

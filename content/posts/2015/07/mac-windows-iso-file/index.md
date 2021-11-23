@@ -4,7 +4,6 @@ date: 2015-07-31T00:00:00+00:00
 draft: false
 title: MacでWindowsのインストールメディア（DVD）からイメージファイル（ISO）を作成する方法
 type: post
-slug: mac-windows-iso-file-1896
 categories:
 - Mac
 - Windows
@@ -77,4 +76,3 @@ ISOファイルを作成するには10分程度の時間がかかりますので
 
 
 ![](150731-55bc0a09a7baf.png)
-

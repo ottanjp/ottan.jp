@@ -4,7 +4,6 @@ date: 2017-01-22T00:00:00+00:00
 draft: false
 title: Windows 10にUbuntuをインストールして快適に使うための方法
 type: post
-slug: windows-ubuntu-linux-5481
 categories:
 - Windows
 tags:
@@ -127,7 +126,7 @@ Linux Subsystemを有効化するためには、コントロールパネルを�
 
 
 
-    
+
     bash
 
 
@@ -159,7 +158,7 @@ WindowsストアからUbuntuがダウンロード、インストールされま�
 
 
 
-    
+
     deb http://archive.ubuntu.com/ubuntu trusty main restricted universe multiverse
     deb http://archive.ubuntu.com/ubuntu trusty-updates main restricted universe multiverse
     deb http://archive.ubuntu.com/ubuntu trusty-backports main restricted universe multiverse
@@ -174,7 +173,7 @@ WindowsストアからUbuntuがダウンロード、インストールされま�
 
 
 
-    
+
     deb http://ftp.jaist.ac.jp/pub/Linux/ubuntu trusty main restricted universe multiverse
     deb http://ftp.jaist.ac.jp/pub/Linux/ubuntu trusty-updates main restricted universe multiverse
     deb http://ftp.jaist.ac.jp/pub/Linux/ubuntu trusty-backports main restricted universe multiverse
@@ -189,7 +188,7 @@ viなどのテキストエディター等で変更しても構いませんが、
 
 
 
-    
+
     sudo sed -i -e 's%http://.*.ubuntu.com%http://ftp.jaist.ac.jp/pub/Linux%g' /etc/apt/sources.list
 
 
@@ -201,6 +200,6 @@ viなどのテキストエディター等で変更しても構いませんが、
 
 
 
-    
+
     sudo apt-get update
     sudo apt-get upgrade

@@ -4,7 +4,6 @@ date: 2015-02-01T00:00:00+00:00
 draft: false
 title: iPhoneやMacのWi-Fi接続速度が遅い場合に見直したい項目
 type: post
-slug: phone-wifi-speed-766
 categories:
 - iPhone
 - Mac
@@ -511,8 +510,3 @@ https://kakaku.com/bb/
 
 
 今回ご紹介した指針をもとに、Wi-Fi環境の改善にぜひチャレンジしてみてください。
-
-
-
-
-

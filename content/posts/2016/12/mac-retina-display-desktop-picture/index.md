@@ -4,7 +4,6 @@ date: 2016-12-01T00:00:00+00:00
 draft: false
 title: Macの美しいRetinaディスプレイを一層美しく彩る壁紙の究極の楽しみを提供する「Irvue」
 type: post
-slug: mac-retina-display-desktop-picture-5272
 categories:
 - Mac
 tags:
@@ -115,4 +114,3 @@ MacBook ProのRetinaディスプレイを彩る素敵な壁紙を、日替わり
 
 
 ![](161201-5840106c9cc2a.jpg)
-

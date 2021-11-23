@@ -9,7 +9,6 @@ tags:
   - Discord
 categories:
   - Blog
-slug: netlify-discord-integration-202004
 ---
 Netlify上でのデプロイ結果を、Discordへ通知する方法をご紹介します。Slack連携とほぼやり方は同一ですが、GitHub同様に1点のみ注意点があります。
 

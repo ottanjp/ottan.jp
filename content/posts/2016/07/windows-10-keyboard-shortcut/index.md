@@ -4,7 +4,6 @@ date: 2016-07-30T00:00:00+00:00
 draft: false
 title: 知っておきたい便利なWindows 10のキーボードショートカット
 type: post
-slug: windows-10-keyboard-shortcut-4708
 categories:
 - Windows
 tags:

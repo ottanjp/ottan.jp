@@ -4,7 +4,6 @@ date: 2016-10-14T00:00:00+00:00
 draft: false
 title: 内蔵ストレージもスッキリ！今さら聞けないiTunesライブラリを外付けHDDに移動する方法
 type: post
-slug: itunes-library-external-hdd-5100
 categories:
 - Mac
 tags:

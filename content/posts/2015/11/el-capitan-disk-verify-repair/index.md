@@ -4,7 +4,6 @@ date: 2015-11-06T00:00:00+00:00
 draft: false
 title: macOS El Capitanでディスクのアクセス権の検証、修復を行う方法
 type: post
-slug: el-capitan-disk-verify-repair-6816
 categories:
 - Mac
 tags:
@@ -36,7 +35,7 @@ macOS El Capitanからディスクユーティリティが刷新され、macOS Y
 
 
 
-    
+
     $ sudo /usr/libexec/repair_packages --verify --standard-pkgs /
     	Permissions differ on "Library/Java", should be drwxr-xr-x , they are drwxrwxr-x .
     	User differs on "private/var/db/displaypolicyd", should be 0, user is 244.
@@ -44,7 +43,7 @@ macOS El Capitanからディスクユーティリティが刷新され、macOS Y
     	User differs on "usr/local", should be 0, user is 501.
     	Group differs on "usr/local", should be 0, group is 80.
     	Permissions differ on "usr/local", should be drwxr-xr-x , they are drwxrwxr-x .
-    
+
 
 
 
@@ -55,7 +54,7 @@ macOS El Capitanからディスクユーティリティが刷新され、macOS Y
 
 
 
-    
+
     $ sudo /usr/libexec/repair_packages --repair --standard-pkgs --volume /
     	Permissions differ on "Library/Java", should be drwxr-xr-x , they are drwxrwxr-x .
     	Repaired "Library/Java".

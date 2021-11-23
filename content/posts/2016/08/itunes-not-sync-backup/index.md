@@ -4,7 +4,6 @@ date: 2016-08-08T00:00:00+00:00
 draft: false
 title: iTunesで同期またはバックアップできない時の対処法
 type: post
-slug: itunes-not-sync-backup-4733
 categories:
 - iPhone
 - Mac
@@ -68,7 +67,7 @@ Finderで、特定のディレクトリに移動する場合は、⇧+⌘+Gで�
 
 
 
-  1. Windowsに接続しているすべてのiOSデバイスを取り外す 
+  1. Windowsに接続しているすべてのiOSデバイスを取り外す
   2. iTunesを終了する
   3. エクスプローラーを開いて、アドレスバーに「%ProgramData%¥Apple¥Lockdown」を入力する
   4. すべてのファイルを削除する

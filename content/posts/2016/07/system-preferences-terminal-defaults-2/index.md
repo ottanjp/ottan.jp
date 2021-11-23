@@ -4,7 +4,6 @@ date: 2016-07-10T00:00:00+00:00
 draft: false
 title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（一般）
 type: post
-slug: system-preferences-terminal-defaults-2-4643
 categories:
 - Mac
 tags:
@@ -77,7 +76,7 @@ tags:
 
 
 
-    
+
     $ defaults read > defaults_bef.txt
     $ defaults -currentHost read > defaults_currentHost_bef.txt
 
@@ -90,7 +89,7 @@ tags:
 
 
 
-    
+
     $ defaults read > defaults_aft.txt
     $ defaults -currentHost read > defaults_currentHost_aft.txt
 
@@ -103,7 +102,7 @@ tags:
 
 
 
-    
+
     $ diff defaults_aft.txt defaults_bef.txt
     $ diff defaults_currentHost_aft.txt defaults_currentHost_bef.txt
 
@@ -153,7 +152,7 @@ tags:
 
 
 
-    
+
     $ defaults write -g AppleAquaColorVariant 6
 
 
@@ -165,7 +164,7 @@ tags:
 
 
 
-    
+
     $ defaults delete -g AppleAquaColorVariant
 
 
@@ -183,7 +182,7 @@ tags:
 
 
 
-    
+
     $ defaults write -g AppleInterfaceStyle -string "Dark"
 
 
@@ -195,8 +194,8 @@ tags:
 
 
 
-    
-    $ defaults delete -g AppleInterfaceStyle  
+
+    $ defaults delete -g AppleInterfaceStyle
 
 
 
@@ -213,7 +212,7 @@ tags:
 
 
 
-    
+
     $ defaults write -g _HIHideMenuBar -bool true
 
 
@@ -225,7 +224,7 @@ tags:
 
 
 
-    
+
     $ defaults delete -g _HIHideMenuBar
 
 
@@ -243,7 +242,7 @@ tags:
 
 
 
-    
+
     $ defaults write -g AppleHighlightColor -string "0.752941 0.964706 0.678431"
 
 
@@ -261,7 +260,7 @@ tags:
 
 
 
-    
+
     $ defaults delete -g AppleHighlightColor
 
 
@@ -279,7 +278,7 @@ tags:
 
 
 
-    
+
     $ defaults write -g AppleShowScrollBars -string "WhenScrolling"
 
 
@@ -291,7 +290,7 @@ tags:
 
 
 
-    
+
     $ defaults write -g AppleShowScrollBars -string "Always"
 
 
@@ -303,7 +302,7 @@ tags:
 
 
 
-    
+
     $ defaults delete -g AppleShowScrollBars
 
 
@@ -321,7 +320,7 @@ tags:
 
 
 
-    
+
     $ defaults write -g AppleScrollerPagingBehavior -bool true
 
 
@@ -333,7 +332,7 @@ tags:
 
 
 
-    
+
     $ defaults delete -g AppleScrollerPagingBehavior
 
 
@@ -363,7 +362,7 @@ tags:
 
 
 
-    
+
     $ defaults write -g NSCloseAlwaysConfirmsChanges -bool true
 
 
@@ -375,7 +374,7 @@ tags:
 
 
 
-    
+
     $ defaults delete -g NSCloseAlwaysConfirmsChanges
 
 
@@ -393,7 +392,7 @@ tags:
 
 
 
-    
+
     $ defaults write -g NSQuitAlwaysKeepsWindows -bool true
 
 
@@ -405,7 +404,7 @@ tags:
 
 
 
-    
+
     $ defaults delete -g NSQuitAlwaysKeepsWindows
 
 
@@ -435,7 +434,7 @@ tags:
 
 
 
-    
+
     $ defaults -currentHost write com.apple.coreservices.useractivityd ActivityAdvertisingAllowed -bool false
     $ defaults -currentHost write com.apple.coreservices.useractivityd ActivityReceivingAllowed -bool false
 
@@ -448,7 +447,7 @@ tags:
 
 
 
-    
+
     $ defaults -currentHost delete com.apple.coreservices.useractivityd
 
 
@@ -466,7 +465,7 @@ tags:
 
 
 
-    
+
     $ defaults -currentHost write -g AppleFontSmoothing -bool false
 
 
@@ -478,7 +477,7 @@ tags:
 
 
 
-    
+
     $ defaults -currentHost delete -g AppleFontSmoothing
 
 

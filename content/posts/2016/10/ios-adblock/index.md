@@ -4,7 +4,6 @@ date: 2016-10-08T00:00:00+00:00
 draft: false
 title: iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」の仕組み
 type: post
-slug: ios-adblock-5057
 categories:
 - iPhone
 tags:

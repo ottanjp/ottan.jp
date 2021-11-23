@@ -4,7 +4,6 @@ date: 2016-08-24T00:00:00+00:00
 draft: false
 title: Macのデスクトップで動作する軽量Gmailアプリケーションを作ろう！
 type: post
-slug: mac-desktop-automator-gmail-4805
 categories:
   - Mac
 tags:

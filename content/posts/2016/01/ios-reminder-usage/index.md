@@ -4,7 +4,6 @@ date: 2016-01-27T00:00:00+00:00
 draft: false
 title: 今さら聞けないリマインダーの基本から便利な使い方まで徹底解説します
 type: post
-slug: ios-reminder-usage-6830
 categories:
   - iPhone
 tags:

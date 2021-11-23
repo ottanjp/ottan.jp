@@ -1,9 +1,8 @@
 ---
 draft: false
 title: Apple Pencil のみでスクリーンショットを撮影する方法
-date: 2021-07-17T07:08:37Z   
+date: 2021-07-17T07:08:37Z
 type: post
-slug: 946738462
 categories: ["iPhone"]
 ---
 ![image](126028538-847a2217-2d16-4bc5-9507-39c5e0c9a393.jpeg)

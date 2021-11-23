@@ -4,7 +4,6 @@ date: 2018-01-14T00:00:00+00:00
 draft: false
 title: iPhone Xをもっと便利に使いこなすためのTips
 type: post
-slug: iphonex-tips-6523
 categories:
 - iPhone
 tags:

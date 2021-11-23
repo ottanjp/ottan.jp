@@ -4,7 +4,6 @@ date: 2017-09-11T00:00:00+00:00
 draft: false
 title: 新しいiPhoneに機種変する前にこれだけはやっておこう！
 type: post
-slug: itunes-backup-wallet-suica-line-6134
 categories:
 - iPhone
 tags:

@@ -4,7 +4,6 @@ date: 2015-05-19T00:00:00+00:00
 draft: false
 title: iTunes Match対応版！iTunesで好きな楽曲の着信音を作成する方法
 type: post
-slug: create-itunes-custom-ringtone-1430
 categories:
 - iPhone
 - Mac
@@ -207,4 +206,3 @@ iTunesとiPhoneを同期する際に、「着信音を同期」を選択して�
 
 
 ![](150519-555b2cad520b4.png)
-

@@ -4,7 +4,6 @@ date: 2017-02-24T00:00:00+00:00
 draft: false
 title: EvernoteのノートをBoostnoteのノート形式に手軽に変換できる「ever2boost」
 type: post
-slug: convert-evernote-boostnote-5553
 categories:
   - Mac
 tags:

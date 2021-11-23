@@ -4,7 +4,6 @@ date: 2017-02-01T00:00:00+00:00
 draft: false
 title: iPhoneに隠された便利な18の機能、あなたはいくつ知ってますか？
 type: post
-slug: iphone-feature-should-know-5500
 categories:
   - iPhone
 tags:

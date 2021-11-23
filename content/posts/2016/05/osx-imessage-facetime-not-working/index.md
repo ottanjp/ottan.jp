@@ -4,7 +4,6 @@ date: 2016-05-04T00:00:00+00:00
 draft: false
 title: iMessageとFaceTimeにサインインできない問題の対処法
 type: post
-slug: osx-imessage-facetime-not-working-6859
 categories:
 - iPhone
 - Mac
@@ -24,7 +23,7 @@ macOS El Capitan（10.11.4）にアップデート後、とくに不具合が起
 
 
 
-    
+
     2016/05/03 22:23:40.981 apsd[74]: Certificate not yet generated
     2016/05/03 22:13:48.232 apsd[74]: Hardware SerialNumber "unknown" looks incorrect or invalid
 
@@ -56,12 +55,12 @@ macOS El Capitan（10.11.4）にアップデート後、とくに不具合が起
 
 
 
-    
+
     $ system_profiler SPHardwareDataType
     Hardware:
-    
+
         Hardware Overview:
-    
+
           Model Name: MacBook Pro
           Model Identifier: MacBookPro11,2
           Processor Name: Intel Core i7

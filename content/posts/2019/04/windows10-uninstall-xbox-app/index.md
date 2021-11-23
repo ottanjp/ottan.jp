@@ -4,7 +4,6 @@ date: 2019-04-07T00:00:00+00:00
 draft: false
 title: "Windows 10でコントロールパネルや設定から削除できない「Xbox」アプリを削除する"
 type: post
-slug: windows10-uninstall-xbox-app-20190404
 categories: ["Windows"]
 tags: ["Windows 10", "PowerShell"]
 toc: true

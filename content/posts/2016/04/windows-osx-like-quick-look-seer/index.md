@@ -4,7 +4,6 @@ date: 2016-04-06T00:00:00+00:00
 draft: false
 title: Windowsで、macOSのQuick Lookを実現する「Seer」
 type: post
-slug: windows-osx-like-quick-look-seer-6850
 categories:
   - Windows
 tags:

@@ -4,7 +4,6 @@ date: 2018-08-12T00:00:00+00:00
 draft: false
 title: Amazon Lightsailで月5ドルから始めるWordPress（独自ドメインでのメール送受信）
 type: post
-slug: aws-lightsail-wordpress-domain-mail-6945
 categories:
     - Blog
 tags:

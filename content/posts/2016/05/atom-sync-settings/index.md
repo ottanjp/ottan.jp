@@ -4,7 +4,6 @@ date: 2016-05-29T00:00:00+00:00
 draft: false
 title: Atomの設定、キーマップ、スニペット、パッケージを複数の端末間で同期する「sync-settings」
 type: post
-slug: atom-sync-settings-4386
 categories:
   - Mac
   - Blog

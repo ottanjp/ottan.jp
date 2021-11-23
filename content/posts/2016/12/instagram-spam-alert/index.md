@@ -4,7 +4,6 @@ date: 2016-12-12T00:00:00+00:00
 draft: false
 title: Instagramのスパムコメントを通報して削除する方法
 type: post
-slug: instagram-spam-alert-5342
 categories:
 - iPhone
 tags:

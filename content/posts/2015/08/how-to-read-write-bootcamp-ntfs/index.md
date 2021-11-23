@@ -4,7 +4,6 @@ date: 2015-08-02T00:00:00+00:00
 draft: false
 title: NTFSフォーマットされたBootCamp領域をmacOSで読み書きできるようにする方法
 type: post
-slug: how-to-read-write-bootcamp-ntfs-1900
 categories:
 - Mac
 - Windows
@@ -64,18 +63,18 @@ macOSデフォルトの状態では、ファイルシステムの異なるmacOS�
 
 
 
-    
+
     $ diskutil info /Volumes/BOOTCAMP
        Device Identifier:        disk0s4
        Device Node:              /dev/disk0s4
        Part of Whole:            disk0
        Device / Media Name:      BOOTCAMP
-    
+
        Volume Name:              BOOTCAMP
-    
+
        Mounted:                  Yes
        Mount Point:              /Volumes/BOOTCAMP
-    
+
 
 
 
@@ -122,7 +121,7 @@ macOSインストール後のデフォルトの状態では、「/etc/fstab」�
 
 
 
-    
+
     $ ls /etc/fstab /etc/fstab
     $ sudo cp -p /etc/fstab /etc/fstab_YYYYMMDD
 
@@ -135,7 +134,7 @@ macOSインストール後のデフォルトの状態では、「/etc/fstab」�
 
 
 
-    
+
     $ sudo nano /etc/fstab
 
 
@@ -147,7 +146,7 @@ macOSインストール後のデフォルトの状態では、「/etc/fstab」�
 
 
 
-    
+
     LABEL=BOOTCAMP none ntfs rw,auto,nobrowse
 
 
@@ -193,7 +192,7 @@ NTFSフォーマットされた領域をマウントする場合、「nobrowse�
 
 
 
-    
+
     /Volumes
 
 

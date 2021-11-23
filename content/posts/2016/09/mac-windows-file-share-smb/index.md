@@ -4,7 +4,6 @@ date: 2016-09-02T00:00:00+00:00
 draft: false
 title: 簡単にMacとWindowsでファイルを共有する方法
 type: post
-slug: mac-windows-file-share-smb-4874
 categories:
 - Mac
 - Windows

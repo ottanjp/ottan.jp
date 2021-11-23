@@ -4,7 +4,6 @@ date: 2016-05-02T00:00:00+00:00
 draft: false
 title: VCCW（Vagrant＋VirtualBox＋Chef＋WordPress）＋WordMoveで、本番環境から開発環境にデータを簡単に同期する！
 type: post
-slug: vccw-wordmove-deploy-6858
 categories:
   - Mac
   - Blog

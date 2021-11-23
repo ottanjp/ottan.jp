@@ -4,7 +4,6 @@ date: 2015-08-15T00:00:00+00:00
 draft: false
 title: Windows 10のバッテリーを節約する方法
 type: post
-slug: windows-10-battery-2082
 categories:
 - Windows
 tags:

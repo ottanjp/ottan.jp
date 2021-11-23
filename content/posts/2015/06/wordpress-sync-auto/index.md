@@ -4,7 +4,6 @@ date: 2015-06-18T00:00:00+00:00
 draft: false
 title: 本番環境と開発環境のWordPressを自動的に同期する方法
 type: post
-slug: wordpress-sync-auto-1713
 categories:
 - Blog
 tags:
@@ -59,13 +58,13 @@ tags:
 
 
 
-    
+
     $ ssh-keygen
     Generating public/private rsa key pair.
-    Enter file in which to save the key (/Users/ottan/.ssh/id_rsa): 
+    Enter file in which to save the key (/Users/ottan/.ssh/id_rsa):
     Created directory '/Users/ottan/.ssh'.
-    Enter passphrase (empty for no passphrase): 
-    Enter same passphrase again: 
+    Enter passphrase (empty for no passphrase):
+    Enter same passphrase again:
     Your identification has been saved in /Users/ottan/.ssh/id_rsa.
     Your public key has been saved in /Users/ottan/.ssh/id_rsa.pub.
     The key fingerprint is:
@@ -126,7 +125,7 @@ https://www.xserver.ne.jp/login_server.php
 
 
 
-    
+
     $ cat ~/.ssh/id_rsa.pub
 
 
@@ -151,11 +150,11 @@ https://www.xserver.ne.jp/login_server.php
 
 
 
-    
+
     $ ssh [USER]@[USER].xsrv.jp
     The authenticity of host '[[USER].xsrv.jp]:10022 ([120.136.14.36]:10022)' can't be established.
     RSA key fingerprint is xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:x:xx:xx.
-    Are you sure you want to continue connecting (yes/no)? 
+    Are you sure you want to continue connecting (yes/no)?
 
 
 
@@ -166,7 +165,7 @@ https://www.xserver.ne.jp/login_server.php
 
 
 
-    
+
     ssh [USER]@[USER].xsrv.jp
 
 
@@ -178,7 +177,7 @@ https://www.xserver.ne.jp/login_server.php
 
 
 
-    
+
     exit
 
 
@@ -204,7 +203,7 @@ http://vccw.cc/
 
 
 
-    
+
     vagrant ssh-config >> ~/.ssh/config
 
 
@@ -216,7 +215,7 @@ http://vccw.cc/
 
 
 
-    
+
     ssh vagrant@default
 
 
@@ -228,7 +227,7 @@ http://vccw.cc/
 
 
 
-    
+
     exit
 
 
@@ -246,17 +245,17 @@ http://vccw.cc/
 
 
 
-    
+
     // ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
     /** WordPress のためのデータベース名 */
     define('DB_NAME', '[DB_NAME]');
-    
+
     /** MySQL データベースのユーザー名 */
     define('DB_USER', '[DB_USER]');
-    
+
     /** MySQL データベースのパスワード */
     define('DB_PASSWORD', '[DB_PW]');
-    
+
     /** MySQL のホスト名 */
     define('DB_HOST', '[DB_HOST]');
 
@@ -269,7 +268,7 @@ http://vccw.cc/
 
 
 
-    
+
     ssh [USER]@[USER].xsrv.jp -p 10022 mysqldump -u[DB_USER] -p[DB_PW] -h [DB_HOST] [DB_NAME] > dump.sql
 
 
@@ -293,7 +292,7 @@ http://vccw.cc/
 
 
 
-    
+
     ssh vagrant@default mysqldump -uwordpress -pwordpress wordpress > dump_local.sql
 
 
@@ -317,7 +316,7 @@ http://vccw.cc/
 
 
 
-    
+
     scp dump.sql vagrant@default:/tmp/
 
 
@@ -335,9 +334,9 @@ http://vccw.cc/
 
 
 
-    
+
     ssh vagrant@default mysql -uwordpress -pwordpress wordpress < /tmp/dump.sql
-    
+
 
 
 
@@ -364,7 +363,7 @@ https://raw.githubusercontent.com/interconnectit/Search-Replace-DB/master/srdb.c
 
 
 
-    
+
     php srdb.cli.php -h='localhost' -u='wordpress' -p='wordpress' -n='wordpress' -s=[HOST_HONBAN] -r=[HOST_KAIHATSU]
 
 
@@ -388,48 +387,48 @@ https://raw.githubusercontent.com/interconnectit/Search-Replace-DB/master/srdb.c
 
 
 
-    
+
     #!/bin/sh
     NOW=`date +"%Y%m%d_%H%M"`
     SEARCH=$1
     REPLACE=$2
-    
+
     #dumpファイルの保存先
     BAK_LOCAL="/tmp/local.bk.$NOW.sql"
     BAK_REMOTE="/tmp/remote.bk.$NOW.sql"
-    
+
     #検証環境のDBをバックアップ
     echo "ssh vagrant@default mysqldump -uwordpress -pwordpress 192.168.33.10 > $BAK_LOCAL"
     ssh vagrant@default mysqldump -uwordpress -pwordpress wordpress > $BAK_LOCAL
-    
+
     #ファイルがない場合は終了
     if [ ! -s $BAK_LOCAL ]; then
       echo "dump failed: check $BAK_LOCAL"
       exit
     fi
-    
+
     #本番DBに接続して、データをダンプ（SSHで接続しない場合は-hを変えてください）
     echo "ssh [USER]@[USER].xsrv.jp -p 10022 mysqldump -u[DB_USER] -p[DB_PW] -h [DB_HOST] [DB_NAME] > $BAK_REMOTE"
     ssh [USER]@[USER].xsrv.jp -p 10022 mysqldump -u[USER]@[USER].xsrv.jp -p[DB_PW] -h [DB_HOST] [DB_NAME]  > $BAK_REMOTE
-    
+
     #ファイルがない場合は終了
     if [ ! -s $BAK_REMOTE ]; then
       echo "dump failed: check $BAK_REMOTE"
       exit
     fi
-    
+
     #検証環境にダンプファイルをコピーする
     echo scp $BAK_REMOTE vagrant@default:/tmp/
     scp $BAK_REMOTE vagrant@default:/tmp/
-    
+
     #検証DBに本番DBを取り込む
     echo "ssh vagrant@default mysql -uwordpress -pwordpress wordpress < $BAK_REMOTE"
     ssh vagrant@default mysql -uwordpress -pwordpress wordpress < $BAK_REMOTE
-    
+
     #DB内容を書き換え
     echo "php srdb.cli.php -h='wordpress.local' -u='wordpress' -p='wordpress' -n='wordpress' -s=$SEARCH -r=$REPLACE"
     php srdb.cli.php -h='wordpress.local' -u='wordpress' -p='wordpress' -n='wordpress' -s=$SEARCH -r=$REPLACE
-    
+
 
 
 
@@ -446,7 +445,7 @@ https://raw.githubusercontent.com/interconnectit/Search-Replace-DB/master/srdb.c
 
 
 
-    
+
     chmod +x ./sync.sh
 
 
@@ -458,7 +457,7 @@ https://raw.githubusercontent.com/interconnectit/Search-Replace-DB/master/srdb.c
 
 
 
-    
+
     $ ./sync.sh [HOST_HONBAN] [HOST_KAIHATSU]
 
 

@@ -1,9 +1,8 @@
 ---
 draft: false
 title: Hugo + Algolia + Instantsearch.jsで静的サイトに全文検索を導入
-date: 2021-07-20T07:37:36Z   
+date: 2021-07-20T07:37:36Z
 type: post
-slug: 947231059
 categories: ["Blog"]
 ---
 Hugo + Algolia + Instantsearch.jsで、静的サイトに全文検索を導入するまでの一部始終をまとめてみました。
@@ -54,7 +53,7 @@ outputFormats:
      baseName: algolia
      isPlainText: true
      mediaType: application/json
-     notAlternative: true    
+     notAlternative: true
  outputs:
    home: [HTML, RSS, Algolia]
 ```
@@ -67,7 +66,7 @@ outputFormats:
 {{- range .Site.RegularPages -}}
      {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title "tags" .Params.tags "categories" .Params.categories "permalink" .Permalink "summary" .Summary "publish_date" .PublishDate) -}}
 {{- end -}}
-{{- $.Scratch.Get "index" | jsonify -}} 
+{{- $.Scratch.Get "index" | jsonify -}}
 ```
 
 `objectID`は、Algoliaでレコードを一意に識別するためのキーです。Hugoの場合、ファイルのパスに応じてハッシュ値を生成する`.UniqueID`が便利です。一意に識別するキーがない場合、インデックス登録時にエラーになりますので注意してください。対象は、`.Site.RegularPages`のみで、カテゴリーやタグ毎に生成される固有のページは除外しています。

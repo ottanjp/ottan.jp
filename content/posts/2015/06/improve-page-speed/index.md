@@ -4,7 +4,6 @@ date: 2015-06-21T00:00:00+00:00
 draft: false
 title: WordPressのサイト表示速度を高速化させるために行っている施策まとめ
 type: post
-slug: improve-page-speed-1737
 categories:
   - Blog
 tags:
@@ -56,7 +55,7 @@ WordPress には便利なオプションが用意されています。たとえ�
     add_image_size( 'custom-size', 200, 9999 )
 
 と、指定しておくことにより、**新規アップロード時に横幅 200px（縦幅は任意）の画像ファイルを自動生成してくれます**。ただし、新規アップロード時のみです。すでにアップロード済みの画像ファイルには適用されませんので注意してください。
-  
+
  the_post_thumbnail( 'custom-size' ),
 
 上記の画像ファイルを読み込むためには、 `the_post_thumbnail()` 関数を使います。「custom-size」という名称が定義されている場合には、事前に `add_image_size` で指定した画像が読み込まれます。
@@ -159,11 +158,11 @@ WordPress は、世界各国で使用されている万国共通の CMS です�
 https://wordpress.org/plugins/001-prime-strategy-translate-accelerator/
 
 なお、WordPress のデバッグモードを ON にしている場合で、かつこのプラグインを利用している場合、以下のような警告が表示されます。動作に影響はありませんが、本番環境ではデバッグモードは OFF にしておきましょう。
-  
+
  Strict Standards: Redefining already defined constructor for class Prime_Strategy_Translate_Accelerator in /var/www/wordpress/wp-content/plugins/001-prime-strategy-translate-accelerator/001-prime-strategy-translate-accelerator.php on line 34
 
 **wp-config.php**
-  
+
  define( 'WP_DEBUG', false );
 
 ### EWWW Image Optimizer

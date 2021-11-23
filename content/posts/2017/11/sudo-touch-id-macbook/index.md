@@ -4,7 +4,6 @@ date: 2017-11-24T00:00:00+00:00
 draft: false
 title: macOS High SierraでsudoコマンドをTouch IDで認証する方法
 type: post
-slug: sudo-touch-id-macbook-6332
 categories:
 - Mac
 tags:
@@ -45,7 +44,7 @@ PAM（Pluggable Authentication Module）とは、認証処理を行うモジュ�
 
 
 
-    
+
     # sudo: auth account password session
     auth       sufficient     pam_smartcard.so
     auth       required       pam_opendirectory.so
@@ -62,7 +61,7 @@ PAM（Pluggable Authentication Module）とは、認証処理を行うモジュ�
 
 
 
-    
+
     auth       sufficient     pam_tid.so
 
 
@@ -86,7 +85,7 @@ sufficeint（十分条件）をrequired（必要条件）に変更すること�
 
 
 
-    
+
     sudo vi /etc/pam.d/sudo
 
 
@@ -99,7 +98,7 @@ sufficeint（十分条件）をrequired（必要条件）に変更すること�
 
 
 
-    
+
     # sudo: auth account password session
     auth       sufficient     pam_tid.so
     auth       sufficient     pam_smartcard.so
@@ -130,7 +129,7 @@ sufficeint（十分条件）をrequired（必要条件）に変更すること�
 
 
 
-    
+
     sudo -s
 
 

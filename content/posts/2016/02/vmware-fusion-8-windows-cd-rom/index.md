@@ -4,7 +4,6 @@ date: 2016-02-09T00:00:00+00:00
 draft: false
 title: VMware Fusion 8にWindows 7をインストールする（CD-ROM編）
 type: post
-slug: vmware-fusion-8-windows-cd-rom-6834
 categories:
   - Mac
   - Windows

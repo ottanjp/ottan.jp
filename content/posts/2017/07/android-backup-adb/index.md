@@ -4,7 +4,6 @@ date: 2017-07-17T00:00:00+00:00
 draft: false
 title: Androidデバイスにダウンロードしたアプリのデータを含めてバックアップを取得する
 type: post
-slug: android-backup-adb-6069
 categories:
 - Android
 tags:

@@ -4,7 +4,6 @@ date: 2018-05-19T00:00:00+00:00
 draft: false
 title: Docker上のCentOS7でApache 2.3.x、PHP7.x、Laravel 5.xを動作させるための手順
 type: post
-slug: docker-centos7-laravel5-6745
 categories:
   - Mac
 tags:

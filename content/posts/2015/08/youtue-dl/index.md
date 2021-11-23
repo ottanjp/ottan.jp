@@ -4,7 +4,6 @@ date: 2015-08-23T00:00:00+00:00
 draft: false
 title: YouTubeから簡単に動画をダウンロードできる「youtube-dl」
 type: post
-slug: youtue-dl-2186
 categories:
   - Mac
 tags:

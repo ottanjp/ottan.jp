@@ -4,7 +4,6 @@ date: 2016-05-10T00:00:00+00:00
 draft: false
 title: WordPressの本文にApp StoreのURLを貼り付けるだけで、アフィリエイトリンクを生成できるようにする
 type: post
-slug: wordpress-app-store-itunes-link-affiliate-6862
 categories:
 - iPhone
 - Mac

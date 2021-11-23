@@ -4,7 +4,6 @@ date: 2015-06-02T00:00:00+00:00
 draft: false
 title: Macの起動が遅い！Macの起動を早くする7つの方法
 type: post
-slug: mac-boot-speed-up-1590
 categories:
   - Mac
 tags:

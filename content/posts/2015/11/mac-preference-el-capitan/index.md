@@ -4,7 +4,6 @@ date: 2015-11-01T00:00:00+00:00
 draft: false
 title: Macを購入したら最初に設定しておきたいシステム環境設定（macOS El Capitan）
 type: post
-slug: mac-preference-el-capitan-6814
 categories:
   - Mac
 tags:

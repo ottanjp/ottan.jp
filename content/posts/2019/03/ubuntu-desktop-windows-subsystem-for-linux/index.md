@@ -4,7 +4,6 @@ date: 2019-03-10T00:00:00+00:00
 draft: false
 title: "Windows Subsystem for LinuxでUbuntu Desktop (GNOME)を動かす"
 type: post
-slug: ubuntu-desktop-windows-subsystem-for-linux-20190303
 categories:
 tags:
 toc: true
@@ -109,7 +108,7 @@ sudo chmod 777 -R ~/.cache/
 以下のコマンドを実行して、Ubuntu Desktopを起動します。VcXsrvが問題なく起動していれば、作成した仮想デスクトップ上にGUI環境が起動しているはずです。なお、Ubuntuのターミナル上にさまざまなエラーが表示されますが、今回は無視します。また、D-Busに関するFATALエラーが表示されるため、回避するための暫定対処策としてD-BUsのサービスを再起動しておきます。起動する前に、毎回実施してください。
 
 ```bash
-sudo service dbus restart 
+sudo service dbus restart
 DISPLAY=0:0 XDG_SESSION_TYPE=x11 gnome-session
 ```
 

@@ -4,7 +4,6 @@ date: 2016-02-10T00:00:00+00:00
 draft: false
 title: ディスクユーティリティでUSBメモリ消去時にエラーが発生した場合の対処法
 type: post
-slug: disk-utility-usb-memory-error-6839
 categories:
 - Mac
 tags:
@@ -99,7 +98,7 @@ MacでUSBメモリの初期化を行う場合は、ディスクユーティリ�
 
 
 
-    
+
     $ diskutil list
     …
     /dev/disk2 (external, physical):
@@ -121,7 +120,7 @@ MacでUSBメモリの初期化を行う場合は、ディスクユーティリ�
 
 
 
-    
+
     $ diskutil unMountDisk /dev/disk2
 
 
@@ -133,7 +132,7 @@ MacでUSBメモリの初期化を行う場合は、ディスクユーティリ�
 
 
 
-    
+
     $ diskutil eraseDisk HFS+ Untitled /dev/disk2
 
 

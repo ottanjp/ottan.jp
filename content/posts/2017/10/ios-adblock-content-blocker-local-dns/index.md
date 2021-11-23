@@ -4,7 +4,6 @@ date: 2017-10-20T00:00:00+00:00
 draft: false
 title: iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」の使用方法
 type: post
-slug: ios-adblock-content-blocker-local-dns-6173
 categories:
 - iPhone
 tags:

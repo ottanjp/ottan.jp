@@ -4,7 +4,6 @@ date: 2016-11-11T00:00:00+00:00
 draft: false
 title: Macのお得な整備済製品を狙うなら通知もしてくれる「Refurb.Me」がオススメ
 type: post
-slug: mac-refurbished-buy-5222
 categories:
 - Mac
 tags:

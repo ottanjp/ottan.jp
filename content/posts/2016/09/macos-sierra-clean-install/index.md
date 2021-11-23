@@ -4,7 +4,6 @@ date: 2016-09-28T00:00:00+00:00
 draft: false
 title: macOS Sierraをクリーンインストールするための2つの方法
 type: post
-slug: macos-sierra-clean-install-5033
 categories:
   - Mac
 tags:

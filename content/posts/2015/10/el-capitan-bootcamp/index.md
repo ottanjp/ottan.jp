@@ -4,7 +4,6 @@ date: 2015-10-10T00:00:00+00:00
 draft: false
 title: macOS El CapitanのBoot Campアシスタントを使ってWindows 7をインストールする方法
 type: post
-slug: el-capitan-bootcamp-2774
 categories:
 - Mac
 - Windows

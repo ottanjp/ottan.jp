@@ -4,7 +4,6 @@ date: 2016-10-01T00:00:00+00:00
 draft: false
 title: macOS Sierraで任意のアプリケーションの設定を初期化する方法
 type: post
-slug: macos-sierra-app-config-clean-5039
 categories:
 - Mac
 tags:

@@ -4,7 +4,6 @@ date: 2016-04-30T00:00:00+00:00
 draft: false
 title: macOS El CapitanとUbuntu 16.04 LTSのデュアルブート環境を構築する
 type: post
-slug: el-capitan-ubuntu-dual-boot-6856
 categories:
   - Mac
 tags:

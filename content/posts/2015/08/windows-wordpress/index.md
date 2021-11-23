@@ -4,7 +4,6 @@ date: 2015-08-12T00:00:00+00:00
 draft: false
 title: Windows環境で超簡単にWordPressの開発環境を構築する方法
 type: post
-slug: windows-wordpress-2022
 categories:
 - Windows
 - Blog
@@ -185,7 +184,7 @@ WordPressのトップ画面が表示されました！
 ## まとめ
 
 
- 
+
 
 
 WindowsでWordPressの開発環境を構築するのは面倒臭い、というイメージがありましたが、「Instant WordPress」を使用すれば一瞬で環境構築ができるので、とても便利です。ぜひお試しください。最後に、以下のリンクを参考にさせていただきました。

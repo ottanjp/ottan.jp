@@ -4,7 +4,6 @@ date: 2015-10-10T00:00:00+00:00
 draft: false
 title: Boot CampでインストールしたWindows 7を即座にWindows 10にアップグレードする方法
 type: post
-slug: boot-camp-windows-7-to-10-6809
 categories:
   - Mac
   - Windows

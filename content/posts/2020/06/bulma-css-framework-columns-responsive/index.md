@@ -6,7 +6,6 @@ tags:
   - CSS
 categories:
   - Web
-slug: bulma-css-framework-columns-responsive
 katex: false
 ---
 CSSフレームワークの「[Bulma: Free, open source, and modern CSS framework based on Flexbox](https://bulma.io/)」の`columns`クラスの挙動がおかしい、というお話です。

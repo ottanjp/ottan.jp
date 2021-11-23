@@ -4,7 +4,6 @@ date: 2014-09-20T00:00:00+00:00
 draft: false
 title: iPhoneでGmailを公式アプリを使わずにプッシュ通知で受け取る方法
 type: post
-slug: iphone-gmail-push-490
 categories:
 - iPhone
 tags:
@@ -68,7 +67,7 @@ Gmailの公式アプリを別途インストールという手段もあります
 
 
 
-### 
+###
 
 
 

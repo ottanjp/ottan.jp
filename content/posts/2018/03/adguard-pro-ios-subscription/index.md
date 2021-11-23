@@ -4,7 +4,6 @@ date: 2018-03-06T00:00:00+00:00
 draft: false
 title: AdGuard Proがワンタップでのドメインリストのインポートに対応しWorkflow不要でより便利に！
 type: post
-slug: adguard-pro-ios-subscription-6663
 categories:
   - iPhone
 tags:

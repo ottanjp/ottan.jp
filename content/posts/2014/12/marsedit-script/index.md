@@ -4,7 +4,6 @@ date: 2014-12-05T00:00:00+00:00
 draft: false
 title: MarsEditをより便利に高速に活用するためのスクリプト集
 type: post
-slug: marsedit-script-619
 categories:
 - Mac
 - Blog
@@ -80,7 +79,7 @@ MarsEdit標準のスクリプトでも単語数、文字数は計測すること
 
 
 
-    
+
     これは便利！Finderで画像ファイルの解像度と大きさを確認する方法</a>
 
 
@@ -104,9 +103,9 @@ MarsEdit標準のスクリプトでも単語数、文字数は計測すること
 
 
 
-    
+
     [toc]
-    
+
     <h1>タイトル1</h1>
     <h2>タイトル2</h2>
     <h1>タイトル3</h1>
@@ -120,15 +119,15 @@ MarsEdit標準のスクリプトでも単語数、文字数は計測すること
 
 
 
-    
-    
+
+
     <li><a href="#id_001">タイトル1</a></li>
     <ol>
     <li><a href="#id_002">タイトル2</a></li>
     </ol>
     <li><a href="#id_003">タイトル3</a></li>
     </ol>
-    
+
     <a id="id_001"></a><h1>タイトル1</h1>
     <a id="id_002"></a><h2>タイトル2</h2>
     <a id="id_003"></a><h1>タイトル3</h1>
@@ -148,7 +147,7 @@ MarsEdit標準のスクリプトでも単語数、文字数は計測すること
 
 
 
-    
+
     ol.table-of-contents {
       background-color: #fafafa;
       border: 1px dotted #30add1;
@@ -202,7 +201,7 @@ WordPressのプラグインに目次を生成するプラグインは多数存�
 
 
 
-    
+
     ~/Library/Application Support/MarsEdit/Scripts
 
 

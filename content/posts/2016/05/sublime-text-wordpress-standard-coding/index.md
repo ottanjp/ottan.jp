@@ -4,7 +4,6 @@ date: 2016-05-21T00:00:00+00:00
 draft: false
 title: Sublime TextでWordPressのコーディング規約に遵守したコーディングを効率的に行おう！
 type: post
-slug: sublime-text-wordpress-standard-coding-4309
 categories:
   - Mac
   - Blog

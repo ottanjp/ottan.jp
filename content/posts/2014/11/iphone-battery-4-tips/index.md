@@ -4,7 +4,6 @@ date: 2014-11-21T00:00:00+00:00
 draft: false
 title: iPhoneのバッテリーを節約するための必要最小限の4つのTips（iOS8対応）
 type: post
-slug: iphone-battery-4-tips-724
 categories:
   - iPhone
 tags:

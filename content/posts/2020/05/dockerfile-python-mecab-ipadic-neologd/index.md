@@ -8,7 +8,6 @@ tags:
   - Python
 categories:
   - Mac
-slug: dockerfile-python-mecab-ipadic-neologd
 ---
 [python - Docker Hub](https://hub.docker.com/_/python)で公開されているコンテナイメージをベースとして、MeCab + IPADIC + NEologdを使用するためのDockerfileを公開します。NEologdは、IPAが公開する辞書であるIPADICとの併用が推奨されています。今回は、IPADIC + NEologdを、MeCabのシステム辞書として使用します。
 

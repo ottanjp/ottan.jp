@@ -4,7 +4,6 @@ date: 2016-11-20T00:00:00+00:00
 draft: false
 title: LinuxにMicrosoft SQL Serverをインストールする方法
 type: post
-slug: linux-microsoft-sql-server-5249
 categories:
 - Windows
 tags:
@@ -56,8 +55,8 @@ https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-release-notes
 
 
 
-    
-    # cat /etc/redhat-release 
+
+    # cat /etc/redhat-release
     Red Hat Enterprise Linux Server release 7.3 (Maipo)
 
 
@@ -69,7 +68,7 @@ https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-release-notes
 
 
 
-    
+
     # curl https://packages.microsoft.com/config/rhel/7/mssql-server.repo > /etc/yum.repos.d/mssql-server.repo
 
 
@@ -81,8 +80,8 @@ SQL Serverのリポジトリを追加します。
 
 
 
-    
-    # cat /etc/yum.repos.d/mssql-server.repo 
+
+    # cat /etc/yum.repos.d/mssql-server.repo
     [packages-microsoft-com-mssql-server]
     name=packages-microsoft-com-mssql-server
     baseurl=https://packages.microsoft.com/rhel/7/mssql-server/
@@ -99,7 +98,7 @@ SQL Serverのリポジトリを追加します。
 
 
 
-    
+
     # yum install -y mssql-server
 
 
@@ -111,7 +110,7 @@ SQL Serverのリポジトリを追加します。
 
 
 
-    
+
     # /opt/mssql/bin/sqlservr-setup
 
 
@@ -123,7 +122,7 @@ SQL Serverのリポジトリを追加します。
 
 
 
-    
+
     Do you accept the license terms? If so, please type "YES":
 
 
@@ -135,7 +134,7 @@ SQL Serverのリポジトリを追加します。
 
 
 
-    
+
     Please enter a password for the system administrator (SA) account:
 
 
@@ -147,7 +146,7 @@ SQL Serverのリポジトリを追加します。
 
 
 
-    
+
     Do you wish to start the SQL Server service now? [y/n]:
 
 
@@ -159,7 +158,7 @@ SQL Serverのリポジトリを追加します。
 
 
 
-    
+
     Do you wish to enable SQL Server to start on boot? [y/n]:
 
 
@@ -171,7 +170,7 @@ SQL Serverのリポジトリを追加します。
 
 
 
-    
+
     # firewall-cmd --add-port=1433/tcp --permanent
     # firewall-cmd --reload
 
@@ -184,7 +183,7 @@ SQL Serverのリポジトリを追加します。
 
 
 
-    
+
     # iptables -A INPUT -p tcp --dport 1433 -j ACCEPT
     # iptables-save
 
@@ -209,7 +208,7 @@ Ubuntuの場合もほぼ同様の手順で実現できます。
 
 
 
-    
+
     # curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
 
 
@@ -221,7 +220,7 @@ Ubuntuの場合もほぼ同様の手順で実現できます。
 
 
 
-    
+
     # curl https://packages.microsoft.com/config/ubuntu/16.04/mssql-server.list | tee /etc/apt/sources.list.d/mssql-server.list
 
 
@@ -233,7 +232,7 @@ Ubuntuの場合もほぼ同様の手順で実現できます。
 
 
 
-    
+
     # cat /etc/apt/sources.list.d/mssql-server.list
     deb [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/mssql-server xenial main
 
@@ -246,7 +245,7 @@ Ubuntuの場合もほぼ同様の手順で実現できます。
 
 
 
-    
+
     # apt-get update
     # apt-get install -y mssql-server
 
@@ -259,7 +258,7 @@ Ubuntuの場合もほぼ同様の手順で実現できます。
 
 
 
-    
+
     # /opt/mssql/bin/sqlservr-setup
 
 
@@ -295,7 +294,7 @@ SQL Serverといえば、Microsoft SQL Server Management Studioが有名です�
 
 
 
-    
+
     # curl https://packages.microsoft.com/config/rhel/7/prod.repo > /etc/yum.repos.d/msprod.repo
 
 
@@ -307,7 +306,7 @@ SQL Server Toolsのリポジトリを追加します。
 
 
 
-    
+
     # cat /etc/yum.repos.d/msprod.repo
     [packages-microsoft-com-prod]
     name=packages-microsoft-com-prod
@@ -325,7 +324,7 @@ SQL Server Toolsのリポジトリを追加します。
 
 
 
-    
+
     # yum install -y mssql-tools
 
 
@@ -337,7 +336,7 @@ SQL Server Toolsのリポジトリを追加します。
 
 
 
-    
+
     Do you accept the license terms? (Enter YES or NO)
 
 
@@ -349,9 +348,9 @@ SQL Server Toolsのリポジトリを追加します。
 
 
 
-    
+
     # sqlcmd -S localhost -U SA -P Password
-    1> 
+    1>
 
 
 
@@ -374,7 +373,7 @@ SQL Server Toolsのリポジトリを追加します。
 
 
 
-    
+
     # curl https://packages.microsoft.com/config/ubuntu/16.04/prod.list | tee /etc/apt/sources.list.d/msprod.list
 
 
@@ -386,7 +385,7 @@ SQL Serverのリポジトリを追加します。
 
 
 
-    
+
     # cat /etc/apt/sources.list.d/msprod.list
     deb [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/prod xenial main
 
@@ -399,7 +398,7 @@ SQL Serverのリポジトリを追加します。
 
 
 
-    
+
     # apt-get update
     # apt-get install -y mssql-tools
 
@@ -438,7 +437,7 @@ SQL Serverのリポジトリを追加します。
 
 
 
-    
+
     # sqlcmd -S localhost -U SA -P Password
     1>
 

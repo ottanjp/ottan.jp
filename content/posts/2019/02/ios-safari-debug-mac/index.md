@@ -4,7 +4,6 @@ date: 2019-02-23T00:00:00+00:00
 draft: false
 title: "Macを使用してiPhone、iPadのSafariでデバッグを行う方法"
 type: post
-slug: ios-safari-debug-mac-20190222
 categories: ["iPhone","Mac"]
 tags: ["Safari"]
 toc: true

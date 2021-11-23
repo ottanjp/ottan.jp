@@ -4,7 +4,6 @@ date: 2015-05-30T00:00:00+00:00
 draft: false
 title: Homebrewで検索時にGitHubのエラーが出る場合の対処法
 type: post
-slug: homebrew-github-token-1575
 categories:
   - Mac
 tags:

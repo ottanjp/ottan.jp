@@ -4,7 +4,6 @@ date: 2014-09-10T00:00:00+00:00
 draft: false
 title: コピペだけでできるMacのカスタマイズ19選
 type: post
-slug: os-x-customize-19-217
 categories:
   - Mac
 tags:

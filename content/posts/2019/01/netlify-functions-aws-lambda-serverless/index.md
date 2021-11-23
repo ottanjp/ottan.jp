@@ -4,7 +4,6 @@ date: 2019-01-15T00:00:00+00:00
 draft: false
 title: "無償で利用可能なNetlify Functions（AWS Lambda）で学ぶサーバレスプログラミングの基本"
 type: post
-slug: netlify-functions-aws-lambda-serverless-20190115
 categories: ['Blog']
 tags: ['Netlify','AWS','Lambda','Hugo']
 toc: true

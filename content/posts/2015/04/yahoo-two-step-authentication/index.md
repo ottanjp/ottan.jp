@@ -4,7 +4,6 @@ date: 2015-04-13T00:00:00+00:00
 draft: false
 title: Yahooアカウントの2段階認証を有効にする方法
 type: post
-slug: yahoo-two-step-authentication-958
 categories:
   - Web
 tags:

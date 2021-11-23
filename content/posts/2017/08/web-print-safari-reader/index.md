@@ -4,7 +4,6 @@ date: 2017-08-09T00:00:00+00:00
 draft: false
 title: Webページを見やすく印刷したい時はSafariのリーダーモードを使おう！
 type: post
-slug: web-print-safari-reader-6103
 categories:
 - Mac
 tags:

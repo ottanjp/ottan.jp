@@ -3,7 +3,6 @@ draft: false
 title: 古いiPhoneから新しいiPhoneへ移行する方法の比較
 date: 2021-09-24T13:55:18Z
 type: post
-slug: 1006246663
 categories: ["iPhone"]
 ---
 一昔前までのiPhoneの機種変と言えば、母艦と言われるiTunesへの『完全なバックアップ』からの復元が当たり前でしたが、昨今のストレージ容量の肥大化、iOSの進化により、さまざまな選択肢が取れるようになりました。iPhone 13 Proシリーズに至っては、最大ストレージ容量は1TBにもおよびます。

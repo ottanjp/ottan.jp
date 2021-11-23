@@ -4,7 +4,6 @@ date: 2016-12-21T00:00:00+00:00
 draft: false
 title: App Store、Mac App Storeのアプリのセール情報や履歴を調べられる「Price Tag」
 type: post
-slug: app-store-sale-price-history-5378
 categories:
 - iPhone
 tags:
@@ -169,4 +168,3 @@ Price Tagでアプリのセール情報を調べることができるように�
 
 
 ![](171102-59fb219059835.jpeg)
-

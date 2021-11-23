@@ -4,7 +4,6 @@ date: 2019-06-30T00:00:00+00:00
 draft: false
 title: "macOS Catalina（Public beta）の起動ディスクを作成する方法"
 type: post
-slug: macos-catalina-bootable-disk-20190630
 categories: ["Mac"]
 tags: ["Catalina"]
 toc: true

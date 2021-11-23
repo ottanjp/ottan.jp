@@ -4,7 +4,6 @@ date: 2018-02-11T00:00:00+00:00
 draft: false
 title: Ubuntu 16.04 LTSのGNOME ShellをMac風にカスタマイズする
 type: post
-slug: ubuntu-gnome-shell-mac-high-sierra-6629
 categories:
 - Mac
 tags:

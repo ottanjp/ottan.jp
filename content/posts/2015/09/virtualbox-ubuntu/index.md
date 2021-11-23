@@ -4,7 +4,6 @@ date: 2015-09-06T00:00:00+00:00
 draft: false
 title: VirtualBoxにUbuntu 14.04.2 LTSをインストールする方法
 type: post
-slug: virtualbox-ubuntu-2418
 categories:
   - Mac
 tags:

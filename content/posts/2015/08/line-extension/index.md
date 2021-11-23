@@ -4,7 +4,6 @@ date: 2015-08-07T00:00:00+00:00
 draft: false
 title: 何でもかんでもLINEに共有しよう！！Safariや写真アプリからLINEのトークに送信する方法
 type: post
-slug: line-extension-1947
 categories:
 - iPhone
 tags:

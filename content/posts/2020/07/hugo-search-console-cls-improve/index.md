@@ -7,7 +7,6 @@ tags:
   - Google
 categories:
   - Blog
-slug: hugo-search-console-cls-improve
 katex: false
 ---
 ![](screenshot-2020-07-03-20.28.33.png)

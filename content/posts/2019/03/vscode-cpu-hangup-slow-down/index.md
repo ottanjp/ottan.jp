@@ -4,7 +4,6 @@ date: 2019-03-06T00:00:00+00:00
 draft: false
 title: "VS Code（Code Helper）のCPU使用率が100%になってしまった場合のワークアラウンド"
 type: post
-slug: vscode-cpu-hangup-slow-down-20190303
 categories: ["Mac"]
 tags: ["VS Code"]
 toc: true

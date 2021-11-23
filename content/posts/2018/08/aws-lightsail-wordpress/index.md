@@ -4,7 +4,6 @@ date: 2018-08-05T00:00:00+00:00
 draft: false
 title: Amazon Lightsailで月5ドルから始めるWordPress（下準備〜HTTPS化編）
 type: post
-slug: aws-lightsail-wordpress-6908
 categories:
 - Blog
 tags:
@@ -262,7 +261,7 @@ Lightsailのインスタンスに接続する方法としては、ブラウザ�
 
 
 
-    
+
     ssh -i <Private Key Path>.pem bitnami@<Public IP>
 
 
@@ -274,14 +273,14 @@ Lightsailのインスタンスに接続する方法としては、ブラウザ�
 
 
 
-    
+
     Welcome to Ubuntu 16.04.5 LTS (GNU/Linux 4.4.0-1060-aws x86_64)
     *** System restart required ***
            ___ _ _                   _
           | _ |_) |_ _ _  __ _ _ __ (_)
           | _ \ |  _| ' \/ _` | '  \| |
           |___/_|\__|_|_|\__,_|_|_|_|_|
-    
+
       *** Welcome to the Bitnami WordPress 4.9.6-0 ***
       *** Documentation:  https://docs.bitnami.com/aws/apps/wordpress/ ***
       ***                 https://docs.bitnami.com/aws/ ***
@@ -302,7 +301,7 @@ Lightsailのインスタンスに接続する方法としては、ブラウザ�
 
 
 
-    
+
     chmod 600 <Private Key Path>
 
 
@@ -320,7 +319,7 @@ Lightsailのインスタンスに接続する方法としては、ブラウザ�
 
 
 
-    
+
     sudo /opt/bitnami/apps/wordpress/bnconfig --disable_banner 1
     sudo /opt/bitnami/ctlscript.sh restart apache
 
@@ -448,7 +447,7 @@ Let's EncryptでSSL証明書（ドメイン認証）を取得します。具体�
 
 
 
-    
+
     sudo apt-get install git
 
 
@@ -460,7 +459,7 @@ Let's EncryptでSSL証明書（ドメイン認証）を取得します。具体�
 
 
 
-    
+
     sudo apt-get update
     sudo apt-get upgrade
 
@@ -473,7 +472,7 @@ Let's EncryptでSSL証明書（ドメイン認証）を取得します。具体�
 
 
 
-    
+
     git clone https://github.com/letsencrypt/letsencrypt
     cd letsencrypt
     ./letsencrypt-auto

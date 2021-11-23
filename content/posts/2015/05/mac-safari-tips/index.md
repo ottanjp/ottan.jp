@@ -4,7 +4,6 @@ date: 2015-05-07T00:00:00+00:00
 draft: false
 title: 知っておきたいMacのSafariの便利なTips
 type: post
-slug: mac-safari-tips-1299
 categories:
 - Mac
 tags:

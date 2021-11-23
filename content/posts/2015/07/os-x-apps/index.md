@@ -4,7 +4,6 @@ date: 2015-07-25T00:00:00+00:00
 draft: false
 title: いくつ知ってる？意外と知られていない役に立つmacOSの標準アプリケーション
 type: post
-slug: os-x-apps-1833
 categories:
   - Mac
 tags:

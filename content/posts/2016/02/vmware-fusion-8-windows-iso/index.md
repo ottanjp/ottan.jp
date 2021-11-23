@@ -4,7 +4,6 @@ date: 2016-02-08T00:00:00+00:00
 draft: false
 title: VMware Fusion 8にWindows 7をインストールする（ISOファイル編）
 type: post
-slug: vmware-fusion-8-windows-iso-6835
 categories:
 - Mac
 - Windows

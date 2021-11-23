@@ -4,7 +4,6 @@ date: 2016-05-01T00:00:00+00:00
 draft: false
 title: VCCW（Vagrant＋VirtualBox＋Chef＋WordPress）のメール送信テスト環境には、MailCatcherが最適！
 type: post
-slug: vccw-vagrant-virtualbox-chef-wordpress-mailcatcher-6857
 categories:
   - Mac
   - Blog

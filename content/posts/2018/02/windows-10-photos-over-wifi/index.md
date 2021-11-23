@@ -4,7 +4,6 @@ date: 2018-02-16T00:00:00+00:00
 draft: false
 title: Wi-Fi経由でiPhoneからWindows 10の写真アプリ（Microsoft フォト）に写真を転送する方法
 type: post
-slug: windows-10-photos-over-wifi-6642
 categories:
 - iPhone
 - Windows

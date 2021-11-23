@@ -4,7 +4,6 @@ date: 2016-08-01T00:00:00+00:00
 draft: false
 title: 詳細な解説付き！今から始めるDocker for Mac！快適なWordPress開発環境を手に入れよう！
 type: post
-slug: docker-for-mac-wordpress-4711
 categories:
   - Mac
   - Blog

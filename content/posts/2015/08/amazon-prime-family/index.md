@@ -4,7 +4,6 @@ date: 2015-08-03T00:00:00+00:00
 draft: false
 title: 知ってた？！Amazonプライム会員は本人以外に同居家族を2人登録できます！！
 type: post
-slug: amazon-prime-family-1908
 categories:
 - Web
 tags:
@@ -87,7 +86,7 @@ Amazonプライム会員になるためには、年間¥3,900（税込）を支�
 招待した家族会員にはAmazonからメールが送られます。メールに書かれたURLをクリックしてください。まだ、Amazonにサインインしていない場合は、サインインします。
 
 
- 
+
 
 
 ![](150803-55bf434d472d3.png)

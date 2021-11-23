@@ -4,7 +4,6 @@ date: 2016-04-23T00:00:00+00:00
 draft: false
 title: WordPressのショートコード入門
 type: post
-slug: wordpress-shortcode-getting-start-6855
 categories:
 - Blog
 tags:
@@ -43,7 +42,7 @@ WordPressのショートコードは、WordPressが提供するショートコ�
 
 
 
-    
+
     [ottanxyz]
 
 
@@ -54,7 +53,7 @@ WordPressのショートコードは、WordPressが提供するショートコ�
  	  * `$content` = null
 
 
-    
+
     [ottanxyz]This is a content.[/ottanxyz]
 
 
@@ -65,7 +64,7 @@ WordPressのショートコードは、WordPressが提供するショートコ�
  	  * `$content` = This is a content.
 
 
-    
+
     [ottanxyz id='1000' name='ottan']
 
 
@@ -76,7 +75,7 @@ WordPressのショートコードは、WordPressが提供するショートコ�
  	  * `$content` = null
 
 
-    
+
     [ottanxyz id='1000']This is a content.[/ottanxyz]
 
 
@@ -107,7 +106,7 @@ WordPressのショートコードは、WordPressが提供するショートコ�
 
 **functions.php**
 
-    
+
     include 'shortcodes.php';
 
 
@@ -126,20 +125,20 @@ WordPressのショートコードは、WordPressが提供するショートコ�
 
 **shortcodes.php**
 
-    
+
     <?php
     function ox_shortcodes_article( $atts, $content=null ) {
       extract( shortcode_atts( array( 'id' => '' ) ,$atts ) );
       $getpost = get_posts( array( 'include' => array( $id ) ) );
       $getpost = $getpost[0];
-    
+
       $permalink = get_permalink( $getpost->ID );
       $title = $getpost->post_title;
       $image_id = get_post_thumbnail_id( $getpost->ID );
       $image_url = wp_get_attachment_image_src( $image_id, array( 64, 64 ) );
       $image_url = $image_url[0];
       $description = mb_substr( str_replace( array( "\r\n", "\r", "\n" ), '', strip_tags( $getpost->post_content ) ), 0, 120 );
-    
+
       return <<< EOM
     <div class="media bg-article">
     <div class="media-left pull-left">
@@ -156,14 +155,14 @@ WordPressのショートコードは、WordPressが提供するショートコ�
     </div>
     EOM;
     }
-    
+
     add_shortcode( 'article', 'ox_shortcodes_article' );
     ?>
 
 
 順を追って解説します。
 
-    
+
     function ox_shortcodes_article( $atts, $content=null ) {
     ...
     }
@@ -177,7 +176,7 @@ WordPressのショートコードは、WordPressが提供するショートコ�
 
 
 
-    
+
     extract( shortcode_atts( array( 'id' => '' ) ,$atts ) );
 
 
@@ -189,10 +188,10 @@ WordPressのショートコードは、WordPressが提供するショートコ�
 
 
 
-    
+
     $getpost = get_posts( array( 'include' => array( $id ) ) );
     $getpost = $getpost[0];
-    
+
     $permalink = get_permalink( $getpost->ID );
     $title = $getpost->post_title;
     $image_id = get_post_thumbnail_id( $getpost->ID );
@@ -220,7 +219,7 @@ WordPressのショートコードは、WordPressが提供するショートコ�
 
 
 
-    
+
       return <<< EOM
     <div class="media bg-article">
     <div class="media-left pull-left">
@@ -252,7 +251,7 @@ WordPressのショートコードは、WordPressが提供するショートコ�
 
 
 
-    
+
     [[article id=3482]]
 
 

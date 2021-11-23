@@ -4,7 +4,6 @@ date: 2016-11-23T00:00:00+00:00
 draft: false
 title: グリッドレイアウトで高さも横幅もバラバラの画像を綺麗に並べる方法
 type: post
-slug: grid-bootstrap-css-5260
 categories:
 - Blog
 tags:
@@ -86,16 +85,16 @@ See the Pen [ZBKRoQ](https://codepen.io/ottanxyz/pen/ZBKRoQ/) by ottan ([@ottanx
 
 
 
-    
+
     img {
       max-width: 100%;
     }
-    
+
     .grid-img {
       position: relative;
       overflow: hidden;
     }
-    
+
     .grid-img img {
       position: absolute;
     }
@@ -115,17 +114,17 @@ See the Pen [ZBKRoQ](https://codepen.io/ottanxyz/pen/ZBKRoQ/) by ottan ([@ottanx
 
 
 
-    
+
     img {
       max-width: 100%;
     }
-    
+
     .grid-img {
       position: relative;
       overflow: hidden;
       padding-bottom: 30%;
     }
-    
+
     .grid-img img {
       position: absolute;
     }
@@ -139,17 +138,17 @@ See the Pen [ZBKRoQ](https://codepen.io/ottanxyz/pen/ZBKRoQ/) by ottan ([@ottanx
 
 
 
-    
+
     img {
       max-width: 100%;
     }
-    
+
     .grid-img {
       position: relative;
       overflow: hidden;
       padding-bottom: 30%;
     }
-    
+
     .grid-img img {
       position: absolute;
       top: 0;

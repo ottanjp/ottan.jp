@@ -4,7 +4,6 @@ date: 2015-08-25T00:00:00+00:00
 draft: false
 title: WordPress開発のためにAtomに導入しておきたい最低限のプラグイン8選
 type: post
-slug: atom-plugin-8-2207
 categories:
   - Mac
   - Windows

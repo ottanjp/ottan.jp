@@ -4,7 +4,6 @@ date: 2018-04-05T00:00:00+00:00
 draft: false
 title: 最速のDNSリゾルバーを見つけるためのパフォーマンス測定方法と「DNS Performance test」
 type: post
-slug: dns-performance-test-github-6689
 categories:
 - Mac
 tags:
@@ -53,7 +52,7 @@ tags:
 
 というわけで実際に実行してみました。
 
-                      test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average 
+                      test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average
     1.1.1.1           46 ms   47 ms   41 ms   41 ms   40 ms   41 ms   40 ms   41 ms   40 ms   40 ms     41.70
     1.0.0.1           40 ms   39 ms   41 ms   41 ms   40 ms   40 ms   40 ms   40 ms   40 ms   41 ms     40.20
     192.168.1.1       342 ms  494 ms  495 ms  494 ms  392 ms  494 ms  494 ms  448 ms  43 ms   481 ms    417.70
@@ -80,7 +79,7 @@ tags:
 なお、前述の結果を平均値で並び替えたい場合は、`sort`コマンドを使います。
 
     $ bash ./dnstest.sh | sort -k 22 -n
-                      test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average 
+                      test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average
     neustar           42 ms   38 ms   40 ms   39 ms   41 ms   38 ms   39 ms   39 ms   39 ms   39 ms     39.40
     cloudflare        40 ms   43 ms   40 ms   39 ms   40 ms   40 ms   38 ms   40 ms   49 ms   40 ms     40.90
     1.1.1.1           52 ms   43 ms   41 ms   39 ms   39 ms   39 ms   39 ms   39 ms   40 ms   39 ms     41.00

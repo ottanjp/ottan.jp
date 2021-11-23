@@ -7,7 +7,6 @@ tags:
   - Netlify
 categories:
   - Blog
-slug: netlifycms-support-hugo-page-bundles
 ---
 [Hugo | Netlify CMS | Open-Source Content Management System](https://www.netlifycms.org/docs/hugo/)に沿って構築した、Netlify CMSのテンプレートを、[Page Bundles | Hugo](https://gohugo.io/content-management/page-bundles/)に対応させる方法です。
 

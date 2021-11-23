@@ -4,7 +4,6 @@ date: 2015-07-15T00:00:00+00:00
 draft: false
 title: 現在接続しているWi-Fiネットワークのパスワードを確認する方法
 type: post
-slug: wifi-password-1817
 categories:
 - Mac
 tags:
@@ -25,7 +24,7 @@ tags:
 
 
 
-    
+
     $ security find-generic-password -ga <SSID>
 
 
@@ -39,7 +38,7 @@ tags:
 **実行例**
 
 
-    
+
     $ security find-generic-password -ga "Time Capsule 5GHz"
 
 

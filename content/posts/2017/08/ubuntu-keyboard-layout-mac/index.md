@@ -4,7 +4,6 @@ date: 2017-08-02T00:00:00+00:00
 draft: false
 title: Ubuntu 16.04でキーボードレイアウトをMacBook Pro向けに変更する
 type: post
-slug: ubuntu-keyboard-layout-mac-6095
 categories:
 - Mac
 tags:

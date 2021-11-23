@@ -4,7 +4,6 @@ date: 2018-08-26T00:00:00+00:00
 draft: false
 title: iPhoneから公開鍵認証（SSH）でAWS Lightsail（EC2）に接続する
 type: post
-slug: iphone-aws-public-private-key-ssh-ec2-lightsail-6964
 categories:
 - iPhone
 - Blog
@@ -244,4 +243,3 @@ iPhoneからLightsail（EC2）に接続できない場合は、以下の点を�
   * Lightsail（EC2）のファイアウォール、セキュリティグループ等で外部IPアドレスからのSSH接続（ポート番号：22）が許可されていること
   * 秘密鍵が正しくインポートされていること。コピー＆ペーストでうまくいかない場合は、iTunes経由でのインポートを試してみましょう。とくにWindowsをお使いの場合は、こちらの方法が安全です（ただし、最新のiTunesでアプリの情報を管理する方法がありませんので、オンラインストレージ等を経由してください）
   * iPhoneから接続可能なパブリックIPアドレス、またはパブリックDNSが登録されていること。（LightsailインスタンスのプライベートIPアドレスが指定されていないこと）
-

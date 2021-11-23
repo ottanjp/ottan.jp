@@ -4,7 +4,6 @@ date: 2014-09-12T00:00:00+00:00
 draft: false
 title: iPhoneのWi-Fiがルーターの「理論上の」最大速度よりはるかに遅いのはなぜか
 type: post
-slug: iphone-wifi-tips-279
 categories:
 - iPhone
 tags:

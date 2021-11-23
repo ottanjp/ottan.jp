@@ -4,7 +4,6 @@ date: 2015-09-26T00:00:00+00:00
 draft: false
 title: '@ezweb.ne.jp宛のメールをパソコンで受信する方法'
 type: post
-slug: ezweb-pc-mail-2631
 categories:
 - iPhone
 - Mac

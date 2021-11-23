@@ -4,7 +4,6 @@ date: 2016-11-26T00:00:00+00:00
 draft: false
 title: Macをターミナルから操る「m-cli」のソースコードがタメになるというお話
 type: post
-slug: m-cli-homebrew-5266
 categories:
 - Mac
 tags:
@@ -63,7 +62,7 @@ https://github.com/rgcr/m-cli/tree/master/plugins
 
 
 
-    
+
     defaults read /Library/Preferences/com.apple.Bluetooth ControllerPowerState
 
 
@@ -75,7 +74,7 @@ Bluetoothの状態を参照するためには上記のコマンドを実行し�
 
 
 
-    
+
     sudo defaults write /Library/Preferences/com.apple.Bluetooth ControllerPowerState -int 1
     sudo killall -HUP blued
 
@@ -88,7 +87,7 @@ Bluetoothをオンにするためには上記のコマンドを実行します�
 
 
 
-    
+
     sudo defaults write /Library/Preferences/com.apple.Bluetooth ControllerPowerState -int 0
     sudo killall -HUP blued
 
@@ -113,7 +112,7 @@ Bluetoothをオフにするためには上記のコマンドを実行します�
 
 
 
-    
+
     /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I
 
 
@@ -125,13 +124,13 @@ Bluetoothをオフにするためには上記のコマンドを実行します�
 
 
 
-    
+
          agrCtlRSSI: -60
          agrExtRSSI: 0
         agrCtlNoise: -95
         agrExtNoise: 0
               state: running
-            op mode: station 
+            op mode: station
          lastTxRate: 867
             maxRate: 1300
     lastAssocStatus: 0
@@ -151,7 +150,7 @@ Bluetoothをオフにするためには上記のコマンドを実行します�
 
 
 
-    
+
     networksetup -setairportpower en0 off
 
 
@@ -163,7 +162,7 @@ Wi-Fiをオフにするためには、`networksetup`コマンドを使用しま�
 
 
 
-    
+
     networksetup -setairportpower en0 on
 
 

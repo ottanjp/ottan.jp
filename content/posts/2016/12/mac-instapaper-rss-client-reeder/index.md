@@ -4,7 +4,6 @@ date: 2016-12-25T00:00:00+00:00
 draft: false
 title: Mac版Instapaperクライアントは、RSSリーダーとしても使用できる「Reeder for Mac」がオススメ
 type: post
-slug: mac-instapaper-rss-client-reeder-5419
 categories:
   - Mac
 tags:

@@ -4,7 +4,6 @@ date: 2017-02-19T00:00:00+00:00
 draft: false
 title: WordPressのテーマ、プラグイン開発者にオススメできる軽量なテキストエディター「Boostnote」
 type: post
-slug: wordpress-developer-plugin-theme-boostnote-5528
 categories:
   - Mac
   - Blog

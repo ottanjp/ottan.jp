@@ -7,7 +7,6 @@ tags:
   - Python
 categories:
   - Mac
-slug: python-pip-disable-warning
 ---
 PythonのパッケージをPyPIからインストールする際に用いる`pip`コマンドで、よくある警告を抑止する方法です。
 

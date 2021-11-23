@@ -4,7 +4,6 @@ date: 2014-09-10T00:00:00+00:00
 draft: false
 title: Time Machineはどのようにしてバックアップを取得しているの？MacのTime Machineの疑問徹底解説
 type: post
-slug: about-time-machine-244
 categories:
   - Mac
 tags:

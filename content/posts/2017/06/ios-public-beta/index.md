@@ -4,7 +4,6 @@ date: 2017-06-08T00:00:00+00:00
 draft: false
 title: iOS 11のパブリックベータに参加する方法、脱退する方法
 type: post
-slug: ios-public-beta-5940
 categories:
 - iPhone
 tags:

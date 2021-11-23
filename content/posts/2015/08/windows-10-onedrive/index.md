@@ -4,7 +4,6 @@ date: 2015-08-11T00:00:00+00:00
 draft: false
 title: Windows 10のエクスプローラーからOneDriveを抹消する方法
 type: post
-slug: windows-10-onedrive-1983
 categories:
 - Windows
 tags:
@@ -60,7 +59,7 @@ Microsoftが提供するオンラインストレージであるOneDrive、皆様
 
 
 
-    
+
     HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}
 
 

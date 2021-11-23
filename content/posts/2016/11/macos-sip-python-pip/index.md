@@ -4,7 +4,6 @@ date: 2016-11-26T00:00:00+00:00
 draft: false
 title: macOS SierraでPythonのパッケージマネージャー「pip」でインストールできない時の対処法
 type: post
-slug: macos-sip-python-pip-5264
 categories:
 - Mac
 tags:
@@ -53,7 +52,7 @@ macOS SierraでPythonは標準で使用できます。また、「EasyInstall」
 
 
 
-    
+
     sudo easy_install pip
 
 
@@ -65,7 +64,7 @@ macOS SierraでPythonは標準で使用できます。また、「EasyInstall」
 
 
 
-    
+
     Using /usr/local/lib/python2.7/site-packages
     Processing dependencies for pip
     Finished processing dependencies for pip
@@ -79,7 +78,7 @@ macOS SierraでPythonは標準で使用できます。また、「EasyInstall」
 
 
 
-    
+
     pip install linkchecker
 
 
@@ -91,7 +90,7 @@ macOS SierraでPythonは標準で使用できます。また、「EasyInstall」
 
 
 
-    
+
     OSError: [Errno 13] Permission denied: '/Library/Python/2.7/site-packages/requests'
 
 
@@ -103,7 +102,7 @@ macOS SierraでPythonは標準で使用できます。また、「EasyInstall」
 
 
 
-    
+
     sudo pip install linkchecker
 
 
@@ -115,7 +114,7 @@ macOS SierraでPythonは標準で使用できます。また、「EasyInstall」
 
 
 
-    
+
     OSError: [Errno 1] Operation not permitted: '/System/Library/Frameworks/Python.framework/Versions/2.7/share'
 
 
@@ -139,7 +138,7 @@ macOS Sierraで、Pythonを快適に使用するためには、OS標準のPython
 
 
 
-    
+
     brew update
     brew install python
 
@@ -152,7 +151,7 @@ macOS Sierraで、Pythonを快適に使用するためには、OS標準のPython
 
 
 
-    
+
     which python
 
 
@@ -164,7 +163,7 @@ macOS Sierraで、Pythonを快適に使用するためには、OS標準のPython
 
 
 
-    
+
     /usr/local/bin/python
 
 
@@ -176,7 +175,7 @@ macOS Sierraで、Pythonを快適に使用するためには、OS標準のPython
 
 
 
-    
+
     pip install --upgrade pip
 
 
@@ -188,7 +187,7 @@ Homebrewで「Python」をインストールすると、「pip」も合わせて
 
 
 
-    
+
     pip install linkchecker
 
 
@@ -200,7 +199,7 @@ Homebrewで「Python」をインストールすると、「pip」も合わせて
 
 
 
-    
+
     Installing collected packages: linkchecker
     Successfully installed linkchecker-9.3
 
@@ -213,7 +212,7 @@ Homebrewで「Python」をインストールすると、「pip」も合わせて
 
 
 
-    
+
     This program requires Python requests 2.2.0 or later.
 
 
@@ -225,7 +224,7 @@ Homebrewで「Python」をインストールすると、「pip」も合わせて
 
 
 
-    
+
     sudo pip install requests==2.9.2
 
 

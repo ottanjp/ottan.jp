@@ -4,7 +4,6 @@ date: 2015-05-06T00:00:00+00:00
 draft: false
 title: macOS YosemiteとUbuntu 14.04.2 LTSのデュアルブート環境を構築する
 type: post
-slug: os-x-ubuntu-dual-boot-2-1236
 categories:
 - Mac
 tags:
@@ -52,7 +51,7 @@ macOS Yosemiteから、起動ディスクについては論理ボリュームが
 
 次に、`diskutil`コマンドを利用して、論理ボリュームの解除を行います。その際に指定するディスクの番号は、前述の「Macintosh HD」がインストールされているディスクの番号になります。
 
-    $ diskutil cs revert disk1                   
+    $ diskutil cs revert disk1
     Started CoreStorage operation on disk1 Macintosh HD
     Switching partition from Core Storage type to original type
     Reclaiming space formerly used by Core Storage metadata
@@ -221,7 +220,7 @@ Ubuntuのサポート期間には、通常版と長期サポート版（Long Ter
 
 ダウンロードしたら、「アプリケーション」→「ユーティリティ」フォルダーにある「ターミナル」を起動します。`cd`コマンドで、ダウンロードした「rEFInd」フォルダーに移動したら、フォルダーに含まれる「install.sh」を実行します。
 
-    $ ./install.sh 
+    $ ./install.sh
     Not running as root; attempting to elevate privileges via sudo....
     Password:
     ShimSource is none

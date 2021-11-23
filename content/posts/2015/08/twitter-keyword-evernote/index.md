@@ -4,7 +4,6 @@ date: 2015-08-23T00:00:00+00:00
 draft: false
 title: Twitterから気になるキーワードを含むツイートをEvernoteに収集する方法
 type: post
-slug: twitter-keyword-evernote-2200
 categories:
   - Web
 tags:

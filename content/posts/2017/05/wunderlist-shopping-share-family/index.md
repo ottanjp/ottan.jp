@@ -4,7 +4,6 @@ date: 2017-05-17T00:00:00+00:00
 draft: false
 title: Wunderlistの代替となる買い物リストを家族で共有できるアプリ「買うものかご」
 type: post
-slug: wunderlist-shopping-share-family-5844
 categories:
 - iPhone
 tags:

@@ -4,7 +4,6 @@ date: 2016-04-19T00:00:00+00:00
 draft: false
 title: MarsEditのプレビュー画面にWordPressのショートコードをリアルタイムに反映する
 type: post
-slug: marsedit-preview-shortcode-wordpress-6854
 categories:
   - Mac
   - Blog

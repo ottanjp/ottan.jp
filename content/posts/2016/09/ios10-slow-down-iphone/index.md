@@ -4,7 +4,6 @@ date: 2016-09-19T00:00:00+00:00
 draft: false
 title: これでスッキリ！iOS 10でiPhoneの動作が遅いと感じた時に試したいこと
 type: post
-slug: ios10-slow-down-iphone-4964
 categories:
   - iPhone
 tags:

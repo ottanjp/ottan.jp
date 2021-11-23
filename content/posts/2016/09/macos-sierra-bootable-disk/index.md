@@ -4,7 +4,6 @@ date: 2016-09-24T00:00:00+00:00
 draft: false
 title: macOS Sierraの起動可能なインストーラー（USBメモリ）を作成する方法
 type: post
-slug: macos-sierra-bootable-disk-5007
 categories:
 - Mac
 tags:
@@ -112,7 +111,7 @@ macOS Sierraをクリーンインストールしたい、今後のメジャー�
 
 
 
-    
+
     sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/UNTITLED --applicationpath /Applications/Install\ macOS\ Sierra.app --nointeraction
 
 
@@ -124,7 +123,7 @@ macOS Sierraをクリーンインストールしたい、今後のメジャー�
 
 
 
-    
+
     Erasing Disk: 0%... 10%... 20%... 30%...100%...
     Copying installer files to disk...
     Copy complete.

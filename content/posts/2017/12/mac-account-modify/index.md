@@ -4,7 +4,6 @@ date: 2017-12-19T00:00:00+00:00
 draft: false
 title: Macのアカウント名（ユーザ名）やホームディレクトリを変更する方法
 type: post
-slug: mac-account-modify-6465
 categories:
 - Mac
 tags:

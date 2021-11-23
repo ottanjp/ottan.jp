@@ -1,9 +1,8 @@
 ---
 draft: false
 title: Issueを起票したらGitHub ActionsによりIssueの内容がそのまま記事として公開されるようにしてみた
-date: 2021-07-09T11:16:52Z   
+date: 2021-07-09T11:16:52Z
 type: post
-slug: 940598155
 categories: ["Blog"]
 ---
 
@@ -67,12 +66,12 @@ jobs:
            ---
            draft: false
            title: $POST_TITLE
-           date: ${{ github.event.issue.updated_at }}   
+           date: ${{ github.event.issue.updated_at }}
            type: post
            slug: $POST_ID
            category: ["${POST_CATEGORY}"]
            ---
-          
+
            $POST_BODY
            EOF
 

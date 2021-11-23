@@ -4,7 +4,6 @@ date: 2016-02-07T00:00:00+00:00
 draft: false
 title: 1Passwordで複数フィールドにまたがるユーザ情報を保存する方法と注意点
 type: post
-slug: 1password-plurality-of-fields-6833
 categories:
   - Mac
 tags:

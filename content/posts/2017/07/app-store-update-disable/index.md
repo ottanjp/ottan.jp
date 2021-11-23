@@ -4,7 +4,6 @@ date: 2017-07-24T00:00:00+00:00
 draft: false
 title: 特定のアプリのみApp Storeからアップデートしないようにする方法
 type: post
-slug: app-store-update-disable-6084
 categories:
 - iPhone
 tags:

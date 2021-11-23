@@ -4,7 +4,6 @@ date: 2016-08-15T00:00:00+00:00
 draft: false
 title: PopClipの拡張機能をカスタマイズしてみよう！PopClipの拡張機能「HTML Encode」でダブルクオーテションを変換しないようにする
 type: post
-slug: popclip-extensions-htmlencode-customize-4750
 categories:
   - Mac
 tags:

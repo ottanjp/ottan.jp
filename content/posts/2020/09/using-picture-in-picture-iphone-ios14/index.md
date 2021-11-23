@@ -5,7 +5,6 @@ tags:
   - iOS14
 categories:
   - iPhone
-slug: using-Picture-in-Picture-iPhone-iOS14
 katex: false
 ---
 iOS14でピクチャ・イン・ピクチャ機能を使用する方法です。

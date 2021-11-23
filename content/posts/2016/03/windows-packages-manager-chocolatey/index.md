@@ -4,7 +4,6 @@ date: 2016-03-20T00:00:00+00:00
 draft: false
 title: PowerShellが使える環境ならどこでも使用できる、Windows用のパッケージ管理マネージャー「Chocolatey」
 type: post
-slug: windows-packages-manager-chocolatey-6845
 categories:
 - Windows
 tags:
@@ -73,7 +72,7 @@ UAC（User Account Control）が有効になっている場合は、コマンド
 
 
 
-    
+
     @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 
 
@@ -98,7 +97,7 @@ UAC（User Account Control）が有効になっている場合は、コマンド
 
 
 
-    
+
     choco install ccleaner
 
 
@@ -130,7 +129,7 @@ UAC（User Account Control）が有効になっている場合は、コマンド
 
 
 
-    
+
     choco install ccleaner -y
 
 
@@ -186,7 +185,7 @@ UAC（User Account Control）が有効になっている場合は、コマンド
 
 
 
-    
+
     choco uninstall ccleaner
 
 
@@ -224,7 +223,7 @@ UAC（User Account Control）が有効になっている場合は、コマンド
 
 
 
-    
+
     choco install chocolateygui
 
 

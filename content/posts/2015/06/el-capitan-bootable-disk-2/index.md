@@ -4,7 +4,6 @@ date: 2015-06-12T00:00:00+00:00
 draft: false
 title: macOS 10.11 El Capitan（β版）の起動ディスク（USBメモリ）を作成する方法
 type: post
-slug: el-capitan-bootable-disk-2-1681
 categories:
 - Mac
 tags:
@@ -114,7 +113,7 @@ https://developer.apple.com/osx/download/
 
 
 
-    
+
     sudo /Applications/Install\ OS\ X\ 10.11\ Developer\ Beta.app/Contents/Resources/createinstallmedia --volume /Volumes/XXXXX --applicationpath /Applications/Install\ OS\ X\ 10.11\ Developer\ Beta.app --nointeraction
 
 
@@ -126,7 +125,7 @@ https://developer.apple.com/osx/download/
 
 
 
-    
+
     Erasing Disk: 0%... 10%... 20%... 30%...100%...
     Copying installer files to disk...
     Copy complete.

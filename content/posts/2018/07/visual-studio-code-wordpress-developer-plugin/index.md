@@ -4,7 +4,6 @@ date: 2018-07-22T00:00:00+00:00
 draft: false
 title: 【随時更新】VS CodeでWordPressのテーマやプラグインを開発するために導入したいオススメの拡張機能
 type: post
-slug: visual-studio-code-wordpress-developer-plugin-6870
 categories:
 - Blog
 tags:
@@ -86,7 +85,7 @@ Atomや、Sublime Textと何が違うの？という疑問点に対して、IDE�
 
 
 
-    
+
     {
       "php.suggest.basic": false
     }
@@ -130,7 +129,7 @@ PHP_CodeSniffer（コーディング規約に反するコードを自動的に�
 
 
 
-    
+
     composer global require squizlabs/php_codesniffer
 
 
@@ -142,9 +141,9 @@ PHP_CodeSniffer単体では、WordPressが推奨するWordPress Coding Standard�
 
 
 
-    
+
     git clone git@github.com:WordPress-Coding-Standards/WordPress-Coding-Standards.git \
-    ~/.composer/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/WordPress 
+    ~/.composer/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/WordPress
 
 
 
@@ -155,7 +154,7 @@ PHP_CodeSniffer単体では、WordPressが推奨するWordPress Coding Standard�
 
 
 
-    
+
     phpcs --config-set installed_paths ~/.composer/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/WordPress
 
 
@@ -167,7 +166,7 @@ PHP_CodeSniffer単体では、WordPressが推奨するWordPress Coding Standard�
 
 
 
-    
+
     phpcs -i
 
 
@@ -179,7 +178,7 @@ PHP_CodeSniffer単体では、WordPressが推奨するWordPress Coding Standard�
 
 
 
-    
+
     {
       "phpcs.standard": "WordPress"
     }
@@ -211,7 +210,7 @@ PHP_CodeSnifferはコーディング規約を統一するという意味では�
 
 
 
-    
+
     add_action(
       'wp_head', function () {
         echo '<link rel="shortcut icon" href="' . get_stylesheet_directory_uri() . '/favicon.ico"/>';
@@ -227,7 +226,7 @@ PHP_CodeSnifferはコーディング規約を統一するという意味では�
 
 
 
-    
+
     All output should be run through an escaping function (see the Security sections in the WordPress Developer Handbooks), found 'get_stylesheet_directory_uri'.
 
 
@@ -257,7 +256,7 @@ PHP版のJavaDocのための、コメント自動生成のための拡張機能�
 
 
 
-    
+
     function hoge( $a, $b ) {
       return $a + $b;
     }
@@ -271,7 +270,7 @@ PHP版のJavaDocのための、コメント自動生成のための拡張機能�
 
 
 
-    
+
     /**
      * Undocumented function
      *
@@ -279,7 +278,7 @@ PHP版のJavaDocのための、コメント自動生成のための拡張機能�
      * @param [type] $b
      * @return void
      */
-    
+
 
 
 
@@ -302,7 +301,7 @@ PHP版のJavaDocのための、コメント自動生成のための拡張機能�
 
 
 
-    
+
     {
       "trailing-spaces.trimOnSave": true
     }

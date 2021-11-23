@@ -4,7 +4,6 @@ date: 2017-06-01T00:00:00+00:00
 draft: false
 title: VMware FusionにmacOS Sierraのβ版テスト環境を整える
 type: post
-slug: virtual-machine-sierra-vmware-5922
 categories:
 - Mac
 tags:

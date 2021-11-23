@@ -4,7 +4,6 @@ date: 2015-08-11T00:00:00+00:00
 draft: false
 title: ローカルアカウントのまま、Microsoftアカウントに切り替えることなくWindowsストアからアプリケーションを入手する方法
 type: post
-slug: windows-store-account-1972
 categories:
 - Windows
 tags:
@@ -18,7 +17,7 @@ tags:
 
 
 
-Windows 8から、WindowsのアカウントはMicrosoftアカウント（outlook.com）に統合されましたが、[Windows 10で高まるプライバシーへの懸念 | スラド YRO](http://yro.srad.jp/story/15/07/31/2256247/)のように、プライバシー等の理由でMicrosoftアカウントを使用したくない場合は、引き続きローカルアカウントを使用することもできます。 
+Windows 8から、WindowsのアカウントはMicrosoftアカウント（outlook.com）に統合されましたが、[Windows 10で高まるプライバシーへの懸念 | スラド YRO](http://yro.srad.jp/story/15/07/31/2256247/)のように、プライバシー等の理由でMicrosoftアカウントを使用したくない場合は、引き続きローカルアカウントを使用することもできます。
 
 
 

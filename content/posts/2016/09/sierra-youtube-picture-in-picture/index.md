@@ -4,7 +4,6 @@ date: 2016-09-22T00:00:00+00:00
 draft: false
 title: macOS SierraでYouTubeを「ピクチャ・イン・ピクチャ」で再生する方法
 type: post
-slug: sierra-youtube-picture-in-picture-4998
 categories:
 - Mac
 tags:

@@ -4,7 +4,6 @@ date: 2016-11-04T00:00:00+00:00
 draft: false
 title: Macの標準の日本語入力による変換はファンクションキーよりショートカットキーの方が便利
 type: post
-slug: mac-japanese-ime-shortcut-5185
 categories:
 - Mac
 tags:

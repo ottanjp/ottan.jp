@@ -7,7 +7,6 @@ tags:
   - Netlify
 categories:
   - Blog
-slug: netlify-functions-hugo-site-search
 katex: false
 ---
 静的サイトの悩みの種、サイト内検索をNetlify Functions＋Hugoで実装してみました。ポイントは、以下の通りです。

@@ -4,7 +4,6 @@ date: 2016-07-24T00:00:00+00:00
 draft: false
 title: VMware Fusionで作成したWindows 10 Professionalの仮想マシンでHyper-Vを有効化する方法
 type: post
-slug: vmware-fusion-Windows 10-hyper-v-4689
 categories:
 - Mac
 - Windows

@@ -4,7 +4,6 @@ date: 2016-10-08T00:00:00+00:00
 draft: false
 title: ファイラーとしても優秀なSFTP/FTPクライアント「」を使用してXSERVERにSFTPで接続する方法
 type: post
-slug: -sftp-xserver-5068
 categories:
 - Mac
 tags:
@@ -74,7 +73,7 @@ Macで秘密鍵、公開鍵のペアを作成するためには、「ターミ�
 
 
 
-    
+
     ssh-keygen
 
 
@@ -86,11 +85,11 @@ Macで秘密鍵、公開鍵のペアを作成するためには、「ターミ�
 
 
 
-    
+
     Generating public/private rsa key pair.
-    Enter file in which to save the key (/Users/ottan/.ssh/id_rsa): 
-    Enter passphrase (empty for no passphrase): 
-    Enter same passphrase again: 
+    Enter file in which to save the key (/Users/ottan/.ssh/id_rsa):
+    Enter passphrase (empty for no passphrase):
+    Enter same passphrase again:
     Your identification has been saved in /Users/ottan/.ssh/id_rsa.
     Your public key has been saved in /Users/ottan/.ssh/id_rsa.pub.
     The key's randomart image is:
@@ -116,7 +115,7 @@ Macで秘密鍵、公開鍵のペアを作成するためには、「ターミ�
 
 
 
-    
+
     cat ~/.ssh/id_rsa.pub
 
 

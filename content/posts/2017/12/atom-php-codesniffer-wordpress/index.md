@@ -4,7 +4,6 @@ date: 2017-12-24T00:00:00+00:00
 draft: false
 title: AtomとPHP_CodeSnifferでWordPressコーディング規約に合わせてソースコードを自動修正
 type: post
-slug: atom-php-codesniffer-wordpress-6470
 categories:
 - Blog
 tags:

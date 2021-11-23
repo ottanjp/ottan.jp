@@ -4,7 +4,6 @@ date: 2015-09-06T00:00:00+00:00
 draft: false
 title: 徹底的にFlash Playerプラグインを無効化・アンインストールする方法
 type: post
-slug: flash-player-inactive-uninstall-2388
 categories:
 - Mac
 tags:
@@ -155,7 +154,7 @@ Internet ExplorerでFlash Playerを停止するためには、「設定」→「
 
 
 
-    
+
     gpedit.msc
 
 
@@ -200,7 +199,7 @@ Internet ExplorerでFlash Playerを停止するためには、「設定」→「
 
 
 
-    
+
     gpupdate /force
 
 
@@ -253,13 +252,13 @@ https://helpx.adobe.com/jp/flash-player/kb/230810.html
 
 
 
-    
+
     sudo apt-get remove flashplugin-installer
 
 
 
 
-    
+
     sudo update-pepperflashplugin-nonfree --uninstall
 
 

@@ -4,7 +4,6 @@ date: 2014-09-24T00:00:00+00:00
 draft: false
 title: MacのGoogle Chrome上でAndroidアプリを動作させる方法
 type: post
-slug: mac-google-chrome-android-596
 categories:
 - Android
 - Mac

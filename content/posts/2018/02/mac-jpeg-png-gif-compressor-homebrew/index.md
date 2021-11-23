@@ -4,7 +4,6 @@ date: 2018-02-25T00:00:00+00:00
 draft: false
 title: MacでJPEG、PNG、GIFを高速に圧縮できるHomebrewからインストール可能なCUIユーティリティ
 type: post
-slug: mac-jpeg-png-gif-compressor-homebrew-6652
 categories:
   - Mac
 tags:

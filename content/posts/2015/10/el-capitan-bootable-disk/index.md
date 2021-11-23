@@ -4,7 +4,6 @@ date: 2015-10-01T00:00:00+00:00
 draft: false
 title: macOS 10.11 El Capitanの起動ディスクを作成する方法
 type: post
-slug: el-capitan-bootable-disk-2679
 categories:
 - Mac
 tags:
@@ -89,7 +88,7 @@ Mac App Storeからの配布はすでに中止されているため、起動デ�
 
 
 
-    
+
     $ sudo /Applications/Install\ OS\ X\ El\ Capitan.app/Contents/Resources/createinstallmedia --volume /Volumes/UNTITLED/ --applicationpath /Applications/Install\ OS\ X\ El\ Capitan.app --nointeraction
 
 
@@ -101,7 +100,7 @@ Mac App Storeからの配布はすでに中止されているため、起動デ�
 
 
 
-    
+
     Erasing Disk: 0%... 10%... 20%... 30%...100%...
     Copying installer files to disk...
     Copy complete.

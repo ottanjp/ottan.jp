@@ -6,7 +6,6 @@ tags:
   - Tips
 categories:
   - Mac
-slug: delete-mac-app-cache
 katex: false
 ---
 アプリケーションの一時ファイルが残存し続けることで、不具合を起こすことがあります。また、アプリケーションの設定を初期化したい場合があります。このような場合には、[AppCleaner](https://freemacsoft.net/appcleaner/)を利用します。

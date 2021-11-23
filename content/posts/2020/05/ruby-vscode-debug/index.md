@@ -7,7 +7,6 @@ tags:
   - VS Code
 categories:
   - Mac
-slug: ruby-vscode-debug
 ---
 VS Codeで、Rubyで書かれたプログラムをデバッグする方法です。単一のRubyファイルをデバッグするためのものであり、RSpec、およびRuby on Railsなどのフレームワークを用いたプログラムは対象外です。
 

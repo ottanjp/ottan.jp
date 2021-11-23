@@ -4,7 +4,6 @@ date: 2017-11-22T00:00:00+00:00
 draft: false
 title: AlfredのWorkflowを使用して、WordPressプラグイン「WP-Appbox」でApp Storeのアプリの紹介を便利にする
 type: post
-slug: wp-appbox-wordpress-plugin-alfred-workflow-6311
 categories:
 - Mac
 - Blog
@@ -84,7 +83,7 @@ $json = $w->request( $url );
 $json = json_decode($json, true);
 foreach ($json['results'] as $app) {
 	$w->result( time(), $app['trackId'], $app['trackName'], $app['sellerName'], $icon );
-} 
+}
 
 echo $w->toxml();
 ```

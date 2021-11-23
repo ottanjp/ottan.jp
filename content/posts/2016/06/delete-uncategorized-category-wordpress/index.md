@@ -4,7 +4,6 @@ date: 2016-06-11T00:00:00+00:00
 draft: false
 title: WordPressのデフォルトカテゴリーである「未分類」を削除する
 type: post
-slug: delete-uncategorized-category-wordpress-4434
 categories:
 - Blog
 tags:

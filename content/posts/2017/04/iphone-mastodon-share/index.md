@@ -4,7 +4,6 @@ date: 2017-04-26T00:00:00+00:00
 draft: false
 title: iPhoneの任意のアプリからMastodonにシェアする方法
 type: post
-slug: iphone-mastodon-share-5702
 categories:
 - iPhone
 tags:

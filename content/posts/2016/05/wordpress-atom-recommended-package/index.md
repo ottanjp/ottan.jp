@@ -4,7 +4,6 @@ date: 2016-05-28T00:00:00+00:00
 draft: false
 title: WordPressのテーマやプラグイン開発のためにAtomに導入したパッケージ（2016年版）
 type: post
-slug: wordpress-atom-recommended-package-4369
 categories:
   - Mac
   - Windows

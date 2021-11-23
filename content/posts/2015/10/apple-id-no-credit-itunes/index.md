@@ -4,7 +4,6 @@ date: 2015-10-15T00:00:00+00:00
 draft: false
 title: 請求情報（クレジットカード）無しでApple IDを新規作成する方法（iTunes編）
 type: post
-slug: apple-id-no-credit-itunes-6810
 categories:
 - iPhone
 - Mac

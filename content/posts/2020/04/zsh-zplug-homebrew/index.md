@@ -8,7 +8,6 @@ tags:
   - Homebrew
 categories:
   - Mac
-slug: zsh-zplug-homebrew
 katex: false
 ---
 zplugは、zshのプラグインマネージャ、preztoは軽量なフレームワークです。zplug以外に、zinitなどがありますが、乗り換えるのが面倒であるため、現在はzplugで落ち着いています。また、下記の使い方であれば、preztoを入れる必要性をそこまで感じませんが、preztoに同梱されているモジュールが便利なのでそのまま使用しています。

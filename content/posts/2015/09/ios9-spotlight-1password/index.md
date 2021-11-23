@@ -4,7 +4,6 @@ date: 2015-09-17T00:00:00+00:00
 draft: false
 title: 1PasswordがSpotlight検索に対応し、より便利に進化！
 type: post
-slug: ios9-spotlight-1password-2513
 categories:
   - iPhone
 tags:

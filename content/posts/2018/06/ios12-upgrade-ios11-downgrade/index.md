@@ -4,7 +4,6 @@ date: 2018-06-10T00:00:00+00:00
 draft: false
 title: iOS 12のDeveloper Beta（開発者向けベータ版）をインストールする方法、iOS 11に復元する方法
 type: post
-slug: ios12-upgrade-ios11-downgrade-6777
 categories:
   - iPhone
 tags:

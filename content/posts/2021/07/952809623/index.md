@@ -1,9 +1,8 @@
 ---
 draft: false
 title: iPad + Magic Keyboardでトラックパッドを快適に使うための設定とジェスチャーのコツ
-date: 2021-07-28T07:24:41Z   
+date: 2021-07-28T07:24:41Z
 type: post
-slug: 952809623
 categories: ["iPhone"]
 ---
 iPad Air（第四世代）＋ Apple Pencil 2 + Magic Keyboardを購入しました。今回は特にMagic Keyboardのトラックパッドを使う上で、これは抑えておいたほうが良いだろうという設定と、便利だけれど意外とクセのあるジェスチャーとそのコツについて書きたいと思います。

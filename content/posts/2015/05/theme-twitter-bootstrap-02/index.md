@@ -4,7 +4,6 @@ date: 2015-05-23T00:00:00+00:00
 draft: false
 title: Twitter Bootstrap 3を用いてWordPressテーマを作成しよう②
 type: post
-slug: theme-twitter-bootstrap-02-1456
 categories:
 - Blog
 tags:
@@ -127,7 +126,7 @@ tags:
 <?php endwhile; ?>
 <?php else : ?>
 <div>投稿が見つかりませんでした。</div>
-<?php endif; ?> 
+<?php endif; ?>
 </div>
 ```
 

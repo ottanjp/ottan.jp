@@ -4,7 +4,6 @@ date: 2015-09-12T00:00:00+00:00
 draft: false
 title: macOSをクリーンインストールした後に行う初期設定のまとめ
 type: post
-slug: os-x-clean-install-settings-2441
 categories:
   - Mac
 tags:

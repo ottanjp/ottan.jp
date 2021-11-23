@@ -4,7 +4,6 @@ date: 2018-01-27T00:00:00+00:00
 draft: false
 title: WordPressの親テーマの「header.php」を変更せずに子テーマにFaviconを追加する方法
 type: post
-slug: wordpress-parent-child-theme-favicon-header-6573
 categories:
 - Blog
 tags:

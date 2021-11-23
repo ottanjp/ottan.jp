@@ -4,7 +4,6 @@ date: 2015-09-02T00:00:00+00:00
 draft: false
 title: いくつ知ってる？Google検索の意外な使い道17選
 type: post
-slug: how-to-google-search-2330
 categories:
 - Android
 - iPhone

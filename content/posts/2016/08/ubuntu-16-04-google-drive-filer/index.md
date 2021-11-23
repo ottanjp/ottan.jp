@@ -4,7 +4,6 @@ date: 2016-08-07T00:00:00+00:00
 draft: false
 title: Ubuntu 16.04の標準ファイラーで「Google Drive」にアクセスする方法
 type: post
-slug: ubuntu-16-04-google-drive-filer-4725
 categories:
   - Mac
 tags:

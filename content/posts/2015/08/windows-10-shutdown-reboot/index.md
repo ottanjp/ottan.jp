@@ -4,7 +4,6 @@ date: 2015-08-11T00:00:00+00:00
 draft: false
 title: Windows 10のシャットダウン、再起動が遅い時の対処法
 type: post
-slug: windows-10-shutdown-reboot-1996
 categories:
 - Windows
 tags:
@@ -60,7 +59,7 @@ Windows 10の再起動、シャットダウンが遅いと感じたことはあ�
 
 
 
-    
+
     HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control
 
 
@@ -117,7 +116,7 @@ Windows 10の再起動、シャットダウンが遅いと感じたことはあ�
 
 
 
-    
+
     HKEY_CURRENT_USER\Control Panel\Desktop
 
 

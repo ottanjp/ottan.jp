@@ -4,7 +4,6 @@ date: 2015-08-26T00:00:00+00:00
 draft: false
 title: MacBook Air、MacBook Pro、MacBookのバッテリーを節約する方法
 type: post
-slug: macbook-battery-2217
 categories:
 - Mac
 tags:

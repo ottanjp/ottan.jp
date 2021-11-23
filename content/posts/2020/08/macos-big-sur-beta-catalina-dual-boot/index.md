@@ -7,7 +7,6 @@ tags:
   - Big Sur
 categories:
   - Mac
-slug: macos-big-sur-beta-catalina-dual-boot
 katex: false
 ---
 macOS CatalinaとBig Sur（パブリックベータ）のデュアルブート環境を構築してみました。また、Time Machine等でCatalinaの環境を復元するのがめんどうなので、CatalinaとBig SurをインストールするAPFSコンテナを分割し、新規インストールしました。

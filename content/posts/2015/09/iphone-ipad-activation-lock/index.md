@@ -4,7 +4,6 @@ date: 2015-09-05T00:00:00+00:00
 draft: false
 title: iPhoneやiPadを売買する前にアクティベーションロックがオフになっていることを確認する方法
 type: post
-slug: iphone-ipad-activation-lock-2365
 categories:
 - iPhone
 tags:
@@ -60,7 +59,7 @@ https://www.icloud.com/activationlock/
 iPhoneやiPadの「シリアル番号」または「IMEI」を入力し、画面に表示されている英数字を入力したら、「次に進む」をクリックします。
 
 
- 
+
 
 
 ![](150905-55ea7da5f02d2.png)

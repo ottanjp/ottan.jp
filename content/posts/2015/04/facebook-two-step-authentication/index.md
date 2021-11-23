@@ -4,7 +4,6 @@ date: 2015-04-14T00:00:00+00:00
 draft: false
 title: Facebookアカウントの2段階認証を有効にする方法
 type: post
-slug: facebook-two-step-authentication-934
 categories:
 - Web
 tags:
@@ -124,4 +123,3 @@ Facebook独自のコードジェネレーターを利用する方法もありま
 
 
 ![](150408-5524ecf223c92.png)
-

@@ -4,7 +4,6 @@ date: 2014-09-13T00:00:00+00:00
 draft: false
 title: はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう
 type: post
-slug: gulp-css-sass-268
 categories:
 - Mac
 tags:

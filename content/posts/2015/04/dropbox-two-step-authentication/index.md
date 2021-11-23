@@ -4,7 +4,6 @@ date: 2015-04-10T00:00:00+00:00
 draft: false
 title: Dropboxアカウントの2段階認証を有効にする方法
 type: post
-slug: dropbox-two-step-authentication-929
 categories:
 - Web
 tags:
@@ -279,4 +278,3 @@ QRコードを正常に読み込めたら、Dropboxアカウントにログイ�
 
 
 ![](150406-55224f92e3901.png)
-

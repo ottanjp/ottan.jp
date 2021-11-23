@@ -4,7 +4,6 @@ date: 2016-08-10T00:00:00+00:00
 draft: false
 title: WordPressの本文に紹介したいサイトのURLを貼り付けるだけで、おしゃれなリンクを生成できるようにする
 type: post
-slug: embed-wordpress-4735
 categories:
   - Blog
 tags:

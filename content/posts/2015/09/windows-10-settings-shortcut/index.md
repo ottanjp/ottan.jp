@@ -4,7 +4,6 @@ date: 2015-09-02T00:00:00+00:00
 draft: false
 title: Windows 10のデスクトップにWindows Updateなどのショートカットを作成する方法
 type: post
-slug: windows-10-settings-shortcut-2306
 categories:
 - Windows
 tags:
@@ -53,7 +52,7 @@ Windowsキー + Rを押して、「ファイル名を指定して実行」を開
 
 
 
-    
+
     ms-settings:windowsupdate
 
 
@@ -104,7 +103,7 @@ Windowsキー + Rを押して、「ファイル名を指定して実行」を開
 
 
 
-    
+
     ms-settings:windowsupdate
 
 

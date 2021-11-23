@@ -8,7 +8,6 @@ tags:
   - Python
 categories:
   - Mac
-slug: datascience-environment-docker
 ---
 Docker使いましょう。
 

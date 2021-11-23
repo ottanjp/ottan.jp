@@ -4,7 +4,6 @@ date: 2015-05-23T00:00:00+00:00
 draft: false
 title: Twitter Bootstrap 3を用いてWordPressテーマを作成しよう③
 type: post
-slug: theme-twitter-bootstrap-03-1473
 categories:
   - Blog
 tags:

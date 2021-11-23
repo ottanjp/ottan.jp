@@ -4,7 +4,6 @@ date: 2016-11-04T00:00:00+00:00
 draft: false
 title: Pocketの「イラッ」を解消！すべての機能が無料化された「Instapaper」を使おう！
 type: post
-slug: pocket-to-instapaper-5181
 categories:
 - iPhone
 - Mac

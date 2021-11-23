@@ -4,7 +4,6 @@ date: 2015-12-27T00:00:00+00:00
 draft: false
 title: Windows 10 HomeからProfessionalにエディションを変更する方法
 type: post
-slug: Windows 10-home-to-pro-6823
 categories:
 - Windows
 tags:

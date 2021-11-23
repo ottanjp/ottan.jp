@@ -4,7 +4,6 @@ date: 2016-07-25T00:00:00+00:00
 draft: false
 title: Finderの表示オプションの「デフォルトとして使用」がデフォルトにならない時の対処法
 type: post
-slug: finder-view-options-default-4699
 categories:
 - Mac
 tags:
@@ -136,7 +135,7 @@ Finderには、表示オプションと呼ばれる項目があります。文�
 
 
 
-    
+
     $ sudo find / -name ".DS_Store" -exec rm {} \;
     $ killall Finder
 

@@ -4,7 +4,6 @@ date: 2016-08-17T00:00:00+00:00
 draft: false
 title: iPhoneでGmailをプッシュ通知！すべてのメールアドレスをGmailに転送し、Gmailからすべて送受信する方法
 type: post
-slug: phone-gmail-push-inbox-4770
 categories:
 - iPhone
 tags:

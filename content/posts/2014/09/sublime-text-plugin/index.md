@@ -4,7 +4,6 @@ date: 2014-09-15T00:00:00+00:00
 draft: false
 title: Sublime Textに導入しているオススメのプラグイン23選
 type: post
-slug: sublime-text-plugin-321
 categories:
 - Mac
 tags:
@@ -442,7 +441,7 @@ JavaScriptのシンタックスチェッカー。
 
 
 
-    
+
     $ sudo npm install -g jshint
 
 
@@ -478,7 +477,7 @@ CSSのシンタックスチェッカー。
 
 
 
-    
+
     $ sudo npm install -g csslint
 
 
@@ -515,7 +514,7 @@ SCSSのシンタックスチェッカー。
 
 
 
-    
+
     $ sudo gem install scss-lint
 
 
@@ -545,7 +544,7 @@ PHPのシンタックスチェッカー。
 
 
 
-    
+
     $ sudo npm install -g phplint
 
 

@@ -4,7 +4,6 @@ date: 2016-06-26T00:00:00+00:00
 draft: false
 title: 定期的にHomebrewをバックグラウンドで自動的にupdate/upgradeする
 type: post
-slug: homebrew-launchd-update-upgrade-4527
 categories:
   - Mac
 tags:

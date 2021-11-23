@@ -5,7 +5,6 @@ tags:
   - iOS14
 categories:
   - iPhone
-slug: How to get rid of Memoji sticker from emoji keyboard iOS14
 katex: false
 ---
 iOS14では、絵文字キーボードから「ミー文字ステッカー」を表示しないようにできるようになりました。

@@ -4,7 +4,6 @@ date: 2015-07-14T00:00:00+00:00
 draft: false
 title: Apple Musicの任意の曲をMy Musicに追加し、アラームのサウンドに設定する方法
 type: post
-slug: apple-music-alarm-1811
 categories:
 - iPhone
 tags:

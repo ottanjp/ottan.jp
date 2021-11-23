@@ -4,7 +4,6 @@ date: 2017-03-30T00:00:00+00:00
 draft: false
 title: iPhoneでGmailアプリを使用するなら導入しておきたい、iCloudとGoogleコンタクトの連絡先を同期する『Contacts Sync』
 type: post
-slug: google-contacts-icloud-sync-5602
 categories:
 - iPhone
 tags:

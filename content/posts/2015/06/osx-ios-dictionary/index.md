@@ -4,7 +4,6 @@ date: 2015-06-20T00:00:00+00:00
 draft: false
 title: macOSとiOSでユーザ辞書が同期されない場合の対処法
 type: post
-slug: osx-ios-dictionary-1734
 categories:
 - iPhone
 - Mac
@@ -98,7 +97,7 @@ Macで、「アプリケーション」→「ユーティリティ」→「タ�
 
 
 
-    
+
     $ cd ~/Library/Mobile\ Documents/com\~apple\~TextInput/
     $ mv Dictionaries Dictionaries_bak
 
@@ -117,7 +116,7 @@ Macで、「アプリケーション」→「ユーティリティ」→「タ�
 
 
 
-    
+
     $ cd ~/Library/Mobile\ Documents/com\~apple\~TextInput/
     $ mv Dictionaries_bak Dictionaries
 

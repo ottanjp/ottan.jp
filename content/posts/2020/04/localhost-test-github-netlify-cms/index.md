@@ -7,7 +7,6 @@ tags:
 categories:
   - Blog
   - Mac
-slug: localhost-test-github-netlify-cms
 ---
 Hugoを使用している場合、`hugo server`を実行している状態で、ブラウザから以下のURLへアクセスします。Hugoのみならず、他のNetlify CMSがサポートする静的サイトジェネレータでも同様です。
 

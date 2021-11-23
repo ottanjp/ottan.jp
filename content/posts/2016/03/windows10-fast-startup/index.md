@@ -4,7 +4,6 @@ date: 2016-03-27T00:00:00+00:00
 draft: false
 title: Windows 10の起動を高速化する方法
 type: post
-slug: Windows 10-fast-startup-6847
 categories:
 - Windows
 tags:
@@ -138,7 +137,7 @@ UAC（User Account Control）が有効になっている場合は、管理者と
 
 
 
-    
+
     powercfg /h on
 
 

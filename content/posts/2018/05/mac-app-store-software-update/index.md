@@ -4,7 +4,6 @@ date: 2018-05-31T00:00:00+00:00
 draft: false
 title: Mac App Storeでアプリのアップデートが終わらないイライラを解消する方法
 type: post
-slug: mac-app-store-software-update-6750
 categories:
   - Mac
 ---

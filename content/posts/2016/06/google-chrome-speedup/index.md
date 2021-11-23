@@ -4,7 +4,6 @@ date: 2016-06-25T00:00:00+00:00
 draft: false
 title: Google Chromeを高速化する6つのテクニック
 type: post
-slug: google-chrome-speedup-4519
 categories:
   - Mac
   - Windows

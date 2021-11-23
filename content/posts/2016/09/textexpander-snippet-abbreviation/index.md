@@ -4,7 +4,6 @@ date: 2016-09-04T00:00:00+00:00
 draft: false
 title: TextExpanderで思うようにスニペットが展開されない場合に見直すべき項目
 type: post
-slug: textexpander-snippet-abbreviation-4886
 categories:
 - Mac
 tags:
@@ -38,7 +37,7 @@ https://textexpander.com
 
 
 
-    
+
     .kbd+.kbd
 
 

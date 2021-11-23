@@ -4,7 +4,6 @@ date: 2016-04-02T00:00:00+00:00
 draft: false
 title: VMware Fusion 8にRed Hat Enterprise Linux Server 7をインストールする
 type: post
-slug: vmware-fusion-8-rhel7-6848
 categories:
 - Mac
 tags:
@@ -695,7 +694,7 @@ GoogleやMicrosoftアカウントと連携することで、メールやカレ�
 
 
 
-    
+
     $ su -
 
 
@@ -714,7 +713,7 @@ GoogleやMicrosoftアカウントと連携することで、メールやカレ�
 
 
 
-    
+
     # subscription-manager repos --list-enabled
 
 
@@ -733,7 +732,7 @@ GoogleやMicrosoftアカウントと連携することで、メールやカレ�
 
 
 
-    
+
     #yum -y update
 
 

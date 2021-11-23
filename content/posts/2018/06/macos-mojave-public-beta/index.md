@@ -4,7 +4,6 @@ date: 2018-06-30T00:00:00+00:00
 draft: false
 title: macOS Mojaveのパブリックベータ版をインストールする方法
 type: post
-slug: macos-mojave-public-beta-6868
 categories:
   - Mac
 tags:

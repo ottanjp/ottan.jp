@@ -4,7 +4,6 @@ date: 2015-06-26T00:00:00+00:00
 draft: false
 title: 外出先からメールを送って自宅のMacをスリープさせる方法
 type: post
-slug: mail-sleep-1747
 categories:
 - Mac
 tags:

@@ -4,7 +4,6 @@ date: 2016-06-19T00:00:00+00:00
 draft: false
 title: Remix OSをResident modeでVMware Fusionにインストールし、Google Playストアを使用できるようにする
 type: post
-slug: remix-os-resident-mode-install-vmware-fusion-4492
 categories:
   - Android
   - Mac

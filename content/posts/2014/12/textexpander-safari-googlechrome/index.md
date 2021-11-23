@@ -4,7 +4,6 @@ date: 2014-12-03T00:00:00+00:00
 draft: false
 title: ブログ執筆時に便利！TextExpanderでSafari、Google ChromeからURL、タイトルを瞬時に取得する方法
 type: post
-slug: textexpander-safari-googlechrome-730
 categories:
 - Mac
 tags:
@@ -61,7 +60,7 @@ Google Chromeの場合は、下記の通りとなります。
 
 
 
-    
+
     tell application "Google Chrome"
       set pageURI to get URL of active tab of window 1
     end tell
@@ -82,12 +81,12 @@ Google Chromeの場合は、下記の通りとなります。
 
 
 
-    
+
     tell application "Google Chrome"
       set pageURI to get URL of active tab of window 1
       set the clipboard to pageURI
     end tell
-    
+
 
 
 
@@ -104,7 +103,7 @@ Safariの場合は、下記の通りとなります。Google Chromeと一部異�
 
 
 
-    
+
     tell application "Safari"
       set pageURI to get URL of current tab of window 1
     end tell
@@ -118,12 +117,12 @@ Safariの場合は、下記の通りとなります。Google Chromeと一部異�
 
 
 
-    
+
     tell application "Safari"
       set pageURI to get URL of current tab of window 1
       set the clipboard to pageURI
     end tell
-    
+
 
 
 
@@ -159,7 +158,7 @@ Google Chromeの場合は、下記の通りとなります。
 
 
 
-    
+
     tell application "Google Chrome"
       set pageTitle to get title of active tab of window 1
     end tell
@@ -180,7 +179,7 @@ Google Chromeの場合は、下記の通りとなります。
 
 
 
-    
+
     tell application "Google Chrome"
       set pageTitle to get title of active tab of window 1
       set the clipboard to pageTitle
@@ -201,7 +200,7 @@ Safariの場合は、下記の通りとなります。URLの場合と同様に�
 
 
 
-    
+
     tell application "Safari"
       set pageTitle to get name of current tab of window 1
     end tell
@@ -216,7 +215,7 @@ Safariの場合は、下記の通りとなります。URLの場合と同様に�
 
 
 
-    
+
     tell application "Safari"
       set pageTitle to get name of current tab of window 1
       set the clipboard to pageTitle
@@ -250,7 +249,7 @@ Safariの場合は、下記の通りとなります。URLの場合と同様に�
 
 
 
-    
+
     %snippet:getTitleFromBrowser%</a>
 
 

@@ -8,7 +8,6 @@ tags:
   - KaTeX
 categories:
   - Blog
-slug: support-netlify-cms-katex
 katex: true
 ---
 [HugoのMarkdownで数式組版ライブラリであるKaTeXをサポートする](/posts/2020/05/support-hugo-katex/)で、Hugoに\\(KaTeX\\)を組み込みました。\\(KaTeX\\)は、MathJaxより高速にレンダリングできる、ブラウザで動作する数式組版ライブラリです。

@@ -4,7 +4,6 @@ date: 2015-08-14T00:00:00+00:00
 draft: false
 title: Windows 10でiTunesにiPhoneが認識されない問題の対処法
 type: post
-slug: windows-10-itunes-iphone-2042
 categories:
 - iPhone
 - Windows
@@ -196,7 +195,7 @@ iPhoneを接続した状態で以下の作業を実施します。コントロ�
 
 
 
-**「このデバイスのドライバーソフトウェアを削除する」のチェックを外し**、「OK」ボタンをクリックします。 
+**「このデバイスのドライバーソフトウェアを削除する」のチェックを外し**、「OK」ボタンをクリックします。
 
 
 
@@ -259,7 +258,7 @@ iPhoneを接続した状態で、「Apple iPhone」というデバイスを探�
 
 
 
-    
+
     C:\Program Files\Common Files\Apple\Mobile Device Support\Drivers
 
 

@@ -4,7 +4,6 @@ date: 2017-03-05T00:00:00+00:00
 draft: false
 title: iTunes Match（iCloudミュージックライブラリ）を解約する方法とその注意点
 type: post
-slug: itunes-match-icloud-music-library-5570
 categories:
   - iPhone
   - Mac

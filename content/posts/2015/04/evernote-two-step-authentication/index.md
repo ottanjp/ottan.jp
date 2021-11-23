@@ -4,7 +4,6 @@ date: 2015-04-08T00:00:00+00:00
 draft: false
 title: Evernoteアカウントの2段階認証を有効にする方法
 type: post
-slug: evernote-two-step-authentication-909
 categories:
 - Web
 tags:
@@ -241,4 +240,3 @@ Evernoteの場合、プレミアム会員以外の一般会員は、ワンタイ
 
 
 ![](150406-55224aa11195b.png)
-

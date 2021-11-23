@@ -4,7 +4,6 @@ date: 2016-01-15T00:00:00+00:00
 draft: false
 title: VirtualBoxにRemix OS 2.0をインストールする方法
 type: post
-slug: virtualbox-remixos-6826
 categories:
   - Android
   - Mac

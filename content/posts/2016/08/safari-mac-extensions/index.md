@@ -4,7 +4,6 @@ date: 2016-08-14T00:00:00+00:00
 draft: false
 title: Safariをもっと便利に使いこなそう！Apple公式サイトから入手できるSafariの拡張機能
 type: post
-slug: safari-mac-extensions-4741
 categories:
   - Mac
 tags:

@@ -4,7 +4,6 @@ date: 2015-08-12T00:00:00+00:00
 draft: false
 title: Webデザイナー必見！CSS3のブラウザの対応状況をコマンドラインで確認できる「caniuse-cmd」
 type: post
-slug: css3-browser-caniuse-2025
 categories:
   - Mac
   - Web

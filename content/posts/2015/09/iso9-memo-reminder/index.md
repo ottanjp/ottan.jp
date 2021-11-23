@@ -4,7 +4,6 @@ date: 2015-09-20T00:00:00+00:00
 draft: false
 title: Safariのコンテンツブロッカーだけがすべてではない！iOS9でメモとリマインダーが大幅に進化！使い方を徹底解説！
 type: post
-slug: iso9-memo-reminder-2529
 categories:
 - iPhone
 tags:

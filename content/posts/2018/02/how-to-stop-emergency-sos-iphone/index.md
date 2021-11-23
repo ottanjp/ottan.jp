@@ -4,7 +4,6 @@ date: 2018-02-23T00:00:00+00:00
 draft: false
 title: iPhone X／iPhone 8で予期せぬ緊急SOSによる発信と警告音をやめる
 type: post
-slug: how-to-stop-emergency-sos-iphone-6649
 categories:
 - iPhone
 tags:

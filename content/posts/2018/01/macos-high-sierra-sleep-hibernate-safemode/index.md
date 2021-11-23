@@ -4,7 +4,6 @@ date: 2018-01-28T00:00:00+00:00
 draft: false
 title: macOS High Sierraでスリープから復帰時にフリーズして操作できなくる事象を回避する
 type: post
-slug: macos-high-sierra-sleep-hibernate-safemode-6587
 categories:
 - Mac
 tags:

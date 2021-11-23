@@ -4,7 +4,6 @@ date: 2016-05-07T00:00:00+00:00
 draft: false
 title: Microsoft Edgeの拡張機能にAdBlockおよびAdBlock Plusが登場！Windowsストアからダウンロードしよう！
 type: post
-slug: microsoft-edge-extensions-adblock-6860
 categories:
   - Windows
 tags:

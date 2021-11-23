@@ -4,7 +4,6 @@ date: 2018-04-22T00:00:00+00:00
 draft: false
 title: 管理者権限不要でリモートのSSHサーバをローカルにマウントし、リモートのファイルを大量処理する
 type: post
-slug: remote-ssh-server-local-mount-sshfs-6706
 categories:
   - Mac
 tags:

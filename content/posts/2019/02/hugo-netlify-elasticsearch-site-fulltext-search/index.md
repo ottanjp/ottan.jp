@@ -4,7 +4,6 @@ date: 2019-02-02T00:00:00+00:00
 draft: false
 title: "Netlify + Hugo + Elasticsearchで静的サイトの全文検索を行う"
 type: post
-slug: hugo-netlify-elasticsearch-site-fulltext-search-20190202
 categories: ['Blog']
 tags: ['Netlify','Hugo','Elasticsearch']
 toc: true
@@ -198,7 +197,7 @@ exports.handler = async (event, context) => {
 		.then(res => ({
 			statusCode: 200,
 			// ドメインをまたいだリクエストを有効化（ほんとはドメイン指定が良い）
-			headers: { 'Access-Control-Allow-Origin': '*' }, 
+			headers: { 'Access-Control-Allow-Origin': '*' },
 			body: JSON.stringify(res.hits.hits, null, 2),
 		}))
 }

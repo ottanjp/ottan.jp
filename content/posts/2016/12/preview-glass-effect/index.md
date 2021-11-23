@@ -4,7 +4,6 @@ date: 2016-12-11T00:00:00+00:00
 draft: false
 title: ブログ画像に最適！Macの標準アプリを使用して、拡大鏡のような効果を演出する方法
 type: post
-slug: preview-glass-effect-5329
 categories:
   - Mac
   - Blog

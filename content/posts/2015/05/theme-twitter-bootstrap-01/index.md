@@ -4,7 +4,6 @@ date: 2015-05-23T00:00:00+00:00
 draft: false
 title: Twitter Bootstrap 3を用いてWordPressテーマを作成しよう①
 type: post
-slug: theme-twitter-bootstrap-01-1453
 categories:
 - Blog
 tags:
@@ -53,7 +52,7 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
 
 
 
-    
+
     ├── apple-touch-icon.png
     ├── browserconfig.xml
     ├── css
@@ -129,7 +128,7 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
 
 
 
-    
+
     /*
     Theme Name: initializr
     Theme URI: http://wordpress.local/
@@ -141,7 +140,7 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
     Tags:
     Text Domain:
     */
-    
+
 
 
 
@@ -183,7 +182,7 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
 
 
 
-    
+
     <!doctype html>
     <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
     <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
@@ -196,7 +195,7 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
             <meta name="description" content="">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    
+
             <link rel="stylesheet" href="css/bootstrap.min.css">
             <style>
                 body {
@@ -206,7 +205,7 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
             </style>
             <link rel="stylesheet" href="css/bootstrap-theme.min.css">
             <link rel="stylesheet" href="css/main.css">
-    
+
             <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
             <?php wp_head(); ?>
         </head>
@@ -249,17 +248,17 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
 
 
 
-    
+
           <footer>
             <p>&copy; Company 2015</p>
           </footer>
         </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
             <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-    
+
             <script src="js/vendor/bootstrap.min.js"></script>
-    
+
             <script src="js/main.js"></script>
-    
+
             <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
             <script>
                 (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -294,7 +293,7 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
 
 
 
-    
+
     <?php get_header(); ?>
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron"> ... </div>
@@ -345,7 +344,7 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
 
 
 
-    
+
     <!doctype html>
     <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
     <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
@@ -358,7 +357,7 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
             <meta name="description" content="">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    
+
             <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
             <style>
                 body {
@@ -368,7 +367,7 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
             </style>
           <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap-theme.min.css">
           <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css">
-    
+
             <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
             <?php wp_head(); ?>
         </head>
@@ -416,17 +415,17 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
 
 
 
-    
+
           <footer>
             <p>&copy; Company 2015</p>
           </footer>
         </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
             <script>window.jQuery || document.write('<script src="<?php echo get_template_directory_uri(); ?>/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-    
+
             <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/bootstrap.min.js"></script>
-    
+
             <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
-    
+
             <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
             <script>
                 (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
