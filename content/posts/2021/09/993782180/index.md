@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Docker Desktop for Macに依存しないminikube + hyperkitによるDocker環境の構築
-date: 2021-09-11T08:31:30Z   
+date: 2021-09-11T08:31:30Z
 type: post
 slug: 993782180
 categories: ["Mac"]
@@ -21,9 +21,9 @@ brew uninstall docker --cask
 
 ## minikube + hyperkitのインストール
 
-Docker Desktop for Macの代わりにKubernetes環境をローカル環境に簡単に構築できるminikubeを使用します。ただし、Kubernetesの機能は使用しません。コンテナの実行エンジンとして利用します。Homebrew経由で簡単にインストールできるので、楽ちんです。
+Docker Desktop for Macの代わりにKubernetes環境をローカル環境に簡単に構築できるminikubeを使用します。ただし、Kubernetesの機能は使用しません。コンテナーの実行エンジンとして利用します。Homebrew経由で簡単にインストールできるので、楽ちんです。
 
-また、macOSはUNIXの派生ですがLinuxではありません。コンテナを動かすためのVMが必要です。OSレベルでLinux環境を統合できるWindows強いですね。今回は、Docker Desktop for Macのコアエンジンでも利用されているHyperKitを使用します。HyperKitは、macOS標準のHypervisor.frameworkを使用します。他にもVirtualBoxを利用する方法などがあります。
+また、macOSはUNIXの派生ですがLinuxではありません。コンテナーを動かすためのVMが必要です。OSレベルでLinux環境を統合できるWindows強いですね。今回は、Docker Desktop for Macのコアエンジンでも利用されているHyperKitを使用します。HyperKitは、macOS標準のHypervisor.frameworkを使用します。他にもVirtualBoxを利用する方法などがあります。
 
 * [Docker、MacOS X対応の軽量な仮想化ツール「HyperKit」をオープンソースで公開。Docker for Macの仮想化機能を取り出したもの － Publickey](https://www.publickey1.jp/blog/16/docker_hyperkit.html)
 
@@ -55,7 +55,7 @@ brew install docker --cask
 minikube start
 ```
 
-VirtualBoxなどの仮想化ソフトウェが別途インストールされている場合、minikubeがスタート時に何を利用してVMを構築するかを選択します。明示的にドライバを指定する場合、以下のコマンドを実行してください。
+VirtualBoxなどの仮想化ソフトウェが別途インストールされている場合、minikubeがスタート時に何を利用してVMを構築するかを選択します。明示的にドライバーを指定する場合、以下のコマンドを実行してください。
 
 ```zsh
 minikube start --driver=hyperkit
@@ -75,7 +75,7 @@ minikube stop
 
 ### Docker CLIをminikubeで使用する
 
-minikubeを開始し、Docker CLIを使用しようと、例えば以下のコマンドを実行します。
+minikubeを開始し、Docker CLIを使用しようと、たとえば以下のコマンドを実行します。
 
 ```zsh
 docker ps
