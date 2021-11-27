@@ -1,4 +1,4 @@
-baseURL: 'https://www.ottan.xyz'
+baseURL: 'https://ottan.xyz'
 languageCode: ja
 defaultContentLanguage: ja
 publishDir: public
