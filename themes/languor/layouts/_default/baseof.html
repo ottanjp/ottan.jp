@@ -9,8 +9,9 @@
     </title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {{ hugo.Generator }}
+    {{ block "robots" . }}
     <meta name="robots" content="index, follow" />
+    {{ end }}
     {{ block "description" . }}
       <meta name="description" content="{{ $.Site.Params.description }}" />
     {{ end }}
@@ -67,7 +68,7 @@
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6552469721930483"
      crossorigin="anonymous"></script>
-     
+
     {{ block "katex-stylesheet" . }}{{ end }}
   </head>
 

@@ -1,6 +1,9 @@
 {{ define "description" }}
   <meta name="description" content="{{ .Title }}に関連する記事一覧です。" />
 {{ end }}
+{{ define "robots" }}
+  <meta name="robots" content="noindex, nofollow" />
+{{ end }}
 
 {{ define "main" }}
   {{- partial "hero" . -}}
