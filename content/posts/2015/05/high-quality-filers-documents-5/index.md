@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-05-10T00:00:00+00:00
-draft: false
-title: iPhone、iPadユーザーなら必ずダウンロードしておきたい！無料とは思えない高クオリティなファイラー「Documents 5」をオススメする理由
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2015-05-10 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- documents
+- pdfファイル
+- ビューワー
+- オンラインストレージ
+- webページ
+title: iPhone、iPadユーザーなら必ずダウンロードしておきたい！無料とは思えない高クオリティなファイラー「Documents 5」をオススメする理由
+type: post
 ---
 
 ![](150510-554ec5289116d.jpg)

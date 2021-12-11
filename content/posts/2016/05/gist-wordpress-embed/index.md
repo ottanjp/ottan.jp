@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-05-08T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2016-05-08 00:00:00+00:00
 draft: false
+tags:
+- gist
+- コード
+- wordpress
+- 本文
+- ソースコード
 title: プラグインを使わずにGistのコードをWordPressに埋め込む方法
 type: post
-categories:
-  - Blog
-tags:
-  - Development
 ---
 
 ![](160508-572f1ee1418ea.png)

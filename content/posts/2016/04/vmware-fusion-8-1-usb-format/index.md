@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-04-07T00:00:00+00:00
-draft: false
-title: VMware Fusion 8.1のWindows上でUSBメモリを初期化できない問題の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
 - Windows
+date: 2016-04-07 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- vmware
+- fusion
+- フォーマット
+- usbメモリ
+- windows
+title: VMware Fusion 8.1のWindows上でUSBメモリを初期化できない問題の対処法
+type: post
 ---
 
 ![](160423-571b6d99094e7.png)

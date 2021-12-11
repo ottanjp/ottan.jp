@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-06-19T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Android
+- Mac
+date: 2016-06-19 00:00:00+00:00
 draft: false
+tags:
+- remix
+- mode
+- クリック
+- 仮想マシン
+- google
 title: Remix OSをResident modeでVMware Fusionにインストールし、Google Playストアを使用できるようにする
 type: post
-categories:
-  - Android
-  - Mac
-tags:
-  - Development
-  - Google
 ---
 
 ![](160619-576693af8f3ba.jpg)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-06-18T00:00:00+00:00
-draft: false
-title: 本番環境と開発環境のWordPressを自動的に同期する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2015-06-18 00:00:00+00:00
+draft: false
 tags:
-- Development
+- db
+- ssh
+- user
+- 本番
+- 環境
+title: 本番環境と開発環境のWordPressを自動的に同期する方法
+type: post
 ---
 
 ![](150618-558264afd6441.jpg)

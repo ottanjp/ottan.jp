@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-26T00:00:00+00:00
-draft: false
-title: MacBook Air、MacBook Pro、MacBookのバッテリーを節約する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2015-08-26 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- バッテリー
+- 輝度
+- スリープ
+- macbook
+- caffeine
+title: MacBook Air、MacBook Pro、MacBookのバッテリーを節約する方法
+type: post
 ---
 
 ![](150826-55dd03bd14e0a.jpg)

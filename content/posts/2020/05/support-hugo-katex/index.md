@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-title: HugoのMarkdownで数式組版ライブラリであるKaTeXをサポートする
-date: 2020-05-25T00:00:00+00:00
-tags:
-  - Hugo
-  - KaTeX
+author:
+- '@ottanxyz'
 categories:
-  - Blog
+- Blog
+date: 2020-05-25 00:00:00+00:00
 katex: true
+tags:
+- pi
+- gt
+- markdown
+- lt
+- 数式
+title: HugoのMarkdownで数式組版ライブラリであるKaTeXをサポートする
 ---
+
 Hugoで、\\(KaTeX\\)というブラウザで数式を表現するためのライブラリをサポートする方法です。Hugo 0.70.0（Extended）で正常に表示されることを確認していますが、今後のバージョンアップ等により、以下の方法がサポートされなくなる可能性がありますので、ご注意ください。特に、Markdownパーサの変更が発生した場合、影響を受ける可能性があります。
 
 {{% note %}}

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-06-02T00:00:00+00:00
-draft: false
-title: Macの基礎：Macでアプリケーションを終了させる6つの方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-06-02 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- アプリケーション
+- メニュー
+- 6つ
+- ショートカット
+- キーボード
+title: Macの基礎：Macでアプリケーションを終了させる6つの方法
+type: post
 ---
 
 ![](160602-57502d48e7a58.jpg)

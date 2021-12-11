@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-06-20T00:00:00+00:00
-draft: false
-title: macOSとiOSでユーザ辞書が同期されない場合の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2015-06-20 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- 辞書
+- icloud
+- ユーザ
+- drive
+- dictionaries
+title: macOSとiOSでユーザ辞書が同期されない場合の対処法
+type: post
 ---
 
 ![](150620-5585616daca73.jpg)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-11-18T00:00:00+00:00
-draft: false
-title: iPhoneの電波の強さ、偽物かも？電波の強さを数値化して可視化する裏技
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2016-11-18 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- 電波
+- test
+- 数値
+- キャリア
+- 状態
+title: iPhoneの電波の強さ、偽物かも？電波の強さを数値化して可視化する裏技
+type: post
 ---
 
 ![](161118-582ee41a5219e.jpg)

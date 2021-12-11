@@ -1,15 +1,20 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-05-29T00:00:00+00:00
-draft: false
-title: アップデートにより改善したMac版LINEの初期設定と便利な使い方
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Android
 - iPhone
 - Mac
+date: 2017-05-29 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- トーク
+- ルーム
+- モバイル版
+- line
+- ログイン
+title: アップデートにより改善したMac版LINEの初期設定と便利な使い方
+type: post
 ---
 
 ![](170529-592bc0263c43c.jpg)

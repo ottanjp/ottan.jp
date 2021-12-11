@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-10T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2014-09-10 00:00:00+00:00
 draft: false
+tags:
+- pple
+- write
+- delete
+- コマンド
+- creencapture
 title: コピペだけでできるMacのカスタマイズ19選
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](140909-540eda2d9df8d.jpg)

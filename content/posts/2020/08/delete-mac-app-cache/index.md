@@ -1,13 +1,19 @@
 ---
-author: ["@ottanxyz"]
-title: Macでアプリのキャッシュを根こそぎ削除する簡単な方法
-date: 2020-08-02T00:00:00+00:00
-tags:
-  - Tips
+author:
+- '@ottanxyz'
 categories:
-  - Mac
+- Mac
+date: 2020-08-02 00:00:00+00:00
 katex: false
+tags:
+- appcleaner
+- アプリケーション
+- キャッシュ
+- ファイル
+- 初期
+title: Macでアプリのキャッシュを根こそぎ削除する簡単な方法
 ---
+
 アプリケーションの一時ファイルが残存し続けることで、不具合を起こすことがあります。また、アプリケーションの設定を初期化したい場合があります。このような場合には、[AppCleaner](https://freemacsoft.net/appcleaner/)を利用します。
 
 AppCleanerは、Macからアプリケーションを「完全に」アンインストールするソフトです。Macでは、Finderからゴミ箱にアプリケーションを移動するだけで削除できますが、キャッシュ等の一時ファイルは残ったままになります。アプリケーションの関連ファイルを含めて、まとめて削除してくれるのが、[AppCleaner](https://freemacsoft.net/appcleaner/)です。

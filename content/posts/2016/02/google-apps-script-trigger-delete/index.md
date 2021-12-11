@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-02-13T00:00:00+00:00
-draft: false
-title: 定期実行されるGoogle Apps Scriptのトリガーをすべて削除する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Web
+date: 2016-02-13 00:00:00+00:00
+draft: false
 tags:
-- Development
+- apps
+- トリガー
+- google
+- googleドライブ
+- gmail
+title: 定期実行されるGoogle Apps Scriptのトリガーをすべて削除する方法
+type: post
 ---
 
 ![](160212-56bd5f73883f6-1.jpg)

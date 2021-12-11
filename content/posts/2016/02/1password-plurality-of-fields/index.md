@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-02-07T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2016-02-07 00:00:00+00:00
 draft: false
+tags:
+- password
+- お客様
+- じぶん銀行
+- 情報
+- フィールド
 title: 1Passwordで複数フィールドにまたがるユーザ情報を保存する方法と注意点
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](160207-56b6c1c69d386.jpg)

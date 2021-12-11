@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-09-24T00:00:00+00:00
-draft: false
-title: ここが変わった！知っておくべき便利なiOS9の新機能14選
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2015-09-24 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- siri
+- マルチタスク
+- 低電力
+- リスト
+- hey
+title: ここが変わった！知っておくべき便利なiOS9の新機能14選
+type: post
 ---
 
 ![](150924-5603adb1b899c.jpg)

@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-10-08T00:00:00+00:00
-draft: false
-title: ファイラーとしても優秀なSFTP/FTPクライアント「」を使用してXSERVERにSFTPで接続する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-10-08 00:00:00+00:00
+draft: false
 tags:
-- Apps
-- Tips
+- 公開鍵
+- xserver
+- ssh
+- sftp
+- 秘密鍵
+title: ファイラーとしても優秀なSFTP/FTPクライアント「」を使用してXSERVERにSFTPで接続する方法
+type: post
 ---
 
 ![](161008-57f8ec9b66170.jpg)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-01-14T00:00:00+00:00
-draft: false
-title: iPhone Xをもっと便利に使いこなすためのTips
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2018-01-14 00:00:00+00:00
+draft: false
 tags:
-- iPhone X
+- スワイプ
+- 画面
+- iphone
+- ホーム
+- アプリケーション
+title: iPhone Xをもっと便利に使いこなすためのTips
+type: post
 ---
 
 ![](180114-5a5b0b643f1d2.jpg)

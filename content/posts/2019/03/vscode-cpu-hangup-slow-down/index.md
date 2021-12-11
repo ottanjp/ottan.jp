@@ -1,12 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-03-06T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2019-03-06 00:00:00+00:00
 draft: false
-title: "VS Code（Code Helper）のCPU使用率が100%になってしまった場合のワークアラウンド"
-type: post
-categories: ["Mac"]
-tags: ["VS Code"]
+tags:
+- vscode
+- vs
+- code
+- プロセス
+- ワークアラウンド
+title: VS Code（Code Helper）のCPU使用率が100%になってしまった場合のワークアラウンド
 toc: true
+type: post
 ---
 
 ![](190306-2730d936a56a3381.jpg)

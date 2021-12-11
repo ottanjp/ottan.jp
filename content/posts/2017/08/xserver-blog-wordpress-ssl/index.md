@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-08-26T00:00:00+00:00
-draft: false
-title: エックスサーバーでWordPressを運用する場合に独自SSLを設定する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2017-08-26 00:00:00+00:00
+draft: false
 tags:
-- Development
+- ssl
+- https
+- http
+- url
+- リダイレクト
+title: エックスサーバーでWordPressを運用する場合に独自SSLを設定する方法
+type: post
 ---
 
 ![](170826-59a0f01dc0a6d.jpg)

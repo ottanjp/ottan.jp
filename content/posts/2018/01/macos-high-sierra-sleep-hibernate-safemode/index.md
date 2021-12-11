@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-01-28T00:00:00+00:00
-draft: false
-title: macOS High Sierraでスリープから復帰時にフリーズして操作できなくる事象を回避する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2018-01-28 00:00:00+00:00
+draft: false
 tags:
-- macOS
+- セーフスリープ
+- スリープ
+- 事象
+- hibernatemode
+- フリーズ
+title: macOS High Sierraでスリープから復帰時にフリーズして操作できなくる事象を回避する
+type: post
 ---
 
 ![](180128-5a6d77116e71d.jpg)

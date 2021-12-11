@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-02-05T00:00:00+00:00
-draft: false
-title: Windows 7、8.1でWindows Update経由のWindows 10アップデート、またはアップデート通知ダイアログを無効にする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2016-02-05 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- windows
+- レジストリ
+- アップグレード
+- キー
+- レジストリエディター
+title: Windows 7、8.1でWindows Update経由のWindows 10アップデート、またはアップデート通知ダイアログを無効にする方法
+type: post
 ---
 
 ![](160205-56b43f8a3f8f9-1.png)

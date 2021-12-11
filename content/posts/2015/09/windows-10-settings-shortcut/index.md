@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-09-02T00:00:00+00:00
-draft: false
-title: Windows 10のデスクトップにWindows Updateなどのショートカットを作成する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2015-09-02 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ショートカット
+- update
+- windows
+- デスクトップ
+- アプリ
+title: Windows 10のデスクトップにWindows Updateなどのショートカットを作成する方法
+type: post
 ---
 
 ![](150902-55e674bd9571a.jpg)

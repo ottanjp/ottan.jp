@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-11-04T00:00:00+00:00
-draft: false
-title: Macの標準の日本語入力による変換はファンクションキーよりショートカットキーの方が便利
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-11-04 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ファンクションキー
+- 日本語入力
+- カタカナ
+- 全角
+- 英字
+title: Macの標準の日本語入力による変換はファンクションキーよりショートカットキーの方が便利
+type: post
 ---
 
 ![](161104-581c86fa1b3c8.jpg)

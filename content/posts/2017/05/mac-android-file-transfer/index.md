@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-05-05T00:00:00+00:00
-draft: false
-title: Mac、Android間で画像などのファイルをBluetoothを使用して簡単に転送する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Android
 - Mac
+date: 2017-05-05 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- android
+- bluetooth
+- ペアリング
+- mac
+- ファイル
+title: Mac、Android間で画像などのファイルをBluetoothを使用して簡単に転送する方法
+type: post
 ---
 
 ![](170504-590b09c13167d.jpg)

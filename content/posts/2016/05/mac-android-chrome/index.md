@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-05-22T00:00:00+00:00
-draft: false
-title: MacでAndroidの環境を簡単に再現する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Android
 - Mac
+date: 2016-05-22 00:00:00+00:00
+draft: false
 tags:
-- Development
+- nexus
+- genymotion
+- android
+- デバイス
+- virtualbox
+title: MacでAndroidの環境を簡単に再現する方法
+type: post
 ---
 
 ![](160522-5741a5e8e420c.jpg)

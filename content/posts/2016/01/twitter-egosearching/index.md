@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-01-25T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+- Web
+date: 2016-01-25 00:00:00+00:00
 draft: false
+tags:
+- twitter
+- ifttt
+- エゴサーチ
+- クリック
+- アクション
 title: Twitterのエゴサーチに便利！Twitterで特定の文字列が含まれるツイートを検知すると、スマホに通知する方法
 type: post
-categories:
-  - iPhone
-  - Web
-tags:
-  - IFTTT
-  - Tips
 ---
 
 ![](160125-56a5c568c0584-1.jpg)

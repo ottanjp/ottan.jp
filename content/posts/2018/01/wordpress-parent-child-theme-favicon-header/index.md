@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-01-27T00:00:00+00:00
-draft: false
-title: WordPressの親テーマの「header.php」を変更せずに子テーマにFaviconを追加する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2018-01-27 00:00:00+00:00
+draft: false
 tags:
-- Development
-- Blog
+- テーマ
+- head
+- php
+- header
+- タグ
+title: WordPressの親テーマの「header.php」を変更せずに子テーマにFaviconを追加する方法
+type: post
 ---
 
 ![](180127-5a6c670baaf7a.jpg)

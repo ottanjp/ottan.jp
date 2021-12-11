@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-10-15T00:00:00+00:00
-draft: false
-title: iPhone4Sで快適にiOS8を使用するために見直したい項目
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2014-10-15 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- 視差
+- バックグラウンド
+- 効果
+- 4s
+- spotlight
+title: iPhone4Sで快適にiOS8を使用するために見直したい項目
+type: post
 ---
 
 ![](141015-543e264d078e9.jpg)

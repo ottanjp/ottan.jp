@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-08-07T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2016-08-07 00:00:00+00:00
 draft: false
+tags:
+- ubuntu
+- drive
+- ファイラー
+- gnome
+- google
 title: Ubuntu 16.04の標準ファイラーで「Google Drive」にアクセスする方法
 type: post
-categories:
-  - Mac
-tags:
-  - Development
-  - Linux
 ---
 
 ![](160807-57a6b2bba503d.jpg)

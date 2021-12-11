@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-01-28T00:00:00+00:00
-draft: false
-title: iPhoneやMacでWi-Fiの「体感速度」が遅く読み込みに時間がかかる場合の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2018-01-28 00:00:00+00:00
+draft: false
 tags:
-- Wi-Fi
+- dns
+- dnsサーバー
+- プロバイダー
+- ipアドレス
+- 速度
+title: iPhoneやMacでWi-Fiの「体感速度」が遅く読み込みに時間がかかる場合の対処法
+type: post
 ---
 
 ![](180126-5a6b30c618a6f.jpg)

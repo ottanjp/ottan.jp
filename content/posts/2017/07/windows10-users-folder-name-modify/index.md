@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-07-07T00:00:00+00:00
-draft: false
-title: Windows 10でユーザーフォルダーの名称を変更する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2017-07-07 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- アカウント
+- microsoftアカウント
+- フォルダー
+- 名称
+- ローカル
+title: Windows 10でユーザーフォルダーの名称を変更する方法
+type: post
 ---
 
 ![](170707-595ef0f1b2b30.png)

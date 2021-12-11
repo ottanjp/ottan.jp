@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-12-05T00:00:00+00:00
-draft: false
-title: MarsEditをより便利に高速に活用するためのスクリプト集
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
 - Blog
+date: 2014-12-05 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- lt
+- gt
+- h1
+- 目次
+- タイトル
+title: MarsEditをより便利に高速に活用するためのスクリプト集
+type: post
 ---
 
 ![](141205-54816b233dfa5.jpg)

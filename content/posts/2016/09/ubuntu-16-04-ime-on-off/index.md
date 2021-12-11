@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-09-06T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2016-09-06 00:00:00+00:00
 draft: false
+tags:
+- ubuntu
+- ime
+- lts
+- インストール
+- 日本語
 title: Ubuntu 16.04 LTSで、Macの「英数」「かな」キーにIMEオフ、オンを割り当てる
 type: post
-categories:
-  - Mac
-tags:
-  - Development
-  - Linux
 ---
 
 ![](160906-57cec060360f9.jpg)

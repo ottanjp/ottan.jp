@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-10-31T00:00:00+00:00
-draft: false
-title: macOSのパッケージ管理にはHomebrewを使おう！Homebrewを使用する理由や便利な使い方までご紹介
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-10-31 00:00:00+00:00
+draft: false
 tags:
-- Homebrew
-- Tips
+- homebrew
+- cask
+- インストール
+- パッケージ
+- brew
+title: macOSのパッケージ管理にはHomebrewを使おう！Homebrewを使用する理由や便利な使い方までご紹介
+type: post
 ---
 
 ![](171031-59f87b5131b26.jpg)

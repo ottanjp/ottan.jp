@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-08-24T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2016-08-24 00:00:00+00:00
 draft: false
+tags:
+- gmail
+- icons
+- アプリケーション
+- ペイン
+- アイコン
 title: Macのデスクトップで動作する軽量Gmailアプリケーションを作ろう！
 type: post
-categories:
-  - Mac
-tags:
-  - Development
 ---
 
 ![](160824-57bd821d4d865.jpg)

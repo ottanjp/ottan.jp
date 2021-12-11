@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-title: Netlify CMSのプレビューでHightlight.js + KaTeX（LaTeX）をサポートする
-date: 2020-05-30T00:00:00+00:00
-tags:
-  - Netlify
-  - Hugo
-  - KaTeX
+author:
+- '@ottanxyz'
 categories:
-  - Blog
+- Blog
+date: 2020-05-30 00:00:00+00:00
 katex: true
+tags:
+- gt
+- lt
+- cms
+- 関数
+- markdown
+title: Netlify CMSのプレビューでHightlight.js + KaTeX（LaTeX）をサポートする
 ---
+
 [HugoのMarkdownで数式組版ライブラリであるKaTeXをサポートする](/posts/2020/05/support-hugo-katex/)で、Hugoに\\(KaTeX\\)を組み込みました。\\(KaTeX\\)は、MathJaxより高速にレンダリングできる、ブラウザで動作する数式組版ライブラリです。
 
 今回は、Netlify CMSのプレビューで、リアルタイムで\\(KaTeX\\)による変換を行います。また、おまけ要素ですが、ついでにHighlight.jsを組み込み、プレビューでシンタックスハイライトが可能になるようにします。

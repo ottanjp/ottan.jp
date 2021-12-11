@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-03-04T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2017-03-04 00:00:00+00:00
 draft: false
+tags:
+- isight
+- カメラ
+- led
+- facetime
+- マイク
 title: Macの内蔵iSightカメラで盗聴されていることを検知できる「OverSight」
 type: post
-categories:
-  - Mac
-tags:
-  - Apps
-  - Security
 ---
 
 ![](170304-58ba3b1937ed1.jpg)

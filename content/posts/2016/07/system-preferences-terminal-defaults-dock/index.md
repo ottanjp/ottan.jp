@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-07-11T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2016-07-11 00:00:00+00:00
 draft: false
+tags:
+- pple
+- コマンド
+- write
+- チェックボックス
+- delete
 title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（Dock）
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](160710-57824e95886ff.jpg)

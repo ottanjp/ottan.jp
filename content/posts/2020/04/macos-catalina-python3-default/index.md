@@ -1,12 +1,18 @@
 ---
-author: ["@ottanxyz"]
-title: macOS CatalinaのPythonのデフォルトを3.x.xにする
-date: 2020-04-26T00:00:00+00:00
-tags:
-  - Python
+author:
+- '@ottanxyz'
 categories:
-  - Mac
+- Mac
+date: 2020-04-26 00:00:00+00:00
+tags:
+- python
+- pyenv
+- バージョン
+- エイリアス
+- シェル
+title: macOS CatalinaのPythonのデフォルトを3.x.xにする
 ---
+
 macOS Catalinaに搭載されているPythonの実行環境を3.x.xへ変更する方法です。ただ、`python`コマンドで、3.x.xを実行したいだけの記事です。Pythonの開発環境についてどうこう議論する場でないことは最初に申し上げておきます。次期のmacOSでは、Python 2.x.x系は駆逐されているでしょう。以下の環境で確認しています。
 
 ```text

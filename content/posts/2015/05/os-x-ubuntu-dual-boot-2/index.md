@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-05-06T00:00:00+00:00
-draft: false
-title: macOS YosemiteとUbuntu 14.04.2 LTSのデュアルブート環境を構築する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2015-05-06 00:00:00+00:00
+draft: false
 tags:
-- Development
-- Linux
+- ubuntu
+- ディスク
+- クリック
+- disk
+- ボタン
+title: macOS YosemiteとUbuntu 14.04.2 LTSのデュアルブート環境を構築する
+type: post
 ---
 
 ![](150506-5549de123a76d.png)

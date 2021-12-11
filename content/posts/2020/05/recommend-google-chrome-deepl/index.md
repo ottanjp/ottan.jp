@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-title: Google ChromeとDeepLの併用による英語記事サーフィンのおすすめ
-date: 2020-05-22T00:00:00+00:00
-tags:
-  - Google
-  - Chrome
-  - DeepL
+author:
+- '@ottanxyz'
 categories:
-  - iPhone
-  - Mac
+- iPhone
+- Mac
+date: 2020-05-22 00:00:00+00:00
+tags:
+- chrome
+- deepl
+- 英語
+- google
+- 言語
+title: Google ChromeとDeepLの併用による英語記事サーフィンのおすすめ
 ---
+
 英語のニュースや記事がスラスラ読めるようになると、知識の幅が広まります。英語の読解能力を身に着ける時間が無い、でも海外の論文をスラスラ読めるようになりたい、と言う壮大な夢を描いている人にオススメな方法があります。
 
 ## iPhone

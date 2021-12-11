@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-12-25T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2016-12-25 00:00:00+00:00
 draft: false
+tags:
+- reeder
+- instapaper
+- 記事
+- readability
+- pocket
 title: Mac版Instapaperクライアントは、RSSリーダーとしても使用できる「Reeder for Mac」がオススメ
 type: post
-categories:
-  - Mac
-tags:
-  - Apps
 ---
 
 ![](161225-585f3d492be83.jpg)

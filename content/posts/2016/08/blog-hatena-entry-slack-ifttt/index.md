@@ -1,16 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-08-31T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Web
+- Blog
+date: 2016-08-31 00:00:00+00:00
 draft: false
+tags:
+- slack
+- ifttt
+- 新着
+- はてなブックマーク
+- チャンネル
 title: ブログの記事が「はてな新着エントリー」に掲載されたらSlackに通知する
 type: post
-categories:
-  - Web
-  - Blog
-tags:
-  - Development
-  - IFTTT
-  - Slack
 ---
 
 ![](160831-57c6ccdf04c70.png)

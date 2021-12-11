@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-12-29T00:00:00+00:00
-draft: false
-title: iPhoneのSafariを使いこなすために知っておきたい便利なテクニック
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2016-12-29 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- タブ
+- safari
+- ページ
+- 長押
+- 単語
+title: iPhoneのSafariを使いこなすために知っておきたい便利なテクニック
+type: post
 ---
 
 ![](161229-5864a658b8b96.jpg)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-06-28T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2015-06-28 00:00:00+00:00
 draft: false
+tags:
+- pram
+- シャットダウン
+- マウス
+- キーボード
+- 電源
 title: iMacでBluetoothのマウスとキーボードが認識されなくなった！PRAMクリアで解決
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](150628-558f75d963fd0.jpg)

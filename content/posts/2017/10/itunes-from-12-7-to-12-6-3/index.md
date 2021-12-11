@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-10-23T00:00:00+00:00
-draft: false
-title: iTunes 12.7からiTunes 12.6.3にダウングレードする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-10-23 00:00:00+00:00
+draft: false
 tags:
-- iTunes
-- Tips
+- itunes
+- バージョン
+- 最新
+- ライブラリ
+- ダウングレード
+title: iTunes 12.7からiTunes 12.6.3にダウングレードする方法
+type: post
 ---
 
 ![](171023-59ed8c0c0d1d8.jpg)

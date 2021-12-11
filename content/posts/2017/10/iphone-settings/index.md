@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-10-28T00:00:00+00:00
-draft: false
-title: iPhoneを新規セットアップした時に「設定」アプリから設定しておきたい必須の項目
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-10-28 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- iphone
+- イヤホン
+- アプリ
+- 写真
+- siri
+title: iPhoneを新規セットアップした時に「設定」アプリから設定しておきたい必須の項目
+type: post
 ---
 
 ![](171027-59f2da614f8ca.jpg)

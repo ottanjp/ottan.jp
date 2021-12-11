@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-10-04T00:00:00+00:00
-draft: false
-title: Mac標準のメールアプリをもっと快適に使用する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2014-10-04 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- メールボックス
+- 条件
+- メッセージ
+- 未読
+- 標準
+title: Mac標準のメールアプリをもっと快適に使用する方法
+type: post
 ---
 
 ![](141004-542fc58159092.png)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-07-06T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Web
+date: 2016-07-06 00:00:00+00:00
 draft: false
+tags:
+- facebook
+- 実名
+- アカウント
+- 範囲
+- 原則
 title: Facebookを安全に使用するための3ヶ条
 type: post
-categories:
-  - Web
-tags:
-  - Security
 ---
 
 ![](160705-577bbc470fbe0.jpg)

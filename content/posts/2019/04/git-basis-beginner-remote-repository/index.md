@@ -1,12 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-04-06T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2019-04-06 00:00:00+00:00
 draft: false
-title: "Git初心者が最初から学ぶGitの入門（リモートリポジトリ）"
-type: post
-categories: ["Mac"]
-tags: ["Git","GitHub","VS Code"]
+tags:
+- ブランチ
+- origin
+- git
+- リモートリポジトリ
+- master
+title: Git初心者が最初から学ぶGitの入門（リモートリポジトリ）
 toc: true
+type: post
 ---
 
 ![](190406-b00cb34a8bada846.jpg)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-11-26T00:00:00+00:00
-draft: false
-title: Macをターミナルから操る「m-cli」のソースコードがタメになるというお話
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-11-26 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- bluetooth
+- cli
+- ターミナル
+- コマンド
+- controllerpowerstate
+title: Macをターミナルから操る「m-cli」のソースコードがタメになるというお話
+type: post
 ---
 
 ![](161126-583923da38587.jpg)

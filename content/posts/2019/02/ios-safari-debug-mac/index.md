@@ -1,12 +1,20 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-02-23T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+- Mac
+date: 2019-02-23 00:00:00+00:00
 draft: false
-title: "Macを使用してiPhone、iPadのSafariでデバッグを行う方法"
-type: post
-categories: ["iPhone","Mac"]
-tags: ["Safari"]
+tags:
+- iphone
+- safari
+- web
+- mac
+- usb
+title: Macを使用してiPhone、iPadのSafariでデバッグを行う方法
 toc: true
+type: post
 ---
 
 ![](190222-f3634302e6a7067.jpg)

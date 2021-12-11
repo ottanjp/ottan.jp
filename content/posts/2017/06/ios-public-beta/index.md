@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-06-08T00:00:00+00:00
-draft: false
-title: iOS 11のパブリックベータに参加する方法、脱退する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-06-08 00:00:00+00:00
+draft: false
 tags:
-- Development
+- ベータ
+- プロファイル
+- パブリック
+- ベータ版
+- ios
+title: iOS 11のパブリックベータに参加する方法、脱退する方法
+type: post
 ---
 
 ![](170608-593897db14c7b.jpg)

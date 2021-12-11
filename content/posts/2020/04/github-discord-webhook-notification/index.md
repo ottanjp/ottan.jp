@@ -1,12 +1,18 @@
 ---
-author: ["@ottanxyz"]
-title: GitHubのイベントをDiscordのチャンネルに通知する
-date: 2020-04-26T00:00:00+00:00
-tags:
-  - Netlify
+author:
+- '@ottanxyz'
 categories:
-  - Blog
+- Blog
+date: 2020-04-26 00:00:00+00:00
+tags:
+- ウェブフック
+- discord
+- チャンネル
+- github
+- イベント
+title: GitHubのイベントをDiscordのチャンネルに通知する
 ---
+
 Slackであれば、AppディレクトリからGitHubアプリをインストールすれば、GitHubと簡単に連携できます。Discordでも同様の連携ができないかどうか試してみたところ、一癖ありましたが連携可能でした。以下で使用している画像は、Mac版のDiscordアプリ（0.0.256）のスクリーンショットです。
 
 ## Discordの設定

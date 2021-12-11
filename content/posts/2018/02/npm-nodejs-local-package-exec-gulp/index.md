@@ -1,15 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-02-28T00:00:00+00:00
-draft: false
-title: いまどきの「Node.js」のローカルパッケージを実行する手順
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2018-02-28 00:00:00+00:00
+draft: false
 tags:
-- gulp.js
-- Node.js
-- Blog
+- パッケージ
+- グローバル
+- js
+- ローカル
+- node
+title: いまどきの「Node.js」のローカルパッケージを実行する手順
+type: post
 ---
 
 ![](180228-5a964f7b8191f.jpg)

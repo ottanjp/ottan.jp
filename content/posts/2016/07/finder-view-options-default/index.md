@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-07-25T00:00:00+00:00
-draft: false
-title: Finderの表示オプションの「デフォルトとして使用」がデフォルトにならない時の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-07-25 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- finder
+- デフォルト
+- フォルダー
+- ds
+- アイコン
+title: Finderの表示オプションの「デフォルトとして使用」がデフォルトにならない時の対処法
+type: post
 ---
 
 ![](160725-57960e0a71d18.jpg)

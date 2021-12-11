@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-10-10T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Windows
+date: 2015-10-10 00:00:00+00:00
 draft: false
+tags:
+- アップグレード
+- windows
+- '10'
+- camp
+- boot
 title: Boot CampでインストールしたWindows 7を即座にWindows 10にアップグレードする方法
 type: post
-categories:
-  - Mac
-  - Windows
-tags:
-  - Development
 ---
 
 ![](151010-56191ac418bfc.jpg)

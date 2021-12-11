@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-06T00:00:00+00:00
-draft: false
-title: Objective-Cで書かれたソースコードをSwiftに変換してくれる「Objective-C to Swift Converter」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Web
+date: 2015-08-06 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- swift
+- objective
+- ui
+- string
+- converter
+title: Objective-Cで書かれたソースコードをSwiftに変換してくれる「Objective-C to Swift Converter」
+type: post
 ---
 
 ![](150806-55c337463614c.jpg)

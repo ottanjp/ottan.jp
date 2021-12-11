@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-07-01T00:00:00+00:00
-draft: false
-title: macOS Sierraの環境を壊さずに、macOS High SierraのPublic Betaをインストールする
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-07-01 00:00:00+00:00
+draft: false
 tags:
-- Development
+- sierra
+- high
+- macos
+- インストール
+- パブリックベータプログラム
+title: macOS Sierraの環境を壊さずに、macOS High SierraのPublic Betaをインストールする
+type: post
 ---
 
 ![](170627-5951b1bf2aa6a.jpg)

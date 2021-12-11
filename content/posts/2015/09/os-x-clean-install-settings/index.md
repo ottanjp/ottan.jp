@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-09-12T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2015-09-12 00:00:00+00:00
 draft: false
+tags:
+- dropbox
+- ブログ
+- sublime
+- zsh
+- ウインドウ
 title: macOSをクリーンインストールした後に行う初期設定のまとめ
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](150912-55f3e288d2fe6.jpg)

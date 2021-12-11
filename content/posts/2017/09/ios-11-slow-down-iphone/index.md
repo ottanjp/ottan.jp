@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-09-20T00:00:00+00:00
-draft: false
-title: これでスッキリ！iOS 11でiPhoneの動作が遅いと感じた時に試したいこと
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-09-20 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- '11'
+- ios
+- アプリ
+- 本体
+- フォーマット
+title: これでスッキリ！iOS 11でiPhoneの動作が遅いと感じた時に試したいこと
+type: post
 ---
 
 ![](170920-59c20d3d8be5f.jpg)

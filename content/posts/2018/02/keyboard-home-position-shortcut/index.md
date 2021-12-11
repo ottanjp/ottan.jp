@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-02-04T00:00:00+00:00
-draft: false
-title: ホームポジションから指を離さず文字入力を高速化するキーボードショートカット
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2018-02-04 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ショートカット
+- カーソル
+- 段落
+- キーボード
+- ホームポジション
+title: ホームポジションから指を離さず文字入力を高速化するキーボードショートカット
+type: post
 ---
 
 ![](180204-5a76b5b628a72.jpg)

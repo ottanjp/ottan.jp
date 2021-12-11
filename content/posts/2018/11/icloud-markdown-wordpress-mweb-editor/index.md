@@ -1,19 +1,20 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-11-22T00:00:00+00:00
-draft: false
-title: iCloud同期可能でWordPressや静的サイト向けデプロイ機能付きのMarkdownエディター
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
 - Blog
+date: 2018-11-22 00:00:00+00:00
+draft: false
 tags:
-- CMS
-- iCloud
-- iOS
-- macOS
-- Markdown
+- markdown
+- mweb
+- 画像ファイル
+- エディター
+- 画像
+title: iCloud同期可能でWordPressや静的サイト向けデプロイ機能付きのMarkdownエディター
+type: post
 ---
 
 ![](181122-5bf6a6adbba39.jpg)

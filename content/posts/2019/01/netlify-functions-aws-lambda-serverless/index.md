@@ -1,12 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-01-15T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2019-01-15 00:00:00+00:00
 draft: false
-title: "無償で利用可能なNetlify Functions（AWS Lambda）で学ぶサーバレスプログラミングの基本"
-type: post
-categories: ['Blog']
-tags: ['Netlify','AWS','Lambda','Hugo']
+tags:
+- netlify
+- functions
+- lambda
+- js
+- hello
+title: 無償で利用可能なNetlify Functions（AWS Lambda）で学ぶサーバレスプログラミングの基本
 toc: true
+type: post
 ---
 
 ![](190115-f3634302e6a7067.jpg)

@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-03-26T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+- Mac
+date: 2017-03-26 00:00:00+00:00
 draft: false
+tags:
+- メールアドレス
+- apple
+- id
+- 諸事情
+- クリック
 title: Apple IDのメールアドレスを変更する方法
 type: post
-categories:
-  - iPhone
-  - Mac
-tags:
-  - Security
 ---
 
 ![](170326-58d722f6c3aa9.jpg)

@@ -1,15 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-07-15T00:00:00+00:00
-draft: false
-title: 現在接続しているWi-Fiネットワークのパスワードを確認する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2015-07-15 00:00:00+00:00
+draft: false
 tags:
-- Security
-- Tips
-- Wi-Fi
+- fi
+- wi
+- ssid
+- password
+- ネットワーク
+title: 現在接続しているWi-Fiネットワークのパスワードを確認する方法
+type: post
 ---
 
 ![](150715-55a671d220f31.jpg)

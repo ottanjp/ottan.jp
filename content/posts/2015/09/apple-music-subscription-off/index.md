@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-09-28T00:00:00+00:00
-draft: false
-title: Apple Musicの自動更新がオンになっていないかどうか確認しよう！Apple Musicの自動更新をオフにする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2015-09-28 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- 自動更新
+- music
+- トライアル
+- オフ
+- apple
+title: Apple Musicの自動更新がオンになっていないかどうか確認しよう！Apple Musicの自動更新をオフにする方法
+type: post
 ---
 
 ![](150928-56093fa75600d.jpg)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-06-10T00:00:00+00:00
-draft: false
-title: macOS High Sierraを使いながらmacOS Mojave（モハべ）のDeveloper Beta（開発者向けβ版）をインストールする
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2018-06-10 00:00:00+00:00
+draft: false
 tags:
-- Mojave
+- mojave
+- macos
+- ボリューム
+- high
+- パーティション
+title: macOS High Sierraを使いながらmacOS Mojave（モハべ）のDeveloper Beta（開発者向けβ版）をインストールする
+type: post
 ---
 
 ![](180610-5b1cb062dd67e.jpg)

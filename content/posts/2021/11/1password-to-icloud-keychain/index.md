@@ -1,11 +1,17 @@
 ---
 author: ottan
-date: 2021-11-27T18:44:59+09:00
+categories:
+- Mac
+date: 2021-11-27 18:44:59+09:00
 draft: false
-title: "1PasswordからiCloudキーチェーンへ移行する方法"
+tags:
+- キーチェーン
+- password
+- エクスポート
+- icloud
+- パスワード
+title: 1PasswordからiCloudキーチェーンへ移行する方法
 type: post
-categories: ["Mac"]
-tags: ["1Password", "Bitwarden"]
 ---
 
 macOS Montereyより、OS標準のキーチェーンで、パスワードやワンタイムパスワード（TOTP方式に対応）の管理ができるようになりました。キーチェーンを利用することで、Safariなどのブラウザからログイン名やパスワード、ワンタイムパスワードを自動入力できるようになります。

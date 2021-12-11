@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-11-20T00:00:00+00:00
-draft: false
-title: iCloud Driveを有効活用しよう！メールに添付ファイルとしてiCloud Driveからファイルを選択する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2015-11-20 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- drive
+- icloud
+- 添付ファイル
+- ibooks
+- タップ
+title: iCloud Driveを有効活用しよう！メールに添付ファイルとしてiCloud Driveからファイルを選択する方法
+type: post
 ---
 
 ![](151120-564fa786966e9.jpg)

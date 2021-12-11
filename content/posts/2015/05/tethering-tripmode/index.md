@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-05-14T00:00:00+00:00
-draft: false
-title: テザリング時に必須！許可したアプリケーションの通信のみ許可できる便利なMacのアプリ「TripMode」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2015-05-14 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- テザリング
+- 試用版
+- 一定量
+- アプリケーション
+- ボタン
+title: テザリング時に必須！許可したアプリケーションの通信のみ許可できる便利なMacのアプリ「TripMode」
+type: post
 ---
 
 ![](150514-55543c94262a6.jpg)

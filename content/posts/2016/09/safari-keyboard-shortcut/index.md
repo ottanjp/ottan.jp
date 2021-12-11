@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-09-04T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2016-09-04 00:00:00+00:00
 draft: false
+tags:
+- タブ
+- ウインドウ
+- safari
+- ショートカット
+- キーボード
 title: あなたはいくつ知ってる？MacのSafariでブラウジングが捗るショートカット
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](160904-57cbc9ff1cbf1.jpg)

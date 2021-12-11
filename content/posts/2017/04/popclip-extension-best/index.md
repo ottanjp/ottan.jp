@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-04-04T00:00:00+00:00
-draft: false
-title: 選択したテキストやURLをさまざまなものに保存、加工できるPopclipの便利な厳選拡張機能
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-04-04 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- 拡張機能
+- popclip
+- テキスト
+- tab
+- encode
+title: 選択したテキストやURLをさまざまなものに保存、加工できるPopclipの便利な厳選拡張機能
+type: post
 ---
 
 ![](170329-58db9a35be08e.jpg)

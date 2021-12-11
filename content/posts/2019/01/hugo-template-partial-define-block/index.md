@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-01-05T00:00:00+00:00
-draft: false
-title: 'Hugoのテンプレート構文「template」「partial」「block」「define」のわかりやすい解説'
-type: post
+author:
+- '@ottanxyz'
 categories:
-    - Blog
+- Blog
+date: 2019-01-05 00:00:00+00:00
+draft: false
 tags:
-    - Hugo
+- html
+- lt
+- gt
+- 構文
+- hugo
+title: Hugoのテンプレート構文「template」「partial」「block」「define」のわかりやすい解説
 toc: true
+type: post
 ---
 
 ![](190105-2f55736572732f6.jpg)

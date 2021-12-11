@@ -1,17 +1,22 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-09-02T00:00:00+00:00
-draft: false
-title: いくつ知ってる？Google検索の意外な使い道17選
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Android
 - iPhone
 - Mac
 - Web
 - Windows
+date: 2015-09-02 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- google検索
+- グラフ
+- 日の入り
+- 日の出
+- 使い道
+title: いくつ知ってる？Google検索の意外な使い道17選
+type: post
 ---
 
 ![](150902-55e6b3658975b.png)

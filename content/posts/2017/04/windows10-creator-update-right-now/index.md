@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-04-10T00:00:00+00:00
-draft: false
-title: 今すぐ最新のWindows 10 Creators Updateを手に入れよう！Windows Updateでアップデートできない場合にも試したい方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2017-04-10 00:00:00+00:00
+draft: false
 tags:
-- Development
+- windows
+- '10'
+- update
+- アップデート
+- 今すぐ
+title: 今すぐ最新のWindows 10 Creators Updateを手に入れよう！Windows Updateでアップデートできない場合にも試したい方法
+type: post
 ---
 
 ![](170410-58ec18847a1a4.jpg)

@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-04-15T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2015-04-15 00:00:00+00:00
 draft: false
+tags:
+- password
+- ワンタイムパスワード
+- 2段階認証
+- クリック
+- ログイン
 title: iOS版の1Passwordでウェブページの登録からワンタイムパスワードの使い方まで徹底解説！
 type: post
-categories:
-  - iPhone
-tags:
-  - Apps
-  - Security
 ---
 
 ![](150414-552d14e45900f.jpg)

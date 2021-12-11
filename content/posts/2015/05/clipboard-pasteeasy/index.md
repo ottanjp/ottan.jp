@@ -1,16 +1,21 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-05-28T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Android
+- iPhone
+- Mac
+- Windows
+date: 2015-05-28 00:00:00+00:00
 draft: false
+tags:
+- クリップボード
+- iphone
+- スクリーンショット
+- mac
+- android
 title: Mac、Windows、iPhone、Android間のクリップボードを自動で同期する「Pasteasy」
 type: post
-categories:
-  - Android
-  - iPhone
-  - Mac
-  - Windows
-tags:
-  - Apps
 ---
 
 ![](150528-5567a65ecf3e6.jpg)

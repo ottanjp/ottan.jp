@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-08-09T00:00:00+00:00
-draft: false
-title: Webページを見やすく印刷したい時はSafariのリーダーモードを使おう！
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-08-09 00:00:00+00:00
+draft: false
 tags:
-- Safari
-- Tips
+- リーダー
+- モード
+- フォント
+- pdf
+- webページ
+title: Webページを見やすく印刷したい時はSafariのリーダーモードを使おう！
+type: post
 ---
 
 ![](170809-598a6d85045af.jpg)

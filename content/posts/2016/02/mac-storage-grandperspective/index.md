@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-02-12T00:00:00+00:00
-draft: false
-title: Macのストレージの空き容量が少なくなったら、GrandPerspectiveで肥大化させている項目を特定しよう！
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-02-12 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ストレージ
+- 容量
+- ファイル
+- 四角形
+- 空き容量
+title: Macのストレージの空き容量が少なくなったら、GrandPerspectiveで肥大化させている項目を特定しよう！
+type: post
 ---
 
 ![](160209-56b985461b4a3.jpg)

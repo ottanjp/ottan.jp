@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-02-14T00:00:00+00:00
-draft: false
-title: VMware Fusion 8にmacOS Yosemite 10.10をインストールする
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-02-14 00:00:00+00:00
+draft: false
 tags:
-- Development
+- yosemite
+- vmware
+- インストール
+- クリック
+- macos
+title: VMware Fusion 8にmacOS Yosemite 10.10をインストールする
+type: post
 ---
 
 ![](160214-56c07b3a310cf.jpg)

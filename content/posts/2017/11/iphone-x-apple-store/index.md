@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-11-05T00:00:00+00:00
-draft: false
-title: iPhone X（SIMフリー版）を入荷待ちなしでApple Storeで当日受け取る方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-11-05 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- apple
+- store
+- 店舗
+- iphone
+- アプリ
+title: iPhone X（SIMフリー版）を入荷待ちなしでApple Storeで当日受け取る方法
+type: post
 ---
 
 ![](171105-59ff153893d3a.jpg)

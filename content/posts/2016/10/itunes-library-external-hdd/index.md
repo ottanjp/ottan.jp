@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-10-14T00:00:00+00:00
-draft: false
-title: 内蔵ストレージもスッキリ！今さら聞けないiTunesライブラリを外付けHDDに移動する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-10-14 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ライブラリ
+- itunes
+- メディア
+- フォルダー
+- ストレージ
+title: 内蔵ストレージもスッキリ！今さら聞けないiTunesライブラリを外付けHDDに移動する方法
+type: post
 ---
 
 ![](161014-5800e10f16122.jpg)

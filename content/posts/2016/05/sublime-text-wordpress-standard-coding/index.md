@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-05-21T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Blog
+date: 2016-05-21 00:00:00+00:00
 draft: false
+tags:
+- php
+- codesniffer
+- sublime
+- コーディング
+- text
 title: Sublime TextでWordPressのコーディング規約に遵守したコーディングを効率的に行おう！
 type: post
-categories:
-  - Mac
-  - Blog
-tags:
-  - Development
 ---
 
 ![](160521-573fe31dc0073.jpg)

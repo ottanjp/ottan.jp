@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-01-07T00:00:00+00:00
-draft: false
-title: Finderの任意の場所から右クリック1つでターミナルを開くことができる「TermHere」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-01-07 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- finder
+- ターミナル
+- 場所
+- カレントディレクトリ
+- ターミナルアプリ
+title: Finderの任意の場所から右クリック1つでターミナルを開くことができる「TermHere」
+type: post
 ---
 
 ![](170107-58704ebade212.jpg)

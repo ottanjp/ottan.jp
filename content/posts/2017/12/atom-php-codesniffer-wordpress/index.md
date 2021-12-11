@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-12-24T00:00:00+00:00
-draft: false
-title: AtomとPHP_CodeSnifferでWordPressコーディング規約に合わせてソースコードを自動修正
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2017-12-24 00:00:00+00:00
+draft: false
 tags:
-- Atom
-- Development
+- atom
+- php
+- ソースコード
+- phpcbf
+- コーディング
+title: AtomとPHP_CodeSnifferでWordPressコーディング規約に合わせてソースコードを自動修正
+type: post
 ---
 
 ![](171224-5a3f4af6505c0.png)

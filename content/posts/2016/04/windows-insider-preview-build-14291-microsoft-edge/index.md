@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-04-03T00:00:00+00:00
-draft: false
-title: Windows Insider Preview（Build 14291）で、Microsoft Edgeの拡張機能を体験しよう！
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2016-04-03 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- insider
+- 拡張機能
+- microsoft
+- edge
+- windows
+title: Windows Insider Preview（Build 14291）で、Microsoft Edgeの拡張機能を体験しよう！
+type: post
 ---
 
 ![](160423-571b755d0342c-1.png)

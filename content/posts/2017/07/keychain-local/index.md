@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-07-26T00:00:00+00:00
-draft: false
-title: 「"xxxxxxx"がキーチェーン"ローカル項目"を使おうとしています。」という警告ダイアログが表示される場合の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-07-26 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- キーチェーン
+- ローカル
+- パスワード
+- 管理者
+- 項目
+title: 「"xxxxxxx"がキーチェーン"ローカル項目"を使おうとしています。」という警告ダイアログが表示される場合の対処法
+type: post
 ---
 
 ![](170726-5977eba152f81.jpg)

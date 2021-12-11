@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-07-03T00:00:00+00:00
-draft: false
-title: Finderの右クリックメニュー、キーボードショートカットからPNGファイルを一括して圧縮する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-07-03 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- png
+- automator
+- finder
+- pngquant
+- キーボード
+title: Finderの右クリックメニュー、キーボードショートカットからPNGファイルを一括して圧縮する
+type: post
 ---
 
 ![](160703-5778fc678b05f.jpg)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-06-18T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Web
+date: 2016-06-18 00:00:00+00:00
 draft: false
+tags:
+- tumblr
+- 被害
+- パスワード
+- jtb
+- 個人情報流出
 title: いつの間にかTumblrからアカウント情報が流出していたことが判明
 type: post
-categories:
-  - Web
-tags:
-  - Security
 ---
 
 ![](160618-5764cb28ce652.jpg)

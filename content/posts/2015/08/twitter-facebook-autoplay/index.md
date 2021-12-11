@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-30T00:00:00+00:00
-draft: false
-title: モバイルデータ通信を節約しよう！TwitterとFacebookの動画を自動再生しないようにする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2015-08-30 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- 動画
+- facebook
+- 自動
+- タップ
+- twitter
+title: モバイルデータ通信を節約しよう！TwitterとFacebookの動画を自動再生しないようにする方法
+type: post
 ---
 
 ![](150830-55e27a631d445.png)

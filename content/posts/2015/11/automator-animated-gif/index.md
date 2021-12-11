@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-11-08T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2015-11-08 00:00:00+00:00
 draft: false
+tags:
+- gifアニメーション
+- imagemagick
+- automator
+- gif
+- homebrew
 title: macOSで右クリック1つでアニメーションGIFファイルを作る方法
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](151108-563f43efc6d2e-1.jpg)

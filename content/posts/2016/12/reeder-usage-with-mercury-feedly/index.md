@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-12-21T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2016-12-21 00:00:00+00:00
 draft: false
+tags:
+- rssリーダー
+- 記事
+- 未読
+- スター
+- 既読
 title: ReederがReadabilityからMercuryに移行し、再び記事表示時に本文抽出が可能に
 type: post
-categories:
-  - iPhone
-tags:
-  - Apps
 ---
 
 ![](161221-585a16739b9b2.jpg)

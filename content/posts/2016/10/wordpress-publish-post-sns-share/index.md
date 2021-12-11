@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-10-29T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2016-10-29 00:00:00+00:00
 draft: false
+tags:
+- ifttt
+- トリガー
+- email
+- 記事
+- 15分
 title: WordPressで記事を投稿した瞬間に各種SNSに簡単にシェアする方法
 type: post
-categories:
-  - Blog
-tags:
-  - Development
-  - IFTTT
 ---
 
 ![](161029-5814029bd3472.jpg)

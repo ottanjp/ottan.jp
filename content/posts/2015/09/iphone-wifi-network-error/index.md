@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-09-30T00:00:00+00:00
-draft: false
-title: iPhoneでWi-Fiネットワークからモバイルネットワークに切り替え後、ネットワークエラーが発生する場合の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2015-09-30 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ネットワーク
+- リセット
+- wi
+- fi
+- モバイル
+title: iPhoneでWi-Fiネットワークからモバイルネットワークに切り替え後、ネットワークエラーが発生する場合の対処法
+type: post
 ---
 
 ![](150930-560b505d54a51.jpg)

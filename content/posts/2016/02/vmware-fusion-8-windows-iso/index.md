@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-02-08T00:00:00+00:00
-draft: false
-title: VMware Fusion 8にWindows 7をインストールする（ISOファイル編）
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
 - Windows
+date: 2016-02-08 00:00:00+00:00
+draft: false
 tags:
-- Development
+- vmware
+- fusion
+- インストール
+- windows
+- 仮想マシン
+title: VMware Fusion 8にWindows 7をインストールする（ISOファイル編）
+type: post
 ---
 
 ![](160208-56b84a097dcc5.jpg)

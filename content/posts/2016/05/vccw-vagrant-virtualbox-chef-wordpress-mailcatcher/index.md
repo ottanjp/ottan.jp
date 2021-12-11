@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-05-01T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Blog
+date: 2016-05-01 00:00:00+00:00
 draft: false
+tags:
+- mailcatcher
+- vccw
+- 環境
+- wordpress
+- virtualbox
 title: VCCW（Vagrant＋VirtualBox＋Chef＋WordPress）のメール送信テスト環境には、MailCatcherが最適！
 type: post
-categories:
-  - Mac
-  - Blog
-tags:
-  - Development
 ---
 
 ![](160501-5725e9562d436.png)

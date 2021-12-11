@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-04-08T00:00:00+00:00
-draft: false
-title: Evernoteアカウントの2段階認証を有効にする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Web
+date: 2015-04-08 00:00:00+00:00
+draft: false
 tags:
-- Security
+- evernote
+- 2段階認証
+- コード
+- authenticator
+- アカウント
+title: Evernoteアカウントの2段階認証を有効にする方法
+type: post
 ---
 
 ![](150406-55224a814e472.jpg)

@@ -1,16 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-08-26T00:00:00+00:00
-draft: false
-title: iPhoneから公開鍵認証（SSH）でAWS Lightsail（EC2）に接続する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Blog
+date: 2018-08-26 00:00:00+00:00
+draft: false
 tags:
-- AWS
-- SSH
-- Blog
+- 秘密鍵
+- ec2
+- lightsail
+- インスタンス
+- 公開鍵
+title: iPhoneから公開鍵認証（SSH）でAWS Lightsail（EC2）に接続する
+type: post
 ---
 
 ![](180826-5b82193bd881c.jpg)

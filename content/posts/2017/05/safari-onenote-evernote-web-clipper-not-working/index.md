@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-05-26T00:00:00+00:00
-draft: false
-title: SafariでOneNote Web Clipper、またはEvernote Web Clipperが使用できない場合の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-05-26 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- onenote
+- webサイト
+- cookie
+- clipper
+- evernote
+title: SafariでOneNote Web Clipper、またはEvernote Web Clipperが使用できない場合の対処法
+type: post
 ---
 
 ![](170526-59277dea3d81e.png)

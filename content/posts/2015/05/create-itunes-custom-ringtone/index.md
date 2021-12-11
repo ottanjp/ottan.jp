@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-05-19T00:00:00+00:00
-draft: false
-title: iTunes Match対応版！iTunesで好きな楽曲の着信音を作成する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2015-05-19 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- 着信音
+- 楽曲
+- itunes
+- 右クリック
+- match
+title: iTunes Match対応版！iTunesで好きな楽曲の着信音を作成する方法
+type: post
 ---
 
 ![](150518-5559f03265fbb.jpg)

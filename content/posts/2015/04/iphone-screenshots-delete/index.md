@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-04-10T00:00:00+00:00
-draft: false
-title: iPhoneの写真ライブラリからスクリーンショットだけを削除できる「Screenshots」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2015-04-10 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- スクリーンショット
+- 日付
+- 写真
+- タップ
+- アプリ
+title: iPhoneの写真ライブラリからスクリーンショットだけを削除できる「Screenshots」
+type: post
 ---
 
 ![](150410-5527bbb9ebc56.jpg)

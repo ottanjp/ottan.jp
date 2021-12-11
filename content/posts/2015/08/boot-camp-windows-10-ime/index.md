@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-11T00:00:00+00:00
-draft: false
-title: Boot Camp環境のWindows 10で、かな、英数で日本語入力切り替えができない問題を解決する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
 - Windows
+date: 2015-08-11 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- 日本語入力
+- ドライバー
+- ime
+- boot
+- camp
+title: Boot Camp環境のWindows 10で、かな、英数で日本語入力切り替えができない問題を解決する
+type: post
 ---
 
 ![](150811-55c9ae9ac5b47.jpg)

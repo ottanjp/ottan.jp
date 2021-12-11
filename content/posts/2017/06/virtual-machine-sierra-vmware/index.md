@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-06-01T00:00:00+00:00
-draft: false
-title: VMware FusionにmacOS Sierraのβ版テスト環境を整える
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-06-01 00:00:00+00:00
+draft: false
 tags:
-- Development
+- vmware
+- インストール
+- sierra
+- ベータ版
+- fusion
+title: VMware FusionにmacOS Sierraのβ版テスト環境を整える
+type: post
 ---
 
 ![](170601-592fa9c8643af.jpg)

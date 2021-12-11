@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-02-11T00:00:00+00:00
-draft: false
-title: Ubuntu 16.04 LTSのGNOME ShellをMac風にカスタマイズする
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2018-02-11 00:00:00+00:00
+draft: false
 tags:
-- Ubuntu
+- gnome
+- ubuntu
+- apt
+- カスタマイズ
+- デスクトップ環境
+title: Ubuntu 16.04 LTSのGNOME ShellをMac風にカスタマイズする
+type: post
 ---
 
 ![](180210-5a7edd08336c5.jpg)

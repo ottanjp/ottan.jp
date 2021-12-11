@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-05-28T00:00:00+00:00
-draft: false
-title: これは便利！Dropboxのバージョン管理をGUIから行う「Revisions for Dropbox」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2015-05-28 00:00:00+00:00
+draft: false
 tags:
-- Development
+- ビキニ
+- 画像
+- dropbox
+- prior
+- by
+title: これは便利！Dropboxのバージョン管理をGUIから行う「Revisions for Dropbox」
+type: post
 ---
 
 ![](150527-5565c47d42243.png)

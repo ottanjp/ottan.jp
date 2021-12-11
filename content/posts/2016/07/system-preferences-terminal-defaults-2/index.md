@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-07-10T00:00:00+00:00
-draft: false
-title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（一般）
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-07-10 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- コマンド
+- write
+- delete
+- txt
+- defaults
+title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（一般）
+type: post
 ---
 
 ![](160710-5782414370ec5.jpg)

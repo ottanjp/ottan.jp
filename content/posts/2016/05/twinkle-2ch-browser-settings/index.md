@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-05-26T00:00:00+00:00
-draft: false
-title: iPhoneの高機能2ちゃんねるブラウザ「twinkle」で板がすべて表示されない問題の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2016-05-26 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- スレッド
+- 非表示
+- 2ちゃんねるブラウザ
+- タップ
+- 覚書
+title: iPhoneの高機能2ちゃんねるブラウザ「twinkle」で板がすべて表示されない問題の対処法
+type: post
 ---
 
 ![](160526-5746edb2cc9a9.jpg)

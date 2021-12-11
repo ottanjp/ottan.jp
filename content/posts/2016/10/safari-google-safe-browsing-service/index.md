@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-10-16T00:00:00+00:00
-draft: false
-title: Safariで「Google Safe Browsing Serviceを利用できません」と表示される場合の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-10-16 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- セーフモード
+- browsing
+- safe
+- service
+- safari
+title: Safariで「Google Safe Browsing Serviceを利用できません」と表示される場合の対処法
+type: post
 ---
 
 ![](161016-58036b3c59ff0.jpg)

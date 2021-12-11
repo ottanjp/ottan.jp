@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-06-13T00:00:00+00:00
-draft: false
-title: 今日からコピペで使えるWordPressで人気記事や最新記事を取得する方法のまとめ
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2015-06-13 00:00:00+00:00
+draft: false
 tags:
-- Development
+- gt
+- post
+- pos
+- wp
+- 記事
+title: 今日からコピペで使えるWordPressで人気記事や最新記事を取得する方法のまとめ
+type: post
 ---
 
 ![](150613-557be49dd5dd5.jpg)

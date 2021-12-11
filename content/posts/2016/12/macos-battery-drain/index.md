@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-12-03T00:00:00+00:00
-draft: false
-title: macOS Sierraのバッテリー消費が激しい時に見直したい項目
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-12-03 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- バッテリー消費
+- エネルギー
+- 輝度
+- バッテリー
+- プロセス
+title: macOS Sierraのバッテリー消費が激しい時に見直したい項目
+type: post
 ---
 
 ![](161203-584246e59f69e.jpg)

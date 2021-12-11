@@ -1,18 +1,20 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-22T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Blog
+date: 2015-08-22 00:00:00+00:00
 draft: false
-title:
-  WordPressの過去記事参照に！Alfredから記事を検索してMarsEditに貼り付けられる「Paste link for MarsEdit with
+tags:
+- marsedit
+- alfred
+- of
+- selected
+- to
+title: WordPressの過去記事参照に！Alfredから記事を検索してMarsEditに貼り付けられる「Paste link for MarsEdit with
   Alfred」
 type: post
-categories:
-  - Mac
-  - Blog
-tags:
-  - Alfred
-  - Apps
-  - MarsEdit
 ---
 
 ![](150822-55d7dbe6e6b29.jpg)

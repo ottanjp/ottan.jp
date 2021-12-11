@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-12-16T00:00:00+00:00
-draft: false
-title: iCloud Driveから消えてしまった重要なファイルをTime Machineを使って復元する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-12-16 00:00:00+00:00
+draft: false
 tags:
-- iCloud
-- Time Machine
+- machine
+- time
+- icloud
+- drive
+- ファイル
+title: iCloud Driveから消えてしまった重要なファイルをTime Machineを使って復元する方法
+type: post
 ---
 
 ![](171216-5a34bdaef127d.jpg)

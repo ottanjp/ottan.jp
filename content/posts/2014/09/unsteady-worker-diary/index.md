@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-14T00:00:00+00:00
-draft: false
-title: 三日坊主から卒業！iPhoneで日記を書き続けよう
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2014-09-14 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- 日記
+- evernote
+- ノート
+- ノートブック
+- 理由
+title: 三日坊主から卒業！iPhoneで日記を書き続けよう
+type: post
 ---
 
 ![](140914-5415912280464.jpg)

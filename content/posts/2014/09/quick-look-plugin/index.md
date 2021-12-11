@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-08T00:00:00+00:00
-draft: false
-title: Macを購入したら最初に導入しておきたいQuick Lookのプラグイン
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2014-09-08 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- cask
+- homebrew
+- プラグイン
+- インストール
+- quick
+title: Macを購入したら最初に導入しておきたいQuick Lookのプラグイン
+type: post
 ---
 
 ![](140907-540c30c27fe39.jpg)

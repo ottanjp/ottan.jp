@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-06-15T00:00:00+00:00
-draft: false
-title: Macを購入したら導入したいメニューバーに常駐する便利なオススメのアプリケーション
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-06-15 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- アプリケーション
+- バー
+- dash
+- メニュー
+- スニペット
+title: Macを購入したら導入したいメニューバーに常駐する便利なオススメのアプリケーション
+type: post
 ---
 
 ![](170612-593ddd26deecd.jpg)

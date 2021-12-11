@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-11-13T00:00:00+00:00
-draft: false
-title: 今さら聞けないiOS 11の疑問！メールの取得方法に追加された「フェッチ」の「自動」とは？「プッシュ」との違いは？
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-11-13 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- データ
+- サーバー
+- iphone
+- 新着
+- 自動
+title: 今さら聞けないiOS 11の疑問！メールの取得方法に追加された「フェッチ」の「自動」とは？「プッシュ」との違いは？
+type: post
 ---
 
 ![](171113-5a099fcab6fa0.jpg)

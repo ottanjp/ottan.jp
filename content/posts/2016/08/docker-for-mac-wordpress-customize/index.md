@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-08-04T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Blog
+date: 2016-08-04 00:00:00+00:00
 draft: false
+tags:
+- コンテナー
+- word
+- move
+- docker
+- wordpress
 title: Docker for Macで始めるお手軽WordPress環境のさまざまなカスタマイズ
 type: post
-categories:
-  - Mac
-  - Blog
-tags:
-  - Development
-  - Docker
 ---
 
 ![](160804-57a342e1e2382.jpg)

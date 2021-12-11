@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-title: HugoでSearch Consoleに追加された「ウェブに関する主な指標レポート」（CLS）の問題に対応する
-date: 2020-07-03T00:00:00+00:00
-tags:
-  - Hugo
-  - Google
+author:
+- '@ottanxyz'
 categories:
-  - Blog
+- Blog
+date: 2020-07-03 00:00:00+00:00
 katex: false
+tags:
+- resources
+- 画像
+- 指標
+- lt
+- 関数
+title: HugoでSearch Consoleに追加された「ウェブに関する主な指標レポート」（CLS）の問題に対応する
 ---
+
 ![](screenshot-2020-07-03-20.28.33.png)
 
 ## Google Search Consoleに追加された新たな指標値

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-09-17T00:00:00+00:00
-draft: false
-title: Safariで広告を非表示にするコンテンツブロッカーを使用する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2015-09-17 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- 非表示
+- safari
+- 拡張機能
+- コンテンツブロッカー
+- ios
+title: Safariで広告を非表示にするコンテンツブロッカーを使用する方法
+type: post
 ---
 
 ![](150917-55fac66a7dfbf.jpg)

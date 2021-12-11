@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-03-05T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+- Mac
+date: 2017-03-05 00:00:00+00:00
 draft: false
+tags:
+- match
+- itunes
+- ミュージック
+- ライブラリ
+- icloud
 title: iTunes Match（iCloudミュージックライブラリ）を解約する方法とその注意点
 type: post
-categories:
-  - iPhone
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](170305-58bb8296c2675.jpg)

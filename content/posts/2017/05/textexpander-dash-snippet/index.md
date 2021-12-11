@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-05-30T00:00:00+00:00
-draft: false
-title: スニペット展開アプリのTextExpanderの代替アプリとしてDashを使用する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
 - Blog
+date: 2017-05-30 00:00:00+00:00
+draft: false
 tags:
-- Apps
-- Development
+- スニペット
+- dash
+- lt
+- 文字列
+- アプリ
+title: スニペット展開アプリのTextExpanderの代替アプリとしてDashを使用する
+type: post
 ---
 
 ![](170530-592cff148d6b6.jpg)

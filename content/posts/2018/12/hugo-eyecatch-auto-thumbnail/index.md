@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-12-24T00:00:00+00:00
-draft: false
-title: "Hugoで記事のアイキャッチ画像を自動的に取得する"
-type: post
+author:
+- '@ottanxyz'
 categories:
-  - Blog
+- Blog
+date: 2018-12-24 00:00:00+00:00
+draft: false
 tags:
-  - Hugo
-  - Netlify
+- アイキャッチ
+- 画像
+- hugo
+- 関数
+- gt
+title: Hugoで記事のアイキャッチ画像を自動的に取得する
 toc: true
+type: post
 ---
 
 ![](181224-2f55736572732f6.jpg)

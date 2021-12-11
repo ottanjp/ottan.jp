@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-04-07T00:00:00+00:00
-draft: false
-title: Googleアカウントの2段階認証を有効にする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Web
+date: 2015-04-07 00:00:00+00:00
+draft: false
 tags:
-- Security
+- 2段階認証
+- パスワード
+- googleアカウント
+- ワンタイムパスワード
+- 固有
+title: Googleアカウントの2段階認証を有効にする方法
+type: post
 ---
 
 ![](150406-552244eae9c14.jpg)

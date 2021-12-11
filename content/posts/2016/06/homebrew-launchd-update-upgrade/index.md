@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-06-26T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2016-06-26 00:00:00+00:00
 draft: false
+tags:
+- homebrew
+- terminal
+- パッケージ
+- 定期的
+- コマンド
 title: 定期的にHomebrewをバックグラウンドで自動的にupdate/upgradeする
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](160626-576fd72d2db44.jpg)

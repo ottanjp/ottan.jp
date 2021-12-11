@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-04-11T00:00:00+00:00
-draft: false
-title: Linuxを使ってみよう！Linux Mint（Cinnamon）を導入する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-04-11 00:00:00+00:00
+draft: false
 tags:
-- Development
-- Linux
+- mint
+- linux
+- vmware
+- インストール
+- tools
+title: Linuxを使ってみよう！Linux Mint（Cinnamon）を導入する方法
+type: post
 ---
 
 ![](170411-58ec97c0c5d9c.jpg)

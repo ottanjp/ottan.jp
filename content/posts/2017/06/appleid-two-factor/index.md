@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-06-05T00:00:00+00:00
-draft: false
-title: 疑問を徹底解消！Apple IDの2要素認証でiPhone1台しか持ってない場合はどうするの？
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-06-05 00:00:00+00:00
+draft: false
 tags:
-- Security
-- Tips
+- 要素
+- sms
+- 音声通話
+- 電話番号
+- apple
+title: 疑問を徹底解消！Apple IDの2要素認証でiPhone1台しか持ってない場合はどうするの？
+type: post
 ---
 
 ![](170605-5934b3a6223c5.jpg)

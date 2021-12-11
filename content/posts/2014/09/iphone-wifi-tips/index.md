@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-12T00:00:00+00:00
-draft: false
-title: iPhoneのWi-Fiがルーターの「理論上の」最大速度よりはるかに遅いのはなぜか
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2014-09-12 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- チャンネル
+- hz
+- 理論
+- mimo
+- airmac
+title: iPhoneのWi-Fiがルーターの「理論上の」最大速度よりはるかに遅いのはなぜか
+type: post
 ---
 
 ![](140912-5412690356509.jpg)

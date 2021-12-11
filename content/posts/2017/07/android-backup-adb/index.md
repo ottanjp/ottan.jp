@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-07-17T00:00:00+00:00
-draft: false
-title: Androidデバイスにダウンロードしたアプリのデータを含めてバックアップを取得する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Android
+date: 2017-07-17 00:00:00+00:00
+draft: false
 tags:
-- Development
+- android
+- usb
+- adb
+- データ
+- デバイス
+title: Androidデバイスにダウンロードしたアプリのデータを含めてバックアップを取得する
+type: post
 ---
 
 ![](170716-596af0016e595.jpg)

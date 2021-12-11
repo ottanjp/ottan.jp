@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-05-27T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2015-05-27 00:00:00+00:00
 draft: false
+tags:
+- メニュー
+- ウインドウ
+- クリック
+- バッテリー
+- バー
 title: optionキーを使って隠れたオプションや情報にアクセスしよう！
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](150526-55647c19e6cd0.jpg)

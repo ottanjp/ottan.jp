@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-09-19T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2016-09-19 00:00:00+00:00
 draft: false
+tags:
+- ios
+- バックグラウンド
+- アプリケーション
+- '10'
+- デバイス
 title: これでスッキリ！iOS 10でiPhoneの動作が遅いと感じた時に試したいこと
 type: post
-categories:
-  - iPhone
-tags:
-  - Tips
 ---
 
 ![](160919-57df527a6cf20.jpg)

@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-07-24T00:00:00+00:00
-draft: false
-title: VMware Fusionで作成したWindows 10 Professionalの仮想マシンでHyper-Vを有効化する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
 - Windows
+date: 2016-07-24 00:00:00+00:00
+draft: false
 tags:
-- Development
+- hyper
+- windows
+- vmware
+- 仮想マシン
+- fusion
+title: VMware Fusionで作成したWindows 10 Professionalの仮想マシンでHyper-Vを有効化する方法
+type: post
 ---
 
 ![](160724-57942af931232.jpg)

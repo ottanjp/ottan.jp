@@ -1,12 +1,20 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-01-20T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Blog
+date: 2019-01-20 00:00:00+00:00
 draft: false
-title: "Netlify FunctionsをDockerで実行する"
-type: post
-categories: ["Mac", "Blog"]
-tags: ["Docker", "Netlify"]
+tags:
+- コンテナ
+- docker
+- netlify
+- run
+- functions
+title: Netlify FunctionsをDockerで実行する
 toc: true
+type: post
 ---
 
 ![](190120-82e35302e706e67.png)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-12-09T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2016-12-09 00:00:00+00:00
 draft: false
+tags:
+- amp
+- google
+- lt
+- ense
+- ads
 title: WordPressをAMPに対応させる方法とそのカスタマイズ
 type: post
-categories:
-  - Blog
-tags:
-  - Development
 ---
 
 ![](161209-584a71204f3d6.jpg)

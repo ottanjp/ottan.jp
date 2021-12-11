@@ -1,15 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-10-13T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2018-10-13 00:00:00+00:00
 draft: false
+tags:
+- cms
+- netlify
+- wordpress
+- テーマ
+- github
 title: Netlify CMS（Hugo）でMarkdownで記述可能な無料ブログを構築する（構築編）
 type: post
-categories:
-  - Blog
-tags:
-  - CMS
-  - Netlify
-  - Blog
 ---
 
 ![](181013-5bc19bd103c86.png)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-04-20T00:00:00+00:00
-draft: false
-title: プログラミングの知識ゼロで「YouTube」アプリケーションを作成しよう！
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2015-04-20 00:00:00+00:00
+draft: false
 tags:
-- Development
+- automator
+- youtube
+- 知識
+- アプリケーション
+- youtubeアプリ
+title: プログラミングの知識ゼロで「YouTube」アプリケーションを作成しよう！
+type: post
 ---
 
 ![](150419-5533aea1ba941.jpg)

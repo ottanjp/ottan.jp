@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-11-20T00:00:00+00:00
-draft: false
-title: LinuxにMicrosoft SQL Serverをインストールする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2016-11-20 00:00:00+00:00
+draft: false
 tags:
-- Development
-- Linux
+- sql
+- server
+- mssql
+- microsoft
+- linux
+title: LinuxにMicrosoft SQL Serverをインストールする方法
+type: post
 ---
 
 ![](161120-58314ed6a9ab1.png)

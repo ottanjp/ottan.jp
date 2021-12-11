@@ -1,16 +1,21 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-11-24T00:00:00+00:00
-draft: false
-title: macOS High SierraでsudoコマンドをTouch IDで認証する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-11-24 00:00:00+00:00
+draft: false
 tags:
-- Development
+- pam
+- sudo
+- touch
+- required
+- コマンド
+title: macOS High SierraでsudoコマンドをTouch IDで認証する方法
+type: post
 ---
 
- ![](171124-5a17d0bf5b9b9.png)
+![](171124-5a17d0bf5b9b9.png)
  photo credit: lewro [I love working in this RAILS enviroment](http://www.flickr.com/photos/61128561@N00/3795782148) via [photopin](http://photopin.com) [(license)](https://creativecommons.org/licenses/by-nc-nd/2.0/) 
 
 

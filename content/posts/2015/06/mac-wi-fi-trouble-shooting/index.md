@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-06-08T00:00:00+00:00
-draft: false
-title: MacでWi-Fiネットワークから頻繁に切断される、もしくは速度が出ない問題の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2015-06-08 00:00:00+00:00
+draft: false
 tags:
-- Tips
-- Wi-Fi
+- ネットワーク
+- fi
+- wi
+- 強度
+- dbm
+title: MacでWi-Fiネットワークから頻繁に切断される、もしくは速度が出ない問題の対処法
+type: post
 ---
 
 ![](150608-5575a0998f685.jpg)

@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-05-11T00:00:00+00:00
-draft: false
-title: XPマシンの救世主と言われるZorin OSをVMware Fusionにインストールしてみた
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
 - Windows
+date: 2016-05-11 00:00:00+00:00
+draft: false
 tags:
-- Development
+- zorin
+- ubuntu
+- クリック
+- xp
+- vmware
+title: XPマシンの救世主と言われるZorin OSをVMware Fusionにインストールしてみた
+type: post
 ---
 
 ![](160511-573323819f9e7.png)

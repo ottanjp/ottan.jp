@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-23T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Web
+date: 2015-08-23 00:00:00+00:00
 draft: false
+tags:
+- rss
+- twitter
+- ifttt
+- キーワード
+- レシピ
 title: Twitterから気になるキーワードを含むツイートをEvernoteに収集する方法
 type: post
-categories:
-  - Web
-tags:
-  - IFTTT
-  - Tips
 ---
 
 ![](150823-55d9bb96b430b.jpg)

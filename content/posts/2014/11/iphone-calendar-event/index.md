@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-11-20T00:00:00+00:00
-draft: false
-title: iPhoneのカレンダーに過去のイベントが表示されない場合の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2014-11-20 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- カレンダー
+- イベント
+- 期間
+- iphone
+- 戸惑い
+title: iPhoneのカレンダーに過去のイベントが表示されない場合の対処法
+type: post
 ---
 
 ![](141120-546d8b4f7a86a.jpg)

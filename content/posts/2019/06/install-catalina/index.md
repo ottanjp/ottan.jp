@@ -1,12 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-06-29T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2019-06-29 00:00:00+00:00
 draft: false
-title: "macOS Mojaveの環境を壊さずにmacOS Catalinaを試す方法"
-type: post
-categories: ["Mac"]
-tags: ["Catalina","Mojave"]
+tags:
+- catalina
+- ボリューム
+- mojave
+- beta
+- macos
+title: macOS Mojaveの環境を壊さずにmacOS Catalinaを試す方法
 toc: true
+type: post
 ---
 
 ![](190629-ea91ab94c61a1e81.jpg)

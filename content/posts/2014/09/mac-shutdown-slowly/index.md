@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-06T00:00:00+00:00
-draft: false
-title: Macのシャットダウンが遅くなってしまった場合に見直したい項目
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2014-09-06 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ディスク
+- シャットダウン
+- exittimeout
+- システム
+- defaults
+title: Macのシャットダウンが遅くなってしまった場合に見直したい項目
+type: post
 ---
 
 ![](140906-540ad02714260.jpg)

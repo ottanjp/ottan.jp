@@ -1,15 +1,20 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-05-10T00:00:00+00:00
-draft: false
-title: WordPressの本文にApp StoreのURLを貼り付けるだけで、アフィリエイトリンクを生成できるようにする
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
 - Blog
+date: 2016-05-10 00:00:00+00:00
+draft: false
 tags:
-- Development
+- 文字列
+- アフィリエイト
+- itunes
+- url
+- アプリケーション
+title: WordPressの本文にApp StoreのURLを貼り付けるだけで、アフィリエイトリンクを生成できるようにする
+type: post
 ---
 
 ![](160510-5731d1e0800c7.jpg)

@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-01-15T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2017-01-15 00:00:00+00:00
 draft: false
+tags:
+- adsense
+- google
+- analytics
+- adblock
+- ブロック
 title: ブログを訪れたユーザーがどれだけGoogle AdSenseをブロックしているかを簡単に計測する方法
 type: post
-categories:
-  - Blog
-tags:
-  - Development
-  - Google
 ---
 
 ![](170115-587adc00b89dd.jpg)

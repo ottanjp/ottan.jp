@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-09-21T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+- Mac
+date: 2016-09-21 00:00:00+00:00
 draft: false
+tags:
+- クリップボード
+- ユニバーサル
+- sierra
+- macos
+- ios
 title: MacとiPhoneでクリップボードを共有する「ユニバーサルクリップボード」が使用できない場合の対処法
 type: post
-categories:
-  - iPhone
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](160921-57e289d92f99e.jpg)

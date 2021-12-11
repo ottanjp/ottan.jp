@@ -1,12 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-01-12T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2019-01-12 00:00:00+00:00
 draft: false
-title: 'Parallels Desktop 12 for MacでUbuntu 18.04 LTSへのParallels Toolsのインストールに失敗する場合の対処法'
-type: post
-categories: ['Mac']
-tags: ['Ubuntu', 'Paralles Desktop']
+tags:
+- parallels
+- tools
+- ubuntu
+- 日本語
+- mozc
+title: Parallels Desktop 12 for MacでUbuntu 18.04 LTSへのParallels Toolsのインストールに失敗する場合の対処法
 toc: true
+type: post
 ---
 
 ![](190112-2f55736572732f6.jpg)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-06-23T00:00:00+00:00
-draft: false
-title: ログイン時にVCCW（Vagrant＋VirtualBox）で構築した仮想マシンを自動起動する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-06-23 00:00:00+00:00
+draft: false
 tags:
-- Development
+- ユーザ
+- etc
+- launchd
+- 仮想マシン
+- vagrant
+title: ログイン時にVCCW（Vagrant＋VirtualBox）で構築した仮想マシンを自動起動する
+type: post
 ---
 
 ![](160622-576a9dcd54988.jpg)

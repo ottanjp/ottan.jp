@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-02-10T00:00:00+00:00
-draft: false
-title: ディスクユーティリティでUSBメモリ消去時にエラーが発生した場合の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-02-10 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ディスクユーティリティ
+- usbメモリ
+- dis
+- k2
+- 記憶媒体
+title: ディスクユーティリティでUSBメモリ消去時にエラーが発生した場合の対処法
+type: post
 ---
 
 ![](160210-56bb33959e848-1.jpg)

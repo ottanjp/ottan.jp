@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-16T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2014-09-16 00:00:00+00:00
 draft: false
+tags:
+- lt
+- gt
+- スタイルシート
+- 言語
+- エンコード
 title: 動作が軽快なシンタックスハイライター「highlight.js」
 type: post
-categories:
-  - Blog
-tags:
-  - Development
 ---
 
 ![](140916-5417c007730c4.png)

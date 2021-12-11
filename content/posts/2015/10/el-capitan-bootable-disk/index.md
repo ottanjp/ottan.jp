@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-10-01T00:00:00+00:00
-draft: false
-title: macOS 10.11 El Capitanの起動ディスクを作成する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2015-10-01 00:00:00+00:00
+draft: false
 tags:
-- Development
+- ディスク
+- capitan
+- el
+- インストーラー
+- macos
+title: macOS 10.11 El Capitanの起動ディスクを作成する方法
+type: post
 ---
 
 ![](151001-560d326d553bd.jpg)

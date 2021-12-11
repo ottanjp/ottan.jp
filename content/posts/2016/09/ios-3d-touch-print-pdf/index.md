@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-09-25T00:00:00+00:00
-draft: false
-title: iOSの3D Touchとプリント機能を使用して、どこからでもPDFファイルを作成する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2016-09-25 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- pdf
+- 3d
+- pop
+- ibooks
+- ドキュメント
+title: iOSの3D Touchとプリント機能を使用して、どこからでもPDFファイルを作成する方法
+type: post
 ---
 
 ![](160925-57e7b2efe1570.jpg)

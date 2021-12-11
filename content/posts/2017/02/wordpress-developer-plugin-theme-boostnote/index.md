@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-02-19T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Blog
+date: 2017-02-19 00:00:00+00:00
 draft: false
+tags:
+- ノート
+- エディター
+- 軽量
+- atom
+- sublime
 title: WordPressのテーマ、プラグイン開発者にオススメできる軽量なテキストエディター「Boostnote」
 type: post
-categories:
-  - Mac
-  - Blog
-tags:
-  - Development
 ---
 
 ![](170219-58a972d7665c9.jpg)

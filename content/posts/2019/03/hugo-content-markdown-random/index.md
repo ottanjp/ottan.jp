@@ -1,12 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-03-02T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2019-03-02 00:00:00+00:00
 draft: false
-title: "HugoでMarkdownのランダムな位置にGoogle AdSenseのコードを挿入する"
-type: post
-categories: ["Blog"]
-tags: ["Hugo"]
+tags:
+- adsense
+- コード
+- cratch
+- scratch
+- 変数
+title: HugoでMarkdownのランダムな位置にGoogle AdSenseのコードを挿入する
 toc: true
+type: post
 ---
 
 ![](190302-fdd22500e5352588.png)

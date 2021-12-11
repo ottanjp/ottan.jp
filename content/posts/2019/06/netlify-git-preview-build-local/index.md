@@ -1,12 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-06-05T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2019-06-05 00:00:00+00:00
 draft: false
-title: "NetlifyとGitでmasterブランチにコミットする前にプレビューする3つの方法"
-type: post
-categories: ["Blog"]
-tags: ["Netlify", "Git"]
+tags:
+- デプロイ
+- ブランチ
+- netlify
+- プルリクエスト
+- プロダクション
+title: NetlifyとGitでmasterブランチにコミットする前にプレビューする3つの方法
 toc: true
+type: post
 ---
 
 ![](190605-4a86ec92ead330b9.jpg)

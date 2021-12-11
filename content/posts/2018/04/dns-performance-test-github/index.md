@@ -1,15 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-04-05T00:00:00+00:00
-draft: false
-title: 最速のDNSリゾルバーを見つけるためのパフォーマンス測定方法と「DNS Performance test」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2018-04-05 00:00:00+00:00
+draft: false
 tags:
-- DNS
-- GItHub
-- Wi-Fi
+- ms
+- dns
+- test
+- cloudflare
+- tes
+title: 最速のDNSリゾルバーを見つけるためのパフォーマンス測定方法と「DNS Performance test」
+type: post
 ---
 
 ![](180405-5ac62b3619f6a.jpg)

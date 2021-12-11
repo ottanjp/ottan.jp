@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-03-06T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2018-03-06 00:00:00+00:00
 draft: false
+tags:
+- ドメイン
+- リスト
+- pro
+- settings
+- ブロック
 title: AdGuard Proがワンタップでのドメインリストのインポートに対応しWorkflow不要でより便利に！
 type: post
-categories:
-  - iPhone
-tags:
-  - AdBlock
-  - Adgurad Pro
 ---
 
 ![](180306-5a9e87c72f100.jpg)

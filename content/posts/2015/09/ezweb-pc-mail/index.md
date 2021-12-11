@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-09-26T00:00:00+00:00
-draft: false
-title: '@ezweb.ne.jp宛のメールをパソコンで受信する方法'
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2015-09-26 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ezweb
+- ne
+- パソコン
+- jp
+- imap
+title: '@ezweb.ne.jp宛のメールをパソコンで受信する方法'
+type: post
 ---
 
 ![](150925-5605def52d814.png)

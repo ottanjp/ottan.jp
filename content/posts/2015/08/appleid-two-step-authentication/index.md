@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-22T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+- Mac
+date: 2015-08-22 00:00:00+00:00
 draft: false
+tags:
+- 2段階認証
+- パスワード
+- id
+- apple
+- ボタン
 title: Apple IDの2段階認証を有効にする方法
 type: post
-categories:
-  - iPhone
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](150822-55d7cccd48ee5.jpg)

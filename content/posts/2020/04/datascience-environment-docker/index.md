@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-title: データ分析（データサイエンス）に必要な環境（Jupyter Lab）を一発で整えるワンライナー
-date: 2020-04-26T00:00:00+00:00
-tags:
-  - Docker
-  - Jupyter Lab
-  - Python
+author:
+- '@ottanxyz'
 categories:
-  - Mac
+- Mac
+date: 2020-04-26 00:00:00+00:00
+tags:
+- jupyter
+- docker
+- lab
+- コンテナ
+- affe
+title: データ分析（データサイエンス）に必要な環境（Jupyter Lab）を一発で整えるワンライナー
 ---
+
 Docker使いましょう。
 
 [GitHub](https://github.com/jupyter/docker-stacks)で公開されている、Dockerイメージのテンプレートからコンテナを起動するだけで、データ分析に大抵の場合に必要なPythonのライブラリ（例えば、Pandas、Numpy等）が一式揃った環境を用意できます。

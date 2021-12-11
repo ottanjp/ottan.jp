@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-01-06T00:00:00+00:00
-draft: false
-title: App Storeから古いバージョンのアプリケーションをダウンロードする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-01-06 00:00:00+00:00
+draft: false
 tags:
-- Apps
-- Tips
+- charles
+- バージョン
+- アプリケーション
+- モニター
+- itunes
+title: App Storeから古いバージョンのアプリケーションをダウンロードする方法
+type: post
 ---
 
 ![](160106-568d1f5ddc56f-1.jpg)

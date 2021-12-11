@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-11-21T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2014-11-21 00:00:00+00:00
 draft: false
+tags:
+- バッテリー
+- 輝度
+- 画面
+- バックグラウンド
+- スリープ
 title: iPhoneのバッテリーを節約するための必要最小限の4つのTips（iOS8対応）
 type: post
-categories:
-  - iPhone
-tags:
-  - Tips
 ---
 
 ![](141121-546efe99f19cf.jpg)

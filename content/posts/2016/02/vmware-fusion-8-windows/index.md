@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-02-10T00:00:00+00:00
-draft: false
-title: VMware Fusion 8にWindows 10をインストールする
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
 - Windows
+date: 2016-02-10 00:00:00+00:00
+draft: false
 tags:
-- Development
+- vmware
+- windows
+- fusion
+- インストール
+- '10'
+title: VMware Fusion 8にWindows 10をインストールする
+type: post
 ---
 
 ![](160209-56b9f8d752afb.jpg)

@@ -1,12 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-02-02T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2019-02-02 00:00:00+00:00
 draft: false
-title: "Netlify + Hugo + Elasticsearchで静的サイトの全文検索を行う"
-type: post
-categories: ['Blog']
-tags: ['Netlify','Hugo','Elasticsearch']
+tags:
+- elasticsearch
+- クレデンシャル
+- 全文検索
+- インデックス
+- ドキュメント
+title: Netlify + Hugo + Elasticsearchで静的サイトの全文検索を行う
 toc: true
+type: post
 ---
 
 ![](190202-f3634302e706e67.png)

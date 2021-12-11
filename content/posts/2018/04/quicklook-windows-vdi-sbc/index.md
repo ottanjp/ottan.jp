@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-04-08T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Windows
+date: 2018-04-08 00:00:00+00:00
 draft: false
+tags:
+- quicklook
+- アーカイブ
+- windows
+- github
+- プレビュー
 title: インストール不要、管理者権限不要！VDI、SBC環境でも動作するWindowsでQuickLookを実現する「QuickLook」
 type: post
-categories:
-  - Windows
-tags:
-  - QuickLook
-  - Windows 10
 ---
 
 ![](180408-5aca13741dea3.jpg)

@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-02-16T00:00:00+00:00
-draft: false
-title: Wi-Fi経由でiPhoneからWindows 10の写真アプリ（Microsoft フォト）に写真を転送する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Windows
+date: 2018-02-16 00:00:00+00:00
+draft: false
 tags:
-- Windows 10
+- フォト
+- 写真
+- microsoft
+- wi
+- fi
+title: Wi-Fi経由でiPhoneからWindows 10の写真アプリ（Microsoft フォト）に写真を転送する方法
+type: post
 ---
 
 ![](180216-5a86e20c71894.jpg)

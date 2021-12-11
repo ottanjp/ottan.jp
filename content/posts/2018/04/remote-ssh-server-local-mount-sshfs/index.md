@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-04-22T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2018-04-22 00:00:00+00:00
 draft: false
+tags:
+- ssh
+- サーバ
+- マウント
+- ファイルシステム
+- リモート
 title: 管理者権限不要でリモートのSSHサーバをローカルにマウントし、リモートのファイルを大量処理する
 type: post
-categories:
-  - Mac
-tags:
-  - macOS
-  - SSH
 ---
 
 ![](180422-5adc85507ced1.jpg)

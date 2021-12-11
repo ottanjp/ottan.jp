@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-10-22T00:00:00+00:00
-draft: false
-title: iPhoneのホーム画面でいつでもどこでもウィジェットを確認する簡単な方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2016-10-22 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ウィジェット
+- ホーム
+- 3d
+- dock
+- 画面
+title: iPhoneのホーム画面でいつでもどこでもウィジェットを確認する簡単な方法
+type: post
 ---
 
 ![](161022-580b4aaa16045.jpg)

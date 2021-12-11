@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-11-20T00:00:00+00:00
-draft: false
-title: Macの標準アプリを使用して、スポットライト効果のような画像を作成する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-11-20 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- プレビュー
+- 画像
+- スポットライト
+- マスク
+- 効果
+title: Macの標準アプリを使用して、スポットライト効果のような画像を作成する方法
+type: post
 ---
 
 ![](161120-583192dfbdda6.png)

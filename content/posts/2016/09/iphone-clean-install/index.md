@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-09-18T00:00:00+00:00
-draft: false
-title: iPhoneの動作が遅い、バッテリーの減りが早いと感じた時はiOSのクリーンインストールを試してみよう！
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2016-09-18 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ios
+- iphone
+- リカバリー
+- クリーンインストール
+- itunes
+title: iPhoneの動作が遅い、バッテリーの減りが早いと感じた時はiOSのクリーンインストールを試してみよう！
+type: post
 ---
 
 ![](160918-57de7f4b03c1d.jpg)

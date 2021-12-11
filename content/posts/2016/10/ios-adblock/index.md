@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-10-08T00:00:00+00:00
-draft: false
-title: iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」の仕組み
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2016-10-08 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- vpn
+- adblock
+- ドメイン
+- ipアドレス
+- 仕組み
+title: iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」の仕組み
+type: post
 ---
 
 ![](161007-57f7c0f9544b8.jpg)

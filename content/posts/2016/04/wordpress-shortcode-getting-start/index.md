@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-04-23T00:00:00+00:00
-draft: false
-title: WordPressのショートコード入門
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2016-04-23 00:00:00+00:00
+draft: false
 tags:
-- Development
+- ショート
+- lt
+- gt
+- コード
+- image
+title: WordPressのショートコード入門
+type: post
 ---
 
 ![](160423-571b55fc9bd95-1.jpg)

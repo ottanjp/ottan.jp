@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-11-13T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2016-11-13 00:00:00+00:00
 draft: false
+tags:
+- google翻訳
+- workflow
+- 精度
+- タップ
+- extension
 title: 翻訳精度が向上したGoogle翻訳をiPhoneの色々なアプリから呼び出す拡張機能
 type: post
-categories:
-  - iPhone
-tags:
-  - Tips
 ---
 
 ![](161113-582845d6e8a93.jpg)

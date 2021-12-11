@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-06-09T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2015-06-09 00:00:00+00:00
 draft: false
+tags:
+- hz
+- チャンネル
+- 無線lan
+- fi
+- wi
 title: iPhoneでWi-Fiネットワークから頻繁に切断される、もしくは速度が出ない問題の対処法
 type: post
-categories:
-  - iPhone
-tags:
-  - Tips
-  - Wi-Fi
 ---
 
 ![](150609-5576dae5e97aa.jpg)

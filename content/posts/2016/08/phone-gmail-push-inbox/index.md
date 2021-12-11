@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-08-17T00:00:00+00:00
-draft: false
-title: iPhoneでGmailをプッシュ通知！すべてのメールアドレスをGmailに転送し、Gmailからすべて送受信する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2016-08-17 00:00:00+00:00
+draft: false
 tags:
-- Google
-- Tips
+- gmail
+- メール
+- smtp
+- メーラー
+- メールアドレス
+title: iPhoneでGmailをプッシュ通知！すべてのメールアドレスをGmailに転送し、Gmailからすべて送受信する方法
+type: post
 ---
 
 ![](160817-57b455320fe57.jpg)

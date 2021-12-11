@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-10-15T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2015-10-15 00:00:00+00:00
 draft: false
+tags:
+- id
+- apple
+- タップ
+- クレジットカード
+- 情報
 title: 請求情報（クレジットカード）無しでApple IDを新規作成する方法（iPhone編）
 type: post
-categories:
-  - iPhone
-tags:
-  - Tips
 ---
 
 ![](151015-5620326c1b3bd.jpg)

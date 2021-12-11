@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-06-11T00:00:00+00:00
-draft: false
-title: WordPressのデフォルトカテゴリーである「未分類」を削除する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2016-06-11 00:00:00+00:00
+draft: false
 tags:
-- Development
+- カテゴリー
+- デフォルト
+- ダッシュボード
+- チェックボックス
+- おさらば
+title: WordPressのデフォルトカテゴリーである「未分類」を削除する
+type: post
 ---
 
 ![](160611-575c0abb02e8f.jpg)

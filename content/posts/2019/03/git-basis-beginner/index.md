@@ -1,12 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-03-23T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2019-03-23 00:00:00+00:00
 draft: false
-title: "Git初心者が最初から学ぶGitの入門"
-type: post
-categories: ["Mac"]
-tags: ["Git","GitHub","VS Code"]
+tags:
+- git
+- txt
+- ブランチ
+- commit
+- ツリー
+title: Git初心者が最初から学ぶGitの入門
 toc: true
+type: post
 ---
 
 ![](190323-aa5fe717deb8f540.jpg)

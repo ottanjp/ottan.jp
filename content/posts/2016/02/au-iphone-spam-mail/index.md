@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-02-01T00:00:00+00:00
-draft: false
-title: auユーザ、iPhoneユーザなら必ず設定しておきたい迷惑メール対策
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2016-02-01 00:00:00+00:00
+draft: false
 tags:
-- Security
+- au
+- 迷惑メール対策
+- リスト
+- 迷惑メール
+- ドメイン
+title: auユーザ、iPhoneユーザなら必ず設定しておきたい迷惑メール対策
+type: post
 ---
 
 ![](160201-56af05559ec1b-1.jpg)

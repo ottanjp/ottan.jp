@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-03-21T00:00:00+00:00
-draft: false
-title: WordPressのwp_enqueue_script、wp_enqueue_style関数で呼び出されているスクリプトとCSSの一覧を確認する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2018-03-21 00:00:00+00:00
+draft: false
 tags:
-- Development
-- Blog
+- wp
+- 関数
+- javascript
+- ハンドル
+- tag
+title: WordPressのwp_enqueue_script、wp_enqueue_style関数で呼び出されているスクリプトとCSSの一覧を確認する
+type: post
 ---
 
 ![](180321-5ab2516925b6a.jpeg)

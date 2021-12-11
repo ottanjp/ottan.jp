@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-11-23T00:00:00+00:00
-draft: false
-title: グリッドレイアウトで高さも横幅もバラバラの画像を綺麗に並べる方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2016-11-23 00:00:00+00:00
+draft: false
 tags:
-- Development
+- 高さ
+- 要素
+- グリッド
+- padding
+- 画像
+title: グリッドレイアウトで高さも横幅もバラバラの画像を綺麗に並べる方法
+type: post
 ---
 
 ![](161123-58352f787a587.jpg)

@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-01-17T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+- Mac
+date: 2018-01-17 00:00:00+00:00
 draft: false
+tags:
+- airmac
+- ipv6
+- 体感
+- インターネット接続
+- 速度
 title: AirMac（Express、Extreme、Time Capsule）の Wi-Fiの「体感の」速度が遅い問題を見直す
 type: post
-categories:
-    - iPhone
-    - Mac
-tags:
-    - Wi-Fi
 ---
 
 ![](180116-5a5e802b9c111.jpg)

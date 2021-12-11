@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-09T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2014-09-09 00:00:00+00:00
 draft: false
+tags:
+- alfred
+- pack
+- 検索エンジン
+- ホットキー
+- power
 title: Macユーザーが恋する必須の神アプリAlfredを120%使いこなすための手引
 type: post
-categories:
-  - Mac
-tags:
-  - Alfred
-  - Apps
 ---
 
 ![](140908-540e429a60b44.png)

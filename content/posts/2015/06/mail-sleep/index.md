@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-06-26T00:00:00+00:00
-draft: false
-title: 外出先からメールを送って自宅のMacをスリープさせる方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2015-06-26 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- applescript
+- ルール
+- メールアプリ
+- 自宅
+- sleep
+title: 外出先からメールを送って自宅のMacをスリープさせる方法
+type: post
 ---
 
 ![](150626-558d4783bee6d.jpg)

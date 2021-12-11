@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-04-14T00:00:00+00:00
-draft: false
-title: Facebookアカウントの2段階認証を有効にする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Web
+date: 2015-04-14 00:00:00+00:00
+draft: false
 tags:
-- Security
+- facebookアカウント
+- 2段階認証
+- authenticator
+- ジェネレーター
+- コード
+title: Facebookアカウントの2段階認証を有効にする方法
+type: post
 ---
 
 ![](150406-5522519859081.jpg)

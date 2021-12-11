@@ -1,17 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-10-25T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2018-10-25 00:00:00+00:00
 draft: false
+tags:
+- ブランチ
+- デプロイ
+- git
+- コマンド
+- ソースコード
 title: Netlify CMS（Hugo）のテーマをGitの使い方を覚えながらカスタマイズしてデプロイしてみよう
 type: post
-categories:
-  - Blog
-tags:
-  - CMS
-  - GItHub
-  - Hugo
-  - Netlify
-  - Slack
 ---
 
 ![](181021-5bcc2e4617f47.jpg)

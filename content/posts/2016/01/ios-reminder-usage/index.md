@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-01-27T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2016-01-27 00:00:00+00:00
 draft: false
+tags:
+- リスト
+- 繰り返し
+- タップ
+- 日時
+- 場所
 title: 今さら聞けないリマインダーの基本から便利な使い方まで徹底解説します
 type: post
-categories:
-  - iPhone
-tags:
-  - Tips
 ---
 
 ![](160127-56a873fac455e.jpg)

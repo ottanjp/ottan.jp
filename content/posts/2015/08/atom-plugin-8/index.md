@@ -1,16 +1,20 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-25T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Windows
+- Blog
+date: 2015-08-25 00:00:00+00:00
 draft: false
+tags:
+- apm
+- atom
+- install
+- linter
+- php
 title: WordPress開発のためにAtomに導入しておきたい最低限のプラグイン8選
 type: post
-categories:
-  - Mac
-  - Windows
-  - Blog
-tags:
-  - Atom
-  - Development
 ---
 
 ![](150824-55db27a42384f.png)

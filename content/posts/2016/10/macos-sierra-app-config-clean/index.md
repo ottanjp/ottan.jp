@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-10-01T00:00:00+00:00
-draft: false
-title: macOS Sierraで任意のアプリケーションの設定を初期化する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-10-01 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- アプリケーション
+- 初期
+- twitter
+- ドロップ
+- ドラッグ
+title: macOS Sierraで任意のアプリケーションの設定を初期化する方法
+type: post
 ---
 
 ![](161001-57ef45d298b50.jpg)

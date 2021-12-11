@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-11-01T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2015-11-01 00:00:00+00:00
 draft: false
+tags:
+- ウインドウ
+- キー
+- captain
+- el
+- 好み
 title: Macを購入したら最初に設定しておきたいシステム環境設定（macOS El Capitan）
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](151101-563614044f68c-1.jpg)

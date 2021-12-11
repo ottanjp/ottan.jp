@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-09-27T00:00:00+00:00
-draft: false
-title: Windows 10で使えなくなってしまった「Google Chrome」の「タスクバーに追加」の代替手段
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2015-09-27 00:00:00+00:00
+draft: false
 tags:
-- Google
+- タスクバー
+- chrome
+- google
+- '10'
+- windows
+title: Windows 10で使えなくなってしまった「Google Chrome」の「タスクバーに追加」の代替手段
+type: post
 ---
 
 ![](150927-5607ee805b38b.png)

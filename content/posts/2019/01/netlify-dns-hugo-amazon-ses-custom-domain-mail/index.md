@@ -1,12 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-01-25T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2019-01-25 00:00:00+00:00
 draft: false
-title: 'Netlify CMS + Netlify DNS + Hugo + AWS SESで独自ドメインのメール送受信環境を構築'
-type: post
-categories: ['Blog']
-tags: ['Netlify', 'Hugo', 'AWS', 'SES']
+tags:
+- ses
+- dns
+- aws
+- usd
+- domain
+title: Netlify CMS + Netlify DNS + Hugo + AWS SESで独自ドメインのメール送受信環境を構築
 toc: true
+type: post
 ---
 
 ![](190125-f3634302e6a7067.jpg)

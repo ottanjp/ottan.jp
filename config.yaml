@@ -34,10 +34,8 @@ params:
 related:
   includeNewer: true
   indices:
-  - name: categories
+  - name: tags
     weight: 100
-  - name: date
-    weight: 10
   threshold: 20
   toLower: false
 outputFormats:

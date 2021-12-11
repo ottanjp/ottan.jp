@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-05-16T00:00:00+00:00
-draft: false
-title: Office for Mac 2011を完全にアンインストールする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2015-05-16 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- office
+- アンインストール
+- フォルダー
+- microsoft
+- アプリケーションフォルダー
+title: Office for Mac 2011を完全にアンインストールする方法
+type: post
 ---
 
 ![](150516-5556e344ae76f.jpg)

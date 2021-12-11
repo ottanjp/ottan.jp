@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-09-03T00:00:00+00:00
-draft: false
-title: 無料でいいの？！ランチャー系のアプリはもう不要！CPU使用率から明日の天気予報までなんでもありのウィジェット「Vidgets」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2015-09-03 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- デジタル
+- アナログ
+- 通知センター
+- ウィジェット
+- clock
+title: 無料でいいの？！ランチャー系のアプリはもう不要！CPU使用率から明日の天気予報までなんでもありのウィジェット「Vidgets」
+type: post
 ---
 
 ![](150903-55e82517e233e.jpg)

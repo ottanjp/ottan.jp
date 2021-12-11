@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-01-23T00:00:00+00:00
-draft: false
-title: マスク着用時にFace IDを使用せずにパスコードによる認証を行う方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2018-01-23 00:00:00+00:00
+draft: false
 tags:
-- Face ID
-- iPhone X
+- face
+- id
+- パスコード
+- マスク
+- 画面
+title: マスク着用時にFace IDを使用せずにパスコードによる認証を行う方法
+type: post
 ---
 
 ![](180123-5a673a9f030a0.jpg)

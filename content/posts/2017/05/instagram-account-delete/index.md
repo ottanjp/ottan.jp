@@ -1,16 +1,21 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-05-19T00:00:00+00:00
-draft: false
-title: Instagramのアカウントを一時停止、削除する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Android
 - iPhone
 - Mac
 - Windows
+date: 2017-05-19 00:00:00+00:00
+draft: false
 tags:
-- Security
+- instagram
+- アカウント
+- 一時停止
+- プロフィール
+- ブラウザ
+title: Instagramのアカウントを一時停止、削除する方法
+type: post
 ---
 
 ![](170519-591eaf76903d8.jpg)

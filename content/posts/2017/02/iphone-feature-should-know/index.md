@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-02-01T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2017-02-01 00:00:00+00:00
 draft: false
+tags:
+- iphone
+- ホーム
+- メッセージ
+- 感度
+- アプリ
 title: iPhoneに隠された便利な18の機能、あなたはいくつ知ってますか？
 type: post
-categories:
-  - iPhone
-tags:
-  - Tips
 ---
 
 ![](170131-5890698353e68.jpg)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-06-03T00:00:00+00:00
-draft: false
-title: VirtualBoxにmacOS Yosemiteをインストールする
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2015-06-03 00:00:00+00:00
+draft: false
 tags:
-- Development
+- yosemite
+- macos
+- 仮想マシン
+- virtualbox
+- ボタン
+title: VirtualBoxにmacOS Yosemiteをインストールする
+type: post
 ---
 
 ![](150603-556ed93007238.jpg)

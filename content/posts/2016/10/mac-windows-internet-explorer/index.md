@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-10-16T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Windows
+date: 2016-10-16 00:00:00+00:00
 draft: false
+tags:
+- parallels
+- explorer
+- win
+- internet
+- 'on'
 title: MacでWindowsに搭載されているInternet Explorer 9でのレンダリングを確認する方法
 type: post
-categories:
-  - Mac
-  - Windows
-tags:
-  - Tips
 ---
 
 ![](161016-580373be2faca.jpg)

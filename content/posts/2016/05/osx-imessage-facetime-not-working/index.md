@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-05-04T00:00:00+00:00
-draft: false
-title: iMessageとFaceTimeにサインインできない問題の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2016-05-04 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- シリアル番号
+- number
+- hardware
+- facetime
+- imessage
+title: iMessageとFaceTimeにサインインできない問題の対処法
+type: post
 ---
 
 ![](160504-5729ee8b0122f.jpg)

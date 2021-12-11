@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-04-16T00:00:00+00:00
-draft: false
-title: iPhoneの着信音、ミュージックの音量を調節する方法と、Face IDによる注意点
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2018-04-16 00:00:00+00:00
+draft: false
 tags:
-- Face ID
+- 着信音
+- 音量
+- アラーム
+- ボリューム
+- iphone
+title: iPhoneの着信音、ミュージックの音量を調節する方法と、Face IDによる注意点
+type: post
 ---
 
 ![](180416-5ad4955d87d29.jpg)

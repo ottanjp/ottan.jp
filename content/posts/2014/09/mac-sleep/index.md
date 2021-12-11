@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-19T00:00:00+00:00
-draft: false
-title: Macがスリープから復帰するのが遅い場合の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2014-09-19 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- スリープ
+- sleep
+- jst
+- pmset
+- hibernatemode
+title: Macがスリープから復帰するのが遅い場合の対処法
+type: post
 ---
 
 ![](140919-541bc2a262e05.jpg)

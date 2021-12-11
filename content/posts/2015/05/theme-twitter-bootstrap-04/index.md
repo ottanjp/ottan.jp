@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-05-23T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2015-05-23 00:00:00+00:00
 draft: false
+tags:
+- lt
+- gt
+- php
+- the
+- sm
 title: Twitter Bootstrap 3を用いてWordPressテーマを作成しよう④
 type: post
-categories:
-  - Blog
-tags:
-  - Development
 ---
 
 ![](150523-55606e84bd06a.jpg)

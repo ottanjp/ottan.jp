@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-12-12T00:00:00+00:00
-draft: false
-title: Instagramのスパムコメントを通報して削除する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2016-12-12 00:00:00+00:00
+draft: false
 tags:
-- Security
+- instagram
+- スパムコメント
+- nasa
+- 公式アカウント
+- スパム
+title: Instagramのスパムコメントを通報して削除する方法
+type: post
 ---
 
 ![](161212-584e99cb53ac3.jpg)

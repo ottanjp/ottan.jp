@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-11-07T00:00:00+00:00
-draft: false
-title: iPhoneで空中散歩！iOSの標準マップ「Flyoverツアー」で世界を旅しよう
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2016-11-07 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ツアー
+- マップアプリ
+- ios
+- 地域
+- スポット
+title: iPhoneで空中散歩！iOSの標準マップ「Flyoverツアー」で世界を旅しよう
+type: post
 ---
 
 ![](161107-582069742d3e1.jpg)

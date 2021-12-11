@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-10-09T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2014-10-09 00:00:00+00:00
 draft: false
+tags:
+- メールボックス
+- 添付ファイル
+- メールアプリ
+- ボックス
+- メール
 title: iPhone標準のメールアプリをもっと快適に使用する方法
 type: post
-categories:
-  - iPhone
-tags:
-  - Tips
 ---
 
 ![](141009-5435fc5db5dca.png)

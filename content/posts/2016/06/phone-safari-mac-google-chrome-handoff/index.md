@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-06-06T00:00:00+00:00
-draft: false
-title: iPhoneのSafariと、MacのGoogle ChromeをHandoffで連携する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2016-06-06 00:00:00+00:00
+draft: false
 tags:
-- Google
-- Tips
+- handoff
+- chrome
+- google
+- iphone
+- デフォルトブラウザ
+title: iPhoneのSafariと、MacのGoogle ChromeをHandoffで連携する
+type: post
 ---
 
 ![](160606-575579ebbb5b4.jpg)

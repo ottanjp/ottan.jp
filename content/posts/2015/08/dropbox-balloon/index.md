@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-31T00:00:00+00:00
-draft: false
-title: 複数人で作業するときに便利！Dropboxへの共有リンクを簡単に作成できる「Balloon.io」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Web
+date: 2015-08-31 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- dropbox
+- ファイル
+- アップロード
+- リクエスト
+- 複数人
+title: 複数人で作業するときに便利！Dropboxへの共有リンクを簡単に作成できる「Balloon.io」
+type: post
 ---
 
 ![](150831-55e4535b1cacd.png)

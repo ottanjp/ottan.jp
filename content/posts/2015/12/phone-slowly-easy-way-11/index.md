@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-12-10T00:00:00+00:00
-draft: false
-title: iPhoneの動作がもたつく場合に試したい簡単にできる11の方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2015-12-10 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- iphone
+- もたつき
+- 原因
+- メモリ
+- アップデート
+title: iPhoneの動作がもたつく場合に試したい簡単にできる11の方法
+type: post
 ---
 
 ![](151210-5668cdcc86224-1.jpg)

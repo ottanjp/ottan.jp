@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-09-11T00:00:00+00:00
-draft: false
-title: 新しいiPhoneに機種変する前にこれだけはやっておこう！
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-09-11 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- suica
+- iphone
+- 機種変更
+- itunes
+- アクティベーション
+title: 新しいiPhoneに機種変する前にこれだけはやっておこう！
+type: post
 ---
 
 ![](170911-59b6496880d1d.jpg)

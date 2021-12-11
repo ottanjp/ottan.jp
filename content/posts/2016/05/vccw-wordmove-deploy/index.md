@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-05-02T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Blog
+date: 2016-05-02 00:00:00+00:00
 draft: false
+tags:
+- ssh
+- 公開鍵
+- 本番
+- 環境
+- サーバー
 title: VCCW（Vagrant＋VirtualBox＋Chef＋WordPress）＋WordMoveで、本番環境から開発環境にデータを簡単に同期する！
 type: post
-categories:
-  - Mac
-  - Blog
-tags:
-  - Development
 ---
 
 ![](160502-57275563c8c88.jpg)

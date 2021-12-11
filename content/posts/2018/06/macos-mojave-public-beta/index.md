@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-06-30T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2018-06-30 00:00:00+00:00
 draft: false
+tags:
+- mojave
+- インストール
+- ベータ版
+- ボリューム
+- macos
 title: macOS Mojaveのパブリックベータ版をインストールする方法
 type: post
-categories:
-  - Mac
-tags:
-  - macOS
-  - Mojave
 ---
 
 ![](180630-5b37015fbfc13.jpg)

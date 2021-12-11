@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-07-03T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Windows
+date: 2016-07-03 00:00:00+00:00
 draft: false
+tags:
+- windows
+- オフ
+- '10'
+- プライバシー
+- コルタナ
 title: Windows 10で無効化しておきたい7つの設定
 type: post
-categories:
-  - Windows
-tags:
-  - Security
 ---
 
 {{% note %}}

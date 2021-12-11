@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-12-28T00:00:00+00:00
-draft: false
-title: 2017年にお世話になったiPhoneアプリ、お世話にならなくなったアプリ
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-12-28 00:00:00+00:00
+draft: false
 tags:
-- App Store
-- Apps
+- アプリ
+- 販売元
+- 価格
+- 無料
+- ニュース
+title: 2017年にお世話になったiPhoneアプリ、お世話にならなくなったアプリ
+type: post
 ---
 
 ![](171228-5a44fcb8342cd.jpg)

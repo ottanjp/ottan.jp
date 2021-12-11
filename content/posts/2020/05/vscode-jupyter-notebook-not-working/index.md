@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-title: "VS Codeで「Failed to connect to Jupyter notebook」「Jupyter Server: Not
-  Started」と表示されJupyter Notebookが起動できない場合の対処法"
-date: 2020-05-03T00:00:00+00:00
-tags:
-  - Jupyter Notebook
-  - Python
-  - VS Code
+author:
+- '@ottanxyz'
 categories:
-  - Mac
+- Mac
+date: 2020-05-03 00:00:00+00:00
+tags:
+- jupyter
+- notebook
+- vs
+- code
+- server
+title: 'VS Codeで「Failed to connect to Jupyter notebook」「Jupyter Server: Not Started」と表示されJupyter
+  Notebookが起動できない場合の対処法'
 ---
+
 VS Codeで[Python - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-python.python)の拡張機能を使用すると、Pythonで記述されたプログラムのデバッグや、Jupyter Notebook環境をVS Codeで実行できて大変重宝します。たまに、このJupyter Notebookが、以下のエラーにより起動しなくなったことがあったため、その対処法をメモしておきます。
 
 ```text

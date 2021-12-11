@@ -1,9 +1,16 @@
 ---
+categories:
+- Blog
+date: 2021-07-09 11:16:52+00:00
 draft: false
+tags:
+- github
+- actions
+- issue
+- ev
+- post
 title: Issueを起票したらGitHub ActionsによりIssueの内容がそのまま記事として公開されるようにしてみた
-date: 2021-07-09T11:16:52Z
 type: post
-categories: ["Blog"]
 ---
 
 当ブログは、Netlify + Hugoで構築してます。GitHubへMarkdownで記述したコンテンツをコミットすると、Netlifyにより自動ビルドが走り、記事が公開されます。しばらくは、このフローで問題ありませんでしたが、基本的に横着な自分なので、ある理由によりブログ更新が滞るようになりました。

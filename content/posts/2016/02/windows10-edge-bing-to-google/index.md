@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-02-09T00:00:00+00:00
-draft: false
-title: Windows 10のMicrosoft Edgeのデフォルトの検索プロバイダーーをBingからGoogleに変更する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2016-02-09 00:00:00+00:00
+draft: false
 tags:
-- Google
-- Tips
+- プロバイダー
+- google
+- edge
+- microsoft
+- 既定
+title: Windows 10のMicrosoft Edgeのデフォルトの検索プロバイダーーをBingからGoogleに変更する方法
+type: post
 ---
 
 ![](160209-56b9fba542d8c-1.jpg)

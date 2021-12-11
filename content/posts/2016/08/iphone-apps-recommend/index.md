@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-08-29T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2016-08-29 00:00:00+00:00
 draft: false
+tags:
+- 販売元
+- 価格
+- 無料
+- アプリケーション
+- facebook
 title: iPhoneを購入したら導入したいオススメのアプリ52選（2016年8月版）
 type: post
-categories:
-  - iPhone
-tags:
-  - Apps
 ---
 
 ![](160828-57c2cde52ab28.jpg)

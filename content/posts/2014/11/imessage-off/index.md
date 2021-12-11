@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-11-11T00:00:00+00:00
-draft: false
-title: アップルが公開したiMessageをオフにしてくれるツールを試してみました
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2014-11-11 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- imessage
+- ツール
+- アップル
+- 電話番号
+- コード
+title: アップルが公開したiMessageをオフにしてくれるツールを試してみました
+type: post
 ---
 
 ![](141111-5461adf6c32f7.png)

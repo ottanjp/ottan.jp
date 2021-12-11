@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-15T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+- Mac
+date: 2015-08-15 00:00:00+00:00
 draft: false
+tags:
+- ブックマーク
+- icloud
+- 連絡先
+- カレンダー
+- ファイル
 title: 誤って削除しても大丈夫！iCloudで誤って削除したファイルを復元する方法
 type: post
-categories:
-  - iPhone
-  - Mac
-tags:
-  - Tips
 ---
 
 {{% note %}}

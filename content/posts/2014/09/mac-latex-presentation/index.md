@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-08T00:00:00+00:00
-draft: false
-title: Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2014-09-08 00:00:00+00:00
+draft: false
 tags:
-- Development
+- インストール
+- パッケージ
+- 数式
+- tex
+- ghostscript
+title: Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」
+type: post
 ---
 
 ![](140908-540d6c049f4b9.jpg)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-03-19T00:00:00+00:00
-draft: false
-title: Windows 10でゲストアカウントを作成する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2016-03-19 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ゲスト
+- アカウント
+- visitor
+- コマンドプロンプト
+- windows
+title: Windows 10でゲストアカウントを作成する方法
+type: post
 ---
 
 ![](160319-56ecc198e3adb.png)

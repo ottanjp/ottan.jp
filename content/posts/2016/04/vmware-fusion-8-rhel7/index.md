@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-04-02T00:00:00+00:00
-draft: false
-title: VMware Fusion 8にRed Hat Enterprise Linux Server 7をインストールする
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-04-02 00:00:00+00:00
+draft: false
 tags:
-- Development
-- Linux
+- red
+- hat
+- enterprise
+- クリック
+- linux
+title: VMware Fusion 8にRed Hat Enterprise Linux Server 7をインストールする
+type: post
 ---
 
 ![](160423-571b7eec2a18f-1.png)

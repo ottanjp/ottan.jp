@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-07-02T00:00:00+00:00
-draft: false
-title: VMware Fusion 8で作成した仮想マシンで静的IPアドレスを使用する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-07-02 00:00:00+00:00
+draft: false
 tags:
-- Development
+- 仮想マシン
+- ipアドレス
+- vmware
+- 名前
+- rhel
+title: VMware Fusion 8で作成した仮想マシンで静的IPアドレスを使用する方法
+type: post
 ---
 
 ![](160702-577744e337eac.png)

@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-24T00:00:00+00:00
-draft: false
-title: MacのGoogle Chrome上でAndroidアプリを動作させる方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Android
 - Mac
+date: 2014-09-24 00:00:00+00:00
+draft: false
 tags:
-- Development
-- Google
+- apk
+- chrome
+- 拡張機能
+- google
+- androidアプリ
+title: MacのGoogle Chrome上でAndroidアプリを動作させる方法
+type: post
 ---
 
 ![](140924-5422890c10545.jpg)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-03-19T00:00:00+00:00
-draft: false
-title: 商用利用可能！ブログのアイキャッチ画像に使用できる著作権フリー（CC0 Public Domain）の画像を横断して検索できる「LibreStock」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2017-03-19 00:00:00+00:00
+draft: false
 tags:
-- Development
+- 画像
+- 著作物
+- cc
+- 著作権
+- libre
+title: 商用利用可能！ブログのアイキャッチ画像に使用できる著作権フリー（CC0 Public Domain）の画像を横断して検索できる「LibreStock」
+type: post
 ---
 
 ![](170319-58cdee533aa3e.jpg)

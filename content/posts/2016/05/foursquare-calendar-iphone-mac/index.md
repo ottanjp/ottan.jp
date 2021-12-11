@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-05-23T00:00:00+00:00
-draft: false
-title: Foursquareのチェックイン履歴をiCloudのカレンダーに簡単に追加する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2016-05-23 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- カレンダー
+- foursquare
+- 履歴
+- icloud
+- googleカレンダー
+title: Foursquareのチェックイン履歴をiCloudのカレンダーに簡単に追加する方法
+type: post
 ---
 
 ![](160523-5742efd302b60.jpg)

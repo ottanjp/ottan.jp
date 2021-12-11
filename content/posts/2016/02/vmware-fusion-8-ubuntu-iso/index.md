@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-02-09T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2016-02-09 00:00:00+00:00
 draft: false
+tags:
+- vmware
+- ubuntu
+- インストール
+- tools
+- fusion
 title: VMware Fusion 8にUbuntu 14.04.3 LTSをインストールして日本語化する
 type: post
-categories:
-  - Mac
-tags:
-  - Development
-  - Linux
 ---
 
 ![](160208-56b89541cfc57.png)

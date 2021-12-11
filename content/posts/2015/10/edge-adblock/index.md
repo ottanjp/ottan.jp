@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-10-07T00:00:00+00:00
-draft: false
-title: Microsoft Edgeで広告を非表示にする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2015-10-07 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- edge
+- 非表示
+- レジストリエディター
+- microsoft
+- zip
+title: Microsoft Edgeで広告を非表示にする方法
+type: post
 ---
 
 ![](151007-56151e8f167f9.jpg)

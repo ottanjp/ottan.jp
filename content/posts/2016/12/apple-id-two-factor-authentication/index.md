@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-12-15T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+- Mac
+date: 2016-12-15 00:00:00+00:00
 draft: false
+tags:
+- ファクター
+- 2ステップ
+- デバイス
+- apple
+- id
 title: Apple IDの認証で、まだ2ステップ確認を使用しているの？2ファクター認証に切り替えると、セキュリティが強化される上さらに便利に！
 type: post
-categories:
-  - iPhone
-  - Mac
-tags:
-  - Security
 ---
 
 ![](161215-58527f32b362a.jpg)

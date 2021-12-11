@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-11-01T00:00:00+00:00
-draft: false
-title: iPhoneで閲覧しているWebページをWindows 10に引き継ぐ方法（Windows 10と同期する方法）
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Windows
+date: 2017-11-01 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- '10'
+- windows
+- pc
+- iphone
+- microsoftアカウント
+title: iPhoneで閲覧しているWebページをWindows 10に引き継ぐ方法（Windows 10と同期する方法）
+type: post
 ---
 
 ![](171101-59f9b68e01b3b.jpg)

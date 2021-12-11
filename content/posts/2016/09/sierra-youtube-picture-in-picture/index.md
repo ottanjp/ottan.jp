@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-09-22T00:00:00+00:00
-draft: false
-title: macOS SierraでYouTubeを「ピクチャ・イン・ピクチャ」で再生する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-09-22 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ピクチャ
+- 動画
+- イン
+- youtube
+- サイズ
+title: macOS SierraでYouTubeを「ピクチャ・イン・ピクチャ」で再生する方法
+type: post
 ---
 
 ![](160922-57e33ee0a5300.png)

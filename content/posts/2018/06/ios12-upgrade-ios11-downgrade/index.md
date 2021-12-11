@@ -1,15 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-06-10T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2018-06-10 00:00:00+00:00
 draft: false
+tags:
+- ios
+- '12'
+- itunes
+- '11'
+- ダウングレード
 title: iOS 12のDeveloper Beta（開発者向けベータ版）をインストールする方法、iOS 11に復元する方法
 type: post
-categories:
-  - iPhone
-tags:
-  - iOS 11
-  - iOS 12
-  - iTunes
 ---
 
 ![](180610-5b1d088e204cd.jpg)

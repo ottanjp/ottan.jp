@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-19T00:00:00+00:00
-draft: false
-title: Microsoft Azure上にWindows 10のバックアップを保存する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2015-08-19 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- azure
+- microsoft
+- クリック
+- コンテナー
+- 資格
+title: Microsoft Azure上にWindows 10のバックアップを保存する
+type: post
 ---
 
 ![](150819-55d47cc0d56e1.jpg)

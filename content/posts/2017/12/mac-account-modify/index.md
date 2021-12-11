@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-12-19T00:00:00+00:00
-draft: false
-title: Macのアカウント名（ユーザ名）やホームディレクトリを変更する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-12-19 00:00:00+00:00
+draft: false
 tags:
-- High Sierra
-- macOS
+- ホームディレクトリ
+- ユーザ
+- アカウント
+- アカウント名
+- 管理者権限
+title: Macのアカウント名（ユーザ名）やホームディレクトリを変更する方法
+type: post
 ---
 
 ![](171219-5a3912e81a5dd.jpg)

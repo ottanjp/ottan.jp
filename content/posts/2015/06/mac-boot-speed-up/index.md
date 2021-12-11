@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-06-02T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2015-06-02 00:00:00+00:00
 draft: false
+tags:
+- ディスク
+- nvram
+- ログイン
+- pram
+- mac
 title: Macの起動が遅い！Macの起動を早くする7つの方法
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](150601-556c56766d7f6.jpg)

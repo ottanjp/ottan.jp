@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-09-06T00:00:00+00:00
-draft: false
-title: 徹底的にFlash Playerプラグインを無効化・アンインストールする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2015-09-06 00:00:00+00:00
+draft: false
 tags:
-- Security
+- flash
+- player
+- アンインストール
+- adobe
+- edge
+title: 徹底的にFlash Playerプラグインを無効化・アンインストールする方法
+type: post
 ---
 
 ![](150905-55eafb99e3f4b.png)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-07-12T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2016-07-12 00:00:00+00:00
 draft: false
+tags:
+- ng
+- ngワード
+- ネーム
+- 2ちゃんねるブラウザ
+- 非表示
 title: iPhoneの高機能2ちゃんねるブラウザ「twinkle」でNGワードを設定する方法
 type: post
-categories:
-  - iPhone
-tags:
-  - Apps
 ---
 
 ![](160712-5784dee9214be.jpg)

@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-11-04T00:00:00+00:00
-draft: false
-title: Pocketの「イラッ」を解消！すべての機能が無料化された「Instapaper」を使おう！
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2016-11-04 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- pocket
+- 記事
+- url
+- タイトル
+- 構文解析
+title: Pocketの「イラッ」を解消！すべての機能が無料化された「Instapaper」を使おう！
+type: post
 ---
 
 ![](161104-581c764c4a0e8.jpg)

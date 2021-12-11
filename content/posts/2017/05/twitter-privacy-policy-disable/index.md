@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-05-20T00:00:00+00:00
-draft: false
-title: Twitterのプライバシーポリシーの変更に伴い無効化しておきたいプライバシー設定
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2017-05-20 00:00:00+00:00
+draft: false
 tags:
-- Security
+- twitter
+- プライバシーポリシー
+- ユーザー
+- プライバシー
+- トラッキング
+title: Twitterのプライバシーポリシーの変更に伴い無効化しておきたいプライバシー設定
+type: post
 ---
 
 ![](170520-591fb2ebe431f.png)

@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-02-07T00:00:00+00:00
-draft: false
-title: Google Analyticsと連携してページビューの多い人気記事を表示する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2015-02-07 00:00:00+00:00
+draft: false
 tags:
-- Development
-- Google
+- google
+- analytics
+- post
+- php
+- developers
+title: Google Analyticsと連携してページビューの多い人気記事を表示する
+type: post
 ---
 
 ![](150206-54d4ceea3719a.jpg)

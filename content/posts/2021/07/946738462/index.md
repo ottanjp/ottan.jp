@@ -1,10 +1,18 @@
 ---
+categories:
+- iPhone
+date: 2021-07-17 07:08:37+00:00
 draft: false
+tags:
+- pencil
+- apple
+- ジェスチャー
+- スクリーンショット
+- ボタン
 title: Apple Pencil のみでスクリーンショットを撮影する方法
-date: 2021-07-17T07:08:37Z
 type: post
-categories: ["iPhone"]
 ---
+
 ![image](126028538-847a2217-2d16-4bc5-9507-39c5e0c9a393.jpeg)
 
 iPad Air（第4世代）＋ Apple Pencil 2の組み合わせです。Apple Pencilを使うと、Apple Pencilのみでスクリーンショットを撮影することができます。

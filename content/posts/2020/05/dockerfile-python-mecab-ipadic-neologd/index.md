@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-title: Python:3.xコンテナでMeCab + IPADIC + NEologdをシステム辞書として使用するためのDockerfile
-date: 2020-05-09T00:00:00+00:00
-tags:
-  - Docker
-  - MeCab
-  - Python
+author:
+- '@ottanxyz'
 categories:
-  - Mac
+- Mac
+date: 2020-05-09 00:00:00+00:00
+tags:
+- mecab
+- ipadic
+- neologd
+- 名詞
+- システム辞書
+title: Python:3.xコンテナでMeCab + IPADIC + NEologdをシステム辞書として使用するためのDockerfile
 ---
+
 [python - Docker Hub](https://hub.docker.com/_/python)で公開されているコンテナイメージをベースとして、MeCab + IPADIC + NEologdを使用するためのDockerfileを公開します。NEologdは、IPAが公開する辞書であるIPADICとの併用が推奨されています。今回は、IPADIC + NEologdを、MeCabのシステム辞書として使用します。
 
 {{< gist ottanjp 66b6686421cbaf5560c7c78fabc2696e >}}

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-09-04T00:00:00+00:00
-draft: false
-title: TextExpanderで思うようにスニペットが展開されない場合に見直すべき項目
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-09-04 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- スニペット
+- デリミター
+- textexpander
+- 記号
+- アプリケーション
+title: TextExpanderで思うようにスニペットが展開されない場合に見直すべき項目
+type: post
 ---
 
 ![](160904-57cbd579bc7db.png)

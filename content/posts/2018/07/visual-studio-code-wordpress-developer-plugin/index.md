@@ -1,17 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-07-22T00:00:00+00:00
-draft: false
-title: 【随時更新】VS CodeでWordPressのテーマやプラグインを開発するために導入したいオススメの拡張機能
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2018-07-22 00:00:00+00:00
+draft: false
 tags:
-- HTML
-- JavaScript
-- PHP
-- VS Code
-- Blog
+- php
+- 拡張機能
+- code
+- vs
+- 関数
+title: 【随時更新】VS CodeでWordPressのテーマやプラグインを開発するために導入したいオススメの拡張機能
+type: post
 ---
 
 ![](180722-5b53eb5f83ba4.jpg)

@@ -1,15 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-10-20T00:00:00+00:00
-draft: false
-title: iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」の使用方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-10-20 00:00:00+00:00
+draft: false
 tags:
-- AdBlock
-- Apps
-- Tips
+- vpn
+- dns
+- adblock
+- ブロック
+- プロキシ
+title: iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」の使用方法
+type: post
 ---
 
 {{% note %}}

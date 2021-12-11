@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-07-30T00:00:00+00:00
-draft: false
-title: MacでWindows 10の起動ディスク（USBメモリ）を作成する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
 - Windows
+date: 2015-07-30 00:00:00+00:00
+draft: false
 tags:
-- Development
+- ディスク
+- usbメモリ
+- windows
+- '10'
+- iso
+title: MacでWindows 10の起動ディスク（USBメモリ）を作成する方法
+type: post
 ---
 
 ![](150730-55b9fb2281432.jpg)

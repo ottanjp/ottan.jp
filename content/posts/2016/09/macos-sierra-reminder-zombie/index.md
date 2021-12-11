@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-09-26T00:00:00+00:00
-draft: false
-title: macOS Sierraでリマインダーがゾンビのように復活し「実行済み」にできない場合の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-09-26 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- カレンダー
+- イベント
+- 何回
+- icloud
+- sierra
+title: macOS Sierraでリマインダーがゾンビのように復活し「実行済み」にできない場合の対処法
+type: post
 ---
 
 ![](160926-57e92d41e52f6.jpg)

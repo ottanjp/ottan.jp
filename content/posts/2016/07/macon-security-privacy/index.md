@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-07-22T00:00:00+00:00
-draft: false
-title: 使用しているmacOSのセキュリティ強化、プライバシー保護が設定されているかどうかを自動的にチェックする
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-07-22 00:00:00+00:00
+draft: false
 tags:
-- Security
+- check
+- chrome
+- browser
+- disabled
+- google
+title: 使用しているmacOSのセキュリティ強化、プライバシー保護が設定されているかどうかを自動的にチェックする
+type: post
 ---
 
 ![](160720-578f7bf197795.jpg)

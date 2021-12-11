@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-05-24T00:00:00+00:00
-draft: false
-title: Safariで閲覧しているページをGoogle Chromeで開く「Switch」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2015-05-24 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- chrome
+- google
+- safari
+- switch
+- バー
+title: Safariで閲覧しているページをGoogle Chromeで開く「Switch」
+type: post
 ---
 
 ![](150524-5561678af0283.png)

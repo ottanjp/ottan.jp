@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-02-25T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2018-02-25 00:00:00+00:00
 draft: false
+tags:
+- output
+- to
+- gif
+- file
+- input
 title: MacでJPEG、PNG、GIFを高速に圧縮できるHomebrewからインストール可能なCUIユーティリティ
 type: post
-categories:
-  - Mac
-tags:
-  - Homebrew
 ---
 
 ![](180225-5a92680f2a1cd.jpg)

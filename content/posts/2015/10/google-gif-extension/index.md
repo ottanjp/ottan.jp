@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-10-05T00:00:00+00:00
-draft: false
-title: Googleの画像検索結果でGIFアニメを再生してくれるGoogle Chrome拡張機能「GoogleGIFs」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
 - Windows
+date: 2015-10-05 00:00:00+00:00
+draft: false
 tags:
-- Google
+- gifアニメ
+- google
+- 拡張機能
+- 画像
+- chrome
+title: Googleの画像検索結果でGIFアニメを再生してくれるGoogle Chrome拡張機能「GoogleGIFs」
+type: post
 ---
 
 ![](151005-5611bfffcbde4.png)

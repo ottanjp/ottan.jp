@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-01-19T00:00:00+00:00
-draft: false
-title: iPhoneにApp Store以外から任意のサードパーティ製アプリケーションをインストールする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2016-01-19 00:00:00+00:00
+draft: false
 tags:
-- Development
+- xcode
+- アプリケーション
+- インストール
+- apple
+- id
+title: iPhoneにApp Store以外から任意のサードパーティ製アプリケーションをインストールする方法
+type: post
 ---
 
 ![](160119-569e262a6656c-1.jpg)

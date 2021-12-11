@@ -1,12 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-05-11T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2019-05-11 00:00:00+00:00
 draft: false
-title: "Macのターミナル（iTerm）で生産性を上げるための方法"
-type: post
-categories: ["Mac"]
-tags: ["terminal", "zsh"]
+tags:
+- zsh
+- git
+- powerlevel
+- コマンド
+- プラグイン
+title: Macのターミナル（iTerm）で生産性を上げるための方法
 toc: true
+type: post
 ---
 
 ![](190511-183c72b78ba92af5.jpg)

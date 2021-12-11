@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-18T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2014-09-18 00:00:00+00:00
 draft: false
+tags:
+- 無料
+- アプリ
+- 販売元
+- 価格
+- ニュース
 title: iPhoneを購入したら導入しておきたい無料のオススメアプリ49選
 type: post
-categories:
-  - iPhone
-tags:
-  - Apps
 ---
 
 ![](140912-5413043e97961.jpg)

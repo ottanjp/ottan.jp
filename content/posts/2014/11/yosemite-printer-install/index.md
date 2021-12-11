@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-11-11T00:00:00+00:00
-draft: false
-title: macOS Yosemiteインストール後にプリンターが追加できない場合の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2014-11-11 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- プリンター
+- ドライバー
+- セットアップ
+- インストール
+- epson
+title: macOS Yosemiteインストール後にプリンターが追加できない場合の対処法
+type: post
 ---
 
 ![](141111-5461a2c98a0d4.jpg)

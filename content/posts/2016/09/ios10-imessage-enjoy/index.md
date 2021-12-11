@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-09-17T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2016-09-17 00:00:00+00:00
 draft: false
+tags:
+- imessage
+- エフェクト
+- ステッカー
+- メッセージ
+- ios
 title: iOS 10で大幅に進化したiMessageを楽しもう！快適に使用するための設定方法もご紹介
 type: post
-categories:
-  - iPhone
-tags:
-  - Tips
 ---
 
 ![](160917-57dd2b2ca35bc.jpg)

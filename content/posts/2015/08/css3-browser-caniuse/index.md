@@ -1,15 +1,20 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-12T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Web
+- Blog
+date: 2015-08-12 00:00:00+00:00
 draft: false
+tags:
+- コマンドライン
+- css3
+- ブラウザ
+- caniuse
+- ベンダープレフィックス
 title: Webデザイナー必見！CSS3のブラウザの対応状況をコマンドラインで確認できる「caniuse-cmd」
 type: post
-categories:
-  - Mac
-  - Web
-  - Blog
-tags:
-  - Development
 ---
 
 ![](150812-55cb5533b3681.png)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-04-10T00:00:00+00:00
-draft: false
-title: Dropboxアカウントの2段階認証を有効にする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Web
+date: 2015-04-10 00:00:00+00:00
+draft: false
 tags:
-- Security
+- 2段階認証
+- dropbox
+- ボタン
+- クリック
+- アカウント
+title: Dropboxアカウントの2段階認証を有効にする方法
+type: post
 ---
 
 ![](150406-55224f7198822.jpg)

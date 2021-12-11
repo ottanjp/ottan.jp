@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-12-03T00:00:00+00:00
-draft: false
-title: ブログ執筆時に便利！TextExpanderでSafari、Google ChromeからURL、タイトルを瞬時に取得する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2014-12-03 00:00:00+00:00
+draft: false
 tags:
-- Apps
-- Development
+- of
+- pageuri
+- set
+- pagetitle
+- tell
+title: ブログ執筆時に便利！TextExpanderでSafari、Google ChromeからURL、タイトルを瞬時に取得する方法
+type: post
 ---
 
 ![](141203-547ec6b5988dc.png)

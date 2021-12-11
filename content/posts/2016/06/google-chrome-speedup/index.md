@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-06-25T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Windows
+date: 2016-06-25 00:00:00+00:00
 draft: false
+tags:
+- chrome
+- google
+- タブ
+- メモリ
+- テクニック
 title: Google Chromeを高速化する6つのテクニック
 type: post
-categories:
-  - Mac
-  - Windows
-tags:
-  - Tips
 ---
 
 ![](160625-576e80aa58cc5.jpg)

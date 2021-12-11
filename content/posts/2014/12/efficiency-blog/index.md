@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-12-09T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Blog
+date: 2014-12-09 00:00:00+00:00
 draft: false
+tags:
+- sublime
+- dropbox
+- ブログ
+- 効率化
+- text
 title: WordPressのテーマ開発、ブログの執筆作業を効率化する方法のまとめ
 type: post
-categories:
-  - Mac
-  - Blog
-tags:
-  - Development
 ---
 
 ![](141203-547ecbe329ea3.jpg)

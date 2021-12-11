@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-10-11T00:00:00+00:00
-draft: false
-title: もうFTPクライアントは不要？WindowsエクスプローラーからFTPでサーバに接続する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2016-10-11 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ftp
+- エクスプローラー
+- 匿名
+- サーバ
+- ネットワーク
+title: もうFTPクライアントは不要？WindowsエクスプローラーからFTPでサーバに接続する方法
+type: post
 ---
 
 ![](161010-57fb7fe1d647b.jpg)

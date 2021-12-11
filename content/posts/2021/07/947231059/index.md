@@ -1,10 +1,18 @@
 ---
+categories:
+- Blog
+date: 2021-07-20 07:37:36+00:00
 draft: false
+tags:
+- lt
+- gt
+- algolia
+- インデックス
+- js
 title: Hugo + Algolia + Instantsearch.jsで静的サイトに全文検索を導入
-date: 2021-07-20T07:37:36Z
 type: post
-categories: ["Blog"]
 ---
+
 Hugo + Algolia + Instantsearch.jsで、静的サイトに全文検索を導入するまでの一部始終をまとめてみました。
 
 ## 完成版

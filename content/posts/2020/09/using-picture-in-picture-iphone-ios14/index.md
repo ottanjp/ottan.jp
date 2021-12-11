@@ -1,12 +1,17 @@
 ---
-title: iPhone（iOS14）でピクチャ・イン・ピクチャを使用する
-date: 2020-09-17
-tags:
-  - iOS14
 categories:
-  - iPhone
+- iPhone
+date: 2020-09-17
 katex: false
+tags:
+- ピクチャ
+- イン
+- フルスクリーン
+- youtube
+- 動画
+title: iPhone（iOS14）でピクチャ・イン・ピクチャを使用する
 ---
+
 iOS14でピクチャ・イン・ピクチャ機能を使用する方法です。
 
 ## 事前準備

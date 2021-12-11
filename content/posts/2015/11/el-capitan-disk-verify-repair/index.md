@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-11-06T00:00:00+00:00
-draft: false
-title: macOS El Capitanでディスクのアクセス権の検証、修復を行う方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2015-11-06 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- be
+- differs
+- is
+- drwxrwxr
+- differ
+title: macOS El Capitanでディスクのアクセス権の検証、修復を行う方法
+type: post
 ---
 
 ![](151106-563ca40e7a8b8-1.jpg)

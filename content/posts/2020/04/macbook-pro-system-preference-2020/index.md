@@ -1,12 +1,18 @@
 ---
-author: ["@ottanxyz"]
-title: MacBook Proを購入したら最初に行うシステム環境設定（2020）
-date: 2020-04-26T00:00:00+00:00
-tags:
-  - Tips
+author:
+- '@ottanxyz'
 categories:
-  - Mac
+- Mac
+date: 2020-04-26 00:00:00+00:00
+tags:
+- 日付
+- dns
+- キーボード
+- 最大
+- siri
+title: MacBook Proを購入したら最初に行うシステム環境設定（2020）
 ---
+
 Ansibleで環境構築を自動化しようかどうか悩みつつ、一から少しずつ手を加えていくことが好きな自分のためのメモを残しておきます。
 
 ```text

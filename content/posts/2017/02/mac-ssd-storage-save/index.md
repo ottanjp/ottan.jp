@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-02-11T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2017-02-11 00:00:00+00:00
 draft: false
+tags:
+- sierra
+- ストレージ
+- 書類
+- ファイル
+- 容量
 title: Macの内蔵ストレージを効率的に節約する方法（macOS Sierra編）
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](170211-589e83b9c1db7.jpg)

@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-14T00:00:00+00:00
-draft: false
-title: Windows 10でiTunesにiPhoneが認識されない問題の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Windows
+date: 2015-08-14 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- device
+- ドライバー
+- itunes
+- iphone
+- usb
+title: Windows 10でiTunesにiPhoneが認識されない問題の対処法
+type: post
 ---
 
 ![](150813-55cca0dada559.png)

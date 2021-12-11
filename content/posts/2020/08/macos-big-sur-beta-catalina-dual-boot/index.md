@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-title: macOS CatalinaとBig Sur（パブリックベータ）のデュアルブート環境を構築
-date: 2020-08-13T00:00:00+00:00
-tags:
-  - Catalina
-  - Big Sur
+author:
+- '@ottanxyz'
 categories:
-  - Mac
+- Mac
+date: 2020-08-13 00:00:00+00:00
 katex: false
+tags:
+- コンテナ
+- fs
+- ap
+- sur
+- catalina
+title: macOS CatalinaとBig Sur（パブリックベータ）のデュアルブート環境を構築
 ---
+
 macOS CatalinaとBig Sur（パブリックベータ）のデュアルブート環境を構築してみました。また、Time Machine等でCatalinaの環境を復元するのがめんどうなので、CatalinaとBig SurをインストールするAPFSコンテナを分割し、新規インストールしました。
 
 ## macOS CatalinaとBig SurのAPFSコンテナを分割する

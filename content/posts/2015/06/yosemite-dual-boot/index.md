@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-06-13T00:00:00+00:00
-draft: false
-title: macOS YosemiteとEl Captain（β版）のデュアルブート環境を構築する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2015-06-13 00:00:00+00:00
+draft: false
 tags:
-- Development
+- captain
+- yosemite
+- macos
+- 領域
+- インストール
+title: macOS YosemiteとEl Captain（β版）のデュアルブート環境を構築する
+type: post
 ---
 
 ![](150612-557ad9bc45188.jpg)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-title: VS CodeでRubyで書かれたプログラムを簡単デバッグ
-date: 2020-05-06T00:00:00+00:00
-tags:
-  - Ruby
-  - VS Code
+author:
+- '@ottanxyz'
 categories:
-  - Mac
+- Mac
+date: 2020-05-06 00:00:00+00:00
+tags:
+- ruby
+- vs
+- code
+- rbenv
+- local
+title: VS CodeでRubyで書かれたプログラムを簡単デバッグ
 ---
+
 VS Codeで、Rubyで書かれたプログラムをデバッグする方法です。単一のRubyファイルをデバッグするためのものであり、RSpec、およびRuby on Railsなどのフレームワークを用いたプログラムは対象外です。
 
 ## rbenvによる環境構築

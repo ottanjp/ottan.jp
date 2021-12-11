@@ -1,12 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-03-10T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories: null
+date: 2019-03-10 00:00:00+00:00
 draft: false
-title: "Windows Subsystem for LinuxでUbuntu Desktop (GNOME)を動かす"
-type: post
-categories:
 tags:
+- ubuntu
+- 仮想デスクトップ
+- windows
+- vcxsrv
+- desktop
+title: Windows Subsystem for LinuxでUbuntu Desktop (GNOME)を動かす
 toc: true
+type: post
 ---
 
 ![](190310-90fa5c4fa27f216f.jpg)

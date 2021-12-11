@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-01-15T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Android
+- Mac
+date: 2016-01-15 00:00:00+00:00
 draft: false
+tags:
+- remix
+- virtualbox
+- mode
+- os
+- クリック
 title: VirtualBoxにRemix OS 2.0をインストールする方法
 type: post
-categories:
-  - Android
-  - Mac
-tags:
-  - Development
 ---
 
 ![](160115-56988e3fa8252-1.jpg)

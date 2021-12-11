@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-04-19T00:00:00+00:00
-draft: false
-title: Docker ComposeでWordPress環境をもっと楽に管理しよう！
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2017-04-19 00:00:00+00:00
+draft: false
 tags:
-- Development
-- Docker
+- コンテナー
+- docker
+- span
+- lt
+- gt
+title: Docker ComposeでWordPress環境をもっと楽に管理しよう！
+type: post
 ---
 
 ![](170419-58f6c1df347fc.jpg)

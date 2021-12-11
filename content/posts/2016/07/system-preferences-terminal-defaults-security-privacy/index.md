@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-07-24T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2016-07-24 00:00:00+00:00
 draft: false
+tags:
+- defaults
+- pple
+- コマンド
+- sudo
+- write
 title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（セキュリティとプライバシー）
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](160723-5793034aea10a.jpg)

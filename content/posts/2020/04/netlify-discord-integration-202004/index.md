@@ -1,15 +1,18 @@
 ---
-author: ["@ottanxyz"]
-title: NetlifyのDeploy結果をDiscordへ通知する
-date: 2020-04-30T00:00:00+00:00
-tags:
-  - Hugo
-  - Netlify
-  - GitHub
-  - Discord
+author:
+- '@ottanxyz'
 categories:
-  - Blog
+- Blog
+date: 2020-04-30 00:00:00+00:00
+tags:
+- slack
+- integration
+- デプロイ
+- discord
+- ウェブフック
+title: NetlifyのDeploy結果をDiscordへ通知する
 ---
+
 Netlify上でのデプロイ結果を、Discordへ通知する方法をご紹介します。Slack連携とほぼやり方は同一ですが、GitHub同様に1点のみ注意点があります。
 
 ## Discordのウェブフックを準備

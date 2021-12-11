@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-11T00:00:00+00:00
-draft: false
-title: ローカルアカウントのまま、Microsoftアカウントに切り替えることなくWindowsストアからアプリケーションを入手する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2015-08-11 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- microsoftアカウント
+- windows
+- アカウント
+- ローカル
+- アプリケーション
+title: ローカルアカウントのまま、Microsoftアカウントに切り替えることなくWindowsストアからアプリケーションを入手する方法
+type: post
 ---
 
 ![](150811-55c959cb5bd34.png)

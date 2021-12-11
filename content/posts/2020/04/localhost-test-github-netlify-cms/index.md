@@ -1,13 +1,19 @@
 ---
-author: ["@ottanxyz"]
-title: ローカルホストでGitHubの環境を汚さずにNetlify CMSをテストする
-date: 2020-04-26T00:00:00+00:00
-tags:
-  - Netlify
+author:
+- '@ottanxyz'
 categories:
-  - Blog
-  - Mac
+- Blog
+- Mac
+date: 2020-04-26 00:00:00+00:00
+tags:
+- cms
+- ローカルホスト
+- management
+- netlify
+- system
+title: ローカルホストでGitHubの環境を汚さずにNetlify CMSをテストする
 ---
+
 Hugoを使用している場合、`hugo server`を実行している状態で、ブラウザから以下のURLへアクセスします。Hugoのみならず、他のNetlify CMSがサポートする静的サイトジェネレータでも同様です。
 
 ```http

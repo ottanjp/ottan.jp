@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-06-13T00:00:00+00:00
-draft: false
-title: macOSのネイティブな仮想化フレームワークを使用した軽量仮想化ソフトウェア「Anka」のβ版を使用してmacOSのテスト環境を構築する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-06-13 00:00:00+00:00
+draft: false
 tags:
-- Development
+- anka
+- 仮想マシン
+- fd
+- 準仮想化
+- macos
+title: macOSのネイティブな仮想化フレームワークを使用した軽量仮想化ソフトウェア「Anka」のβ版を使用してmacOSのテスト環境を構築する
+type: post
 ---
 
 ![](170613-593f3ec5ae2ae.jpg)

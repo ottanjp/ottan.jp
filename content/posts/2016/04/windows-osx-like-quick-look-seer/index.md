@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-04-06T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Windows
+date: 2016-04-06 00:00:00+00:00
 draft: false
+tags:
+- quick
+- プレビュー
+- windows
+- ファイル
+- md
 title: Windowsで、macOSのQuick Lookを実現する「Seer」
 type: post
-categories:
-  - Windows
-tags:
-  - Tips
 ---
 
 ![](160423-571b71955920d-1.png)

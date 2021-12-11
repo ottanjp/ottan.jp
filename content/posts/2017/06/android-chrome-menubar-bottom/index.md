@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-06-11T00:00:00+00:00
-draft: false
-title: Chromeをもっと使いやすく！Android標準のChromeブラウザでメニューバーを画面下部に固定する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Android
+date: 2017-06-11 00:00:00+00:00
+draft: false
 tags:
-- Google
-- Tips
+- chrome
+- バー
+- メニュー
+- 片手
+- android
+title: Chromeをもっと使いやすく！Android標準のChromeブラウザでメニューバーを画面下部に固定する方法
+type: post
 ---
 
 ![](170611-593dd5b7362e5.jpg)

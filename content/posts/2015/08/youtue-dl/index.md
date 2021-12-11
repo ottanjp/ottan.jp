@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-23T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2015-08-23 00:00:00+00:00
 draft: false
+tags:
+- youtube
+- dl
+- nhx
+- 動画
+- ho
 title: YouTubeから簡単に動画をダウンロードできる「youtube-dl」
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](150823-55d96dac3037b.jpg)

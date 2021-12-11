@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-04-10T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Blog
+date: 2016-04-10 00:00:00+00:00
 draft: false
+tags:
+- プレビュー
+- lt
+- js
+- シンタックスハイライト
+- gt
 title: MarsEditのプレビュー画面で、「highlight.js」のシンタックスハイライトをリアルタイムでプレビューする
 type: post
-categories:
-  - Mac
-  - Blog
-tags:
-  - Development
-  - MarsEdit
 ---
 
 ![](160423-571b57e20f058.png)

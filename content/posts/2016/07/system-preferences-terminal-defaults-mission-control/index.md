@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-07-20T00:00:00+00:00
-draft: false
-title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（Mission Control）
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2016-07-20 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- lt
+- gt
+- pple
+- wvous
+- write
+title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（Mission Control）
+type: post
 ---
 
 ![](160720-578f42b571a37.jpg)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-09-28T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2016-09-28 00:00:00+00:00
 draft: false
+tags:
+- sierra
+- macos
+- クリーンインストール
+- リカバリー
+- ディスク
 title: macOS Sierraをクリーンインストールするための2つの方法
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](160928-57ebb3514ace8.jpg)

@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-09-20T00:00:00+00:00
-draft: false
-title: iOS 12と1Passwordによるパスワード自動入力が便利すぎる！アプリ内のパスワード入力でも使用可能
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2018-09-20 00:00:00+00:00
+draft: false
 tags:
-- 1Password
-- iOS 12
+- '12'
+- パスワード
+- password
+- 自動
+- ワンタイムパスワード
+title: iOS 12と1Passwordによるパスワード自動入力が便利すぎる！アプリ内のパスワード入力でも使用可能
+type: post
 ---
 
 ![](180920-5ba375ba9cf1c.jpg)

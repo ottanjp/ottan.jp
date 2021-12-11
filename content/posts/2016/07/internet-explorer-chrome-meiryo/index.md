@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-07-07T00:00:00+00:00
-draft: false
-title: WindowsのInternet ExplorerまたはGoogle Chromeで強制的にメイリオを使用する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2016-07-07 00:00:00+00:00
+draft: false
 tags:
-- Google
-- Tips
+- メイリオ
+- フォント
+- explorer
+- internet
+- windows
+title: WindowsのInternet ExplorerまたはGoogle Chromeで強制的にメイリオを使用する
+type: post
 ---
 
 ![](160707-577e55df48ba8.jpg)

@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-12-03T00:00:00+00:00
-draft: false
-title: phpMyAdminは不要！Dockerで構築したMySQLにMacからSequel ProでGUI上からデータベースを簡単に編集する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2017-12-03 00:00:00+00:00
+draft: false
 tags:
-- Development
-- Docker
+- mysql
+- sequel
+- テーブル
+- データベース
+- yaml
+title: phpMyAdminは不要！Dockerで構築したMySQLにMacからSequel ProでGUI上からデータベースを簡単に編集する
+type: post
 ---
 
 ![](171203-5a237a8ae9047.png)

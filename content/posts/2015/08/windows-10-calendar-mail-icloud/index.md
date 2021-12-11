@@ -1,15 +1,20 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-20T00:00:00+00:00
-draft: false
-title: Windows 10でカレンダーやメールにiCloudアカウントが同期されない問題の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
 - Windows
+date: 2015-08-20 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- icloud
+- アカウント
+- パスワード
+- カレンダー
+- 2段階認証
+title: Windows 10でカレンダーやメールにiCloudアカウントが同期されない問題の対処法
+type: post
 ---
 
 ![](150820-55d5c04462d9d.jpg)

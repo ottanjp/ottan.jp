@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-05-20T00:00:00+00:00
-draft: false
-title: Windows 10（Creator Update）で、脆弱性のあるSMB1を無効化する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2017-05-20 00:00:00+00:00
+draft: false
 tags:
-- Security
+- sm
+- b1
+- powershell
+- コントロールパネル
+- windows
+title: Windows 10（Creator Update）で、脆弱性のあるSMB1を無効化する方法
+type: post
 ---
 
 ![](170520-591fa8a918fbc.jpg)

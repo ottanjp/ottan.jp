@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-12-09T00:00:00+00:00
-draft: false
-title: Apple Music（iCloudミュージックライブラリ）上の楽曲をスマートに一括してダウンロードする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-12-09 00:00:00+00:00
+draft: false
 tags:
-- iTunes
-- Tips
+- 楽曲
+- スマートプレイリスト
+- プレイリスト
+- ミュージック
+- itunes
+title: Apple Music（iCloudミュージックライブラリ）上の楽曲をスマートに一括してダウンロードする方法
+type: post
 ---
 
 ![](171209-5a2bde03513bf.jpg)

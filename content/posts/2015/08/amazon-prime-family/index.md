@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-03T00:00:00+00:00
-draft: false
-title: 知ってた？！Amazonプライム会員は本人以外に同居家族を2人登録できます！！
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Web
+date: 2015-08-03 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- 会員
+- 家族
+- amazonプライム
+- kindle
+- オーナー
+title: 知ってた？！Amazonプライム会員は本人以外に同居家族を2人登録できます！！
+type: post
 ---
 
 ![](150803-55bf4347706b3.png)

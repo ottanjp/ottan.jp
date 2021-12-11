@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-12-05T00:00:00+00:00
-draft: false
-title: 【iPhone X体験記】iPhone Xのホーム画面やアプリ起動時に突如現れる四角いウインドウの正体は？！
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-12-05 00:00:00+00:00
+draft: false
 tags:
-- iPhone X
+- iphone
+- 拡大鏡
+- 4s
+- ウインドウ
+- カメラ
+title: 【iPhone X体験記】iPhone Xのホーム画面やアプリ起動時に突如現れる四角いウインドウの正体は？！
+type: post
 ---
 
 ![](171205-5a269afb55a5f.jpg)

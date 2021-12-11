@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-06-21T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2015-06-21 00:00:00+00:00
 draft: false
+tags:
+- deflate
+- addoutputfilterbytype
+- 画像ファイル
+- スタイルシート
+- アップロード
 title: WordPressのサイト表示速度を高速化させるために行っている施策まとめ
 type: post
-categories:
-  - Blog
-tags:
-  - Development
 ---
 
 ![](150621-5586badf5ab09.jpg)

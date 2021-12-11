@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-05-02T00:00:00+00:00
-draft: false
-title: MacでWi-Fiの速度が出ない、繋がらないなど、調子がおかしい時に試したい5つの対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2015-05-02 00:00:00+00:00
+draft: false
 tags:
-- Tips
-- Wi-Fi
+- ネットワーク
+- wi
+- fi
+- 環境
+- システム
+title: MacでWi-Fiの速度が出ない、繋がらないなど、調子がおかしい時に試したい5つの対処法
+type: post
 ---
 
 ![](150502-5544325658139.jpg)

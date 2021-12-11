@@ -1,15 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-08-05T00:00:00+00:00
-draft: false
-title: Amazon Lightsailで月5ドルから始めるWordPress（下準備〜HTTPS化編）
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2018-08-05 00:00:00+00:00
+draft: false
 tags:
-- Amazon
-- AWS
-- Blog
+- インスタンス
+- aws
+- lightsail
+- wordpress
+- サーバー
+title: Amazon Lightsailで月5ドルから始めるWordPress（下準備〜HTTPS化編）
+type: post
 ---
 
 ![](wordpress-265132_640.jpg)

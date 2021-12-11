@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-03-30T00:00:00+00:00
-draft: false
-title: iPhoneでGmailアプリを使用するなら導入しておきたい、iCloudとGoogleコンタクトの連絡先を同期する『Contacts Sync』
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-03-30 00:00:00+00:00
+draft: false
 tags:
-- Apps
-- Google
+- 連絡先
+- コンタクト
+- google
+- icloud
+- sync
+title: iPhoneでGmailアプリを使用するなら導入しておきたい、iCloudとGoogleコンタクトの連絡先を同期する『Contacts Sync』
+type: post
 ---
 
 ![](170330-58dce3d9d9fac.jpg)

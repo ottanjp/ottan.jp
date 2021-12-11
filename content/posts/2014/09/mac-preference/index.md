@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-07T00:00:00+00:00
-draft: false
-title: Macを購入したら最初に設定しておきたいシステム環境設定
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2014-09-07 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ウインドウ
+- キー
+- macbook
+- アプリケーション
+- ことえり
+title: Macを購入したら最初に設定しておきたいシステム環境設定
+type: post
 ---
 
 ![](140907-540bf67c327fa.jpg)

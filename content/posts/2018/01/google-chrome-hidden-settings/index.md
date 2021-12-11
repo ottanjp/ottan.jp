@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-01-20T00:00:00+00:00
-draft: false
-title: Google Chromeに隠された便利な機能を使いこなす
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2018-01-20 00:00:00+00:00
+draft: false
 tags:
-- Google
-- Google Chrome
+- chrome
+- タブ
+- google
+- 動画
+- 直前
+title: Google Chromeに隠された便利な機能を使いこなす
+type: post
 ---
 
 ![](browser-773216_640.jpg)

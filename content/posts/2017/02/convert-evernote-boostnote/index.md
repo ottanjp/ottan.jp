@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-02-24T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2017-02-24 00:00:00+00:00
 draft: false
+tags:
+- ノート
+- ever
+- evernote
+- 形式
+- clipper
 title: EvernoteのノートをBoostnoteのノート形式に手軽に変換できる「ever2boost」
 type: post
-categories:
-  - Mac
-tags:
-  - Apps
 ---
 
 ![](170220-58aacacbccdb0.jpg)

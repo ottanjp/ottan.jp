@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-09-17T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2015-09-17 00:00:00+00:00
 draft: false
+tags:
+- spotlight
+- password
+- ログイン
+- 情報
+- ウェブページ
 title: 1PasswordがSpotlight検索に対応し、より便利に進化！
 type: post
-categories:
-  - iPhone
-tags:
-  - Apps
 ---
 
 ![](150917-55fabedc8f2e7.jpg)

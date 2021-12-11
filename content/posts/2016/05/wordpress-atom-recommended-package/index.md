@@ -1,16 +1,20 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-05-28T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Windows
+- Blog
+date: 2016-05-28 00:00:00+00:00
 draft: false
+tags:
+- apm
+- atom
+- パッケージ
+- install
+- コーディング
 title: WordPressのテーマやプラグイン開発のためにAtomに導入したパッケージ（2016年版）
 type: post
-categories:
-  - Mac
-  - Windows
-  - Blog
-tags:
-  - Atom
-  - Development
 ---
 
 ![](160528-57490732a2c14.jpg)

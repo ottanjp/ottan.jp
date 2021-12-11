@@ -1,12 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-12-10T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2019-12-10 00:00:00+00:00
 draft: false
-title: "iPhoneのSafariでデスクトップ用Webサイトが表示される場合の対処法（iOS13対応版）"
-type: post
-categories: ["iPhone"]
-tags: ["Safari"]
+tags:
+- webサイト
+- デスクトップ
+- モバイル
+- safari
+- '13'
+title: iPhoneのSafariでデスクトップ用Webサイトが表示される場合の対処法（iOS13対応版）
 toc: true
+type: post
 ---
 
 ![](191205-b3710ba2c519dee0.jpg)

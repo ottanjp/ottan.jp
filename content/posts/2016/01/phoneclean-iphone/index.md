@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-01-10T00:00:00+00:00
-draft: false
-title: '[PR]不要なファイルを削除してiPhoneの動作を快適にする「PhoneClean」'
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2016-01-10 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- クリーン
+- iphone
+- クリーンアップ
+- クイック
+- インターネット
+title: '[PR]不要なファイルを削除してiPhoneの動作を快適にする「PhoneClean」'
+type: post
 ---
 
 ![](160110-5691ebae1a277-1.jpg)

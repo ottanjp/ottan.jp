@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-05-02T00:00:00+00:00
-draft: false
-title: iPhoneのメモリを5秒で解放し空きメモリを増やす方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-05-02 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- メモリ
+- 領域
+- ホーム
+- 状態
+- iphone
+title: iPhoneのメモリを5秒で解放し空きメモリを増やす方法
+type: post
 ---
 
 ![](170502-590816449be34.jpg)

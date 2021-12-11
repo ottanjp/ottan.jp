@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-02-12T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2017-02-12 00:00:00+00:00
 draft: false
+tags:
+- コマンド
+- manページ
+- ターミナル
+- ウインドウ
+- lt
 title: Macのターミナルで調べたいコマンドのmanを別ウインドウで開き保存する方法
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](170212-589fbea2d297d.jpg)

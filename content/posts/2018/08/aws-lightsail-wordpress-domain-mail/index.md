@@ -1,15 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-08-12T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2018-08-12 00:00:00+00:00
 draft: false
+tags:
+- ses
+- バケット
+- s3
+- ルール
+- aws
 title: Amazon Lightsailで月5ドルから始めるWordPress（独自ドメインでのメール送受信）
 type: post
-categories:
-    - Blog
-tags:
-    - Amazon
-    - AWS
-    - Blog
 ---
 
 ![](businessman-2956974_640.jpg)

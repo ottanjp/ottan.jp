@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-09T00:00:00+00:00
-draft: false
-title: Google Chromeのメモリ使用量を50%以上削減する魔法のコマンド
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2014-09-09 00:00:00+00:00
+draft: false
 tags:
-- Google
+- chrome
+- 魔法
+- メモリ
+- プロセス
+- google
+title: Google Chromeのメモリ使用量を50%以上削減する魔法のコマンド
+type: post
 ---
 
 ![](140909-540e8f34b5ac1.jpg)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-13T00:00:00+00:00
-draft: false
-title: はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2014-09-13 00:00:00+00:00
+draft: false
 tags:
-- Development
+- タスク
+- js
+- gulp
+- パッケージ
+- sass
+title: はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう
+type: post
 ---
 
 ![](140913-5413ee6d218c6.jpg)

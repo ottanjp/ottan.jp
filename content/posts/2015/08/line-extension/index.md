@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-07T00:00:00+00:00
-draft: false
-title: 何でもかんでもLINEに共有しよう！！Safariや写真アプリからLINEのトークに送信する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2015-08-07 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- line
+- トーク
+- 写真
+- タップ
+- safari
+title: 何でもかんでもLINEに共有しよう！！Safariや写真アプリからLINEのトークに送信する方法
+type: post
 ---
 
 ![](150807-55c481ad8e5ed.png)

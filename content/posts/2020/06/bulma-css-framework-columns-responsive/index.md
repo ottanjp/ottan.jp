@@ -1,13 +1,19 @@
 ---
-author: ["@ottanxyz"]
-title: CSSフレームワーク「Bulma」の「columns」クラスに関する挙動について
-date: 2020-06-14T00:00:00+00:00
-tags:
-  - CSS
+author:
+- '@ottanxyz'
 categories:
-  - Web
+- Web
+date: 2020-06-14 00:00:00+00:00
 katex: false
+tags:
+- lt
+- gt
+- エレメント
+- columns
+- クラス
+title: CSSフレームワーク「Bulma」の「columns」クラスに関する挙動について
 ---
+
 CSSフレームワークの「[Bulma: Free, open source, and modern CSS framework based on Flexbox](https://bulma.io/)」の`columns`クラスの挙動がおかしい、というお話です。
 
 [Columns responsiveness](https://bulma.io/documentation/columns/responsiveness/)は、Flexboxをベースとしたレスポンシブなレイアウトを簡単に定義できます。ところが、以下のシンプルなコードをみてください。

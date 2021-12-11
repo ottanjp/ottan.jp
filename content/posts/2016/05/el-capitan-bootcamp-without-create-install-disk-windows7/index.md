@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-05-15T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Windows
+date: 2016-05-15 00:00:00+00:00
 draft: false
+tags:
+- camp
+- boot
+- アシスタント
+- windows
+- インストール
 title: macOS El CapitanのBootCampアシスタントで「インストールディスクを作成」が表示されない場合でも正常にWindows 7をインストールする
 type: post
-categories:
-  - Mac
-  - Windows
-tags:
-  - Tips
 ---
 
 ![](160515-57385c12ba164.jpg)

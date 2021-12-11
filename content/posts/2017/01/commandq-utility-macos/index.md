@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-01-07T00:00:00+00:00
-draft: false
-title: command + Qによる予期せぬアプリケーション終了を防ぐ「CommandQ」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-01-07 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- アプリケーション
+- ショートカット
+- キーボード
+- ウインドウ
+- webサイト
+title: command + Qによる予期せぬアプリケーション終了を防ぐ「CommandQ」
+type: post
 ---
 
 ![](170107-58707fabaeca4.jpg)

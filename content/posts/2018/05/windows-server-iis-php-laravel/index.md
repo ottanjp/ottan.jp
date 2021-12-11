@@ -1,15 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-05-13T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Windows
+date: 2018-05-13 00:00:00+00:00
 draft: false
+tags:
+- iis
+- php
+- インストール
+- cgi
+- windows
 title: Windows Server上のIISでPHPアプリケーションを動作させる際の落とし穴と対策
 type: post
-categories:
-  - Windows
-tags:
-  - IIS
-  - PHP
-  - Windows Server
 ---
 
 ![](180507-5af048016ef56.jpg)

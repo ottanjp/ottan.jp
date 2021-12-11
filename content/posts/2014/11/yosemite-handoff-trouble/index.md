@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-11-13T00:00:00+00:00
-draft: false
-title: macOS YosemiteでHandoffが使用できない場合に見直したい項目
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2014-11-13 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- handoff
+- ペアリング
+- iphone
+- bluetooth
+- mac
+title: macOS YosemiteでHandoffが使用できない場合に見直したい項目
+type: post
 ---
 
 ![](141113-546452cc0cbb5.jpg)

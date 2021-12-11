@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-10-25T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+- Mac
+date: 2015-10-25 00:00:00+00:00
 draft: false
+tags:
+- touch
+- mac
+- id
+- macid
+- 通知センター
 title: 通知センターからTouch IDを使ってMacのロックを解除できる「MacID」
 type: post
-categories:
-  - iPhone
-  - Mac
-tags:
-  - Apps
 ---
 
 ![](151025-562cc94af0fe3.jpg)

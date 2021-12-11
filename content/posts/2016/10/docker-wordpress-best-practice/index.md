@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-10-30T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Blog
+date: 2016-10-30 00:00:00+00:00
 draft: false
+tags:
+- docker
+- コンテナー
+- wordpress
+- wp
+- 環境
 title: Dockerで作る最強・最速のローカルWordPress環境
 type: post
-categories:
-  - Mac
-  - Blog
-tags:
-  - Development
-  - Docker
 ---
 
 ![](161030-5815613793192.jpg)

@@ -1,11 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-05-31T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2018-05-31 00:00:00+00:00
 draft: false
+tags:
+- アップデート
+- high
+- xcode
+- preview
+- done
 title: Mac App Storeでアプリのアップデートが終わらないイライラを解消する方法
 type: post
-categories:
-  - Mac
 ---
 
 ![](180531-5b0fb80f82c5a.jpg)

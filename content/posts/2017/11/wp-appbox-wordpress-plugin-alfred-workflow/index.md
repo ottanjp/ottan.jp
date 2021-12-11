@@ -1,16 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-11-22T00:00:00+00:00
-draft: false
-title: AlfredのWorkflowを使用して、WordPressプラグイン「WP-Appbox」でApp Storeのアプリの紹介を便利にする
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
 - Blog
+date: 2017-11-22 00:00:00+00:00
+draft: false
 tags:
-- Alfred
-- Development
-- MarsEdit
+- alfred
+- workflow
+- php
+- icon
+- ショート
+title: AlfredのWorkflowを使用して、WordPressプラグイン「WP-Appbox」でApp Storeのアプリの紹介を便利にする
+type: post
 ---
 
 ![](171122-5a1570f6f1f93.jpg)

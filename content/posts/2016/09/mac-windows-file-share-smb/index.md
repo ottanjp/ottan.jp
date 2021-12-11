@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-09-02T00:00:00+00:00
-draft: false
-title: 簡単にMacとWindowsでファイルを共有する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
 - Windows
+date: 2016-09-02 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- 共有フォルダー
+- windows
+- mac
+- ファイル共有
+- ホスト名
+title: 簡単にMacとWindowsでファイルを共有する方法
+type: post
 ---
 
 ![](160902-57c97775ad172.jpg)

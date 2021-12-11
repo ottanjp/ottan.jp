@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-07-31T00:00:00+00:00
-draft: false
-title: MacでWindowsのインストールメディア（DVD）からイメージファイル（ISO）を作成する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
 - Windows
+date: 2015-07-31 00:00:00+00:00
+draft: false
 tags:
-- Development
+- iso
+- メディア
+- イメージファイル
+- ディスクユーティリティ
+- インストール
+title: MacでWindowsのインストールメディア（DVD）からイメージファイル（ISO）を作成する方法
+type: post
 ---
 
 ![](150731-55bc0a043535d.jpg)

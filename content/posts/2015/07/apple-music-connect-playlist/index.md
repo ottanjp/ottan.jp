@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-07-10T00:00:00+00:00
-draft: false
-title: ミュージックアプリ、iTunesからApple Music Connectを削除し、プレイリストを復活させる方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2015-07-10 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- music
+- ミュージックアプリ
+- プレイリスト
+- apple
+- itunes
+title: ミュージックアプリ、iTunesからApple Music Connectを削除し、プレイリストを復活させる方法
+type: post
 ---
 
 ![](150710-55a0575b5fcea.jpg)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-03-27T00:00:00+00:00
-draft: false
-title: Windows 10の起動を高速化する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2016-03-27 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- スタートアップ
+- 高速
+- 電源
+- windows
+- コマンドプロンプト
+title: Windows 10の起動を高速化する方法
+type: post
 ---
 
 ![](160327-56f7d2bd526fb.jpg)

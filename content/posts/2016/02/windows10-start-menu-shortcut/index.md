@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-02-16T00:00:00+00:00
-draft: false
-title: Windows 10でスタートメニューのアプリケーションのショートカットをデスクトップに作成する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2016-02-16 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ショートカット
+- デスクトップ
+- スタートメニュー
+- edge
+- microsoft
+title: Windows 10でスタートメニューのアプリケーションのショートカットをデスクトップに作成する方法
+type: post
 ---
 
 ![](160216-56c3174321090.jpg)

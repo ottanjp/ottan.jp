@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-02-01T00:00:00+00:00
-draft: false
-title: iPhoneやMacのWi-Fi接続速度が遅い場合に見直したい項目
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2015-02-01 00:00:00+00:00
+draft: false
 tags:
-- Tips
-- Wi-Fi
+- hz
+- dnsサーバ
+- 5g
+- fi
+- wi
+title: iPhoneやMacのWi-Fi接続速度が遅い場合に見直したい項目
+type: post
 ---
 
 ![](150201-54ce2c7ec4e10.jpg)

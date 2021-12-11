@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-08-20T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2016-08-20 00:00:00+00:00
 draft: false
+tags:
+- 連絡先
+- コンタクト
+- google
+- icloud
+- gmail
 title: Inboxで連絡先情報を有効活用するために、iCloud.comの連絡先をGoogleコンタクトに移行する方法
 type: post
-categories:
-  - iPhone
-tags:
-  - Google
-  - Tips
 ---
 
 ![](160820-57b7abb47163e.jpg)

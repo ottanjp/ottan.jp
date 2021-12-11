@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-08-25T00:00:00+00:00
-draft: false
-title: Windows 10（Anniversary Update）で、Cortanaを恒久的に無効化する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2016-08-25 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- cortana
+- windows
+- グループポリシー
+- キー
+- エディター
+title: Windows 10（Anniversary Update）で、Cortanaを恒久的に無効化する方法
+type: post
 ---
 
 ![](160825-57be4460f2674.jpg)

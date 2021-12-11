@@ -1,12 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-04-07T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Windows
+date: 2019-04-07 00:00:00+00:00
 draft: false
-title: "Windows 10でコントロールパネルや設定から削除できない「Xbox」アプリを削除する"
-type: post
-categories: ["Windows"]
-tags: ["Windows 10", "PowerShell"]
+tags:
+- 8w
+- ekyb
+- アプリ
+- bbwe
+- xbox
+title: Windows 10でコントロールパネルや設定から削除できない「Xbox」アプリを削除する
 toc: true
+type: post
 ---
 
 ![](190407-af4ae6f2b0a69a98.jpg)

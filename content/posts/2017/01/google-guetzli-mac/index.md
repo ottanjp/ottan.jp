@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-01-14T00:00:00+00:00
-draft: false
-title: Googleが公開したJPEGエンコーダー「Guetzli」をMacでコンパイルして使用する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-01-14 00:00:00+00:00
+draft: false
 tags:
-- Development
-- Google
+- コンパイル
+- jpeg
+- エンコーダー
+- homebrew
+- github
+title: Googleが公開したJPEGエンコーダー「Guetzli」をMacでコンパイルして使用する方法
+type: post
 ---
 
 ![](170114-5879887105d8c.jpg)

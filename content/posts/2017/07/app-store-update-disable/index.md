@@ -1,15 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-07-24T00:00:00+00:00
-draft: false
-title: 特定のアプリのみApp Storeからアップデートしないようにする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-07-24 00:00:00+00:00
+draft: false
 tags:
-- App Store
-- iTunes
-- Tips
+- アプリ
+- itunes
+- アップデート
+- ipa
+- フォルダー
+title: 特定のアプリのみApp Storeからアップデートしないようにする方法
+type: post
 ---
 
 ![](170724-5975ba4393afe.jpg)

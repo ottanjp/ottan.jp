@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-05-30T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Android
+- Mac
+date: 2015-05-30 00:00:00+00:00
 draft: false
+tags:
+- android
+- nexus
+- ファームウェア
+- usb
+- デバッグモード
 title: 超簡単！MacでNexusにAndroid Mをインストールする方法
 type: post
-categories:
-  - Android
-  - Mac
-tags:
-  - Development
 ---
 
 ![](150529-5568fa2b9a7c5.jpg)

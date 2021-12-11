@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-12-22T00:00:00+00:00
-draft: false
-title: 意外と知られていないiPhoneのキーボードの便利な使い方
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2015-12-22 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- キーボード
+- 記号
+- 音声
+- 文章
+- 文字
+title: 意外と知られていないiPhoneのキーボードの便利な使い方
+type: post
 ---
 
 ![](151222-5678cae4b7330-1.jpg)

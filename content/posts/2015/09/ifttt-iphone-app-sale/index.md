@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-09-21T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+- Mac
+date: 2015-09-21 00:00:00+00:00
 draft: false
+tags:
+- ifttt
+- レシピ
+- appzapp
+- アプリ
+- 有料
 title: 毎日のアプリのセール情報を見逃さないために！有料アプリが無料になった場合のみメールで通知してくれるサービスを作ろう！
 type: post
-categories:
-  - iPhone
-  - Mac
-tags:
-  - Apps
-  - IFTTT
 ---
 
 ![](150921-55fff6bbaff71.png)

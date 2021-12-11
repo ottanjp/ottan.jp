@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-08-29T00:00:00+00:00
-draft: false
-title: WordPressに投稿したらIFTTTとBufferを使用して自動的にTwitter、Facebookページ、Google+に投稿する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Web
 - Blog
+date: 2016-08-29 00:00:00+00:00
+draft: false
 tags:
-- Development
-- IFTTT
+- buffer
+- ifttt
+- ブログ
+- wordpress
+- sns
+title: WordPressに投稿したらIFTTTとBufferを使用して自動的にTwitter、Facebookページ、Google+に投稿する方法
+type: post
 ---
 
 ![](160829-57c3a37769de1.jpg)

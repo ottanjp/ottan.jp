@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-09-20T00:00:00+00:00
-draft: false
-title: Safariのコンテンツブロッカーだけがすべてではない！iOS9でメモとリマインダーが大幅に進化！使い方を徹底解説！
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2015-09-20 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- 使い方
+- webページ
+- タップ
+- マークアップ
+- 定規
+title: Safariのコンテンツブロッカーだけがすべてではない！iOS9でメモとリマインダーが大幅に進化！使い方を徹底解説！
+type: post
 ---
 
 ![](150920-55fe207c109e1.jpg)

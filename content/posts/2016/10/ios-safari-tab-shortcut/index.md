@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-10-10T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2016-10-10 00:00:00+00:00
 draft: false
+tags:
+- タブ
+- safari
+- タップ
+- 直近
+- 方法
 title: iPhoneのSafariで最近閉じたタブを復元する方法
 type: post
-categories:
-  - iPhone
-tags:
-  - Tips
 ---
 
 ![](161010-57fb2ba32b741.jpg)

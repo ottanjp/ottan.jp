@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-03-14T00:00:00+00:00
-draft: false
-title: WordPressの高速化！WordPressでそのページで実行されているアクションやフックの一覧を表示するプラグイン「Simply Show Hooks」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2018-03-14 00:00:00+00:00
+draft: false
 tags:
-- Plugin
-- Blog
+- wp
+- 関数
+- アクション
+- プラグイン
+- フック
+title: WordPressの高速化！WordPressでそのページで実行されているアクションやフックの一覧を表示するプラグイン「Simply Show Hooks」
+type: post
 ---
 
 ![](180314-5aa8ea3d6c266.jpg)

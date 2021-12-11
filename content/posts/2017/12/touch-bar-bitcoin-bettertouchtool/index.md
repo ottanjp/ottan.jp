@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-12-10T00:00:00+00:00
-draft: false
-title: Touch Barに現在のビットコインの価格を表示する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-12-10 00:00:00+00:00
+draft: false
 tags:
-- BetterTouchTool
-- Touch Bar
+- 15m
+- bar
+- touch
+- ビットコイン
+- bettertouchtool
+title: Touch Barに現在のビットコインの価格を表示する
+type: post
 ---
 
 ![](171210-5a2d24593d82c.jpg)

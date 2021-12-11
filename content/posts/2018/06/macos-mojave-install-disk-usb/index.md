@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-06-30T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2018-06-30 00:00:00+00:00
 draft: false
+tags:
+- mojave
+- インストーラー
+- macos
+- untitled
+- k3
 title: macOS Mojaveのインストールディスク（USBメモリ）を作成する方法
 type: post
-categories:
-  - Mac
-tags:
-  - macOS
-  - Mojave
 ---
 
 ![](180630-5b370a0971103.jpg)

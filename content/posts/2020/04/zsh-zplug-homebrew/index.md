@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-title: zplugとpreztoでzshをいい感じにする
-date: 2020-04-26T00:00:00+00:00
-tags:
-  - zsh
-  - zplug
-  - Homebrew
+author:
+- '@ottanxyz'
 categories:
-  - Mac
+- Mac
+date: 2020-04-26 00:00:00+00:00
 katex: false
+tags:
+- zsh
+- prezto
+- zplug
+- zshrc
+- シェル
+title: zplugとpreztoでzshをいい感じにする
 ---
+
 zplugは、zshのプラグインマネージャ、preztoは軽量なフレームワークです。zplug以外に、zinitなどがありますが、乗り換えるのが面倒であるため、現在はzplugで落ち着いています。また、下記の使い方であれば、preztoを入れる必要性をそこまで感じませんが、preztoに同梱されているモジュールが便利なのでそのまま使用しています。
 
 ## zsh、zplugのインストール

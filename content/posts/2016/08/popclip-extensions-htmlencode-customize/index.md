@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-08-15T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2016-08-15 00:00:00+00:00
 draft: false
+tags:
+- ent
+- html
+- encode
+- utf
+- 拡張機能
 title: PopClipの拡張機能をカスタマイズしてみよう！PopClipの拡張機能「HTML Encode」でダブルクオーテションを変換しないようにする
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](160815-57b1cdb6742b8.png)

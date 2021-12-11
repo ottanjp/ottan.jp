@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-08-08T00:00:00+00:00
-draft: false
-title: iTunesで同期またはバックアップできない時の対処法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2016-08-08 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- itunes
+- ゴミ箱
+- デバイス
+- windows
+- ios
+title: iTunesで同期またはバックアップできない時の対処法
+type: post
 ---
 
 ![](160808-57a8828d3d743.jpg)

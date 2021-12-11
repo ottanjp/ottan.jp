@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-08-14T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2016-08-14 00:00:00+00:00
 draft: false
+tags:
+- 拡張機能
+- details
+- apple
+- com
+- https
 title: Safariをもっと便利に使いこなそう！Apple公式サイトから入手できるSafariの拡張機能
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](160814-57b001868a4d4.jpg)

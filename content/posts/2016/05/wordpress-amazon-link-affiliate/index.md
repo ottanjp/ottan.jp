@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-05-14T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2016-05-14 00:00:00+00:00
 draft: false
+tags:
+- gt
+- lt
+- color
+- amazon
+- dp
 title: WordPressの本文にAmazonのURLを貼り付けるだけで、アフィリエイトリンクを生成できるようにする
 type: post
-categories:
-  - Blog
-tags:
-  - Development
 ---
 
 ![](160514-5736a89e598ca.png)

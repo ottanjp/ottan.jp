@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-09-05T00:00:00+00:00
-draft: false
-title: iPhoneやiPadを売買する前にアクティベーションロックがオフになっていることを確認する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2015-09-05 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- アクティベーション
+- 端末
+- シリアル番号
+- iphone
+- ipad
+title: iPhoneやiPadを売買する前にアクティベーションロックがオフになっていることを確認する方法
+type: post
 ---
 
 ![](150905-55ea7da1a0d11.jpg)

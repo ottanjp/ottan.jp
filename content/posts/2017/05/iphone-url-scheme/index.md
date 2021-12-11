@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-05-02T00:00:00+00:00
-draft: false
-title: iPhoneの任意のアプリのURLスキームを調べる方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2017-05-02 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- st
+- lt
+- スキーム
+- tweetie
+- twitter
+title: iPhoneの任意のアプリのURLスキームを調べる方法
+type: post
 ---
 
 ![](170501-5907caece5b5d.jpg)

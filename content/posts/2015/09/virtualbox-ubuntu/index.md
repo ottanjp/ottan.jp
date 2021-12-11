@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-09-06T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2015-09-06 00:00:00+00:00
 draft: false
+tags:
+- ubuntu
+- クリック
+- virtualbox
+- インストール
+- 仮想マシン
 title: VirtualBoxにUbuntu 14.04.2 LTSをインストールする方法
 type: post
-categories:
-  - Mac
-tags:
-  - Development
-  - Linux
 ---
 
 ![](150906-55ebebde0ee6c.jpg)

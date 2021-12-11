@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-05-07T00:00:00+00:00
-draft: false
-title: 知っておきたいMacのSafariの便利なTips
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2015-05-07 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- タブ
+- safari
+- アドレス
+- お気に入り
+- 検索エンジン
+title: 知っておきたいMacのSafariの便利なTips
+type: post
 ---
 
 ![](150507-554b6d0b127fc.png)

@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-05-29T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Blog
+date: 2016-05-29 00:00:00+00:00
 draft: false
+tags:
+- atom
+- gist
+- パッケージ
+- secret
+- github
 title: Atomの設定、キーマップ、スニペット、パッケージを複数の端末間で同期する「sync-settings」
 type: post
-categories:
-  - Mac
-  - Blog
-tags:
-  - Atom
-  - Development
 ---
 
 ![](160529-574a784b76e1b.jpg)

@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-02T00:00:00+00:00
-draft: false
-title: NTFSフォーマットされたBootCamp領域をmacOSで読み書きできるようにする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
 - Windows
+date: 2015-08-02 00:00:00+00:00
+draft: false
 tags:
-- Development
+- 領域
+- ntfs
+- etc
+- マウント
+- macos
+title: NTFSフォーマットされたBootCamp領域をmacOSで読み書きできるようにする方法
+type: post
 ---
 
 ![](150802-55bdb1f6b8b65.jpg)

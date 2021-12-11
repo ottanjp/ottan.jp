@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-title: Netlify Functions + Hugoで簡単サイト内検索
-date: 2020-06-03T00:00:00+00:00
-tags:
-  - Hugo
-  - Netlify
+author:
+- '@ottanxyz'
 categories:
-  - Blog
+- Blog
+date: 2020-06-03 00:00:00+00:00
 katex: false
+tags:
+- lt
+- gt
+- functions
+- json
+- index
+title: Netlify Functions + Hugoで簡単サイト内検索
 ---
+
 静的サイトの悩みの種、サイト内検索をNetlify Functions＋Hugoで実装してみました。ポイントは、以下の通りです。
 
 - クライアントであるブラウザにとって負荷の低い実装方法とする

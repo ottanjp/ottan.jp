@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-09-25T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2015-09-25 00:00:00+00:00
 draft: false
+tags:
+- 写真
+- ios
+- siri
+- メモ帳
+- オフ
 title: ここが変わった！知っておくべき便利なiOS9の新機能34選
 type: post
-categories:
-  - iPhone
-tags:
-  - Tips
 ---
 
 ![](150925-560490282f43d.jpg)

@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-23T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2014-09-23 00:00:00+00:00
 draft: false
+tags:
+- password
+- ウェブページ
+- パスワード
+- ブックマークレット
+- ログイン
 title: iOS版の1Passwordでウェブページの登録から使い方まで徹底解説！
 type: post
-categories:
-  - iPhone
-tags:
-  - Apps
-  - Security
 ---
 
 ![](140923-54214bb0413ab.jpg)

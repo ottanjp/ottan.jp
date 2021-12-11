@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-21T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2014-09-21 00:00:00+00:00
 draft: false
+tags:
+- browser
+- sass
+- gulp
+- lt
+- js
 title: gulp.jsとBrowser Syncで快適なWordPress開発環境を手に入れる
 type: post
-categories:
-  - Blog
-tags:
-  - Development
 ---
 
 ![](140921-541e5278dd510.jpg)

@@ -1,17 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-01-10T00:00:00+00:00
-draft: false
-title: Parallels DesktopやVMware FusionのWindows 10で、Apple USB SuperDriveを使用してDVDを再生する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
 - Windows
+date: 2018-01-10 00:00:00+00:00
+draft: false
 tags:
-- Boot Camp
-- Parallels Desktop
-- VMware Fusion
-- Windows 10
+- dvd
+- vlc
+- windows
+- media
+- player
+title: Parallels DesktopやVMware FusionのWindows 10で、Apple USB SuperDriveを使用してDVDを再生する方法
+type: post
 ---
 
 ![](180109-5a54c4ce0b133.jpg)

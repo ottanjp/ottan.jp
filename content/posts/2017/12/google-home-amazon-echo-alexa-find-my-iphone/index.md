@@ -1,17 +1,21 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-12-11T00:00:00+00:00
-draft: false
-title: 「Google Home」または「Amazon Echo」から「iPhoneを探す」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-12-11 00:00:00+00:00
+draft: false
 tags:
-- Amazon Echo
-- Google Home
+- home
+- amazon
+- ifttt
+- iphone
+- google
+title: 「Google Home」または「Amazon Echo」から「iPhoneを探す」
+type: post
 ---
 
- ![](171211-5a2e926a958a7.jpg)
+![](171211-5a2e926a958a7.jpg)
  photo credit: Norio.NAKAYAMA [Amazon echo](http://www.flickr.com/photos/23713037@N07/37645502645) via [photopin](http://photopin.com) [(license)](https://creativecommons.org/licenses/by-nc-sa/2.0/) 
 
 

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-10T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2014-09-10 00:00:00+00:00
 draft: false
+tags:
+- machine
+- time
+- ディスク
+- スナップショット
+- 対象
 title: Time Machineはどのようにしてバックアップを取得しているの？MacのTime Machineの疑問徹底解説
 type: post
-categories:
-  - Mac
-tags:
-  - Time Machine
 ---
 
 ![](140909-540ea71939214.jpg)

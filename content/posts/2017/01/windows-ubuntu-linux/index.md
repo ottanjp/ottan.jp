@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-01-22T00:00:00+00:00
-draft: false
-title: Windows 10にUbuntuをインストールして快適に使うための方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2017-01-22 00:00:00+00:00
+draft: false
 tags:
-- Development
-- Linux
+- ubuntu
+- restricted
+- multiverse
+- trusty
+- universe
+title: Windows 10にUbuntuをインストールして快適に使うための方法
+type: post
 ---
 
 ![](170122-5884468182c75.jpg)

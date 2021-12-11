@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-04-13T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Web
+date: 2015-04-13 00:00:00+00:00
 draft: false
+tags:
+- ワンタイムパスワード
+- yahoo
+- メールアドレス
+- 2段階認証
+- アカウント
 title: Yahooアカウントの2段階認証を有効にする方法
 type: post
-categories:
-  - Web
-tags:
-  - Security
 ---
 
 ![](150408-5524f0a080cb1.png)

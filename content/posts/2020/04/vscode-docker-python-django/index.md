@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-title: DjangoやFlask（Python）アプリの開発を始めるならVS Code + Dockerが最適
-date: 2020-04-26T00:00:00+00:00
-tags:
-  - Docker
-  - Python
-  - VS Code
+author:
+- '@ottanxyz'
 categories:
-  - Mac
+- Mac
+date: 2020-04-26 00:00:00+00:00
+tags:
+- django
+- python
+- vs
+- code
+- docker
+title: DjangoやFlask（Python）アプリの開発を始めるならVS Code + Dockerが最適
 ---
+
 VS Codeの[チュートリアル](https://code.visualstudio.com/docs/containers/quickstart-python)を試してみました。事前に、Python、Dockerの拡張機能をインストールしておく必要があります。なお、Django、Flaskに関する説明は本記事にはありません。
 
 * [Python - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-python.python)

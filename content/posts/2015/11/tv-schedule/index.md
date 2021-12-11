@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-11-06T00:00:00+00:00
-draft: false
-title: キーワード検索、プッシュ通知で見たい番組を見逃さない！シンプルで見やすい「超見やすいテレビ番組表」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2015-11-06 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- 番組
+- テレビ番組
+- テレビ番組表
+- 女優
+- プッシュ通知
+title: キーワード検索、プッシュ通知で見たい番組を見逃さない！シンプルで見やすい「超見やすいテレビ番組表」
+type: post
 ---
 
 ![](151106-563c690835a87-1.jpg)

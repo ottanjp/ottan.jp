@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-12T00:00:00+00:00
-draft: false
-title: Windows環境で超簡単にWordPressの開発環境を構築する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
 - Blog
+date: 2015-08-12 00:00:00+00:00
+draft: false
 tags:
-- Development
+- wordpress
+- xampp
+- phpmyadmin
+- 環境
+- 手順
+title: Windows環境で超簡単にWordPressの開発環境を構築する方法
+type: post
 ---
 
 ![](150812-55cb1c44037d9.jpg)

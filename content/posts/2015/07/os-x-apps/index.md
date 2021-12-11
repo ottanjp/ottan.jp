@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-07-25T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2015-07-25 00:00:00+00:00
 draft: false
+tags:
+- アプリケーション
+- ネットワーク
+- スクリーンショット
+- ter
+- グラブ
 title: いくつ知ってる？意外と知られていない役に立つmacOSの標準アプリケーション
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](150725-55b2ec38d69a2.jpg)

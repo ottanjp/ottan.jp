@@ -1,9 +1,16 @@
 ---
+categories:
+- Mac
+date: 2021-09-11 08:31:30+00:00
 draft: false
+tags:
+- docker
+- minikube
+- desktop
+- hyperkit
+- cli
 title: Docker Desktop for Macに依存しないminikube + hyperkitによるDocker環境の構築
-date: 2021-09-11T08:31:30Z
 type: post
-categories: ["Mac"]
 ---
 
 Docker Desktopが有料化しました。個人や非商用のオープンソースの開発では引き続き無償で利用できます。Dockerを便利に利用している身としては、Docker社の利益に貢献したいという気持ちはあるものの、「無償のまま」利用し続ける方法を模索したくなるものです。そこで、Mac（Intel）版で引き続き、Docker環境を無償のまま利用し続ける方法を模索してみました。

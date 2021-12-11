@@ -1,12 +1,18 @@
 ---
-author: ["@ottanxyz"]
-title: Windows 10（バージョン1909）でいますぐ変更しておきたいオススメの設定
-date: 2020-05-10T00:00:00+00:00
-tags:
-  - Windows 10
+author:
+- '@ottanxyz'
 categories:
-  - Windows
+- Windows
+date: 2020-05-10 00:00:00+00:00
+tags:
+- オフ
+- ウィンドウ
+- windows
+- ゲーム
+- '10'
+title: Windows 10（バージョン1909）でいますぐ変更しておきたいオススメの設定
 ---
+
 Parallels Desktop、およびWindows 10 Home Editionで確認しています。また、Windows 10のバージョンは以下の通りです。なお、ここでご紹介する設定は一例です。あくまでご参考までにご覧いただけると助かります。
 
 ![](コメント-2020-05-09-234739.png)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-12-22T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+date: 2016-12-22 00:00:00+00:00
 draft: false
+tags:
+- 無料
+- 価格
+- 販売元
+- アプリ
+- instagram
 title: iPhoneを購入したらダウンロードしたいオススメのアプリ（2016年版）
 type: post
-categories:
-  - iPhone
-tags:
-  - Apps
 ---
 
 ![](161221-585a603b715c0.jpg)

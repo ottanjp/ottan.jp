@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-08-15T00:00:00+00:00
-draft: false
-title: Windows 10のバッテリーを節約する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2015-08-15 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- バッテリー
+- windows
+- トグルスイッチ
+- bluetooth
+- オフ
+title: Windows 10のバッテリーを節約する方法
+type: post
 ---
 
 ![](150815-55cea8e33d437.jpg)

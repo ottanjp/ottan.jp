@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-05-14T00:00:00+00:00
-draft: false
-title: iPhoneの公式Twitterアプリで、自分のツイートを引用ツイートする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2016-05-14 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- ツイート
+- 自分
+- twitter
+- リツイート
+- 公式twitter
+title: iPhoneの公式Twitterアプリで、自分のツイートを引用ツイートする方法
+type: post
 ---
 
 ![](160514-573711816e258.jpg)

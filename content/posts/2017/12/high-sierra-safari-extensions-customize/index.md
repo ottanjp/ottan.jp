@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-12-01T00:00:00+00:00
-draft: false
-title: Appleの公式サイトで配布されているSafariの機能拡張をカスタマイズして使用する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-12-01 00:00:00+00:00
+draft: false
 tags:
-- Safari
-- Tips
+- 機能拡張
+- autopagerize
+- ビルダー
+- safari
+- インストール
+title: Appleの公式サイトで配布されているSafariの機能拡張をカスタマイズして使用する方法
+type: post
 ---
 
 ![](171130-5a1ffe25a72a2.jpg)

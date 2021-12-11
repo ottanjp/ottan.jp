@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-04-30T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2016-04-30 00:00:00+00:00
 draft: false
+tags:
+- ubuntu
+- efi
+- usbメモリ
+- デュアルブート
+- lts
 title: macOS El CapitanとUbuntu 16.04 LTSのデュアルブート環境を構築する
 type: post
-categories:
-  - Mac
-tags:
-  - Development
-  - Linux
 ---
 
 ![](160430-5724307c2b687.png)

@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-04-09T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+- Mac
+date: 2015-04-09 00:00:00+00:00
 draft: false
+tags:
+- googleアカウント
+- 2段階認証
+- 固有
+- パスワード
+- アプリケーション
 title: macOS Yosemite 10.10.3、iOS8.3でGoogleアカウントの2段階認証に対応！
 type: post
-categories:
-  - iPhone
-  - Mac
-tags:
-  - Security
 ---
 
 ![](150409-55267e6777a06.jpg)

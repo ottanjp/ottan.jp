@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-09-25T00:00:00+00:00
-draft: false
-title: macOS High Sierraの起動可能なインストーラー（USBメモリ）を作成する
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
+date: 2017-09-25 00:00:00+00:00
+draft: false
 tags:
-- Development
+- sierra
+- high
+- インストーラー
+- macos
+- untitled
+title: macOS High Sierraの起動可能なインストーラー（USBメモリ）を作成する
+type: post
 ---
 
 ![](171129-5a1ec8c3b7338.jpg)

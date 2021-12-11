@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-11-18T00:00:00+00:00
-draft: false
-title: Amazon Echoの初期セットアップのトラブルシューティング（デバイスの登録に失敗しました or エラー1）
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-11-18 00:00:00+00:00
+draft: false
 tags:
-- Amazon Echo
-- Tips
+- amazon
+- アカウント
+- echo
+- kindle
+- alexa
+title: Amazon Echoの初期セットアップのトラブルシューティング（デバイスの登録に失敗しました or エラー1）
+type: post
 ---
 
 ![](171118-5a102f34b2292.jpg)

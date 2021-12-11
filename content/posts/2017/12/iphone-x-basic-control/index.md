@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-12-02T00:00:00+00:00
-draft: false
-title: これだけは知っておきたいiPhone Xの基本的な操作方法のまとめ
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-12-02 00:00:00+00:00
+draft: false
 tags:
-- iPhone X
-- Tips
+- 画面
+- スワイプ
+- ホーム
+- iphone
+- アプリスイッチャー
+title: これだけは知っておきたいiPhone Xの基本的な操作方法のまとめ
+type: post
 ---
 
 ![](171201-5a21518004964.jpg)

@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-12-07T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2018-12-07 00:00:00+00:00
 draft: false
+tags:
+- 踏み台
+- サーバ
+- ssh
+- aws
+- 職場
 title: 職場のプロキシの支配から卒業する方法
 type: post
-categories:
-  - Mac
-tags:
-  - AWS
-  - SSH
 ---
 
 ![](181207-5c0a784755085.jpg)

@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-04-10T00:00:00+00:00
-draft: false
-title: Instagramの2段階認証を設定してセキュリティを強化しよう！
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2017-04-10 00:00:00+00:00
+draft: false
 tags:
-- Security
+- instagram
+- sms
+- セキュリティコード
+- 2段階認証
+- タップ
+title: Instagramの2段階認証を設定してセキュリティを強化しよう！
+type: post
 ---
 
 ![](170410-58eb41180c1a1.jpg)

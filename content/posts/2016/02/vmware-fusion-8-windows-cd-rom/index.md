@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-02-09T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Windows
+date: 2016-02-09 00:00:00+00:00
 draft: false
+tags:
+- vmware
+- fusion
+- rom
+- windows
+- cd
 title: VMware Fusion 8にWindows 7をインストールする（CD-ROM編）
 type: post
-categories:
-  - Mac
-  - Windows
-tags:
-  - Development
 ---
 
 ![](160208-56b83e38d131f-1.jpg)

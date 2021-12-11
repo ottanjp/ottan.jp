@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-03-25T00:00:00+00:00
-draft: false
-title: iOS9.3からiOS9.2.1にダウングレードする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2016-03-25 00:00:00+00:00
+draft: false
 tags:
-- Development
+- ダウングレード
+- ios
+- ファームウェア
+- デバイス
+- 証明書
+title: iOS9.3からiOS9.2.1にダウングレードする方法
+type: post
 ---
 
 ![](160325-56f53a96b6a14-1.jpg)

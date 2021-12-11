@@ -1,15 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-04-19T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Blog
+date: 2016-04-19 00:00:00+00:00
 draft: false
+tags:
+- ショート
+- プレビュー
+- php
+- コード
+- marsedit
 title: MarsEditのプレビュー画面にWordPressのショートコードをリアルタイムに反映する
 type: post
-categories:
-  - Mac
-  - Blog
-tags:
-  - Development
-  - MarsEdit
 ---
 
 ![](160429-5723685638ac2.png)

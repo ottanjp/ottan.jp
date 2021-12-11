@@ -1,12 +1,17 @@
 ---
-title: iPhone（iOS14）で背面タップを使用して任意のアクションを実行する
-date: 2020-09-17
-tags:
-  - iOS14
 categories:
-  - iPhone
+- iPhone
+date: 2020-09-17
 katex: false
+tags:
+- 音量
+- ショートカット
+- ダブルタップ
+- タップ
+- 挙動
+title: iPhone（iOS14）で背面タップを使用して任意のアクションを実行する
 ---
+
 iPhone（iOS14）で背面タップを使用する方法です。iPhone 8以降で利用可能です。
 
 ## 準備

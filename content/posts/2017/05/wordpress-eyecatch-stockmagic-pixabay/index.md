@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-05-16T00:00:00+00:00
-draft: false
-title: WordPressのアイキャッチ画像探しに便利なメニューバーから画像を検索できる「Stockmagic for Mac」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
 - Blog
+date: 2017-05-16 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- 画像
+- アイキャッチ
+- cc
+- バー
+- 画像ファイル
+title: WordPressのアイキャッチ画像探しに便利なメニューバーから画像を検索できる「Stockmagic for Mac」
+type: post
 ---
 
 ![](170516-591a94e1a22d0.jpg)

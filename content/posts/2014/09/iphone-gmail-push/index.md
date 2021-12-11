@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-20T00:00:00+00:00
-draft: false
-title: iPhoneでGmailを公式アプリを使わずにプッシュ通知で受け取る方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2014-09-20 00:00:00+00:00
+draft: false
 tags:
-- Google
-- IFTTT
+- gmail
+- レシピ
+- ifttt
+- 言語
+- トリガー
+title: iPhoneでGmailを公式アプリを使わずにプッシュ通知で受け取る方法
+type: post
 ---
 
 ![](140919-541c5aaf771fe.png)

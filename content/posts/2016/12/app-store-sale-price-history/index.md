@@ -1,16 +1,21 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-12-21T00:00:00+00:00
-draft: false
-title: App Store、Mac App Storeのアプリのセール情報や履歴を調べられる「Price Tag」
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2016-12-21 00:00:00+00:00
+draft: false
 tags:
-- Apps
+- セール
+- app
+- アプリ
+- store
+- 価格
+title: App Store、Mac App Storeのアプリのセール情報や履歴を調べられる「Price Tag」
+type: post
 ---
 
- ![](161221-585a0940777e9.jpg)
+![](161221-585a0940777e9.jpg)
  photo credit: dirkvorderstrasse [App Store](http://www.flickr.com/photos/107086296@N08/14159620081) via [photopin](http://photopin.com) [(license)](https://creativecommons.org/licenses/by-nc/2.0/) 
 
 

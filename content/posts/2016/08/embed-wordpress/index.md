@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-08-10T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Blog
+date: 2016-08-10 00:00:00+00:00
 draft: false
+tags:
+- はてなブログ
+- 本文
+- url
+- クラス
+- lt
 title: WordPressの本文に紹介したいサイトのURLを貼り付けるだけで、おしゃれなリンクを生成できるようにする
 type: post
-categories:
-  - Blog
-tags:
-  - Development
 ---
 
 ![](160814-57aff06785bf2.png)

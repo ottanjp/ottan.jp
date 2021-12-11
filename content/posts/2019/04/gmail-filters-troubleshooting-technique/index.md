@@ -1,12 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-04-24T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Web
+date: 2019-04-24 00:00:00+00:00
 draft: false
-title: "Gmailのフィルタに関する「あるある」とその対処策"
-type: post
-categories: ["Web"]
-tags: ["Google","Gmail"]
+tags:
+- フィルタ
+- トレイ
+- gmail
+- 条件
+- lt
+title: Gmailのフィルタに関する「あるある」とその対処策
 toc: true
+type: post
 ---
 
 ![](190424-fb59135c0957cbbe.jpg)

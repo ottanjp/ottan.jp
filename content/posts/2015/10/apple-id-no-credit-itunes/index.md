@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-10-15T00:00:00+00:00
-draft: false
-title: 請求情報（クレジットカード）無しでApple IDを新規作成する方法（iTunes編）
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2015-10-15 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- id
+- apple
+- itunes
+- ボタン
+- 新規
+title: 請求情報（クレジットカード）無しでApple IDを新規作成する方法（iTunes編）
+type: post
 ---
 
 ![](151015-561fae490ff96.jpg)

@@ -1,16 +1,21 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-06-24T00:00:00+00:00
-draft: false
-title: Google検索で確実に欲しい情報を手に入れるための3つの基本的なTips
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Android
 - iPhone
 - Mac
 - Windows
+date: 2017-06-24 00:00:00+00:00
+draft: false
 tags:
-- Google
+- キーワード
+- google検索
+- 情報
+- apple
+- webサイト
+title: Google検索で確実に欲しい情報を手に入れるための3つの基本的なTips
+type: post
 ---
 
 ![](170624-594e1097226a5.jpg)

@@ -1,17 +1,22 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-01-04T00:00:00+00:00
-draft: false
-title: Google Chromeのタブで流れ続ける音楽をミュートする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Mac
 - Windows
+date: 2017-01-04 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- 動画
+- 音楽
+- タブ
+- chrome
+- google
+title: Google Chromeのタブで流れ続ける音楽をミュートする方法
+type: post
 ---
 
- ![](170104-586cde37d60a3.jpg)
+![](170104-586cde37d60a3.jpg)
  photo credit: Thomas Hawk [Chrome](http://www.flickr.com/photos/51035555243@N01/27519596232) via [photopin](http://photopin.com) [(license)](https://creativecommons.org/licenses/by-nc/2.0/) 
 
 

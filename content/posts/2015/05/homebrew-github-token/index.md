@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-05-30T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2015-05-30 00:00:00+00:00
 draft: false
+tags:
+- gt
+- echo
+- homebrew
+- bash
+- api
 title: Homebrewで検索時にGitHubのエラーが出る場合の対処法
 type: post
-categories:
-  - Mac
-tags:
-  - Development
-  - Tips
 ---
 
 ![](150530-5569bc9476a8f.png)

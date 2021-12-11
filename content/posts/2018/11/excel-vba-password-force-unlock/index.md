@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2018-11-13T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Windows
+date: 2018-11-13 00:00:00+00:00
 draft: false
+tags:
+- excel
+- マクロ
+- バイナリエディター
+- ブック
+- フォルダー
 title: 解除パスワードのわからないExcelマクロ（Excel VBA）のパスワードを強制的に解除する方法
 type: post
-categories:
-  - Windows
-tags:
-  - Excel
-  - Office
 ---
 
 ![](181113-5beaece811ac7.png)

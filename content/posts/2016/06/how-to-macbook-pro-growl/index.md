@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-06-10T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2016-06-10 00:00:00+00:00
 draft: false
+tags:
+- nvram
+- 電源
+- リセット
+- ファン
+- mac
 title: MacBook Proのファンが唸り続ける時に試したい効果的な方法
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](160610-575ac25c6d249.jpg)

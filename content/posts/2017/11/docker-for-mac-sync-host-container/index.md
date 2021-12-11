@@ -1,14 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2017-11-23T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2017-11-23 00:00:00+00:00
 draft: false
+tags:
+- docker
+- コンテナー
+- 同期速度
+- wordpress
+- ホスト
 title: Docker for Macのホスト、コンテナー間の同期が遅い問題をDocker標準機能で解決する
 type: post
-categories:
-  - Mac
-tags:
-  - Development
-  - Docker
 ---
 
 ![](171123-5a16b059c8a78.jpg)

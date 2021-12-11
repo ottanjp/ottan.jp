@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-01-23T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- iPhone
+- Mac
+date: 2016-01-23 00:00:00+00:00
 draft: false
+tags:
+- カレンダー
+- 相手
+- icloud
+- デバイス
+- 本人確認
 title: 誤って削除した重要なカレンダーのイベントやリマインダーを復旧する方法
 type: post
-categories:
-  - iPhone
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](160123-56a324368a642-1.png)

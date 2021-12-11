@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-10-03T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2015-10-03 00:00:00+00:00
 draft: false
+tags:
+- capitan
+- el
+- タブ
+- ウインドウ
+- spotlight
 title: macOS El Capitanはここが変わった！macOS El Capitanの新機能40選を一挙ご紹介
 type: post
-categories:
-  - Mac
-tags:
-  - Tips
 ---
 
 ![](151003-560f22f671654.jpg)

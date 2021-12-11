@@ -1,15 +1,20 @@
 ---
-author: ["@ottanxyz"]
-date: 2015-06-07T00:00:00+00:00
-draft: false
-title: 1Password Anywareで、会社のPCなど1Passwordが使えない状況で、パスワード情報にアクセスする方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
 - Web
+date: 2015-06-07 00:00:00+00:00
+draft: false
 tags:
-- Security
+- password
+- dropbox
+- anyware
+- 会社
+- パスワード
+title: 1Password Anywareで、会社のPCなど1Passwordが使えない状況で、パスワード情報にアクセスする方法
+type: post
 ---
 
 ![](150607-5573dfa6567b2.jpg)

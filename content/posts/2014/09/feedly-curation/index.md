@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-09-13T00:00:00+00:00
-draft: false
-title: feedlyで作る自分だけのキュレーションアプリ
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
+date: 2014-09-13 00:00:00+00:00
+draft: false
 tags:
-- Feedly
+- feedly
+- はてなブックマーク
+- ブックマーク
+- 興味
+- キュレーションアプリ
+title: feedlyで作る自分だけのキュレーションアプリ
+type: post
 ---
 
 ![](140913-5413925b584f2.png)

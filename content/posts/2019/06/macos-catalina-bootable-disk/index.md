@@ -1,12 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2019-06-30T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+date: 2019-06-30 00:00:00+00:00
 draft: false
-title: "macOS Catalina（Public beta）の起動ディスクを作成する方法"
-type: post
-categories: ["Mac"]
-tags: ["Catalina"]
+tags:
+- catalina
+- ディスク
+- usbメモリ
+- インストーラ
+- macos
+title: macOS Catalina（Public beta）の起動ディスクを作成する方法
 toc: true
+type: post
 ---
 
 ![](190630-d908639a63fee062.jpg)

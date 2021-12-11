@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-07-30T00:00:00+00:00
-draft: false
-title: 知っておきたい便利なWindows 10のキーボードショートカット
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Windows
+date: 2016-07-30 00:00:00+00:00
+draft: false
 tags:
-- Windows 10
+- windows
+- ctrl
+- ウインドウ
+- ショートカット
+- shift
+title: 知っておきたい便利なWindows 10のキーボードショートカット
+type: post
 ---
 
 ![](160730-579ca662bc83d.jpg)

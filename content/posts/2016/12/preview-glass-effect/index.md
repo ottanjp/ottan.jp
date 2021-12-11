@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-12-11T00:00:00+00:00
+author:
+- '@ottanxyz'
+categories:
+- Mac
+- Blog
+date: 2016-12-11 00:00:00+00:00
 draft: false
+tags:
+- 拡大鏡
+- プレビュー
+- 効果
+- 画像
+- app
 title: ブログ画像に最適！Macの標準アプリを使用して、拡大鏡のような効果を演出する方法
 type: post
-categories:
-  - Mac
-  - Blog
-tags:
-  - Tips
 ---
 
 ![](161211-584cb9d29da84.jpg)

@@ -1,14 +1,19 @@
 ---
-author: ["@ottanxyz"]
-date: 2014-10-11T00:00:00+00:00
-draft: false
-title: iTunesによるWi-Fi同期ができなくなった場合の4つの対処方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - iPhone
 - Mac
+date: 2014-10-11 00:00:00+00:00
+draft: false
 tags:
-- Tips
+- itunes
+- wi
+- fi
+- 再起動
+- iphone
+title: iTunesによるWi-Fi同期ができなくなった場合の4つの対処方法
+type: post
 ---
 
 ![](141011-5438aea5849c8.jpg)

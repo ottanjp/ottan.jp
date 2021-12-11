@@ -1,13 +1,18 @@
 ---
-author: ["@ottanxyz"]
-date: 2016-10-29T00:00:00+00:00
-draft: false
-title: WordPressで記事を投稿した瞬間に外部にメールを送信する方法
-type: post
+author:
+- '@ottanxyz'
 categories:
 - Blog
+date: 2016-10-29 00:00:00+00:00
+draft: false
 tags:
-- Development
+- post
+- アクション
+- フック
+- 記事
+- ステータス
+title: WordPressで記事を投稿した瞬間に外部にメールを送信する方法
+type: post
 ---
 
 ![](161029-5813f91b2579c.jpg)
