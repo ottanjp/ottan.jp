@@ -1,23 +1,27 @@
 {{ $id := string ( .Get 0 ) }}
 {{ $dataJ := getJSON ( printf "https://itunes.apple.com/lookup?id=%s&country=JP" $id ) }}
 {{ range first 1 $dataJ.results }}
-<div class="media">
-  <div class="media-left">
-    <figure class="image is-48x48">
-      <img src="{{ .artworkUrl512 }}" alt="{{ .trackName }}" />
-    </figure>
-  </div>
-  <div class="media-content">
-    <a href="{{ .trackViewUrl }}" target="_blank">{{ .trackName }}</a>
-    <div class="content">
-      <ul>
-        <li>
-          販売元:&nbsp;<a class="link" href="{{ .artistViewUrl }}"
-            >{{ .sellerName }}</a
-          >
-        </li>
-        <li>価格:&nbsp;{{ .formattedPrice }}</li>
-      </ul>
+<div class="card">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <figure class="image is-48x48">
+          <img src="{{ .artworkUrl512 }}" alt="{{ .trackName }}" />
+        </figure>
+      </div>
+      <div class="media-content">
+        <a href="{{ .trackViewUrl }}" target="_blank">{{ .trackName }}</a>
+        <div class="content">
+          <ul>
+            <li>
+              販売元:&nbsp;<a class="link" href="{{ .artistViewUrl }}"
+                >{{ .sellerName }}</a
+              >
+            </li>
+            <li>価格:&nbsp;{{ .formattedPrice }}</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </div>
