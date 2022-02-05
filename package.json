@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "algolia": "atomic-algolia"    
+    "algolia": "atomic-algolia"
   },
   "repository": {
     "type": "git",
