@@ -24,6 +24,21 @@
 ></script>
 {{ end }} {{ end }} {{ define "main" }} {{- partial "hero" . -}}
 
+{{ $h2_tag := findRE "<h2(.|\n])+?</h2>" .Content }}
+{{ $position := 1 }}
+{{ $contents := split .Content "\n" }}
+{{ $.Scratch.Set "Content" "" }}
+{{ $.Scratch.Set "Counter" 0 }}
+{{ range $contents }}
+  {{ $.Scratch.Add "Content" (print . "\n") }}
+  {{ if strings.HasSuffix . "</h2>" }}
+    {{ $.Scratch.Add "Counter" 1 }}
+    {{ if eq ($.Scratch.Get "Counter") $position }}
+      {{ $.Scratch.Add "Content" (partial "google-adsense3.html") }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
 <section class="container">
   <div class="columns is-desktop is-marginless">
     <div class="column is-1 is-hidden-mobile">
@@ -31,7 +46,7 @@
     </div>
 
     <article class="column is-7">
-      <div class="content markdown-body">{{ .Content | safeHTML }}</div>
+      <div class="content markdown-body">{{ $.Scratch.Get "Content" | safeHTML }}</div>
 
       <div class="is-flex is-flex-centered mb-2">
         {{ partial "social-share.html" . }}
