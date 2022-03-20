@@ -45,4 +45,4 @@ outputFormats:
     mediaType: application/json
     notAlternative: true
 outputs:
-  home: [HTML, RSS, Algolia]
+  home: [HTML, RSS, Algolia, JSON]
