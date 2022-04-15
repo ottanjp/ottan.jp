@@ -6,11 +6,11 @@ categories:
 date: 2018-02-25 00:00:00+00:00
 draft: false
 tags:
-- output
-- to
+- strip
 - gif
-- file
-- input
+- frame
+- method
+- png
 title: MacでJPEG、PNG、GIFを高速に圧縮できるHomebrewからインストール可能なCUIユーティリティ
 type: post
 ---

@@ -7,8 +7,8 @@ date: 2017-04-19 00:00:00+00:00
 draft: false
 tags:
 - コンテナー
-- docker
 - span
+- docker
 - lt
 - gt
 title: Docker ComposeでWordPress環境をもっと楽に管理しよう！

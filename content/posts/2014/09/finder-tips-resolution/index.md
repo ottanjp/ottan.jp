@@ -8,9 +8,9 @@ draft: false
 tags:
 - 解像度
 - カラム
-- ピクチャフォルダー
 - フォルダー
 - finder
+- 画像ファイル
 title: これは便利！Finderで画像ファイルの解像度と大きさを確認する方法
 type: post
 ---

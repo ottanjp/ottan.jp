@@ -8,9 +8,9 @@ draft: false
 tags:
 - ドメイン
 - リスト
-- pro
-- settings
 - ブロック
+- インポート
+- アプリ
 title: AdGuard Proがワンタップでのドメインリストのインポートに対応しWorkflow不要でより便利に！
 type: post
 ---

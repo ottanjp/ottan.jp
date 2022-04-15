@@ -10,7 +10,7 @@ tags:
 - ショートカット
 - キーボード
 - ウインドウ
-- webサイト
+- 自体
 title: command + Qによる予期せぬアプリケーション終了を防ぐ「CommandQ」
 type: post
 ---

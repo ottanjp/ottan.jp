@@ -10,8 +10,8 @@ tags:
 - ezweb
 - ne
 - パソコン
-- jp
 - imap
+- jp
 title: '@ezweb.ne.jp宛のメールをパソコンで受信する方法'
 type: post
 ---

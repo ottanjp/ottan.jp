@@ -1,12 +1,17 @@
 ---
 author: ottan
-date: 2022-03-19T10:27:58+09:00
+categories: null
+date: 2022-03-19 10:27:58+09:00
 draft: false
-title: "Appleシリコン搭載Macで手軽にx86_64開発環境をLimaで構築する"
-type: post
-categories:
 tags:
+- x86
+- mysql
+- シリコン
+- docker
+- 仮想マシン
+title: Appleシリコン搭載Macで手軽にx86_64開発環境をLimaで構築する
 toc: true
+type: post
 ---
 
 [Appleシリコン搭載Macで手軽にDocker開発環境をLimaで構築する](/posts/2022/02/how-to-docker-lima-arm-mac/)で、Appleシリコン（M1）搭載のMacでDocker開発環境を構築する手順をご紹介しました。今回は、Appleシリコン（ARM64）上で、x86_64環境をエミュレート（QEMU）したDocker開発環境を構築します。現状x86_64環境でしか動作しない、MySQLのDocker Imageを起動して、接続するところまでを試します。

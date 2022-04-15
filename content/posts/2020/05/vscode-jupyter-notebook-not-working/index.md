@@ -5,11 +5,11 @@ categories:
 - Mac
 date: 2020-05-03 00:00:00+00:00
 tags:
-- jupyter
 - notebook
+- jupyter
 - vs
 - code
-- server
+- python
 title: 'VS Codeで「Failed to connect to Jupyter notebook」「Jupyter Server: Not Started」と表示されJupyter
   Notebookが起動できない場合の対処法'
 ---

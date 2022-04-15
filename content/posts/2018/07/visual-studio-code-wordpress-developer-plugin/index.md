@@ -7,8 +7,8 @@ date: 2018-07-22 00:00:00+00:00
 draft: false
 tags:
 - php
-- 拡張機能
 - code
+- 拡張機能
 - vs
 - 関数
 title: 【随時更新】VS CodeでWordPressのテーマやプラグインを開発するために導入したいオススメの拡張機能

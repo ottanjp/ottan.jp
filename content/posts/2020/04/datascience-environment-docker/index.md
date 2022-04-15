@@ -5,11 +5,11 @@ categories:
 - Mac
 date: 2020-04-26 00:00:00+00:00
 tags:
-- jupyter
 - docker
-- lab
 - コンテナ
-- affe
+- データ分析
+- ホスト
+- notebook
 title: データ分析（データサイエンス）に必要な環境（Jupyter Lab）を一発で整えるワンライナー
 ---
 

@@ -7,10 +7,10 @@ date: 2016-11-26 00:00:00+00:00
 draft: false
 tags:
 - python
-- pip
 - インストール
 - sip
-- linkchecker
+- パッケージ
+- 配下
 title: macOS SierraでPythonのパッケージマネージャー「pip」でインストールできない時の対処法
 type: post
 ---

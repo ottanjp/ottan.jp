@@ -7,11 +7,11 @@ categories:
 date: 2016-08-29 00:00:00+00:00
 draft: false
 tags:
-- buffer
 - ifttt
 - ブログ
-- wordpress
 - sns
+- connect
+- メールアドレス
 title: WordPressに投稿したらIFTTTとBufferを使用して自動的にTwitter、Facebookページ、Google+に投稿する方法
 type: post
 ---

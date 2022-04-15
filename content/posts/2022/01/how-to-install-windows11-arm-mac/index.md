@@ -1,12 +1,18 @@
 ---
 author: ottan
-date: 2022-01-13T22:34:38+09:00
-draft: False
-title: "UTMでM1 MacにWindows 11 Insider Previewをインストールする方法"
-type: post
-categories: ["Mac"]
+categories:
+- Mac
+date: 2022-01-13 22:34:38+09:00
+draft: false
 tags:
-toc: False
+- utm
+- arm
+- qemu
+- 仮想マシン
+- preview
+title: UTMでM1 MacにWindows 11 Insider Previewをインストールする方法
+toc: false
+type: post
 ---
 
 Apple Silicon搭載のM1 Mac（MacBook Air 2020のエントリーモデル）に、Windows 11（Insider Preview版）をインストールしてみました。今回は、UTMを利用します。

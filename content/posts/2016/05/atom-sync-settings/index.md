@@ -8,10 +8,10 @@ date: 2016-05-29 00:00:00+00:00
 draft: false
 tags:
 - atom
-- gist
+- sync
 - パッケージ
-- secret
 - github
+- secret
 title: Atomの設定、キーマップ、スニペット、パッケージを複数の端末間で同期する「sync-settings」
 type: post
 ---

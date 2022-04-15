@@ -8,9 +8,9 @@ katex: false
 tags:
 - lt
 - gt
-- functions
+- div
+- fuse
 - json
-- index
 title: Netlify Functions + Hugoで簡単サイト内検索
 ---
 

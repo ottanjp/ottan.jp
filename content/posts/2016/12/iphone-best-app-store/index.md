@@ -10,7 +10,7 @@ tags:
 - 価格
 - 販売元
 - アプリ
-- instagram
+- yahoo
 title: iPhoneを購入したらダウンロードしたいオススメのアプリ（2016年版）
 type: post
 ---

@@ -8,8 +8,8 @@ draft: false
 tags:
 - アプリ
 - アラート
-- store
 - app
+- store
 - ワガママ
 title: App Storeで公開されている気になるアプリが更新されたら通知する方法
 type: post

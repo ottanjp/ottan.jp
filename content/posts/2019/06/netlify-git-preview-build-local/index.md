@@ -8,9 +8,9 @@ draft: false
 tags:
 - デプロイ
 - ブランチ
-- netlify
-- プルリクエスト
 - プロダクション
+- github
+- url
 title: NetlifyとGitでmasterブランチにコミットする前にプレビューする3つの方法
 toc: true
 type: post

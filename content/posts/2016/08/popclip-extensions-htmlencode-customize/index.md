@@ -8,9 +8,9 @@ draft: false
 tags:
 - ent
 - html
-- encode
 - utf
 - 拡張機能
+- lt
 title: PopClipの拡張機能をカスタマイズしてみよう！PopClipの拡張機能「HTML Encode」でダブルクオーテションを変換しないようにする
 type: post
 ---

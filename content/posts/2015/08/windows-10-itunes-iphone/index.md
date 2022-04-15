@@ -7,11 +7,11 @@ categories:
 date: 2015-08-14 00:00:00+00:00
 draft: false
 tags:
-- device
-- ドライバー
 - itunes
+- ドライバー
 - iphone
 - usb
+- apple
 title: Windows 10でiTunesにiPhoneが認識されない問題の対処法
 type: post
 ---

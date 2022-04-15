@@ -10,7 +10,7 @@ tags:
 - タブ
 - google
 - 動画
-- 直前
+- ミュート
 title: Google Chromeに隠された便利な機能を使いこなす
 type: post
 ---

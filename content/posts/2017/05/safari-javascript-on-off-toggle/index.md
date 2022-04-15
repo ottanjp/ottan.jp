@@ -9,8 +9,8 @@ tags:
 - javascript
 - ショートカット
 - メニュー
-- キーボード
 - safari
+- キーボード
 title: MacのSafariでショートカットキー一発でJavaScriptのオン、オフを切り替える方法
 type: post
 ---

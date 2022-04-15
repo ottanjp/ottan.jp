@@ -6,11 +6,11 @@ categories:
 date: 2019-01-15 00:00:00+00:00
 draft: false
 tags:
-- netlify
-- functions
 - lambda
 - js
-- hello
+- yarn
+- node
+- メソッド
 title: 無償で利用可能なNetlify Functions（AWS Lambda）で学ぶサーバレスプログラミングの基本
 toc: true
 type: post

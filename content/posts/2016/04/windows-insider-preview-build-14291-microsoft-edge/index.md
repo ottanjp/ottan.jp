@@ -6,11 +6,11 @@ categories:
 date: 2016-04-03 00:00:00+00:00
 draft: false
 tags:
-- insider
 - 拡張機能
 - microsoft
 - edge
 - windows
+- preview
 title: Windows Insider Preview（Build 14291）で、Microsoft Edgeの拡張機能を体験しよう！
 type: post
 ---

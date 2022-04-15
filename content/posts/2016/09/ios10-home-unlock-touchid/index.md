@@ -8,8 +8,8 @@ draft: false
 tags:
 - ホーム
 - ios
-- ボタン
 - touch
+- ボタン
 - 画面
 title: iOS10でホームボタンを押さずにTouch IDのみでロック解除する方法
 type: post

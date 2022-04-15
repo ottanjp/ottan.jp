@@ -7,10 +7,10 @@ date: 2018-08-12 00:00:00+00:00
 draft: false
 tags:
 - ses
-- バケット
 - s3
+- lambda
+- バケット
 - ルール
-- aws
 title: Amazon Lightsailで月5ドルから始めるWordPress（独自ドメインでのメール送受信）
 type: post
 ---

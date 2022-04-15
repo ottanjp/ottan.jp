@@ -9,8 +9,8 @@ tags:
 - モバイル
 - データ
 - データ通信量
-- wi
 - fi
+- wi
 title: 格安SIM使用時にiPhoneでモバイルデータ通信を節約する方法（iOS13対応版）
 toc: true
 type: post

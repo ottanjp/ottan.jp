@@ -6,11 +6,11 @@ categories:
 date: 2018-01-28 00:00:00+00:00
 draft: false
 tags:
-- セーフスリープ
 - スリープ
 - 事象
-- hibernatemode
+- sleep
 - フリーズ
+- high
 title: macOS High Sierraでスリープから復帰時にフリーズして操作できなくる事象を回避する
 type: post
 ---

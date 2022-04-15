@@ -7,11 +7,11 @@ categories:
 date: 2017-11-22 00:00:00+00:00
 draft: false
 tags:
-- alfred
-- workflow
+- script
 - php
 - icon
 - ショート
+- メソッド
 title: AlfredのWorkflowを使用して、WordPressプラグイン「WP-Appbox」でApp Storeのアプリの紹介を便利にする
 type: post
 ---

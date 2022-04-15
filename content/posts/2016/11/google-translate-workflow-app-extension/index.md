@@ -7,10 +7,10 @@ date: 2016-11-13 00:00:00+00:00
 draft: false
 tags:
 - google翻訳
-- workflow
 - 精度
 - タップ
-- extension
+- safari
+- 技術
 title: 翻訳精度が向上したGoogle翻訳をiPhoneの色々なアプリから呼び出す拡張機能
 type: post
 ---

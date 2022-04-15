@@ -10,9 +10,9 @@ draft: false
 tags:
 - apm
 - atom
-- install
-- linter
 - php
+- インストール
+- パッケージ
 title: WordPress開発のためにAtomに導入しておきたい最低限のプラグイン8選
 type: post
 ---

@@ -10,8 +10,8 @@ tags:
 - 自動更新
 - music
 - トライアル
-- オフ
 - apple
+- 期間
 title: Apple Musicの自動更新がオンになっていないかどうか確認しよう！Apple Musicの自動更新をオフにする方法
 type: post
 ---

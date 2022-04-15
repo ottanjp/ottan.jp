@@ -4,11 +4,11 @@ categories:
 date: 2021-07-17 07:08:37+00:00
 draft: false
 tags:
-- pencil
 - apple
 - ジェスチャー
 - スクリーンショット
 - ボタン
+- 単独
 title: Apple Pencil のみでスクリーンショットを撮影する方法
 type: post
 ---

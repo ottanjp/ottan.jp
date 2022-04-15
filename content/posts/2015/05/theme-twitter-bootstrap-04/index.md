@@ -8,9 +8,9 @@ draft: false
 tags:
 - lt
 - gt
+- div
 - php
-- the
-- sm
+- class
 title: Twitter Bootstrap 3を用いてWordPressテーマを作成しよう④
 type: post
 ---

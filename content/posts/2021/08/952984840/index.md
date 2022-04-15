@@ -6,9 +6,9 @@ draft: false
 tags:
 - 作品
 - prime
-- video
 - amazon
 - ipad
+- 映画
 title: iPad + Amazon Prime Videoは長時間ドライブで子供を退屈させないためのマストアイテムだ
 type: post
 ---

@@ -8,9 +8,9 @@ draft: false
 tags:
 - リーダー
 - モード
+- safari
 - フォント
 - pdf
-- webページ
 title: Webページを見やすく印刷したい時はSafariのリーダーモードを使おう！
 type: post
 ---

@@ -7,10 +7,10 @@ date: 2015-09-06 00:00:00+00:00
 draft: false
 tags:
 - flash
-- player
 - アンインストール
+- player
 - adobe
-- edge
+- chrome
 title: 徹底的にFlash Playerプラグインを無効化・アンインストールする方法
 type: post
 ---

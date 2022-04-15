@@ -8,10 +8,10 @@ date: 2016-07-24 00:00:00+00:00
 draft: false
 tags:
 - hyper
-- windows
 - vmware
-- 仮想マシン
+- windows
 - fusion
+- 仮想マシン
 title: VMware Fusionで作成したWindows 10 Professionalの仮想マシンでHyper-Vを有効化する方法
 type: post
 ---

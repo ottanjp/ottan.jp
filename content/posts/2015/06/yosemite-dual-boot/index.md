@@ -6,11 +6,11 @@ categories:
 date: 2015-06-13 00:00:00+00:00
 draft: false
 tags:
-- captain
 - yosemite
 - macos
 - 領域
 - インストール
+- パーティション
 title: macOS YosemiteとEl Captain（β版）のデュアルブート環境を構築する
 type: post
 ---

@@ -6,11 +6,11 @@ categories:
 date: 2017-11-24 00:00:00+00:00
 draft: false
 tags:
-- pam
 - sudo
 - touch
-- required
 - コマンド
+- id
+- sufficient
 title: macOS High SierraでsudoコマンドをTouch IDで認証する方法
 type: post
 ---

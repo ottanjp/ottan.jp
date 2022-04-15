@@ -11,7 +11,7 @@ tags:
 - explorer
 - win
 - internet
-- 'on'
+- 仮想マシン
 title: MacでWindowsに搭載されているInternet Explorer 9でのレンダリングを確認する方法
 type: post
 ---

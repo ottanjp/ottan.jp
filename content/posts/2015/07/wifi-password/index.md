@@ -6,10 +6,10 @@ categories:
 date: 2015-07-15 00:00:00+00:00
 draft: false
 tags:
+- password
 - fi
 - wi
 - ssid
-- password
 - ネットワーク
 title: 現在接続しているWi-Fiネットワークのパスワードを確認する方法
 type: post

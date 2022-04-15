@@ -10,7 +10,7 @@ tags:
 - イベント
 - 期間
 - iphone
-- 戸惑い
+- 日頃
 title: iPhoneのカレンダーに過去のイベントが表示されない場合の対処法
 type: post
 ---

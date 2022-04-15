@@ -1,12 +1,17 @@
 ---
 author: ottan
-date: 2022-02-19T20:47:09+09:00
+categories: null
+date: 2022-02-19 20:47:09+09:00
 draft: false
-title: "Appleシリコン搭載Macで手軽にDocker開発環境をLimaで構築する"
-type: post
-categories:
 tags:
+- 仮想マシン
+- docker
+- en
+- require
+- cli
+title: Appleシリコン搭載Macで手軽にDocker開発環境をLimaで構築する
 toc: true
+type: post
 ---
 
 Limaは、GitHubで「unofficial "containerd for Mac"」と謳われる、macOSのためのコンテナー（のようなもの）です。Windows 10以降に搭載されているWSL2と、同様の環境をmacOSで実現します。なお、Limaの仕組みは、Docker Dsektopのオープンソース版とも言える、[Rancher Desktop](https://rancherdesktop.io/)でも利用されています。

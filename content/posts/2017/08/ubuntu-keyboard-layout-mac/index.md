@@ -7,10 +7,10 @@ date: 2017-08-02 00:00:00+00:00
 draft: false
 tags:
 - ubuntu
-- キーボードレイアウト
+- かな
 - macbook
 - 日本語
-- ime
+- pro
 title: Ubuntu 16.04でキーボードレイアウトをMacBook Pro向けに変更する
 type: post
 ---

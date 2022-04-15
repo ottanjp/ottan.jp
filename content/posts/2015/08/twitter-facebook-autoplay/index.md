@@ -7,10 +7,10 @@ date: 2015-08-30 00:00:00+00:00
 draft: false
 tags:
 - 動画
+- twitter
 - facebook
 - 自動
 - タップ
-- twitter
 title: モバイルデータ通信を節約しよう！TwitterとFacebookの動画を自動再生しないようにする方法
 type: post
 ---

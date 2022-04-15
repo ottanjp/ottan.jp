@@ -9,8 +9,8 @@ tags:
 - atom
 - php
 - ソースコード
-- phpcbf
 - コーディング
+- 規約
 title: AtomとPHP_CodeSnifferでWordPressコーディング規約に合わせてソースコードを自動修正
 type: post
 ---

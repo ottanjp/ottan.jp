@@ -7,9 +7,9 @@ date: 2016-06-26 00:00:00+00:00
 draft: false
 tags:
 - homebrew
-- terminal
 - パッケージ
 - 定期的
+- アップグレード
 - コマンド
 title: 定期的にHomebrewをバックグラウンドで自動的にupdate/upgradeする
 type: post

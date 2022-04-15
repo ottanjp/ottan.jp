@@ -10,7 +10,7 @@ tags:
 - write
 - delete
 - txt
-- defaults
+- bool
 title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（一般）
 type: post
 ---

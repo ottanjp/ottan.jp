@@ -7,11 +7,11 @@ categories:
 date: 2015-08-22 00:00:00+00:00
 draft: false
 tags:
-- marsedit
-- alfred
-- of
-- selected
-- to
+- post
+- link
+- blog
+- タイトル
+- se
 title: WordPressの過去記事参照に！Alfredから記事を検索してMarsEditに貼り付けられる「Paste link for MarsEdit with
   Alfred」
 type: post

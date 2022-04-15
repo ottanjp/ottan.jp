@@ -7,10 +7,10 @@ date: 2014-09-21 00:00:00+00:00
 draft: false
 tags:
 - browser
+- sync
 - sass
-- gulp
+- css
 - lt
-- js
 title: gulp.jsとBrowser Syncで快適なWordPress開発環境を手に入れる
 type: post
 ---

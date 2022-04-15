@@ -8,10 +8,10 @@ categories:
 date: 2017-05-29 00:00:00+00:00
 draft: false
 tags:
+- line
 - トーク
 - ルーム
 - モバイル版
-- line
 - ログイン
 title: アップデートにより改善したMac版LINEの初期設定と便利な使い方
 type: post

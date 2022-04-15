@@ -7,10 +7,10 @@ date: 2016-12-21 00:00:00+00:00
 draft: false
 tags:
 - セール
-- app
+- tag
 - アプリ
+- app
 - store
-- 価格
 title: App Store、Mac App Storeのアプリのセール情報や履歴を調べられる「Price Tag」
 type: post
 ---

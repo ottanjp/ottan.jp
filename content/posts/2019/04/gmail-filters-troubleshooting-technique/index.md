@@ -9,8 +9,8 @@ tags:
 - フィルタ
 - トレイ
 - gmail
+- ラベル
 - 条件
-- lt
 title: Gmailのフィルタに関する「あるある」とその対処策
 toc: true
 type: post

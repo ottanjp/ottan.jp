@@ -8,9 +8,9 @@ draft: false
 tags:
 - バッテリー
 - windows
-- トグルスイッチ
 - bluetooth
-- オフ
+- '10'
+- クリック
 title: Windows 10のバッテリーを節約する方法
 type: post
 ---

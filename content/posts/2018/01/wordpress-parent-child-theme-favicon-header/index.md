@@ -9,8 +9,8 @@ tags:
 - テーマ
 - head
 - php
-- header
 - タグ
+- lt
 title: WordPressの親テーマの「header.php」を変更せずに子テーマにFaviconを追加する方法
 type: post
 ---

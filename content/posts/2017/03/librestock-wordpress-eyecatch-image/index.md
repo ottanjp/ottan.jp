@@ -10,7 +10,7 @@ tags:
 - 著作物
 - cc
 - 著作権
-- libre
+- stock
 title: 商用利用可能！ブログのアイキャッチ画像に使用できる著作権フリー（CC0 Public Domain）の画像を横断して検索できる「LibreStock」
 type: post
 ---

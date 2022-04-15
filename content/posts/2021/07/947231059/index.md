@@ -6,9 +6,9 @@ draft: false
 tags:
 - lt
 - gt
-- algolia
+- div
 - インデックス
-- js
+- class
 title: Hugo + Algolia + Instantsearch.jsで静的サイトに全文検索を導入
 type: post
 ---

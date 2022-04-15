@@ -6,11 +6,11 @@ categories:
 date: 2015-05-10 00:00:00+00:00
 draft: false
 tags:
-- documents
 - pdfファイル
-- ビューワー
 - オンラインストレージ
 - webページ
+- ファイル
+- pdf
 title: iPhone、iPadユーザーなら必ずダウンロードしておきたい！無料とは思えない高クオリティなファイラー「Documents 5」をオススメする理由
 type: post
 ---

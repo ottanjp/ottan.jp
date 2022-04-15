@@ -10,7 +10,7 @@ tags:
 - high
 - macos
 - インストール
-- パブリックベータプログラム
+- ディスク
 title: macOS Sierraの環境を壊さずに、macOS High SierraのPublic Betaをインストールする
 type: post
 ---

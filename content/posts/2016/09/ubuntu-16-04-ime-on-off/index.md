@@ -8,9 +8,9 @@ draft: false
 tags:
 - ubuntu
 - ime
-- lts
 - インストール
 - 日本語
+- クリック
 title: Ubuntu 16.04 LTSで、Macの「英数」「かな」キーにIMEオフ、オンを割り当てる
 type: post
 ---

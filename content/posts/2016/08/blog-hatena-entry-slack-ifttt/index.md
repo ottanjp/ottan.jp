@@ -11,7 +11,7 @@ tags:
 - ifttt
 - 新着
 - はてなブックマーク
-- チャンネル
+- channel
 title: ブログの記事が「はてな新着エントリー」に掲載されたらSlackに通知する
 type: post
 ---

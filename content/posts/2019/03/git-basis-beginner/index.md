@@ -9,8 +9,8 @@ tags:
 - git
 - txt
 - ブランチ
-- commit
-- ツリー
+- branch
+- su
 title: Git初心者が最初から学ぶGitの入門
 toc: true
 type: post

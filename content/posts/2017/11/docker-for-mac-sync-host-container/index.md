@@ -9,8 +9,8 @@ tags:
 - docker
 - コンテナー
 - 同期速度
-- wordpress
 - ホスト
+- wordpress
 title: Docker for Macのホスト、コンテナー間の同期が遅い問題をDocker標準機能で解決する
 type: post
 ---

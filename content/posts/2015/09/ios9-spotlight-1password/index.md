@@ -7,10 +7,10 @@ date: 2015-09-17 00:00:00+00:00
 draft: false
 tags:
 - spotlight
-- password
 - ログイン
 - 情報
 - ウェブページ
+- ios版
 title: 1PasswordがSpotlight検索に対応し、より便利に進化！
 type: post
 ---

@@ -6,11 +6,11 @@ categories:
 date: 2014-09-23 00:00:00+00:00
 draft: false
 tags:
-- password
 - ウェブページ
 - パスワード
 - ブックマークレット
 - ログイン
+- ユーザー名
 title: iOS版の1Passwordでウェブページの登録から使い方まで徹底解説！
 type: post
 ---

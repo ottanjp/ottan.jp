@@ -9,8 +9,8 @@ draft: false
 tags:
 - 秘密鍵
 - ec2
-- lightsail
 - インスタンス
+- key
 - 公開鍵
 title: iPhoneから公開鍵認証（SSH）でAWS Lightsail（EC2）に接続する
 type: post

@@ -7,7 +7,7 @@ date: 2015-07-10 00:00:00+00:00
 draft: false
 tags:
 - music
-- ミュージックアプリ
+- connect
 - プレイリスト
 - apple
 - itunes

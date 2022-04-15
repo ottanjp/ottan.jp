@@ -7,11 +7,11 @@ categories:
 date: 2016-06-06 00:00:00+00:00
 draft: false
 tags:
-- handoff
 - chrome
 - google
+- safari
 - iphone
-- デフォルトブラウザ
+- mac
 title: iPhoneのSafariと、MacのGoogle ChromeをHandoffで連携する
 type: post
 ---

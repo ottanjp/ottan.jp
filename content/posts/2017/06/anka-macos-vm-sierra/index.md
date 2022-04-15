@@ -6,8 +6,8 @@ categories:
 date: 2017-06-13 00:00:00+00:00
 draft: false
 tags:
-- anka
 - 仮想マシン
+- sierra
 - fd
 - 準仮想化
 - macos

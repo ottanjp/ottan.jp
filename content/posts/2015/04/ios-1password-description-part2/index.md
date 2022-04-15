@@ -6,11 +6,11 @@ categories:
 date: 2015-04-15 00:00:00+00:00
 draft: false
 tags:
-- password
 - ワンタイムパスワード
 - 2段階認証
 - クリック
 - ログイン
+- パスワード
 title: iOS版の1Passwordでウェブページの登録からワンタイムパスワードの使い方まで徹底解説！
 type: post
 ---

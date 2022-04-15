@@ -6,10 +6,10 @@ date: 2021-11-27 18:44:59+09:00
 draft: false
 tags:
 - キーチェーン
-- password
 - エクスポート
 - icloud
 - パスワード
+- インポート
 title: 1PasswordからiCloudキーチェーンへ移行する方法
 type: post
 ---

@@ -8,9 +8,9 @@ date: 2020-04-26 00:00:00+00:00
 tags:
 - cms
 - ローカルホスト
-- management
-- netlify
-- system
+- source
+- 画像ファイル
+- コンテンツ
 title: ローカルホストでGitHubの環境を汚さずにNetlify CMSをテストする
 ---
 

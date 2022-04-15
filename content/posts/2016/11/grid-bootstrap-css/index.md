@@ -9,8 +9,8 @@ tags:
 - 高さ
 - 要素
 - グリッド
-- padding
-- 画像
+- img
+- position
 title: グリッドレイアウトで高さも横幅もバラバラの画像を綺麗に並べる方法
 type: post
 ---

@@ -10,7 +10,7 @@ tags:
 - lt
 - gt
 - 構文
-- hugo
+- テンプレート
 title: Hugoのテンプレート構文「template」「partial」「block」「define」のわかりやすい解説
 toc: true
 type: post

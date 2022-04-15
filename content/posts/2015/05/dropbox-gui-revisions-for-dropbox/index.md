@@ -10,7 +10,7 @@ tags:
 - 画像
 - dropbox
 - prior
-- by
+- バージョン
 title: これは便利！Dropboxのバージョン管理をGUIから行う「Revisions for Dropbox」
 type: post
 ---

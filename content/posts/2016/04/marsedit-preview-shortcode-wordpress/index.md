@@ -11,7 +11,7 @@ tags:
 - プレビュー
 - php
 - コード
-- marsedit
+- リアルタイム
 title: MarsEditのプレビュー画面にWordPressのショートコードをリアルタイムに反映する
 type: post
 ---

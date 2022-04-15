@@ -8,8 +8,8 @@ draft: false
 tags:
 - クリーン
 - iphone
-- クリーンアップ
 - クイック
+- クリーンアップ
 - インターネット
 title: '[PR]不要なファイルを削除してiPhoneの動作を快適にする「PhoneClean」'
 type: post

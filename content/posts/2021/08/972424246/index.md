@@ -4,11 +4,11 @@ categories:
 date: 2021-08-18 14:05:46+00:00
 draft: false
 tags:
-- bitwarden
-- workflow
-- alfred
-- password
 - パスワード
+- ワンタイムパスワード
+- url
+- 挙動
+- enter
 title: BitwardenとAlfredを連携して、AlfredからBitwardenに登録されているパスワードやURLを呼び出す
 type: post
 ---

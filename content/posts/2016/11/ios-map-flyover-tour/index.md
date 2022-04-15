@@ -7,10 +7,10 @@ date: 2016-11-07 00:00:00+00:00
 draft: false
 tags:
 - ツアー
-- マップアプリ
 - ios
 - 地域
 - スポット
+- マップ
 title: iPhoneで空中散歩！iOSの標準マップ「Flyoverツアー」で世界を旅しよう
 type: post
 ---

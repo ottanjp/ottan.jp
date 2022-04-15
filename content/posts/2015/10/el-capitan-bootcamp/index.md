@@ -10,7 +10,7 @@ tags:
 - windows
 - インストール
 - camp
-- boot
+- アシスタント
 - ドライバー
 title: macOS El CapitanのBoot Campアシスタントを使ってWindows 7をインストールする方法
 type: post

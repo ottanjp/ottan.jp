@@ -8,10 +8,10 @@ date: 2016-05-04 00:00:00+00:00
 draft: false
 tags:
 - シリアル番号
-- number
 - hardware
+- number
 - facetime
-- imessage
+- store
 title: iMessageとFaceTimeにサインインできない問題の対処法
 type: post
 ---

@@ -9,8 +9,8 @@ tags:
 - 壁紙
 - retinaディスプレイ
 - macbook
-- デスクトップ
 - pro
+- デスクトップ
 title: Macの美しいRetinaディスプレイを一層美しく彩る壁紙の究極の楽しみを提供する「Irvue」
 type: post
 ---

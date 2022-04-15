@@ -9,8 +9,8 @@ tags:
 - line
 - トーク
 - 写真
-- タップ
 - safari
+- タップ
 title: 何でもかんでもLINEに共有しよう！！Safariや写真アプリからLINEのトークに送信する方法
 type: post
 ---

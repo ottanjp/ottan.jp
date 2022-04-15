@@ -8,8 +8,8 @@ tags:
 - ubuntu
 - 仮想デスクトップ
 - windows
-- vcxsrv
-- desktop
+- sudo
+- '10'
 title: Windows Subsystem for LinuxでUbuntu Desktop (GNOME)を動かす
 toc: true
 type: post

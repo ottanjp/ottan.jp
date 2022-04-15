@@ -7,9 +7,9 @@ date: 2017-12-01 00:00:00+00:00
 draft: false
 tags:
 - 機能拡張
+- safari
 - autopagerize
 - ビルダー
-- safari
 - インストール
 title: Appleの公式サイトで配布されているSafariの機能拡張をカスタマイズして使用する方法
 type: post

@@ -7,10 +7,10 @@ date: 2019-01-12 00:00:00+00:00
 draft: false
 tags:
 - parallels
-- tools
 - ubuntu
 - 日本語
 - mozc
+- インストール
 title: Parallels Desktop 12 for MacでUbuntu 18.04 LTSへのParallels Toolsのインストールに失敗する場合の対処法
 toc: true
 type: post

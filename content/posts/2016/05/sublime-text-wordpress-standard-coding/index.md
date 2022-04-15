@@ -8,10 +8,10 @@ date: 2016-05-21 00:00:00+00:00
 draft: false
 tags:
 - php
-- codesniffer
 - sublime
 - コーディング
-- text
+- インストール
+- 規約
 title: Sublime TextでWordPressのコーディング規約に遵守したコーディングを効率的に行おう！
 type: post
 ---

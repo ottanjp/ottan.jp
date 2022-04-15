@@ -6,11 +6,11 @@ categories:
 date: 2020-07-03 00:00:00+00:00
 katex: false
 tags:
-- resources
 - 画像
 - 指標
 - lt
 - 関数
+- md
 title: HugoでSearch Consoleに追加された「ウェブに関する主な指標レポート」（CLS）の問題に対応する
 ---
 

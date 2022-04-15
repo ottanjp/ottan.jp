@@ -7,10 +7,10 @@ date: 2016-06-23 00:00:00+00:00
 draft: false
 tags:
 - ユーザ
-- etc
-- launchd
 - 仮想マシン
-- vagrant
+- library
+- sudo
+- プロパティリスト
 title: ログイン時にVCCW（Vagrant＋VirtualBox）で構築した仮想マシンを自動起動する
 type: post
 ---

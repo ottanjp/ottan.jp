@@ -8,9 +8,9 @@ draft: false
 tags:
 - bar
 - touch
-- bettertouchtool
 - ウィジェット
 - escキー
+- ps
 title: MacBook ProのTouch BarにCPU、メモリ使用率、バッテリー残り時間、日時、ESCキーを表示して、メニューバーをスッキリさせる
 type: post
 ---

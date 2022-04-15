@@ -5,11 +5,11 @@ categories:
 - Mac
 date: 2020-05-18 00:00:00+00:00
 tags:
-- pip
-- version
-- you
 - warning
-- setuptools
+- avail
+- upgrade
+- able
+- 環境
 title: 'pipの警告「WARNING: You are using pip version x.x.x, however version y.y.y is
   available.」を抑止する'
 ---

@@ -10,8 +10,8 @@ tags:
 - dvd
 - vlc
 - windows
-- media
-- player
+- '10'
+- superdrive
 title: Parallels DesktopやVMware FusionのWindows 10で、Apple USB SuperDriveを使用してDVDを再生する方法
 type: post
 ---

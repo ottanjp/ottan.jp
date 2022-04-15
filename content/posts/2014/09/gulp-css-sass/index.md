@@ -8,9 +8,9 @@ draft: false
 tags:
 - タスク
 - js
-- gulp
 - パッケージ
 - sass
+- インストール
 title: はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう
 type: post
 ---

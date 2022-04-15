@@ -7,10 +7,10 @@ date: 2019-05-11 00:00:00+00:00
 draft: false
 tags:
 - zsh
-- git
-- powerlevel
 - コマンド
 - プラグイン
+- git
+- エイリアス
 title: Macのターミナル（iTerm）で生産性を上げるための方法
 toc: true
 type: post

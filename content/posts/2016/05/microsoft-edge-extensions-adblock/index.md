@@ -10,7 +10,7 @@ tags:
 - microsoft
 - 拡張機能
 - windows
-- plus
+- microsoftアカウント
 title: Microsoft Edgeの拡張機能にAdBlockおよびAdBlock Plusが登場！Windowsストアからダウンロードしよう！
 type: post
 ---

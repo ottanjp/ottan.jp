@@ -7,10 +7,10 @@ date: 2020-05-25 00:00:00+00:00
 katex: true
 tags:
 - pi
+- phi
 - gt
 - markdown
 - lt
-- 数式
 title: HugoのMarkdownで数式組版ライブラリであるKaTeXをサポートする
 ---
 

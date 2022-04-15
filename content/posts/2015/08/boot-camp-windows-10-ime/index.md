@@ -9,8 +9,8 @@ draft: false
 tags:
 - 日本語入力
 - ドライバー
+- かな
 - ime
-- boot
 - camp
 title: Boot Camp環境のWindows 10で、かな、英数で日本語入力切り替えができない問題を解決する
 type: post

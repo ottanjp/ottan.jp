@@ -9,8 +9,8 @@ tags:
 - コンテナ
 - fs
 - ap
-- sur
 - catalina
+- ボリューム
 title: macOS CatalinaとBig Sur（パブリックベータ）のデュアルブート環境を構築
 ---
 

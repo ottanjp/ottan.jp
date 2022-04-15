@@ -10,7 +10,7 @@ tags:
 - 実名
 - アカウント
 - 範囲
-- 原則
+- 友達
 title: Facebookを安全に使用するための3ヶ条
 type: post
 ---

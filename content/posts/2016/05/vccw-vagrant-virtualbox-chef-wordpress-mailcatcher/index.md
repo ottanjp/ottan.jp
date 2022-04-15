@@ -7,11 +7,11 @@ categories:
 date: 2016-05-01 00:00:00+00:00
 draft: false
 tags:
-- mailcatcher
-- vccw
 - 環境
-- wordpress
 - virtualbox
+- 仮想マシン
+- ログイン
+- ローカル
 title: VCCW（Vagrant＋VirtualBox＋Chef＋WordPress）のメール送信テスト環境には、MailCatcherが最適！
 type: post
 ---

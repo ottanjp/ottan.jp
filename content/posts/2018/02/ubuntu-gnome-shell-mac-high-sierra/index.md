@@ -6,11 +6,11 @@ categories:
 date: 2018-02-11 00:00:00+00:00
 draft: false
 tags:
-- gnome
 - ubuntu
+- gnome
+- plank
 - apt
 - カスタマイズ
-- デスクトップ環境
 title: Ubuntu 16.04 LTSのGNOME ShellをMac風にカスタマイズする
 type: post
 ---

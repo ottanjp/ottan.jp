@@ -10,7 +10,7 @@ tags:
 - フォント
 - explorer
 - internet
-- windows
+- family
 title: WindowsのInternet ExplorerまたはGoogle Chromeで強制的にメイリオを使用する
 type: post
 ---

@@ -7,10 +7,10 @@ date: 2017-04-26 00:00:00+00:00
 draft: false
 tags:
 - mastodon
-- workflow
 - レシピ
 - シェア
-- アクセストークン
+- メニュー
+- twitter
 title: iPhoneの任意のアプリからMastodonにシェアする方法
 type: post
 ---

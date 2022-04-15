@@ -10,7 +10,7 @@ tags:
 - アカウント
 - echo
 - kindle
-- alexa
+- jp
 title: Amazon Echoの初期セットアップのトラブルシューティング（デバイスの登録に失敗しました or エラー1）
 type: post
 ---

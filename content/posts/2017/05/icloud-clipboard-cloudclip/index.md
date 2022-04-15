@@ -10,8 +10,8 @@ tags:
 - クリップボード
 - icloud
 - ユニバーサル
-- cloudclip
-- アプリ
+- 履歴
+- テキスト
 title: セットアップ不要！iCloud経由でクリップボード（テキスト）をiOS、macOS間で同期できる「CloudClip」
 type: post
 ---

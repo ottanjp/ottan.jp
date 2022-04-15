@@ -6,8 +6,8 @@ categories:
 date: 2016-04-02 00:00:00+00:00
 draft: false
 tags:
-- red
 - hat
+- red
 - enterprise
 - クリック
 - linux

@@ -8,10 +8,10 @@ date: 2015-06-20 00:00:00+00:00
 draft: false
 tags:
 - 辞書
+- drive
 - icloud
 - ユーザ
-- drive
-- dictionaries
+- ios
 title: macOSとiOSでユーザ辞書が同期されない場合の対処法
 type: post
 ---

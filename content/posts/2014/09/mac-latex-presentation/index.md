@@ -9,8 +9,8 @@ tags:
 - インストール
 - パッケージ
 - 数式
-- tex
 - ghostscript
+- homebrew
 title: Macでプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」
 type: post
 ---

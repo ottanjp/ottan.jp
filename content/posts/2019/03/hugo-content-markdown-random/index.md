@@ -8,9 +8,9 @@ draft: false
 tags:
 - adsense
 - コード
-- cratch
 - scratch
 - 変数
+- lt
 title: HugoでMarkdownのランダムな位置にGoogle AdSenseのコードを挿入する
 toc: true
 type: post

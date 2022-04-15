@@ -7,10 +7,10 @@ date: 2019-04-07 00:00:00+00:00
 draft: false
 tags:
 - 8w
-- ekyb
 - アプリ
-- bbwe
 - xbox
+- microsoft
+- 3d
 title: Windows 10でコントロールパネルや設定から削除できない「Xbox」アプリを削除する
 toc: true
 type: post

@@ -10,7 +10,7 @@ tags:
 - post
 - pos
 - wp
-- 記事
+- sticky
 title: 今日からコピペで使えるWordPressで人気記事や最新記事を取得する方法のまとめ
 type: post
 ---

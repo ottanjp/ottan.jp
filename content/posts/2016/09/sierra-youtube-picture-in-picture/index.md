@@ -10,7 +10,7 @@ tags:
 - 動画
 - イン
 - youtube
-- サイズ
+- sierra
 title: macOS SierraでYouTubeを「ピクチャ・イン・ピクチャ」で再生する方法
 type: post
 ---

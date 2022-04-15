@@ -7,9 +7,9 @@ date: 2016-10-19 00:00:00+00:00
 draft: false
 tags:
 - 閲覧履歴
+- safari
 - cookie
 - ショートカット
-- safari
 - webサイト
 title: Safariが重い！MacのSafariでCookieは残してWebサイトの閲覧履歴をすべて削除する簡単な方法
 type: post

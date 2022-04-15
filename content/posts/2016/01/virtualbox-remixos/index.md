@@ -8,10 +8,10 @@ date: 2016-01-15 00:00:00+00:00
 draft: false
 tags:
 - remix
-- virtualbox
-- mode
 - os
+- virtualbox
 - クリック
+- ポインタ
 title: VirtualBoxにRemix OS 2.0をインストールする方法
 type: post
 ---

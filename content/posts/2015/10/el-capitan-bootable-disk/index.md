@@ -9,8 +9,8 @@ tags:
 - ディスク
 - capitan
 - el
-- インストーラー
 - macos
+- usbメモリ
 title: macOS 10.11 El Capitanの起動ディスクを作成する方法
 type: post
 ---

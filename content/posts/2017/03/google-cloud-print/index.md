@@ -8,8 +8,8 @@ date: 2017-03-10 00:00:00+00:00
 draft: false
 tags:
 - プリンター
-- cloud
 - print
+- cloud
 - google
 - airprint
 title: Google Cloud Printを使って外出先やiPhoneからいつでもどこでも印刷しよう

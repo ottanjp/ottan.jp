@@ -7,11 +7,11 @@ categories:
 date: 2015-02-01 00:00:00+00:00
 draft: false
 tags:
-- hz
 - dnsサーバ
 - 5g
 - fi
 - wi
+- ttl
 title: iPhoneやMacのWi-Fi接続速度が遅い場合に見直したい項目
 type: post
 ---

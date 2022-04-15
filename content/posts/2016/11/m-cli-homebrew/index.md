@@ -10,7 +10,7 @@ tags:
 - cli
 - ターミナル
 - コマンド
-- controllerpowerstate
+- fi
 title: Macをターミナルから操る「m-cli」のソースコードがタメになるというお話
 type: post
 ---

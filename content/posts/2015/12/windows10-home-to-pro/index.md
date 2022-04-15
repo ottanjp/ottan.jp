@@ -8,9 +8,9 @@ draft: false
 tags:
 - '10'
 - windows
-- professional
 - home
 - ライセンス
+- アップグレード
 title: Windows 10 HomeからProfessionalにエディションを変更する方法
 type: post
 ---

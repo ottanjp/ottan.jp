@@ -9,8 +9,8 @@ tags:
 - adsense
 - google
 - analytics
-- adblock
 - ブロック
+- adblock
 title: ブログを訪れたユーザーがどれだけGoogle AdSenseをブロックしているかを簡単に計測する方法
 type: post
 ---

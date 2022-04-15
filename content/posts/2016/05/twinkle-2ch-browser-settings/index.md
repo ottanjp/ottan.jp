@@ -6,11 +6,11 @@ categories:
 date: 2016-05-26 00:00:00+00:00
 draft: false
 tags:
+- twinkle
 - スレッド
 - 非表示
 - 2ちゃんねるブラウザ
 - タップ
-- 覚書
 title: iPhoneの高機能2ちゃんねるブラウザ「twinkle」で板がすべて表示されない問題の対処法
 type: post
 ---

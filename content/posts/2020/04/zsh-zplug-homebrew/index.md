@@ -7,10 +7,10 @@ date: 2020-04-26 00:00:00+00:00
 katex: false
 tags:
 - zsh
-- prezto
-- zplug
-- zshrc
 - シェル
+- インストール
+- home
+- プラグイン
 title: zplugとpreztoでzshをいい感じにする
 ---
 

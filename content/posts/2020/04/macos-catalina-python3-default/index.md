@@ -6,10 +6,10 @@ categories:
 date: 2020-04-26 00:00:00+00:00
 tags:
 - python
-- pyenv
 - バージョン
 - エイリアス
 - シェル
+- catalina
 title: macOS CatalinaのPythonのデフォルトを3.x.xにする
 ---
 

@@ -9,9 +9,9 @@ draft: false
 tags:
 - コンテナ
 - docker
-- netlify
-- run
-- functions
+- yarn
+- node
+- js
 title: Netlify FunctionsをDockerで実行する
 toc: true
 type: post

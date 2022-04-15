@@ -7,10 +7,10 @@ date: 2016-02-13 00:00:00+00:00
 draft: false
 tags:
 - apps
+- script
 - トリガー
 - google
 - googleドライブ
-- gmail
 title: 定期実行されるGoogle Apps Scriptのトリガーをすべて削除する方法
 type: post
 ---

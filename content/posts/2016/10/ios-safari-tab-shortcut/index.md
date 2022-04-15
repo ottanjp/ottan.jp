@@ -6,11 +6,11 @@ categories:
 date: 2016-10-10 00:00:00+00:00
 draft: false
 tags:
-- タブ
 - safari
+- タブ
 - タップ
+- touch
 - 直近
-- 方法
 title: iPhoneのSafariで最近閉じたタブを復元する方法
 type: post
 ---

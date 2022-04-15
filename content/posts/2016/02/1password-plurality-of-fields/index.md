@@ -6,11 +6,11 @@ categories:
 date: 2016-02-07 00:00:00+00:00
 draft: false
 tags:
-- password
 - お客様
 - じぶん銀行
 - 情報
 - フィールド
+- ログイン
 title: 1Passwordで複数フィールドにまたがるユーザ情報を保存する方法と注意点
 type: post
 ---

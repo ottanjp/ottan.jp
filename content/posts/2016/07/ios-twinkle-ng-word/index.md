@@ -8,9 +8,9 @@ draft: false
 tags:
 - ng
 - ngワード
+- twinkle
 - ネーム
 - 2ちゃんねるブラウザ
-- 非表示
 title: iPhoneの高機能2ちゃんねるブラウザ「twinkle」でNGワードを設定する方法
 type: post
 ---

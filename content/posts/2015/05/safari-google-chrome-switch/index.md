@@ -7,8 +7,8 @@ date: 2015-05-24 00:00:00+00:00
 draft: false
 tags:
 - chrome
-- google
 - safari
+- google
 - switch
 - バー
 title: Safariで閲覧しているページをGoogle Chromeで開く「Switch」

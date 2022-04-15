@@ -8,9 +8,9 @@ draft: false
 tags:
 - プロバイダー
 - google
+- bing
 - edge
 - microsoft
-- 既定
 title: Windows 10のMicrosoft Edgeのデフォルトの検索プロバイダーーをBingからGoogleに変更する方法
 type: post
 ---

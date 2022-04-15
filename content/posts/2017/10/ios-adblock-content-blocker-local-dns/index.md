@@ -8,9 +8,9 @@ draft: false
 tags:
 - vpn
 - dns
-- adblock
 - ブロック
 - プロキシ
+- ルール
 title: iPhoneのすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」の使用方法
 type: post
 ---

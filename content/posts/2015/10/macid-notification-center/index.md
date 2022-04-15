@@ -7,11 +7,11 @@ categories:
 date: 2015-10-25 00:00:00+00:00
 draft: false
 tags:
-- touch
 - mac
-- id
-- macid
+- touch
 - 通知センター
+- id
+- ウィジェット
 title: 通知センターからTouch IDを使ってMacのロックを解除できる「MacID」
 type: post
 ---

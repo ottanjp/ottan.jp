@@ -8,9 +8,9 @@ draft: false
 tags:
 - sierra
 - high
-- インストーラー
 - macos
 - untitled
+- usbメモリ
 title: macOS High Sierraの起動可能なインストーラー（USBメモリ）を作成する
 type: post
 ---

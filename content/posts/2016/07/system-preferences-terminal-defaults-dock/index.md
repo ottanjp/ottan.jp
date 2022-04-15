@@ -6,11 +6,11 @@ categories:
 date: 2016-07-11 00:00:00+00:00
 draft: false
 tags:
-- pple
 - コマンド
 - write
 - チェックボックス
 - delete
+- com
 title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（Dock）
 type: post
 ---

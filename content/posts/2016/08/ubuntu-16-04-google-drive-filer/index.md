@@ -9,8 +9,8 @@ tags:
 - ubuntu
 - drive
 - ファイラー
-- gnome
 - google
+- gnome
 title: Ubuntu 16.04の標準ファイラーで「Google Drive」にアクセスする方法
 type: post
 ---

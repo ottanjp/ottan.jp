@@ -6,11 +6,11 @@ categories:
 date: 2014-09-13 00:00:00+00:00
 draft: false
 tags:
-- feedly
 - はてなブックマーク
 - ブックマーク
+- feedly
 - 興味
-- キュレーションアプリ
+- 記事
 title: feedlyで作る自分だけのキュレーションアプリ
 type: post
 ---

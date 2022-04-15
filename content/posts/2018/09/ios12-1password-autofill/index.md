@@ -8,9 +8,9 @@ draft: false
 tags:
 - '12'
 - パスワード
-- password
 - 自動
 - ワンタイムパスワード
+- アプリ
 title: iOS 12と1Passwordによるパスワード自動入力が便利すぎる！アプリ内のパスワード入力でも使用可能
 type: post
 ---

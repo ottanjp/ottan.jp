@@ -9,8 +9,8 @@ draft: false
 tags:
 - iphone
 - safari
-- web
 - mac
+- web
 - usb
 title: Macを使用してiPhone、iPadのSafariでデバッグを行う方法
 toc: true

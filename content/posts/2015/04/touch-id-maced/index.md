@@ -9,9 +9,9 @@ draft: false
 tags:
 - mac
 - iphone
-- touch
 - トラックパッド
-- id
+- touch
+- 自席
 title: Touch IDでMacのロックを解除したり、iPhoneを持ったままMacから離れると自動でMacをロックする「MacID」を徹底解説！
 type: post
 ---

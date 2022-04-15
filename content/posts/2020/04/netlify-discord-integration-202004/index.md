@@ -6,10 +6,10 @@ categories:
 date: 2020-04-30 00:00:00+00:00
 tags:
 - slack
-- integration
 - デプロイ
-- discord
 - ウェブフック
+- url
+- started
 title: NetlifyのDeploy結果をDiscordへ通知する
 ---
 

@@ -10,7 +10,7 @@ tags:
 - 価格
 - 無料
 - アプリケーション
-- facebook
+- yahoo
 title: iPhoneを購入したら導入したいオススメのアプリ52選（2016年8月版）
 type: post
 ---

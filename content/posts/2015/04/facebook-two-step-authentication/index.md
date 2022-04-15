@@ -8,8 +8,8 @@ draft: false
 tags:
 - facebookアカウント
 - 2段階認証
-- authenticator
 - ジェネレーター
+- google
 - コード
 title: Facebookアカウントの2段階認証を有効にする方法
 type: post

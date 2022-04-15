@@ -6,11 +6,11 @@ categories:
 date: 2016-12-25 00:00:00+00:00
 draft: false
 tags:
-- reeder
-- instapaper
 - 記事
-- readability
 - pocket
+- mac
+- ios版
+- 既読
 title: Mac版Instapaperクライアントは、RSSリーダーとしても使用できる「Reeder for Mac」がオススメ
 type: post
 ---

@@ -11,8 +11,8 @@ tags:
 - apm
 - atom
 - パッケージ
-- install
 - コーディング
+- 規約
 title: WordPressのテーマやプラグイン開発のためにAtomに導入したパッケージ（2016年版）
 type: post
 ---

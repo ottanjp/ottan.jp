@@ -8,9 +8,9 @@ draft: false
 tags:
 - youtube
 - dl
-- nhx
 - 動画
 - ho
+- c3
 title: YouTubeから簡単に動画をダウンロードできる「youtube-dl」
 type: post
 ---

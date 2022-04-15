@@ -8,9 +8,9 @@ draft: false
 tags:
 - windows
 - '10'
-- update
 - アップデート
 - 今すぐ
+- クリック
 title: 今すぐ最新のWindows 10 Creators Updateを手に入れよう！Windows Updateでアップデートできない場合にも試したい方法
 type: post
 ---

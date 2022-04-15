@@ -7,10 +7,10 @@ date: 2018-05-19 00:00:00+00:00
 draft: false
 tags:
 - php
+- remi
 - インストール
+- yum
 - httpd
-- laravel
-- apache
 title: Docker上のCentOS7でApache 2.3.x、PHP7.x、Laravel 5.xを動作させるための手順
 type: post
 ---

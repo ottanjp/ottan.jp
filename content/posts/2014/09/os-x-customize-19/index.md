@@ -6,11 +6,11 @@ categories:
 date: 2014-09-10 00:00:00+00:00
 draft: false
 tags:
-- pple
 - write
 - delete
+- com
 - コマンド
-- creencapture
+- bool
 title: コピペだけでできるMacのカスタマイズ19選
 type: post
 ---

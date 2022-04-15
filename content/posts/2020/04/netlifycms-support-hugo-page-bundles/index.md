@@ -9,7 +9,7 @@ tags:
 - ag
 - png
 - index
-- slug
+- markdown
 title: Netlify CMS + HugoでPage Bundles（コンテントと画像を同じ場所に配置）に対応する
 ---
 

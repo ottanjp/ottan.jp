@@ -8,9 +8,9 @@ draft: false
 tags:
 - lt
 - gt
-- pple
-- wvous
 - write
+- rin
+- st
 title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（Mission Control）
 type: post
 ---

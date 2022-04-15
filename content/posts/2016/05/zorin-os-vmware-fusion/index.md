@@ -7,8 +7,8 @@ categories:
 date: 2016-05-11 00:00:00+00:00
 draft: false
 tags:
-- zorin
 - ubuntu
+- os
 - クリック
 - xp
 - vmware

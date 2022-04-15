@@ -9,8 +9,8 @@ tags:
 - machine
 - time
 - ディスク
+- library
 - スナップショット
-- 対象
 title: Time Machineはどのようにしてバックアップを取得しているの？MacのTime Machineの疑問徹底解説
 type: post
 ---

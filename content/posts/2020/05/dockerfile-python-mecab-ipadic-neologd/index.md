@@ -9,7 +9,7 @@ tags:
 - ipadic
 - neologd
 - 名詞
-- システム辞書
+- run
 title: Python:3.xコンテナでMeCab + IPADIC + NEologdをシステム辞書として使用するためのDockerfile
 ---
 

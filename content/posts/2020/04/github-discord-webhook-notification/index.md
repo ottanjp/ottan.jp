@@ -6,10 +6,10 @@ categories:
 date: 2020-04-26 00:00:00+00:00
 tags:
 - ウェブフック
-- discord
 - チャンネル
 - github
 - イベント
+- サイドメニュー
 title: GitHubのイベントをDiscordのチャンネルに通知する
 ---
 

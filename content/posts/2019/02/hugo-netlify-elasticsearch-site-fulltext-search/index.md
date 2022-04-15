@@ -7,10 +7,10 @@ date: 2019-02-02 00:00:00+00:00
 draft: false
 tags:
 - elasticsearch
-- クレデンシャル
 - 全文検索
 - インデックス
 - ドキュメント
+- json
 title: Netlify + Hugo + Elasticsearchで静的サイトの全文検索を行う
 toc: true
 type: post

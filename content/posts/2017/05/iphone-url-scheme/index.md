@@ -7,11 +7,11 @@ categories:
 date: 2017-05-02 00:00:00+00:00
 draft: false
 tags:
+- rin
 - st
 - lt
 - スキーム
 - tweetie
-- twitter
 title: iPhoneの任意のアプリのURLスキームを調べる方法
 type: post
 ---

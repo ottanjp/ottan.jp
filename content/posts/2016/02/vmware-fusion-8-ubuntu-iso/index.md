@@ -9,8 +9,8 @@ tags:
 - vmware
 - ubuntu
 - インストール
-- tools
 - fusion
+- クリック
 title: VMware Fusion 8にUbuntu 14.04.3 LTSをインストールして日本語化する
 type: post
 ---

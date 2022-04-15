@@ -8,9 +8,9 @@ draft: false
 tags:
 - インスタンス
 - aws
-- lightsail
-- wordpress
 - サーバー
+- 秘密鍵
+- ダッシュボード
 title: Amazon Lightsailで月5ドルから始めるWordPress（下準備〜HTTPS化編）
 type: post
 ---

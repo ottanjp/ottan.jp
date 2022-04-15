@@ -8,10 +8,10 @@ date: 2016-05-22 00:00:00+00:00
 draft: false
 tags:
 - nexus
-- genymotion
 - android
 - デバイス
 - virtualbox
+- インストール
 title: MacでAndroidの環境を簡単に再現する方法
 type: post
 ---

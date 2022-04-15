@@ -6,11 +6,11 @@ categories:
 date: 2016-06-18 00:00:00+00:00
 draft: false
 tags:
-- tumblr
 - 被害
 - パスワード
 - jtb
 - 個人情報流出
+- adobe
 title: いつの間にかTumblrからアカウント情報が流出していたことが判明
 type: post
 ---

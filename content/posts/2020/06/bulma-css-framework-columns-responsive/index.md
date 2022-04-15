@@ -6,11 +6,11 @@ categories:
 date: 2020-06-14 00:00:00+00:00
 katex: false
 tags:
+- div
 - lt
 - gt
 - エレメント
-- columns
-- クラス
+- body
 title: CSSフレームワーク「Bulma」の「columns」クラスに関する挙動について
 ---
 

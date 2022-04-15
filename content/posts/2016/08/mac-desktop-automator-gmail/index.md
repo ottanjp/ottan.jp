@@ -7,10 +7,10 @@ date: 2016-08-24 00:00:00+00:00
 draft: false
 tags:
 - gmail
-- icons
 - アプリケーション
 - ペイン
 - アイコン
+- ポップアップ
 title: Macのデスクトップで動作する軽量Gmailアプリケーションを作ろう！
 type: post
 ---

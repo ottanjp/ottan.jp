@@ -11,8 +11,8 @@ tags:
 - コマンドライン
 - css3
 - ブラウザ
-- caniuse
-- ベンダープレフィックス
+- border
+- html5
 title: Webデザイナー必見！CSS3のブラウザの対応状況をコマンドラインで確認できる「caniuse-cmd」
 type: post
 ---

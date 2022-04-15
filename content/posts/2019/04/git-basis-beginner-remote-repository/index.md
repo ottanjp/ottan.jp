@@ -9,8 +9,8 @@ tags:
 - ブランチ
 - origin
 - git
-- リモートリポジトリ
-- master
+- 上流
+- リポジトリ
 title: Git初心者が最初から学ぶGitの入門（リモートリポジトリ）
 toc: true
 type: post

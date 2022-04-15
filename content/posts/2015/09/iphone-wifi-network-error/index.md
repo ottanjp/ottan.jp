@@ -8,8 +8,8 @@ draft: false
 tags:
 - ネットワーク
 - リセット
-- wi
 - fi
+- wi
 - モバイル
 title: iPhoneでWi-Fiネットワークからモバイルネットワークに切り替え後、ネットワークエラーが発生する場合の対処法
 type: post

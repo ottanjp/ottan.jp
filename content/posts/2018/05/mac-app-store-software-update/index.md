@@ -9,8 +9,8 @@ tags:
 - アップデート
 - high
 - xcode
+- command
 - preview
-- done
 title: Mac App Storeでアプリのアップデートが終わらないイライラを解消する方法
 type: post
 ---

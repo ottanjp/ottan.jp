@@ -7,8 +7,8 @@ categories:
 date: 2016-10-30 00:00:00+00:00
 draft: false
 tags:
-- docker
 - コンテナー
+- docker
 - wordpress
 - wp
 - 環境

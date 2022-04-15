@@ -6,7 +6,7 @@ categories:
 date: 2016-04-06 00:00:00+00:00
 draft: false
 tags:
-- quick
+- look
 - プレビュー
 - windows
 - ファイル

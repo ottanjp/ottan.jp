@@ -8,9 +8,9 @@ draft: false
 tags:
 - capitan
 - el
-- ディスク
 - usbメモリ
-- disk
+- ディスク
+- macos
 title: macOS 10.11 El Capitan（β版）の起動ディスク（USBメモリ）を作成する方法
 type: post
 ---

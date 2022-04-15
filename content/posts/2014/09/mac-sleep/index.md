@@ -9,8 +9,8 @@ tags:
 - スリープ
 - sleep
 - jst
-- pmset
-- hibernatemode
+- 状態
+- モード
 title: Macがスリープから復帰するのが遅い場合の対処法
 type: post
 ---

@@ -8,8 +8,8 @@ date: 2016-06-19 00:00:00+00:00
 draft: false
 tags:
 - remix
-- mode
 - クリック
+- os
 - 仮想マシン
 - google
 title: Remix OSをResident modeでVMware Fusionにインストールし、Google Playストアを使用できるようにする

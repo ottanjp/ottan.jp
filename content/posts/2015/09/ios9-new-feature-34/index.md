@@ -10,7 +10,7 @@ tags:
 - ios
 - siri
 - メモ帳
-- オフ
+- drive
 title: ここが変わった！知っておくべき便利なiOS9の新機能34選
 type: post
 ---

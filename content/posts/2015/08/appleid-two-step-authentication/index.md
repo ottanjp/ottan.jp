@@ -9,8 +9,8 @@ draft: false
 tags:
 - 2段階認証
 - パスワード
-- id
 - apple
+- id
 - ボタン
 title: Apple IDの2段階認証を有効にする方法
 type: post

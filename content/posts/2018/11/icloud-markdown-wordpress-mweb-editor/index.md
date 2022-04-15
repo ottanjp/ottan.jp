@@ -9,10 +9,10 @@ date: 2018-11-22 00:00:00+00:00
 draft: false
 tags:
 - markdown
-- mweb
 - 画像ファイル
 - エディター
 - 画像
+- mac
 title: iCloud同期可能でWordPressや静的サイト向けデプロイ機能付きのMarkdownエディター
 type: post
 ---

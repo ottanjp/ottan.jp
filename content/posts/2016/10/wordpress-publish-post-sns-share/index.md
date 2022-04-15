@@ -7,8 +7,8 @@ date: 2016-10-29 00:00:00+00:00
 draft: false
 tags:
 - ifttt
+- channel
 - トリガー
-- email
 - 記事
 - 15分
 title: WordPressで記事を投稿した瞬間に各種SNSに簡単にシェアする方法

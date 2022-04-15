@@ -10,7 +10,7 @@ tags:
 - linux
 - vmware
 - インストール
-- tools
+- fusion
 title: Linuxを使ってみよう！Linux Mint（Cinnamon）を導入する方法
 type: post
 ---

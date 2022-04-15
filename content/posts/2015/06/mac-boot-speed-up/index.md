@@ -7,10 +7,10 @@ date: 2015-06-02 00:00:00+00:00
 draft: false
 tags:
 - ディスク
-- nvram
 - ログイン
 - pram
 - mac
+- リセット
 title: Macの起動が遅い！Macの起動を早くする7つの方法
 type: post
 ---

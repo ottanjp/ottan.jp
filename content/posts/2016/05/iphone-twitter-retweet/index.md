@@ -9,8 +9,8 @@ tags:
 - ツイート
 - 自分
 - twitter
-- リツイート
 - 公式twitter
+- リツイート
 title: iPhoneの公式Twitterアプリで、自分のツイートを引用ツイートする方法
 type: post
 ---

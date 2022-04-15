@@ -11,7 +11,7 @@ tags:
 - dropbox
 - ブログ
 - 効率化
-- text
+- 環境
 title: WordPressのテーマ開発、ブログの執筆作業を効率化する方法のまとめ
 type: post
 ---

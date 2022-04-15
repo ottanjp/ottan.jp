@@ -8,8 +8,8 @@ draft: false
 tags:
 - シャットダウン
 - レジストリ
-- ミリ秒
 - 1秒
+- ミリ秒
 - 即ち
 title: Windows 10のシャットダウン、再起動が遅い時の対処法
 type: post

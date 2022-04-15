@@ -10,7 +10,7 @@ tags:
 - lt
 - gt
 - コード
-- image
+- id
 title: WordPressのショートコード入門
 type: post
 ---

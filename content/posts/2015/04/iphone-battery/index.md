@@ -7,10 +7,10 @@ date: 2015-04-26 00:00:00+00:00
 draft: false
 tags:
 - バッテリー
-- オフ
 - 位置情報
 - iphone
 - ネットワーク
+- fi
 title: iPhoneのバッテリーを劇的に改善する27の方法
 type: post
 ---

@@ -7,10 +7,10 @@ date: 2015-11-08 00:00:00+00:00
 draft: false
 tags:
 - gifアニメーション
+- anima
 - imagemagick
 - automator
-- gif
-- homebrew
+- ted
 title: macOSで右クリック1つでアニメーションGIFファイルを作る方法
 type: post
 ---

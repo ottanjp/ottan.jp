@@ -6,11 +6,11 @@ categories:
 date: 2016-10-27 00:00:00+00:00
 draft: false
 tags:
-- bit
 - windows
-- desktop
-- veertu
 - iso
+- 仮想マシン
+- '10'
+- macos
 title: macOSのネイティブなHypervisor.frameworkを使用したオープンソースソフトウェア「Veertu Desktop」
 type: post
 ---

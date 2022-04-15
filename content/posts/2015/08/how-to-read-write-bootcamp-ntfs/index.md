@@ -9,9 +9,9 @@ draft: false
 tags:
 - 領域
 - ntfs
-- etc
 - マウント
 - macos
+- ファイルシステム
 title: NTFSフォーマットされたBootCamp領域をmacOSで読み書きできるようにする方法
 type: post
 ---

@@ -7,10 +7,10 @@ date: 2014-09-12 00:00:00+00:00
 draft: false
 tags:
 - チャンネル
-- hz
 - 理論
 - mimo
 - airmac
+- 速度
 title: iPhoneのWi-Fiがルーターの「理論上の」最大速度よりはるかに遅いのはなぜか
 type: post
 ---

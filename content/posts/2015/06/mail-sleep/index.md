@@ -8,9 +8,9 @@ draft: false
 tags:
 - applescript
 - ルール
-- メールアプリ
-- 自宅
 - sleep
+- 自宅
+- mac
 title: 外出先からメールを送って自宅のMacをスリープさせる方法
 type: post
 ---

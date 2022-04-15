@@ -7,10 +7,10 @@ date: 2016-07-30 00:00:00+00:00
 draft: false
 tags:
 - windows
-- ctrl
 - ウインドウ
 - ショートカット
-- shift
+- 仮想デスクトップ
+- タスクバー
 title: 知っておきたい便利なWindows 10のキーボードショートカット
 type: post
 ---

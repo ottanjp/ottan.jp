@@ -10,7 +10,7 @@ tags:
 - メールアドレス
 - 連絡先
 - メーラー
-- airmail
+- 可不可
 title: iPhoneのGmailクライアントを徹底比較。あなたにとって最適なGmailクライアントは？
 type: post
 ---

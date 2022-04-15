@@ -10,7 +10,7 @@ tags:
 - コンタクト
 - google
 - icloud
-- sync
+- gmail
 title: iPhoneでGmailアプリを使用するなら導入しておきたい、iCloudとGoogleコンタクトの連絡先を同期する『Contacts Sync』
 type: post
 ---

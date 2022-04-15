@@ -7,11 +7,11 @@ categories:
 date: 2014-11-11 00:00:00+00:00
 draft: false
 tags:
-- imessage
 - ツール
 - アップル
 - 電話番号
 - コード
+- xxxx
 title: アップルが公開したiMessageをオフにしてくれるツールを試してみました
 type: post
 ---

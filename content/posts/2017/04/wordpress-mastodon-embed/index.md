@@ -9,8 +9,8 @@ tags:
 - mastodon
 - トゥート
 - mstdn
-- wordpress
 - url
+- 数値
 title: WordPressにMastodonのURLを貼り付けただけでトゥートを埋め込む方法
 type: post
 ---

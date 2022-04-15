@@ -6,11 +6,11 @@ categories:
 date: 2014-09-09 00:00:00+00:00
 draft: false
 tags:
-- alfred
-- pack
 - 検索エンジン
+- ワード
+- ライセンス
 - ホットキー
-- power
+- キーワード
 title: Macユーザーが恋する必須の神アプリAlfredを120%使いこなすための手引
 type: post
 ---

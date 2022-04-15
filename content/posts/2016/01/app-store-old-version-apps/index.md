@@ -6,11 +6,11 @@ categories:
 date: 2016-01-06 00:00:00+00:00
 draft: false
 tags:
-- charles
 - バージョン
 - アプリケーション
 - モニター
 - itunes
+- store
 title: App Storeから古いバージョンのアプリケーションをダウンロードする方法
 type: post
 ---

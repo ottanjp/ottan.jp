@@ -9,8 +9,8 @@ tags:
 - onenote
 - webサイト
 - cookie
-- clipper
 - evernote
+- webページ
 title: SafariでOneNote Web Clipper、またはEvernote Web Clipperが使用できない場合の対処法
 type: post
 ---

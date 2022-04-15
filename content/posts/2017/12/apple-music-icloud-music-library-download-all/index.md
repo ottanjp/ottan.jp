@@ -7,10 +7,10 @@ date: 2017-12-09 00:00:00+00:00
 draft: false
 tags:
 - 楽曲
-- スマートプレイリスト
 - プレイリスト
 - ミュージック
 - itunes
+- iphone
 title: Apple Music（iCloudミュージックライブラリ）上の楽曲をスマートに一括してダウンロードする方法
 type: post
 ---

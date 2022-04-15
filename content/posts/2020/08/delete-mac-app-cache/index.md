@@ -6,11 +6,11 @@ categories:
 date: 2020-08-02 00:00:00+00:00
 katex: false
 tags:
-- appcleaner
 - アプリケーション
 - キャッシュ
 - ファイル
 - 初期
+- ゴミ箱
 title: Macでアプリのキャッシュを根こそぎ削除する簡単な方法
 ---
 

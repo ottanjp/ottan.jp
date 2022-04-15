@@ -10,7 +10,7 @@ tags:
 - bar
 - touch
 - ビットコイン
-- bettertouchtool
+- script
 title: Touch Barに現在のビットコインの価格を表示する
 type: post
 ---

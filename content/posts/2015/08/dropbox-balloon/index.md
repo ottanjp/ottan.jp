@@ -6,11 +6,11 @@ categories:
 date: 2015-08-31 00:00:00+00:00
 draft: false
 tags:
+- io
 - dropbox
 - ファイル
 - アップロード
 - リクエスト
-- 複数人
 title: 複数人で作業するときに便利！Dropboxへの共有リンクを簡単に作成できる「Balloon.io」
 type: post
 ---

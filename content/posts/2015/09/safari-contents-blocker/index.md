@@ -9,8 +9,8 @@ tags:
 - 非表示
 - safari
 - 拡張機能
-- コンテンツブロッカー
 - ios
+- 単体
 title: Safariで広告を非表示にするコンテンツブロッカーを使用する方法
 type: post
 ---

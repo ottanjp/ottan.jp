@@ -6,11 +6,11 @@ categories:
 date: 2016-11-08 00:00:00+00:00
 draft: false
 tags:
-- inoreader
 - rssリーダー
 - 全文
 - 記事
 - インポート
+- 既読
 title: RSSリーダーはFeedlyからのインポートが可能な「Inoreader」がオススメ！
 type: post
 ---

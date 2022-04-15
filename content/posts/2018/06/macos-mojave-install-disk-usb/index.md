@@ -7,10 +7,10 @@ date: 2018-06-30 00:00:00+00:00
 draft: false
 tags:
 - mojave
-- インストーラー
 - macos
 - untitled
 - k3
+- usbメモリ
 title: macOS Mojaveのインストールディスク（USBメモリ）を作成する方法
 type: post
 ---

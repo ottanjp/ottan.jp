@@ -10,7 +10,7 @@ tags:
 - dns
 - aws
 - usd
-- domain
+- 独自ドメイン
 title: Netlify CMS + Netlify DNS + Hugo + AWS SESで独自ドメインのメール送受信環境を構築
 toc: true
 type: post

@@ -8,7 +8,7 @@ draft: false
 tags:
 - アイキャッチ
 - 画像
-- hugo
+- img
 - 関数
 - gt
 title: Hugoで記事のアイキャッチ画像を自動的に取得する

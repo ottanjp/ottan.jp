@@ -6,8 +6,8 @@ categories:
 date: 2015-09-02 00:00:00+00:00
 draft: false
 tags:
-- ショートカット
 - update
+- ショートカット
 - windows
 - デスクトップ
 - アプリ

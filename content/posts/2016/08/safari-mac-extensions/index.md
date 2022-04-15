@@ -6,11 +6,11 @@ categories:
 date: 2016-08-14 00:00:00+00:00
 draft: false
 tags:
+- safari
 - 拡張機能
 - details
-- apple
 - com
-- https
+- apple
 title: Safariをもっと便利に使いこなそう！Apple公式サイトから入手できるSafariの拡張機能
 type: post
 ---

@@ -10,7 +10,7 @@ tags:
 - gt
 - サイドバー
 - lt
-- php
+- div
 title: Twitter Bootstrap 3を用いてWordPressテーマを作成しよう③
 type: post
 ---

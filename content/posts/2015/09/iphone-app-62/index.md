@@ -10,7 +10,7 @@ tags:
 - 販売元
 - 無料
 - アプリケーション
-- facebook
+- yahoo
 title: iPhoneを購入したら導入しておきたいオススメのアプリ60選
 type: post
 ---

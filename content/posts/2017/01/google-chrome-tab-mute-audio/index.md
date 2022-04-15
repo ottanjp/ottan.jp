@@ -8,10 +8,10 @@ date: 2017-01-04 00:00:00+00:00
 draft: false
 tags:
 - 動画
+- ミュート
 - 音楽
 - タブ
 - chrome
-- google
 title: Google Chromeのタブで流れ続ける音楽をミュートする方法
 type: post
 ---

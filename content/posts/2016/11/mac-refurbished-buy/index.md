@@ -10,7 +10,7 @@ tags:
 - 新品
 - オンラインストア
 - モデル
-- me
+- macbook
 title: Macのお得な整備済製品を狙うなら通知もしてくれる「Refurb.Me」がオススメ
 type: post
 ---

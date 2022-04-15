@@ -6,11 +6,11 @@ categories:
 date: 2016-09-26 00:00:00+00:00
 draft: false
 tags:
+- リマインダー
 - カレンダー
 - イベント
 - 何回
-- icloud
-- sierra
+- ゾンビ
 title: macOS Sierraでリマインダーがゾンビのように復活し「実行済み」にできない場合の対処法
 type: post
 ---

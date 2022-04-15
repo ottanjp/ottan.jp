@@ -9,7 +9,7 @@ tags:
 - ウィジェット
 - ホーム
 - 3d
-- dock
+- touch
 - 画面
 title: iPhoneのホーム画面でいつでもどこでもウィジェットを確認する簡単な方法
 type: post

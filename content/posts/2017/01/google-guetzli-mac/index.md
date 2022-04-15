@@ -10,7 +10,7 @@ tags:
 - jpeg
 - エンコーダー
 - homebrew
-- github
+- コマンド
 title: Googleが公開したJPEGエンコーダー「Guetzli」をMacでコンパイルして使用する方法
 type: post
 ---

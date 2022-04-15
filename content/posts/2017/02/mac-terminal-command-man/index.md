@@ -6,11 +6,11 @@ categories:
 date: 2017-02-12 00:00:00+00:00
 draft: false
 tags:
+- man
 - コマンド
 - manページ
 - ターミナル
 - ウインドウ
-- lt
 title: Macのターミナルで調べたいコマンドのmanを別ウインドウで開き保存する方法
 type: post
 ---

@@ -8,9 +8,9 @@ draft: false
 tags:
 - パッケージ
 - sublime
-- text
-- sublimelinter
 - コード
+- css
+- scss
 title: Sublime Textに導入しているオススメのプラグイン23選
 type: post
 ---

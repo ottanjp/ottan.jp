@@ -8,10 +8,10 @@ date: 2016-05-23 00:00:00+00:00
 draft: false
 tags:
 - カレンダー
-- foursquare
 - 履歴
 - icloud
 - googleカレンダー
+- foursquare
 title: Foursquareのチェックイン履歴をiCloudのカレンダーに簡単に追加する方法
 type: post
 ---

@@ -11,7 +11,7 @@ tags:
 - iphone
 - safari
 - google
-- iwdp
+- mac
 title: MacのGoogle Chromeを使用して、iPhone、iPadのSafariでデバッグを行う方法
 toc: true
 type: post

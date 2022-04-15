@@ -9,8 +9,8 @@ tags:
 - png
 - automator
 - finder
-- pngquant
 - キーボード
+- ショートカット
 title: Finderの右クリックメニュー、キーボードショートカットからPNGファイルを一括して圧縮する
 type: post
 ---

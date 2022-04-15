@@ -7,10 +7,10 @@ date: 2017-01-07 00:00:00+00:00
 draft: false
 tags:
 - 省電力
-- session
 - バー
 - メニュー
 - 無効化
+- アイコン
 title: 「Caffeine」から乗り換えよう！メニューバーからクリック1つでmacOSの省電力設定を無効化、有効化できる「Amphetamine」
 type: post
 ---

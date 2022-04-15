@@ -7,10 +7,10 @@ date: 2016-10-08 00:00:00+00:00
 draft: false
 tags:
 - 公開鍵
-- xserver
 - ssh
-- sftp
 - 秘密鍵
+- rsa
+- enter
 title: ファイラーとしても優秀なSFTP/FTPクライアント「」を使用してXSERVERにSFTPで接続する方法
 type: post
 ---

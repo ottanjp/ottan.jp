@@ -10,7 +10,7 @@ tags:
 - gt
 - fa
 - span
-- url
+- class
 title: jQueryを使用してTwitter、Facebook、Google+、はてなブックマークのシェア数を非同期で取得する方法のまとめ
 type: post
 ---

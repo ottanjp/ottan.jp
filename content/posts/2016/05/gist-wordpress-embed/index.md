@@ -6,11 +6,11 @@ categories:
 date: 2016-05-08 00:00:00+00:00
 draft: false
 tags:
-- gist
 - コード
-- wordpress
 - 本文
 - ソースコード
+- css
+- bootstrap
 title: プラグインを使わずにGistのコードをWordPressに埋め込む方法
 type: post
 ---

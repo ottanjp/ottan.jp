@@ -6,11 +6,11 @@ categories:
 date: 2016-07-22 00:00:00+00:00
 draft: false
 tags:
-- check
 - chrome
 - browser
 - disabled
 - google
+- safari
 title: 使用しているmacOSのセキュリティ強化、プライバシー保護が設定されているかどうかを自動的にチェックする
 type: post
 ---

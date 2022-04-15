@@ -8,8 +8,8 @@ draft: false
 tags:
 - プリンター
 - ドライバー
-- セットアップ
 - インストール
+- セットアップ
 - epson
 title: macOS Yosemiteインストール後にプリンターが追加できない場合の対処法
 type: post

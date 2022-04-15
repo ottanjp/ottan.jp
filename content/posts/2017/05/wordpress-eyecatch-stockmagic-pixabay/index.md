@@ -8,10 +8,10 @@ date: 2017-05-16 00:00:00+00:00
 draft: false
 tags:
 - 画像
+- stock
+- magic
 - アイキャッチ
 - cc
-- バー
-- 画像ファイル
 title: WordPressのアイキャッチ画像探しに便利なメニューバーから画像を検索できる「Stockmagic for Mac」
 type: post
 ---

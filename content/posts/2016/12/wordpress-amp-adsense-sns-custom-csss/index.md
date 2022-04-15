@@ -9,8 +9,8 @@ tags:
 - amp
 - google
 - lt
-- ense
 - ads
+- gt
 title: WordPressをAMPに対応させる方法とそのカスタマイズ
 type: post
 ---

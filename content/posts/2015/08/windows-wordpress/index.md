@@ -7,10 +7,10 @@ categories:
 date: 2015-08-12 00:00:00+00:00
 draft: false
 tags:
-- wordpress
 - xampp
 - phpmyadmin
 - 環境
+- folder
 - 手順
 title: Windows環境で超簡単にWordPressの開発環境を構築する方法
 type: post

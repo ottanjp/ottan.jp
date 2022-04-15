@@ -7,10 +7,10 @@ date: 2016-07-03 00:00:00+00:00
 draft: false
 tags:
 - windows
-- オフ
 - '10'
 - プライバシー
 - コルタナ
+- 更新プログラム
 title: Windows 10で無効化しておきたい7つの設定
 type: post
 ---

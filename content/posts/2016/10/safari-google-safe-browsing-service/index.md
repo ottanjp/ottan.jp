@@ -7,10 +7,10 @@ date: 2016-10-16 00:00:00+00:00
 draft: false
 tags:
 - セーフモード
-- browsing
-- safe
-- service
 - safari
+- キャッシュ
+- google
+- フィッシング
 title: Safariで「Google Safe Browsing Serviceを利用できません」と表示される場合の対処法
 type: post
 ---

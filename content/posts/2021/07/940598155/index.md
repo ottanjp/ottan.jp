@@ -5,10 +5,10 @@ date: 2021-07-09 11:16:52+00:00
 draft: false
 tags:
 - github
-- actions
-- issue
 - ev
 - post
+- en
+- 起票
 title: Issueを起票したらGitHub ActionsによりIssueの内容がそのまま記事として公開されるようにしてみた
 type: post
 ---

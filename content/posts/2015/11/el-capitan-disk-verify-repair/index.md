@@ -6,11 +6,11 @@ categories:
 date: 2015-11-06 00:00:00+00:00
 draft: false
 tags:
-- be
-- differs
-- is
-- drwxrwxr
-- differ
+- db
+- java
+- library
+- capitan
+- el
 title: macOS El Capitanでディスクのアクセス権の検証、修復を行う方法
 type: post
 ---

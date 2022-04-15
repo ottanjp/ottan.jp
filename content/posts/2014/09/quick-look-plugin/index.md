@@ -6,11 +6,11 @@ categories:
 date: 2014-09-08 00:00:00+00:00
 draft: false
 tags:
-- cask
+- look
 - homebrew
 - プラグイン
 - インストール
-- quick
+- 手動
 title: Macを購入したら最初に導入しておきたいQuick Lookのプラグイン
 type: post
 ---

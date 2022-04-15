@@ -6,11 +6,11 @@ categories:
 date: 2016-07-24 00:00:00+00:00
 draft: false
 tags:
-- defaults
-- pple
 - コマンド
 - sudo
+- library
 - write
+- delete
 title: システム環境設定をターミナル（defaultsコマンド）から設定する方法（セキュリティとプライバシー）
 type: post
 ---

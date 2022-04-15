@@ -7,10 +7,10 @@ date: 2015-08-26 00:00:00+00:00
 draft: false
 tags:
 - バッテリー
-- 輝度
 - スリープ
+- 輝度
 - macbook
-- caffeine
+- エネルギー
 title: MacBook Air、MacBook Pro、MacBookのバッテリーを節約する方法
 type: post
 ---

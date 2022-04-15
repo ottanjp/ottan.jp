@@ -6,11 +6,11 @@ categories:
 date: 2015-05-20 00:00:00+00:00
 draft: false
 tags:
-- cloudkitmetadata
-- cloudd
 - ソート
 - finder
 - yosemite
+- ターミナル
+- プロセス
 title: macOS Yosemite 10.10.3でFinderの動作が異常に遅くなる問題の対処法
 type: post
 ---

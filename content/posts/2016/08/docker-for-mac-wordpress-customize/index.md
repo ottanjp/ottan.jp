@@ -9,9 +9,9 @@ draft: false
 tags:
 - コンテナー
 - word
-- move
 - docker
 - wordpress
+- db
 title: Docker for Macで始めるお手軽WordPress環境のさまざまなカスタマイズ
 type: post
 ---

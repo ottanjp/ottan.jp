@@ -10,7 +10,7 @@ tags:
 - デスクトップ
 - モバイル
 - safari
-- '13'
+- ユーザーエージェント
 title: iPhoneのSafariでデスクトップ用Webサイトが表示される場合の対処法（iOS13対応版）
 toc: true
 type: post

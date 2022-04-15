@@ -9,8 +9,8 @@ tags:
 - evernote
 - 2段階認証
 - コード
-- authenticator
 - アカウント
+- クリック
 title: Evernoteアカウントの2段階認証を有効にする方法
 type: post
 ---

@@ -7,10 +7,10 @@ date: 2016-09-04 00:00:00+00:00
 draft: false
 tags:
 - スニペット
-- デリミター
-- textexpander
+- kbd
 - 記号
 - アプリケーション
+- キー
 title: TextExpanderで思うようにスニペットが展開されない場合に見直すべき項目
 type: post
 ---

@@ -7,10 +7,10 @@ categories:
 date: 2020-05-22 00:00:00+00:00
 tags:
 - chrome
-- deepl
 - 英語
 - google
 - 言語
+- タップ
 title: Google ChromeとDeepLの併用による英語記事サーフィンのおすすめ
 ---
 

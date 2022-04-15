@@ -9,8 +9,8 @@ tags:
 - catalina
 - ボリューム
 - mojave
-- beta
 - macos
+- インストール
 title: macOS Mojaveの環境を壊さずにmacOS Catalinaを試す方法
 toc: true
 type: post

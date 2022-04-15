@@ -6,11 +6,11 @@ categories:
 date: 2016-06-10 00:00:00+00:00
 draft: false
 tags:
-- nvram
 - 電源
 - リセット
 - ファン
 - mac
+- 不揮発性メモリ
 title: MacBook Proのファンが唸り続ける時に試したい効果的な方法
 type: post
 ---

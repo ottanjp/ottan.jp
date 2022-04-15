@@ -8,9 +8,9 @@ draft: false
 tags:
 - ウインドウ
 - キー
-- captain
-- el
 - 好み
+- macbook
+- os
 title: Macを購入したら最初に設定しておきたいシステム環境設定（macOS El Capitan）
 type: post
 ---

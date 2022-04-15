@@ -7,10 +7,10 @@ date: 2015-05-06 00:00:00+00:00
 draft: false
 tags:
 - ubuntu
-- ディスク
 - クリック
-- disk
+- ディスク
 - ボタン
+- パーティション
 title: macOS YosemiteとUbuntu 14.04.2 LTSのデュアルブート環境を構築する
 type: post
 ---

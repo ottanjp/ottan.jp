@@ -10,7 +10,7 @@ tags:
 - アンインストール
 - フォルダー
 - microsoft
-- アプリケーションフォルダー
+- library
 title: Office for Mac 2011を完全にアンインストールする方法
 type: post
 ---

@@ -9,8 +9,8 @@ tags:
 - windows
 - レジストリ
 - アップグレード
+- update
 - キー
-- レジストリエディター
 title: Windows 7、8.1でWindows Update経由のWindows 10アップデート、またはアップデート通知ダイアログを無効にする方法
 type: post
 ---

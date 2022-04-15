@@ -7,10 +7,10 @@ date: 2015-02-07 00:00:00+00:00
 draft: false
 tags:
 - google
-- analytics
 - post
+- analytics
+- client
 - php
-- developers
 title: Google Analyticsと連携してページビューの多い人気記事を表示する
 type: post
 ---

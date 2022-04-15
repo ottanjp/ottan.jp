@@ -7,10 +7,10 @@ date: 2017-01-22 00:00:00+00:00
 draft: false
 tags:
 - ubuntu
-- restricted
-- multiverse
-- trusty
 - universe
+- multiverse
+- windows
+- linux
 title: Windows 10にUbuntuをインストールして快適に使うための方法
 type: post
 ---

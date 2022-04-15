@@ -8,8 +8,8 @@ tags:
 - ruby
 - vs
 - code
-- rbenv
-- local
+- la
+- ファイル
 title: VS CodeでRubyで書かれたプログラムを簡単デバッグ
 ---
 

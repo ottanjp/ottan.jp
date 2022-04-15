@@ -6,11 +6,11 @@ categories:
 date: 2015-05-30 00:00:00+00:00
 draft: false
 tags:
+- xxx
 - gt
+- token
 - echo
-- homebrew
-- bash
-- api
+- トークン
 title: Homebrewで検索時にGitHubのエラーが出る場合の対処法
 type: post
 ---

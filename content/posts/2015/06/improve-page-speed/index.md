@@ -6,11 +6,11 @@ categories:
 date: 2015-06-21 00:00:00+00:00
 draft: false
 tags:
-- deflate
-- addoutputfilterbytype
 - 画像ファイル
 - スタイルシート
 - アップロード
+- サイト
+- png
 title: WordPressのサイト表示速度を高速化させるために行っている施策まとめ
 type: post
 ---

@@ -6,11 +6,11 @@ categories:
 date: 2014-09-06 00:00:00+00:00
 draft: false
 tags:
-- ディスク
 - シャットダウン
-- exittimeout
+- ディスク
 - システム
-- defaults
+- sudo
+- write
 title: Macのシャットダウンが遅くなってしまった場合に見直したい項目
 type: post
 ---
