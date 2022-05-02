@@ -9,7 +9,7 @@ tags:
 toc: true
 ---
 
-Appleシリコン（M1）搭載Macで、Jupyter Lab/Notebooを動かします。
+Appleシリコン（M1）搭載Macで、Jupyter Lab/Notebookを動かします。
 
 ## Miniforgeのインストール
 
