@@ -20,7 +20,7 @@ type: post
 
 WordPress のローカルホストの開発環境といえば、[Docker](https://www.docker.com/products/docker)が登場する以前は、Vagrant + VirtualBox による仮想環境や、MAMP を使用した構築が一般的でした。しかし、[Docker](https://www.docker.com/products/docker)を使用することで、プラットフォームに応じた Docker の環境さえ用意すれば、Docker Hub に登録されているイメージを使用することで即座に環境を構築できます。
 
-* [詳細な解説付き！今から始めるDocker for Mac！快適なWordPress開発環境を手に入れよう！ - OTTAN.XYZ](/posts/2016/08/docker-for-mac-wordpress-4711/)
+* [詳細な解説付き！今から始めるDocker for Mac！快適なWordPress開発環境を手に入れよう！](/posts/2016/08/docker-for-mac-wordpress-4711/)
 
 Docker の基本的な使い方については、上記記事でご紹介していますのでご参照ください。
 
@@ -58,7 +58,7 @@ Docker Hub で公開されている WordPress の公式イメージは最低限�
 
 WordPress コンテナーにログインできたら、以下の記事でご紹介している WordMove の設定を行います。WordMove は、異なる環境同士の WordPress の内容を同期できます。
 
-* [Docker for Macで始めるお手軽WordPress環境のさまざまなカスタマイズ - OTTAN.XYZ](/posts/2016/08/docker-for-mac-wordpress-customize-4714/)
+* [Docker for Macで始めるお手軽WordPress環境のさまざまなカスタマイズ](/posts/2016/08/docker-for-mac-wordpress-customize-4714/)
 
 上記記事内のままでも問題ありませんが、`Movefile`の編集時に`mysqldump_options`を追加して置いてください。`db_name`には、`name:`と同じ値を指定してください。ローカルホストの WordPress 環境のみ疑似メール送信環境を用意するために必要です。
 

@@ -149,7 +149,7 @@ Instantsearch.jsによる、バニラなJavaScriptでのフロント部分を実
 
 ```markdown
 —-
-title: "検索結果 - OTTAN.XYZ"
+title: "検索結果"
 sitemap:
   priority : 0.1
 type: static
@@ -294,7 +294,7 @@ layout: search
 let params = new URLSearchParams(document.location.search.substring(1));
 ```
 
-URLのクエリ文字列を受け取ります。Hugoで、URLのクエリ文字列を動的に処理することはできないため、JavaScript（ブラウザ）側で実装する必要があります。例えば、URLが`https://ottan.xyz/search/?q=hoge`であれば、`params.get("q")`で`hoge`を取得できます。
+URLのクエリ文字列を受け取ります。Hugoで、URLのクエリ文字列を動的に処理することはできないため、JavaScript（ブラウザ）側で実装する必要があります。例えば、URLが`https://ottan.jp/search/?q=hoge`であれば、`params.get("q")`で`hoge`を取得できます。
 
 ```javascript
   const searchClient = algoliasearch(

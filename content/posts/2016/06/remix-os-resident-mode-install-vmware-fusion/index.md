@@ -20,7 +20,7 @@ type: post
 
 Android 互換 OS「Remix OS」をインストールして使用する方法をご紹介します。以前、VirtualBox にインストールする方法をご紹介した際は、「Resident mode」（常駐モード）でのセットアップが上手くいかず、「Guest Mode」（ゲストモード）で雰囲気のみを味わうに留まりましたが、今回は「Resident mode」でのセットアップの方法をご紹介します。
 
-* [VirtualBoxにRemix OS 2.0をインストールする方法 - OTTAN.XYZ](/posts/2016/01/virtualbox-remixos-6826/)
+* [VirtualBoxにRemix OS 2.0をインストールする方法](/posts/2016/01/virtualbox-remixos-6826/)
 
 ## Remix OS を VMware Fusion にインストールする
 

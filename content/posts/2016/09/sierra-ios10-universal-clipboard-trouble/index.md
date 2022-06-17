@@ -124,7 +124,7 @@ iOS 10 の場合、Wi-Fi と同様です。「機内モード」のオン、オ�
 
 ユニバーサルクリップボードが使用できない状況は、Handoff が使用できない状況、AirDrop が使用できない状況に似ています。過去の記事もご参照ください。おそらく、Handoff が使用できない状況では、ユニバーサルクリップボードも正常に機能しません。
 
-* [インタスタントホットスポットとHandoffが使用できない場合の対処法 - OTTAN.XYZ](/posts/2015/05/instant-hotspot-handoff-disable-1397/)
+* [インタスタントホットスポットとHandoffが使用できない場合の対処法](/posts/2015/05/instant-hotspot-handoff-disable-1397/)
 
 ## まとめ
 

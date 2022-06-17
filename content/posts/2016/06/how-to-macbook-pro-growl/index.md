@@ -51,4 +51,4 @@ NVRAM をリセットする方法はとても簡単です。
 
 というわけで、**Mac が不調になったら NVRAM をリセットしてみよう**、でした。
 
-* [Macの起動が遅い！Macの起動を早くする7つの方法 - OTTAN.XYZ](/posts/2015/06/mac-boot-speed-up-1590/)
+* [Macの起動が遅い！Macの起動を早くする7つの方法](/posts/2015/06/mac-boot-speed-up-1590/)

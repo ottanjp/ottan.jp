@@ -25,7 +25,7 @@ Safari で直前に閉じたタブを開く方法を知っていますか？ア�
 
 Safari については、以下のリンクも参照してください。
 
-* [Safariをもっと便利に使いこなそう！Apple公式サイトから入手できるSafariの拡張機能 - OTTAN.XYZ](/posts/2016/08/safari-mac-extensions-4741/)
+* [Safariをもっと便利に使いこなそう！Apple公式サイトから入手できるSafariの拡張機能](/posts/2016/08/safari-mac-extensions-4741/)
 
 ## Safari をショートカットで自由自在に操る
 

@@ -27,9 +27,9 @@ type: post
 
 ```html
 <ul>
-	<li><i class="fa fa-twitter"></i>&nbsp;<span class="social_twitter" data-url="https://ottan.xyz/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
-	<li><i class="fa fa-facebook"></i>&nbsp;<span class="social_facebook" data-url="https://ottan.xyz/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
-	<li><b>B!</b>&nbsp;<span class="social_hatena" data-url="https://ottan.xyz/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
+	<li><i class="fa fa-twitter"></i>&nbsp;<span class="social_twitter" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
+	<li><i class="fa fa-facebook"></i>&nbsp;<span class="social_facebook" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
+	<li><b>B!</b>&nbsp;<span class="social_hatena" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
 </ul>
 ```
 
@@ -67,9 +67,9 @@ jQuery(function($) {
 
 ```html
 <ul>
-	<li><i class="fa fa-twitter"></i>&nbsp;<span class="social_twitter" data-url="https://ottan.xyz/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
-	<li><i class="fa fa-facebook"></i>&nbsp;<span class="social_facebook" data-url="https://ottan.xyz/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
-	<li><b>B!</b>&nbsp;<span class="social_hatena" data-url="https://ottan.xyz/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
+	<li><i class="fa fa-twitter"></i>&nbsp;<span class="social_twitter" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
+	<li><i class="fa fa-facebook"></i>&nbsp;<span class="social_facebook" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
+	<li><b>B!</b>&nbsp;<span class="social_hatena" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
 </ul>
 ```
 

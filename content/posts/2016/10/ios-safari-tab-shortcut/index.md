@@ -23,7 +23,7 @@ iPhone や iPad などの iOS を搭載する Safari で、このような経験
 
 ちなみに、Mac の Safari の使い方については、以下でご紹介していますので合わせてどうぞご覧ください。
 
-* [あなたはいくつ知ってる？MacのSafariでブラウジングが捗るショートカット - OTTAN.XYZ](/posts/2016/09/safari-keyboard-shortcut-4877/)
+* [あなたはいくつ知ってる？MacのSafariでブラウジングが捗るショートカット](/posts/2016/09/safari-keyboard-shortcut-4877/)
 
 ## iOS の Safari で最近閉じたタブを復元する方法
 

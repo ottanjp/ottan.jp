@@ -78,7 +78,7 @@ Remix OS では、「Guest Mode」または「Resident Mode」を選択できま
 
 追記：後日、「Resident Mode」でインストールする方法を書きました。
 
-* [Remix OSをResident modeでVMware Fusionにインストールし、Google Playストアを使用できるようにする - OTTAN.XYZ](/posts/2016/06/remix-os-resident-mode-install-vmware-fusion-4492/)
+* [Remix OSをResident modeでVMware Fusionにインストールし、Google Playストアを使用できるようにする](/posts/2016/06/remix-os-resident-mode-install-vmware-fusion-4492/)
 
 ![](160115-56988e9c4aae5-1.png)
 

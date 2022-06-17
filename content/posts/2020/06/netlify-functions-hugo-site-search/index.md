@@ -54,7 +54,7 @@ outputs:
 `/public/index.json`
 
 ```json
-[{"categories":["Blog"],"permalink":"https://ottan.xyz/posts/2020/05/support-netlify-cms-katex/","publish_date":"2020-05-30T00:00:00Z","summary":"...","tags":["Netlify","Hugo","KaTeX"],"title":"Netlify CMSのプレビューでHightlight.js + KaTeX（LaTeX）をサポートする"},{...}]
+[{"categories":["Blog"],"permalink":"https://ottan.jp/posts/2020/05/support-netlify-cms-katex/","publish_date":"2020-05-30T00:00:00Z","summary":"...","tags":["Netlify","Hugo","KaTeX"],"title":"Netlify CMSのプレビューでHightlight.js + KaTeX（LaTeX）をサポートする"},{...}]
 ```
 
 ## Netlify Functions

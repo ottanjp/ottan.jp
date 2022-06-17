@@ -20,7 +20,7 @@ type: post
 
 弊サイトでは、WordPress のテーマ、プラグイン開発環境として、[VCCW - A WordPress development environment.](http://vccw.cc/)を推奨してきました。Vagrant + VirtualBox による多機能な開発環境である VCCW 推奨の方針は変わらないのですが、[Docker for Mac](https://docs.docker.com/engine/installation/mac/)の登場により、より快適な環境を Mac に構築できるようになりました。もう、Vagrant も VirtualBox も不要です。しかも、一瞬で作成できます。
 
-* [VCCW（Vagrant＋VirtualBox＋Chef＋WordPress）＋WordMoveで、本番環境から開発環境にデータを簡単に同期する！ - OTTAN.XYZ](/posts/2016/05/vccw-wordmove-deploy-6858/)
+* [VCCW（Vagrant＋VirtualBox＋Chef＋WordPress）＋WordMoveで、本番環境から開発環境にデータを簡単に同期する！](/posts/2016/05/vccw-wordmove-deploy-6858/)
 
 ## Docker for Mac で WordPress 開発環境を手に入れる
 

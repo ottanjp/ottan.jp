@@ -34,13 +34,13 @@ IFTTT を使用しますが、IFTTT にはてなブックマークのチャン�
 
 右上の検索ボックスに、ブログの URL を入力します。たとえば、弊サイトの場合は、以下の通りです。
 
-    https://ottan.xyz/
+    https://ottan.jp/
 
 ![](160831-57c6ccec88a7c.png)
 
 「新着順」がアクティブになっていることを確認します。その状態で、ブラウザのアドレスバーに表示されているアドレスをコピーします。弊サイトの場合は、以下の通りです。
 
-    http://b.hatena.ne.jp/entrylist?url=http%3A%2F%2Fottan.xyz%2F
+    http://b.hatena.ne.jp/entrylist?url=http%3A%2F%2Fottan.jp%2F
 
 ### Slack でパブリックチャンネルを作成する
 
@@ -74,7 +74,7 @@ IFTTT を使用しますが、IFTTT にはてなブックマークのチャン�
 
 「Feed URL」に、「事前にコピーした URL ＋`&mode;=rss`」を入力します。弊サイトの場合は、以下の通りです。入力したら、「Create Trigger」をクリックします。
 
-    http://b.hatena.ne.jp/entrylist?url=http%3A%2F%2Fottan.xyz%2F&mode=rss
+    http://b.hatena.ne.jp/entrylist?url=http%3A%2F%2Fottan.jp%2F&mode=rss
 
 ![](160831-57c6cd0f6750d.png)
 

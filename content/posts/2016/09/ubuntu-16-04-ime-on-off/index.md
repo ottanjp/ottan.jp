@@ -23,7 +23,7 @@ type: post
 
 Ubuntu 16.04 LTS については、下記の記事でもご紹介しています。
 
-* [macOS El CapitanとUbuntu 16.04 LTSのデュアルブート環境を構築する - OTTAN.XYZ](/posts/2016/04/el-capitan-ubuntu-dual-boot-6856/)
+* [macOS El CapitanとUbuntu 16.04 LTSのデュアルブート環境を構築する](/posts/2016/04/el-capitan-ubuntu-dual-boot-6856/)
 
 ## Ubuntu 16.04 LTS の導入と日本語入力環境を快適に使うための設定
 

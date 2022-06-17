@@ -47,7 +47,7 @@ https://mbdb.jp/hacks/hatenablog-blogcard-ogp-correspondence.html
 
 http://embed.ly/
 
-この Web サービスを使用して、リンクを生成すると、[Embed Code Generator | Embedly](http://embed.ly/code?url=http%3A%2F%2Fottan.xyz)のような感じになります。実際に生成されるコードは以下の通りです。`<a>`タグに、`embedly-card`クラスを付与して、普通にリンクを生成すれば良いことがわかります。また、JavaScript を別途読み込む必要があることがわかります。
+この Web サービスを使用して、リンクを生成すると、[Embed Code Generator | Embedly](http://embed.ly/code?url=http%3A%2F%2Fottan.jp)のような感じになります。実際に生成されるコードは以下の通りです。`<a>`タグに、`embedly-card`クラスを付与して、普通にリンクを生成すれば良いことがわかります。また、JavaScript を別途読み込む必要があることがわかります。
 
     OTTAN.XYZ</a>
     <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
@@ -84,7 +84,7 @@ http://embed.ly/
 
 **例**
 
-     https://ottan.xyz/itunes-not-sync-backup-4733/
+     https://ottan.jp/itunes-not-sync-backup-4733/
      この記事オススメだよ！
 
 2 行目が「http〜」から始まる文字列であると解釈されてしまうため、勝手に「Embedly」によってオシャレなリンクに生まれ変わります（前後の空白は無視されます）。このように意図しない動きをすることがあります。「http〜」から始まる文字列の前に空白以外の文字列、たとえば、「&nbsp;」を挿入するなど、その行が「http〜」から始まらないようにしてください（上記の例でもそのように対処しています）。`<p>`タグなどで囲んでも OK です。

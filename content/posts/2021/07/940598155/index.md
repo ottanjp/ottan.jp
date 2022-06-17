@@ -88,8 +88,8 @@ jobs:
           delete-branch: true
           title: "publish: ${{ github.event.issue.title}}"
           body: |
-            Automagically sprouted for publishing.
-            Merging will publish to: https://ottan.xyz/
+            Automatically sprouted for publishing.
+            Merging will publish to: https://ottan.jp/
               Closes #${{ github.event.issue.number }}
             reviewers: "${{ github.repository_owner }}"
             commit-message: "post: ${{ github.event.issue.title }}"

@@ -72,7 +72,7 @@ macOS Sierra のインストーラーが起動します。「続ける」をク�
 
 さて、リカバリーモードを使用する場合、一度 macOS Sierra にアップデートする必要がありました。わざわざ macOS Sierra にアップデート後に再びインストールするのも手間がかかります。そこで、手元に 8GB 以上の USB メモリがあれば、Mac App Store から macOS Sierra をダウンロードして、起動可能なインストールディスクを作成できます。下記のリンクを参照してください。
 
-* [macOS Sierraの起動可能なインストーラー（USBメモリ）を作成する方法 - OTTAN.XYZ](/posts/2016/09/macos-sierra-bootable-disk-5007/)
+* [macOS Sierraの起動可能なインストーラー（USBメモリ）を作成する方法](/posts/2016/09/macos-sierra-bootable-disk-5007/)
 
 インストールディスクを使用して、macOS Sierra をクリーンインストールするためには、いったん Mac をシャットダウンします。電源をオフにした状態で、⌥（option）を押したまま Mac を起動します。起動ディスクの選択画面が表示されるため、「Install macOS Sierra」と書かれた黄色いディスクを選択して起動してください。
 

@@ -20,7 +20,7 @@ type: post
 
 Sublime Text は、Dropbox 経由でパッケージを同期することで、複数の端末間で同一の環境を簡単に構築することができました。Atom についても、ホームディレクトリ配下の`.atom`ディレクトリをオンラインストレージ経由で同期することで同一の環境を構築することも可能ですが、Atom には設定を同期するための専用のパッケージが用意されているので、こちらを使用すると便利です。
 
-- [WordPress のテーマやプラグイン開発のために Atom に導入したパッケージ（2016 年版） - OTTAN.XYZ](/posts/2016/05/wordpress-atom-recommended-package-4369/)
+- [WordPress のテーマやプラグイン開発のために Atom に導入したパッケージ（2016 年版）](/posts/2016/05/wordpress-atom-recommended-package-4369/)
 
 ## Atom の設定、パッケージを同期する「sync-settings」
 

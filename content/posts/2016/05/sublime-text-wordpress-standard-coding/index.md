@@ -81,7 +81,7 @@ PHP CodeSniffer でダウンロードした WordPress Coding Standard が使用�
 
 事前準備は完了です。続いて、Sublime Text を開き、PHP CodeSniffer が使用できるようにします。Package Control を開き、「SublimeLinter-phpcs」パッケージをインストールしてください。なお、「Package Control」の使い方については、以下のリンクを参照してください。また、「SublimeLinter-phpcs」を使用するためには、事前に「SublimeLinter」パッケージをインストールしておく必要があります。
 
-* [Sublime Textに導入しているオススメのプラグイン23選 - OTTAN.XYZ](/posts/2014/09/sublime-text-plugin-321/)
+* [Sublime Textに導入しているオススメのプラグイン23選](/posts/2014/09/sublime-text-plugin-321/)
 
 次に、Sublime Text のメニューから「Sublime Text」→「Preferences」→「Package Settings」→「SublimeLinter」→「Settings - User」を開きます。（一部内容を省略しています）
 

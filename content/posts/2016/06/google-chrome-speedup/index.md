@@ -22,7 +22,7 @@ Google Chrome は、多種多様な拡張機能の数々、使いやすいデベ
 
 しかし、その反面、[Chrome がノート PC のバッテリーをもっとも減らすブラウザであるということが Microsoft のテストで判明 - GIGAZINE](http://gigazine.net/news/20160621-power-efficient-browser/)という記事で紹介されているようなイメージを持っている人も多いはず。
 
-* [Google Chromeのメモリ使用量を50%以上削減する魔法のコマンド - OTTAN.XYZ](/posts/2014/09/chrome-memory-reduce-219/)
+* [Google Chromeのメモリ使用量を50%以上削減する魔法のコマンド](/posts/2014/09/chrome-memory-reduce-219/)
 
 過去に、Google Chrome のメモリ使用量を抑える方法をご紹介しましたが、この方法はいわば Chrome のメリットも同時に殺しています。そこで、今回は、上記でご紹介した方法以外に、Google Chrome をより快適に使用するための 6 つのテクニックを紹介します。
 

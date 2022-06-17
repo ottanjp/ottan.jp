@@ -427,7 +427,7 @@ DNSサービスは、AWSの[Route 53](https://console.aws.amazon.com/route53/hom
 
 
 
-続いて、「www.ottan.xyz」と「ottan.xyz」の両方でアクセスを可能にするために、「CNAME」レコードを作成します。「Create Record Set」ボタンをクリックします。「Name」に「www」、「Type」に「CNAME - Canonical name」、「Value」に事前に取得したドメイン名を設定します。
+続いて、「www.ottan.jp」と「ottan.jp」の両方でアクセスを可能にするために、「CNAME」レコードを作成します。「Create Record Set」ボタンをクリックします。「Name」に「www」、「Type」に「CNAME - Canonical name」、「Value」に事前に取得したドメイン名を設定します。
 
 
 

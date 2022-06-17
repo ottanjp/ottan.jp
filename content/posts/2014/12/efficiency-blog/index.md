@@ -35,15 +35,15 @@ type: post
 
 退避が完了したら、ターミナルを開いて以下のコマンドを実行します。Sublime Text のプラグイン関連のフォルダーを、Dropbox 上のフォルダーのリンクへと更新しています。各開発環境でこの一連の作業を行うだけで、まったく同じ環境で Sublime Text を使用することができるので非常に便利です。
 
-    $ cd ~/Library/Application\ Support/Sublime\ Text\ 3
-    $ rm -fr Installed\ Packages/
-    $ rm -fr Packages/
-    $ ln -s ~/Dropbox/Sublime\ Text/Installed\ Packages .
-    $ ln -s ~/Dropbox/Sublime\ Text/Packages .
+    cd ~/Library/Application\ Support/Sublime\ Text\ 3
+    rm -fr Installed\ Packages/
+    rm -fr Packages/
+    ln -s ~/Dropbox/Sublime\ Text/Installed\ Packages .
+    ln -s ~/Dropbox/Sublime\ Text/Packages .
 
 ただし、この方法は Sublime Text のプラグインや設定が同期されるだけであり、プラグインの実行に必要なバイナリ（たとえば、JavaScript のコードチェッカーである jslint）などが同期されるわけではないことに注意してください。
 
-http://www.sublimetext.com/3
+<http://www.sublimetext.com/3>
 
 ## WordPress 開発環境の共有によるテーマ開発の効率化
 
@@ -53,12 +53,12 @@ WordPress の開発環境の構築方法については、[gulp.js と Browser S
 
 そのためには、再び Dropbox を利用します。作成された「www」フォルダーをまるごと Dropbox 上にコピーします。コピー先は Dropbox 上であればどこでも構いませんが、私の場合は Dropbox に「vccw」というフォルダーを区切ってからコピーしました。コピーが終わったら「www」フォルダーは削除し Dropbox へのリンクを作成します。私の場合、ドキュメントフォルダーの下に「VCCW」をインストールしていますので、ターミナルで以下のコマンドを実行します。
 
-    $ cd ~/Documents/vccw
-    $ ln -s ~/Dropbox/vccw/www .
+    cd ~/Documents/vccw
+    ln -s ~/Dropbox/vccw/www .
 
 各開発環境で VCCW をインストール後、作成された「www」フォルダーを削除し、Dropbox へのリンクを作成することにより、WordPress の開発環境を共有することができるようになります。（なお、各開発環境への VCCW のインストールは必要です）
 
-http://vccw.cc/
+<http://vccw.cc/>
 
 ## TextExpander によるブログ執筆作業の効率化
 
@@ -72,7 +72,7 @@ http://vccw.cc/
 
 他にもブログでよく使用する定型文や HTML を設定しておけば、作業効率が格段とアップします。
 
-https://smilesoftware.com/textexpander
+<https://smilesoftware.com/textexpander>
 
 ## PopClip の拡張機能によるブログ執筆作業の効率化
 
@@ -82,15 +82,15 @@ PopClip は、iOS のようなコンテキストメニューを macOS で実現�
 
 拡張機能はこちらで配布されています。その気があれば自作することも可能です。
 
-https://pilotmoon.com/popclip/extensions/
+<https://pilotmoon.com/popclip/extensions/>
 
 拡張機能の中でブログを執筆する上でぜひ導入しておきたいのが、「HTML Encode」です。これは選択した文字列を HTML エンティティに変換してくれるものです。
 
 ### 変換前
 
-`<pre>`タグに HTML のソースコードをそのまま貼り付けてしまうと、意図しない形で表示されてしまいます。`<pre>`タグの中身がそのまま HTML として認識されてしまっているためです。
+`<pre>`タグにHTM のソースコードをそのまま貼り付けてしまうと、意図しない形で表示されてしまいます。`<pre>`タグの中身がそのまま HTML として認識されてしまっているためです。
 
-    OTTAN.XYZ</a>
+    OTTAN.JP</a>
 
 そこで下図のようにソースコードとして画面上に表示したい文字列を囲み、「&;」マークをクリックすると、必要に応じて文字列が HTML エンティティに変換されます。
 
@@ -98,7 +98,7 @@ https://pilotmoon.com/popclip/extensions/
 
 変換後は以下のように HTML のソースコードとして画面上に表示されるようになりました。PopClip を使用することにより、たった 1 つのステップで HTML エンティティに変換することができるため、作業が効率的になります。
 
-    OTTAN.XYZ</a>
+    OTTAN.JP</a>
 
 冒頭でも述べたように PopClip の拡張機能は「HTML Encode」だけではありません。その他にも多数の拡張機能が配布されているのでぜひご覧になってみてください。
 

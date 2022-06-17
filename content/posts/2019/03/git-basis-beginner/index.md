@@ -315,14 +315,14 @@ git log
 
 ```bash
 git config --global user.name "ottan"
-git config --global user.email "ottan@ottan.xyz"
+git config --global user.email "ottan@ottan.jp"
 ```
 
 また、現在のリポジトリに対してのみユーザー名、メールアドレスを有効化したい場合は、`—global`オプションを付与せずに設定します。
 
 ```bash
 git config user.name "ottan"
-git config user.email "ottan@ottan.xyz"
+git config user.email "ottan@ottan.jp"
 ```
 
 ## コミット履歴を活用する

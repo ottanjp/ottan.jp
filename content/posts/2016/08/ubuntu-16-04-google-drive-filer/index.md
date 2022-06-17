@@ -19,7 +19,7 @@ type: post
 
 [The leading OS for PC, tablet, phone and cloud | Ubuntu](http://www.ubuntu.com/)で入手可能な、Ubuntu 16.04.1 LTS。「Ubuntu Software」では、「Dropbox」は提供されていますが、「Google Drive」は提供されていません。そのため、「Google Drive」にアクセスするためには、ブラウザ経由でアクセスすることになりますが、標準のファイラーからアクセスできるようにすると便利です。今回は、この方法をご紹介します。
 
-* [VMware Fusion 8にUbuntu 14.04.3 LTSをインストールして日本語化する - OTTAN.XYZ](/posts/2016/02/vmware-fusion-8-ubuntu-iso-6836/)
+* [VMware Fusion 8にUbuntu 14.04.3 LTSをインストールして日本語化する](/posts/2016/02/vmware-fusion-8-ubuntu-iso-6836/)
 
 ## Ubuntu の標準ファイラーから Google Drive にアクセスする
 

@@ -19,7 +19,7 @@ type: post
 
 iOS 対応の 2 ちゃんねるブラウザはさまざまですが、その代表格が「BB2C」と「twinkle」でしょう。後者については、初期設定の方法を弊サイトでもご紹介しています。今回は、「twinkle」で NG ワードを指定する方法をご紹介します。
 
-* [iPhoneの高機能2ちゃんねるブラウザ「twinkle」で板がすべて表示されない問題の対処法 - OTTAN.XYZ](/posts/2016/05/twinkle-2ch-browser-settings-4343/)
+* [iPhoneの高機能2ちゃんねるブラウザ「twinkle」で板がすべて表示されない問題の対処法](/posts/2016/05/twinkle-2ch-browser-settings-4343/)
 
 ## 「twinkle」で NG ワードを指定する方法
 
