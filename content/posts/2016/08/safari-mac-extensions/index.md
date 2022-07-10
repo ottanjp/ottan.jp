@@ -127,7 +127,7 @@ https://safari-extensions.apple.com/details/?id=com.evernote.safari.clipper-Q79W
 
 #### Web Clipper が正常に動作しない場合の対処法
 
-[Safari で OneNote Web Clipper、または Evernote Web Clipper が使用できない場合の対処法 – OTTAN.XYZ](/posts/2017/05/safari-onenote-evernote-web-clipper-not-working-5887/)に詳細をまとめました。macOS Sierra、もしくは El Capitan で Safari を使用されている場合にはお試しください。
+[Safari で OneNote Web Clipper、または Evernote Web Clipper が使用できない場合の対処法](/posts/2017/05/safari-onenote-evernote-web-clipper-not-working-5887/)に詳細をまとめました。macOS Sierra、もしくは El Capitan で Safari を使用されている場合にはお試しください。
 
 ## まとめ
 

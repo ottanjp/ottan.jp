@@ -34,7 +34,7 @@ iOS10 で標準マップについに交通機関による検索が実装され�
 
 翻訳技術に機械学習が導入され、翻訳精度が以前に増して大幅に向上した Google 翻訳を使用しない手はありません。記事執筆時点（2016/12/22）では、App Extension による拡張機能は使用できないため、Safari やアプリから Google 翻訳を呼び出したい場合は、Workflow などのサードパーティ製アプリの力を借りましょう。
 
-参考：[翻訳精度が向上した Google 翻訳を iPhone の色々なアプリから呼び出す拡張機能 – OTTAN.XYZ](/posts/2016/11/google-translate-workflow-app-extension-5238/)
+参考：[翻訳精度が向上した Google 翻訳を iPhone の色々なアプリから呼び出す拡張機能](/posts/2016/11/google-translate-workflow-app-extension-5238/)
 
 ### Google フォト
 
@@ -54,7 +54,7 @@ Apple も iCloud と呼ばれるオンラインストレージを提供してい
 
 iOS 上のすべてのアプリから広告を除去（削除）する、ムダな通信を一切発生させない夢のようなアプリです。これがないと生活できないレベルです。
 
-参考：[iPhone のすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」の仕組み – OTTAN.XYZ](/posts/2016/10/ios-adblock-5057/)
+参考：[iPhone のすべてのアプリからありとあらゆる広告を消し去る魔法のアプリ「AdBlock」の仕組み](/posts/2016/10/ios-adblock-5057/)
 
 ### Microsoft Outlook
 
@@ -62,7 +62,7 @@ iOS 上のすべてのアプリから広告を除去（削除）する、ムダ�
 
 Gmail のプッシュ通知も可能なメーラー。Outlook.com と同等の機能がこのアプリ 1 つで実現できます。IMAP をサポートしているメールサービスであれば、Outlook 以外のメールアドレスも登録できます。
 
-参考：[iPhone の Gmail クライアントを徹底比較。あなたにとって最適な Gmail クライアントは？ – OTTAN.XYZ](/posts/2016/12/iphone-gmail-client-utlimate-guide-5302/)
+参考：[iPhone の Gmail クライアントを徹底比較。あなたにとって最適な Gmail クライアントは？](/posts/2016/12/iphone-gmail-client-utlimate-guide-5302/)
 
 ### Twitter
 
@@ -88,7 +88,7 @@ Facebook 公式アプリです。
 
 チェックインするために利用する、Foursquare が提供するアプリ。Foursquare のカレンダーを iCloud カレンダーに追加することにより、カレンダーから簡単にチェックイン履歴を追うことができます。旅の思い出に。
 
-参考：[Foursquare のチェックイン履歴を iCloud のカレンダーに簡単に追加する方法 – OTTAN.XYZ](/posts/2016/05/foursquare-calendar-iphone-mac-4334/)
+参考：[Foursquare のチェックイン履歴を iCloud のカレンダーに簡単に追加する方法](/posts/2016/05/foursquare-calendar-iphone-mac-4334/)
 
 ### Messenger
 
@@ -126,7 +126,7 @@ RSS クライアントとして使用することも可能なキュレーショ�
 
 Pinterest に買収され、すべての機能が無料化された後で読むサービス。Pinterest に興味はないけれど、あとで読むサービスを使用して自宅でじっくり記事を読みたい場合に重宝するアプリです。個人的には Pocket より使い勝手が良く気に入っています。
 
-参考：[Pocket の「イラッ」を解消！すべての機能が無料化された「Instapaper」を使おう！ – OTTAN.XYZ](/posts/2016/11/pocket-to-instapaper-5181/)
+参考：[Pocket の「イラッ」を解消！すべての機能が無料化された「Instapaper」を使おう！](/posts/2016/11/pocket-to-instapaper-5181/)
 
 ### NHK ニュース
 
@@ -170,7 +170,7 @@ Amazon プライムの会員になれば、配送料無料のみならず、Amaz
 
 後述の IFTTT と連携することで、個人で使用したとしても真価を発揮する便利なコミュニケーションツール。
 
-参考：[ブログの記事が「はてな新着エントリー」に掲載されたら Slack に通知する – OTTAN.XYZ](/posts/2016/08/blog-hatena-entry-slack-ifttt-4859/)
+参考：[ブログの記事が「はてな新着エントリー」に掲載されたら Slack に通知する](/posts/2016/08/blog-hatena-entry-slack-ifttt-4859/)
 
 ### IFTTT
 
@@ -178,7 +178,7 @@ Amazon プライムの会員になれば、配送料無料のみならず、Amaz
 
 弊サイトでも度々ご紹介している、Web サービスや IoT 同士を連携できる使い勝手の良い Web サービス。トリガー発動までに最大 15 分程度のラグが発生する可能性があるものの、リアルタイム性を追求する必要がない作業は、これで自動化してしまいましょう。
 
-参考：[Twitter のエゴサーチに便利！Twitter で特定の文字列が含まれるツイートを検知すると、スマホに通知する方法 – OTTAN.XYZ](/posts/2016/01/twitter-egosearching-6829/)
+参考：[Twitter のエゴサーチに便利！Twitter で特定の文字列が含まれるツイートを検知すると、スマホに通知する方法](/posts/2016/01/twitter-egosearching-6829/)
 
 ### Facebook ページ
 
@@ -234,7 +234,7 @@ Instagram が好きで、写真をよく編集するならダウンロードし�
 
 （恐らく）最強の 2 ちゃんねる専用ブラウザ。前述の「AdBlock」で広告を除去することも可能です。大人の事情で初期設定がやや面倒ですが、それを乗り越えれば快適です。
 
-参考：[iPhone の高機能 2 ちゃんねるブラウザ「twinkle」で板がすべて表示されない問題の対処法 – OTTAN.XYZ](/posts/2016/05/twinkle-2ch-browser-settings-4343/)
+参考：[iPhone の高機能 2 ちゃんねるブラウザ「twinkle」で板がすべて表示されない問題の対処法](/posts/2016/05/twinkle-2ch-browser-settings-4343/)
 
 ### 1Password
 
@@ -242,7 +242,7 @@ Instagram が好きで、写真をよく編集するならダウンロードし�
 
 その価格に見合ったパスワード管理ソフトウェア。お金より自分のパスワードを大事にしましょう。
 
-参考：[iOS 版の 1Password でウェブページの登録からワンタイムパスワードの使い方まで徹底解説！ – OTTAN.XYZ](/posts/2015/04/ios-1password-description-part2-875/)
+参考：[iOS 版の 1Password でウェブページの登録からワンタイムパスワードの使い方まで徹底解説！](/posts/2015/04/ios-1password-description-part2-875/)
 
 ### DataMan Next
 
@@ -268,7 +268,7 @@ iPhone 7 を購入したら、とりあえず雰囲気だけでも味わおう�
 
 老舗のファイラー、GoodReader に肩を並べるくらい高機能な割に、すべての機能が無料で使用できてしまうとんでもないファイラー。
 
-参考：[iPhone、iPad ユーザーなら必ずダウンロードしておきたい！無料とは思えない高クオリティなファイラー「Documents 5」をオススメする理由 – OTTAN.XYZ](/posts/2015/05/high-quality-filers-documents-5-1305/)
+参考：[iPhone、iPad ユーザーなら必ずダウンロードしておきたい！無料とは思えない高クオリティなファイラー「Documents 5」をオススメする理由](/posts/2015/05/high-quality-filers-documents-5-1305/)
 
 ### Yahoo!天気
 
@@ -282,7 +282,7 @@ iPhone 7 を購入したら、とりあえず雰囲気だけでも味わおう�
 
 「超見やすい」なんてあるはずがない、と思ったら本当に見やすかったテレビ番組表。これまで Microsoft 社の無料のテレビ番組表を使用していましたが、キーワードによるプッシュ通知も便利なこのテレビ番組表に乗り換えました。
 
-参考：[キーワード検索、プッシュ通知で見たい番組を見逃さない！シンプルで見やすい「超見やすいテレビ番組表」 – OTTAN.XYZ](/posts/2015/11/tv-schedule-6815/)
+参考：[キーワード検索、プッシュ通知で見たい番組を見逃さない！シンプルで見やすい「超見やすいテレビ番組表」](/posts/2015/11/tv-schedule-6815/)
 
 ### Microsoft Pix
 
@@ -308,7 +308,7 @@ iOS でできることを自動化する、やや上級者向きのアプリ。i
 
 App Store で公開されているアプリの値下げ情報はもちろんのこと、アップデート情報も通知することができるアプリ。気になるアプリをわざわざダウンロードする必要がなくなるため非常に使い勝手が良いです。IFTTT と連携できる点も良いですね。
 
-参考：[App Store で公開されている気になるアプリが更新されたら通知する方法 – OTTAN.XYZ](/posts/2016/12/ios-app-store-notify-5336/)
+参考：[App Store で公開されている気になるアプリが更新されたら通知する方法](/posts/2016/12/ios-app-store-notify-5336/)
 
 ### Google Allo
 
@@ -322,7 +322,7 @@ Google 謹製のスマートフォン、Google Pixel に搭載されている、
 
 App Store で公開されているアプリの価格履歴を過去に遡って調べることができる、App Store のみで使用できる App Extension。
 
-参考：[App Store のアプリのセール情報の履歴を調べられる「Price Tag」 – OTTAN.XYZ](/posts/2016/12/app-store-sale-price-history-5378/)
+参考：[App Store のアプリのセール情報の履歴を調べられる「Price Tag」](/posts/2016/12/app-store-sale-price-history-5378/)
 
 ## まとめ
 

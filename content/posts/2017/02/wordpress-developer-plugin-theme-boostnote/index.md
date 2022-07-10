@@ -20,7 +20,7 @@ type: post
 
 弊サイトでは度々 WordPress テーマやプラグインを開発するための情報を発信していますが、WordPress テーマやプラグインを開発するにあたって手放せないのが、テキストエディターです。過去に、「Sublime Text」「Atom」の 2 種類のエディターをご紹介しました。「Sublime Text」は有償であることから、無償の「Atom」を使用されている方も多いことと思います。
 
-「Sublime Text」「Atom」に共通して言えるのが、開発者のために用意されたその豊富なプラグインの数々です。[Sublime Text で WordPress のコーディング規約に遵守したコーディングを効率的に行おう！ – OTTAN.XYZ](/posts/2016/05/sublime-text-wordpress-standard-coding-4309/)や、[WordPress のテーマやプラグイン開発のために Atom に導入したパッケージ（2016 年版） – OTTAN.XYZ](/posts/2016/05/wordpress-atom-recommended-package-4369/)でも詳しくご紹介していますので、ぜひご覧ください。
+「Sublime Text」「Atom」に共通して言えるのが、開発者のために用意されたその豊富なプラグインの数々です。[Sublime Text で WordPress のコーディング規約に遵守したコーディングを効率的に行おう！](/posts/2016/05/sublime-text-wordpress-standard-coding-4309/)や、[WordPress のテーマやプラグイン開発のために Atom に導入したパッケージ（2016 年版）](/posts/2016/05/wordpress-atom-recommended-package-4369/)でも詳しくご紹介していますので、ぜひご覧ください。
 
 さて、今回は、WordPress テーマやプラグインの開発以外にも使用できて、かつ軽量なテキストエディターである「Boostnote」をご紹介します。GitHub で公開されているオープンソースソフトウェアであり、開発者は無償で使用できます。その特徴は何と言っても**100 種類のプログラム言語に対応している**ということ。また、「Sublime Text」や「Atom」のようにプラグインは用意されていませんが、そのぶん動作は軽量です。ちょっとしたソースコードや HTML の修正に使用できるのではないでしょうか。また、Markdown 形式およびそのプレビューにも対応していますよ。
 

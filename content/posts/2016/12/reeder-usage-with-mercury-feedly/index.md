@@ -18,7 +18,7 @@ type: post
 ![](161221-585a16739b9b2.jpg)
  photo credit: The Logo Smith [Feedly Logo](http://www.flickr.com/photos/49734147@N00/4853880084) via [photopin](http://photopin.com) [(license)](https://creativecommons.org/licenses/by-nc-nd/2.0/)
 
-Readability が長年にわたって愛され続けてきたサービスを終了し、Readability 組み込みの RSS リーダーアプリ「Reeder」の代替手段を求めて、さまざまな RSS リーダーを試してみました。過去に、[RSS リーダーは Feedly からのインポートが可能な「Inoreader」がオススメ！ – OTTAN.XYZ](/posts/2016/11/rss-reader-inoreader-readability-5213/)で「Inoreader」をご紹介しました。「Reeder」の優れた点は、「Readability」による構文解析（本文抽出）機能でしたので、それに代わる手段として独自の機能を提供している「Inoreader」がニーズにマッチしたのです。
+Readability が長年にわたって愛され続けてきたサービスを終了し、Readability 組み込みの RSS リーダーアプリ「Reeder」の代替手段を求めて、さまざまな RSS リーダーを試してみました。過去に、[RSS リーダーは Feedly からのインポートが可能な「Inoreader」がオススメ！](/posts/2016/11/rss-reader-inoreader-readability-5213/)で「Inoreader」をご紹介しました。「Reeder」の優れた点は、「Readability」による構文解析（本文抽出）機能でしたので、それに代わる手段として独自の機能を提供している「Inoreader」がニーズにマッチしたのです。
 
 「Inoreader」は上記でご紹介している通り、高機能な RSS リーダーであり文句のつけようがないのですが、唯一不満な点は、やはりその「美しさ」でした。「Reeder」のインタフェースに慣れてしまった今、どうしても他の RSS リーダーが見劣りしてしまうのです。というわけで、しばらくさまざまな RSS リーダーを渡り歩いていたのですが、この度、「Reeder」がアップデートし、遂に「Readability」を脱却し、「Readability」も推奨している、[Mercury Web Parser by Postlight](https://mercury.postlight.com/web-parser/)に移行したのです。
 

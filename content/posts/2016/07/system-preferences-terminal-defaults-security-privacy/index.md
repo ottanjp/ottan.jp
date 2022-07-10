@@ -17,7 +17,7 @@ type: post
 
 ![](160723-5793034aea10a.jpg)
 
-[システム環境設定をターミナル（defaults コマンド）から設定する方法（一般） – OTTAN.XYZ](/posts/2016/07/system-preferences-terminal-defaults-2-4643/)に引き続き、`defaults`コマンドシリーズです。今回は、「セキュリティとプライバシー」編です。
+[システム環境設定をターミナル（defaults コマンド）から設定する方法（一般）](/posts/2016/07/system-preferences-terminal-defaults-2-4643/)に引き続き、`defaults`コマンドシリーズです。今回は、「セキュリティとプライバシー」編です。
 
 ## システム環境設定をターミナルから設定する（セキュリティとプライバシー編）
 

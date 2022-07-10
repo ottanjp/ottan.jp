@@ -24,7 +24,7 @@ type: post
 
 ## WordPress の本文に URL を貼り付けただけで Mastodon のトゥートを表示するカスタマイズ
 
-では、[プラグインを使わずに Gist のコードを WordPress に埋め込む方法 – OTTAN.XYZ](/posts/2016/05/gist-wordpress-embed-6861/)でご紹介した手法を元に、「Mastodon」のトゥートを表示する方法を考えましょう。まず、トゥート表示の元となる URL の形式は以下を満たしているとします。
+では、[プラグインを使わずに Gist のコードを WordPress に埋め込む方法](/posts/2016/05/gist-wordpress-embed-6861/)でご紹介した手法を元に、「Mastodon」のトゥートを表示する方法を考えましょう。まず、トゥート表示の元となる URL の形式は以下を満たしているとします。
 
     https://mstdn.jp/@<username>/<NNNNNN>
 

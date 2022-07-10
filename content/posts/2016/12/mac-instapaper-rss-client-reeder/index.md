@@ -26,7 +26,7 @@ type: post
 
 Mac で Instapaper を利用するためには 1 点課題がありました。それは、iOS 版には Instapaper の公式アプリが用意されていますが、Mac 版には公式アプリが用意されていないこと。Safari や Google Chrome などのブラウザから Instapaper の公式サイトから確認するすべしかないと思い込んでいたのですが…。
 
-先日、[Reeder が Readability から Mercury に移行し、再び記事表示時に本文抽出が可能に – OTTAN.XYZ](/posts/2016/12/reeder-usage-with-mercury-feedly-5399/)で、iOS 版の Reeder がアップデートし、Readability のサービス終了に伴い、パーサーを Readability API から Mercury に移行したことをお伝えしましたが、いつの間にやら Instapaper のクライアントとしても使用できるようになっていたようです。そのため、iOS では Reeder さえあれば、RSS も Instapaper も 1 つのアプリで完結するという素晴らしい結果になることがわかりました。
+先日、[Reeder が Readability から Mercury に移行し、再び記事表示時に本文抽出が可能に](/posts/2016/12/reeder-usage-with-mercury-feedly-5399/)で、iOS 版の Reeder がアップデートし、Readability のサービス終了に伴い、パーサーを Readability API から Mercury に移行したことをお伝えしましたが、いつの間にやら Instapaper のクライアントとしても使用できるようになっていたようです。そのため、iOS では Reeder さえあれば、RSS も Instapaper も 1 つのアプリで完結するという素晴らしい結果になることがわかりました。
 
 もしやと思い、久々に Mac App Store で「Reeder for Mac」のアップデート内容について確認したところ、こちらも Readability API から Mercury への移行が完了していたようです。また、Mac 版もいつの間にやら Instapaper クライアントとして使用することもできるようになりました。これまで、ReadKit などのサードパーティ製のアプリケーションを使用していましたが、これですべてのインタフェースを Reeder に統一できます。素晴らしい！
 

@@ -17,7 +17,7 @@ type: post
 
 ![](161029-5814029bd3472.jpg)
 
-以前、[WordPress に投稿したら IFTTT と Buffer を使用して自動的に Twitter、Facebook ページ、Google+に投稿する方法 – OTTAN.XYZ](/posts/2016/08/wordpress-ifttt-buffer-sns-4845/)で、投稿した記事を[Buffer - A Smarter Way to Share on Social Media](https://buffer.com/)の仕組みを使用して、各種 SNS にシェアする方法をご紹介しました。しかし、この方法のデメリットは、[IFTTT](https://ifttt.com/)の仕組みを利用している特性上、IFTTT のトリガーが発動するまでに最大 15 分の遅延が発生する可能性がありました（WordPress の状態によっては 15 分以上の遅延が発生する可能性も）。
+以前、[WordPress に投稿したら IFTTT と Buffer を使用して自動的に Twitter、Facebook ページ、Google+に投稿する方法](/posts/2016/08/wordpress-ifttt-buffer-sns-4845/)で、投稿した記事を[Buffer - A Smarter Way to Share on Social Media](https://buffer.com/)の仕組みを使用して、各種 SNS にシェアする方法をご紹介しました。しかし、この方法のデメリットは、[IFTTT](https://ifttt.com/)の仕組みを利用している特性上、IFTTT のトリガーが発動するまでに最大 15 分の遅延が発生する可能性がありました（WordPress の状態によっては 15 分以上の遅延が発生する可能性も）。
 
 そのため、今回は同様に IFTTT と Buffer の仕組みは使用するものの、最大 15 分の遅延なしに即座にトリガーを発動する方法を利用し、記事投稿後にすぐに各種 SNS に拡散する方法をご紹介します。
 
@@ -48,7 +48,7 @@ IFTTT は、一般的に 15 分間隔でトリガーの状態を確認し、ト�
 
 ### WordPress の記事を公開したら IFTTT に通知する
 
-[【カスタマイズ】WordPress で記事を投稿した瞬間に外部にメールを送信する方法 – OTTAN.XYZ](/posts/2016/10/wordpress-publish-mail-push-5145/)でご紹介した方法を使用して、`functions.php`の末尾に以下を追加してください。
+[【カスタマイズ】WordPress で記事を投稿した瞬間に外部にメールを送信する方法](/posts/2016/10/wordpress-publish-mail-push-5145/)でご紹介した方法を使用して、`functions.php`の末尾に以下を追加してください。
 
     add_action( 'transition_post_status', function( $new_status, $old_status, $post ) {
       if ( 'publish' == $new_status  &&  'publish' != $old_status && 'post' == $post->post_type ) {
@@ -93,7 +93,7 @@ IFTTT は、一般的に 15 分間隔でトリガーの状態を確認し、ト�
 
 ![](161029-5814045971e72.png)
 
-「To address」に、Buffer の固有のメールアドレスを指定します。固有のメールアドレスの指定方法については、[WordPress に投稿したら IFTTT と Buffer を使用して自動的に Twitter、Facebook ページ、Google+に投稿する方法 – OTTAN.XYZ](/posts/2016/08/wordpress-ifttt-buffer-sns-4845/)を参照してください。
+「To address」に、Buffer の固有のメールアドレスを指定します。固有のメールアドレスの指定方法については、[WordPress に投稿したら IFTTT と Buffer を使用して自動的に Twitter、Facebook ページ、Google+に投稿する方法](/posts/2016/08/wordpress-ifttt-buffer-sns-4845/)を参照してください。
 
 「Subject」は、`{{Subject}}`を指定します。「Email Channel」に送付されてきたメールの件名（今回の場合は記事のタイトル）が格納されます。必要に応じて、「ブログ更新」などわかりやすい件名をつけてください。
 

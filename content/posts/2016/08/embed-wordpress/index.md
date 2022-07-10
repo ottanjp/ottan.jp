@@ -17,7 +17,7 @@ type: post
 
 ![](160814-57aff06785bf2.png)
 
-過去に、[WordPress の本文に App Store の URL を貼り付けるだけで、アフィリエイトリンクを生成できるようにする – OTTAN.XYZ](/posts/2016/05/wordpress-app-store-itunes-link-affiliate-6862/)という記事を書きました。横着したかっただけなのですが、意外とご好評いただいているようです。今回は、これを応用して、内部リンク、外部リンクの URL を WordPress の本文に貼り付けるだけで、オシャレなリンクをいとも簡単に生成できるようにしてみます。
+過去に、[WordPress の本文に App Store の URL を貼り付けるだけで、アフィリエイトリンクを生成できるようにする](/posts/2016/05/wordpress-app-store-itunes-link-affiliate-6862/)という記事を書きました。横着したかっただけなのですが、意外とご好評いただいているようです。今回は、これを応用して、内部リンク、外部リンクの URL を WordPress の本文に貼り付けるだけで、オシャレなリンクをいとも簡単に生成できるようにしてみます。
 
 ## オシャレなリンクを勝手に生成してくれる「Embedly」
 
@@ -60,7 +60,7 @@ http://embed.ly/
 
 {{< gist ottanjp 518542b8e8872a3e6f84d753a0eb0803 >}}
 
-ポイントは、[WordPress の本文に App Store の URL を貼り付けるだけで、アフィリエイトリンクを生成できるようにする – OTTAN.XYZ](/posts/2016/05/wordpress-app-store-itunes-link-affiliate-6862/)でご紹介した方法と同様です。`wp_embed_register_handler()`に、「http〜」から始る文字列を登録します。
+ポイントは、[WordPress の本文に App Store の URL を貼り付けるだけで、アフィリエイトリンクを生成できるようにする](/posts/2016/05/wordpress-app-store-itunes-link-affiliate-6862/)でご紹介した方法と同様です。`wp_embed_register_handler()`に、「http〜」から始る文字列を登録します。
 
 逆に言うと、WordPress の本文中に貼り付けられた、「http〜」から始まる行はすべてこのクラスによって、オシャレなリンクに変身します。
 
@@ -76,7 +76,7 @@ http://embed.ly/
 
 #### 注意点
 
-記事内で何回もご紹介した[WordPress の本文に App Store の URL を貼り付けるだけで、アフィリエイトリンクを生成できるようにする – OTTAN.XYZ](/posts/2016/05/wordpress-app-store-itunes-link-affiliate-6862/)で公開しているクラスと思い切り競合するなど、使い方には注意点があります。
+記事内で何回もご紹介した[WordPress の本文に App Store の URL を貼り付けるだけで、アフィリエイトリンクを生成できるようにする](/posts/2016/05/wordpress-app-store-itunes-link-affiliate-6862/)で公開しているクラスと思い切り競合するなど、使い方には注意点があります。
 
 - `wp_embed_register_handler()`で登録したいハンドラー（「http〜」から始まる文字列）がある場合は、先にそちらのコードを読み込んでください（今回ご紹介しているソースコードは、「http〜」から始まるすべての文字列を対象とするため）
 - 「Embedly」サービスが終了すると使用できなくなります

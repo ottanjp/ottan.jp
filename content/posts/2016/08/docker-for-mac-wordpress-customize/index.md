@@ -18,7 +18,7 @@ type: post
 
 ![](160804-57a342e1e2382.jpg)
 
-[詳細な解説付き！今から始める Docker for Mac！快適な WordPress 開発環境を手に入れよう！ – OTTAN.XYZ](/posts/2016/08/docker-for-mac-wordpress-4711/)でご紹介した、Docker for Mac を使った WordPress の開発環境の構築。超高速に WordPress 環境を構築できる代わりに、デフォルトの状態では少し貧弱ですね。
+[詳細な解説付き！今から始める Docker for Mac！快適な WordPress 開発環境を手に入れよう！](/posts/2016/08/docker-for-mac-wordpress-4711/)でご紹介した、Docker for Mac を使った WordPress の開発環境の構築。超高速に WordPress 環境を構築できる代わりに、デフォルトの状態では少し貧弱ですね。
 
 * [詳細な解説付き！今から始めるDocker for Mac！快適なWordPress開発環境を手に入れよう！](/posts/2016/08/docker-for-mac-wordpress-4711/)
 
@@ -28,7 +28,7 @@ type: post
 
 ## Docker コンテナーのカスタマイズ
 
-前回、ご紹介した記事を読んでいただいている前提で話を進めますので、まだの方は[詳細な解説付き！今から始める Docker for Mac！快適な WordPress 開発環境を手に入れよう！ – OTTAN.XYZ](/posts/2016/08/docker-for-mac-wordpress-4711/)をご覧ください。
+前回、ご紹介した記事を読んでいただいている前提で話を進めますので、まだの方は[詳細な解説付き！今から始める Docker for Mac！快適な WordPress 開発環境を手に入れよう！](/posts/2016/08/docker-for-mac-wordpress-4711/)をご覧ください。
 
 ### Docker コンテナーに WordMove を導入する
 

@@ -17,7 +17,7 @@ type: post
 
 ![](160820-57b7abb47163e.jpg)
 
-[iPhone で Gmail をプッシュ通知！すべてのメールアドレスを Gmail に転送し、Gmail からすべて送受信する方法 – OTTAN.XYZ](/posts/2016/08/phone-gmail-push-inbox-4770/)で、Gmail にすべてのメールアカウントを集約する方法をご紹介しました。その中で、「Inbox by Gmail」という Google 謹製のアプリをご紹介したのですが、iPhone を使用するユーザーにとって、このアプリには 1 点問題があります。それは、**連絡先情報が Google コンタクトからしか取得できない**ということです。「Gmail」アプリは、iPhone の連絡先を使用できるのですが…。
+[iPhone で Gmail をプッシュ通知！すべてのメールアドレスを Gmail に転送し、Gmail からすべて送受信する方法](/posts/2016/08/phone-gmail-push-inbox-4770/)で、Gmail にすべてのメールアカウントを集約する方法をご紹介しました。その中で、「Inbox by Gmail」という Google 謹製のアプリをご紹介したのですが、iPhone を使用するユーザーにとって、このアプリには 1 点問題があります。それは、**連絡先情報が Google コンタクトからしか取得できない**ということです。「Gmail」アプリは、iPhone の連絡先を使用できるのですが…。
 
 {{< itunes 905060486 >}}
 
