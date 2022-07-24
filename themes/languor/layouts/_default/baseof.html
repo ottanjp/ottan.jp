@@ -46,18 +46,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
 
-    <link
-      href="{{ with .OutputFormats.Get "RSS" }}{{ .Permalink | safeURL }}{{ end }}"
-      rel="alternate"
-      type="application/rss+xml"
-      title="{{ .Site.Title }}"
-    />
-    <link
-      href="{{ with .OutputFormats.Get "RSS" }}{{ .Permalink | safeURL }}{{ end }}"
-      rel="feed"
-      type="application/rss+xml"
-      title="{{ .Site.Title }}"
-    />
+    {{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
     <link rel="canonical" href="{{ .Permalink }}" />
 
     {{ partial "opengraph.html" . }}
