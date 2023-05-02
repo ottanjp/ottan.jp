@@ -26,7 +26,7 @@ Android 互換 OS「Remix OS」をインストールして使用する方法を�
 
 今回は、VMware Fusion を使用していますが、VirtualBox、Parallels でも同様の方法でセットアップできると思います（要検証）。
 
-http://www.jide.com/remixos-for-pc#downloadNow
+<http://www.jide.com/remixos-for-pc#downloadNow>
 
 まずは、「Remix OS for PC」の ISO ファイルをダウンロードしましょう。上記リンクから「64-bit」の ISO ファイルをダウンロードします。現在は、「Torrent」ファイルのみの提供となっているため、ダウンロードするためには、別途「uTorrent」などのダウンローダーが必要です。ここでは詳細は割愛します。
 

@@ -49,11 +49,11 @@ Amazon の URL は複雑です。単純に Amazon のリンクを貼り付ける
 
 次に、Amazon Product Advertising API を使用するための事前準備を行います。API を使用するためには、Amazon Web Services（AWS）のアカウントと、アクセスキー ID、秘密アクセスキーが必要です。AWS のアカウントのメールアドレスは、Amazon アソシエイトで使用しているメールアドレスと同一である必要があります。以下のリンクから新規作成してください。
 
-https://affiliate.amazon.co.jp/gp/advertising/api/detail/main.html
+<https://affiliate.amazon.co.jp/gp/advertising/api/detail/main.html>
 
 次に、Amazon Product Advertising API を使用するためのライブラリをダウンロードします。以下のリンクにアクセスしてください。
 
-https://github.com/Exeu/apai-io
+<https://github.com/Exeu/apai-io>
 
 ![](160514-5736a8ae537ea.png)
 

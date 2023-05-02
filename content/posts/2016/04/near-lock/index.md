@@ -20,7 +20,7 @@ type: post
 
 以前、[Touch ID で Mac のロックを解除したり、iPhone を持ったまま Mac から離れると自動で Mac をロックする「MacID」を徹底解説！](/posts/2015/04/touch-id-maced-1067/)でご紹介したように、iPhone を使用して Mac のロックを解除できるアプリはありましたが、「Near Lock」を使用すれば、Bluetooth を使用して、iPhone を持ったまま Mac から離れたり近づいたりするだけで、Mac をロック、解除できます。
 
-https://nearlock.me/
+<https://nearlock.me/>
 
 「Near Lock」は、通常版は Mac のロック解除時に「Near Lock」のアプリを iPhone 側で起動する必要がありますが、プロ版を購入すれば、バックグラウンドで動作するようになり、アプリを起動する手間が省けます。記事公開時になりますが、通常 400 円するプロ版が現在無料で配布されています。
 
@@ -40,7 +40,7 @@ https://nearlock.me/
 
 Near Lock を使用するためには、Mac、iPhone で、各々アプリをダウンロードし、起動しておく必要があります。Mac については、以下のリンク先からダウンロード可能です。
 
-https://nearlock.me/
+<https://nearlock.me/>
 
 また、iPhone については、App Store からダウンロードできます。
 
@@ -88,4 +88,4 @@ Mac に iPhone を近づけるだけでロックが解除できるなんて、iP
 
 ### 参考リンク
 
-http://applech2.com/archives/20160408-near-lock-pro-free.html
+<http://applech2.com/archives/20160408-near-lock-pro-free.html>

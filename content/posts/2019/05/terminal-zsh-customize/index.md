@@ -162,15 +162,14 @@ $(brew --prefix)/opt/fzf/install
 
 カレントディレクトリ配下の、ディレクトリやファイル一覧は、<kbd>⌃</kbd> (Control) + <kbd>T</kbd>で表示できます。
 
-
 ## 関連リンク
 
 今回使用したツールに関するリンク集です。ツールについてもっと深く知りたい方は、以下のリンク集をご参照ください。
 
--   [robbyrussell/oh-my-zshx](https://github.com/robbyrussell/oh-my-zsh)
--   [bhilburn/powerlevel9k: The most awesome Powerline theme for ZSH around!](https://github.com/bhilburn/powerlevel9k)
--   [Nerd Fonts - Iconic font aggregator, collection, and patcher](https://nerdfonts.com/)
--   [zsh-users/zsh-syntax-highlighting: Fish shell like syntax highlighting for Zsh.](https://github.com/zsh-users/zsh-syntax-highlighting)
--   [zsh-users/zsh-autosuggestions: Fish-like autosuggestions for zsh](https://github.com/zsh-users/zsh-autosuggestions)
--   [junegunn/fzf: A command-line fuzzy finder](https://github.com/junegunn/fzf)
--   [iTerm2 - macOS Terminal Replacement](https://www.iterm2.com/)
+- [robbyrussell/oh-my-zshx](https://github.com/robbyrussell/oh-my-zsh)
+- [bhilburn/powerlevel9k: The most awesome Powerline theme for ZSH around!](https://github.com/bhilburn/powerlevel9k)
+- [Nerd Fonts - Iconic font aggregator, collection, and patcher](https://nerdfonts.com/)
+- [zsh-users/zsh-syntax-highlighting: Fish shell like syntax highlighting for Zsh.](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [zsh-users/zsh-autosuggestions: Fish-like autosuggestions for zsh](https://github.com/zsh-users/zsh-autosuggestions)
+- [junegunn/fzf: A command-line fuzzy finder](https://github.com/junegunn/fzf)
+- [iTerm2 - macOS Terminal Replacement](https://www.iterm2.com/)

@@ -25,7 +25,7 @@ Yahoo アカウントの 2 段階認証プロセスを有効化する方法を�
 
 Yahoo アカウントの 2 段階認証を有効にするためには、以下のリンクから Yahoo アカウントにアクセスします。
 
-https://login.yahoo.co.jp/config/login
+<https://login.yahoo.co.jp/config/login>
 
 「登録情報」をクリックします。
 

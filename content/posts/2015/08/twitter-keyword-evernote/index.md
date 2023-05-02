@@ -23,7 +23,7 @@ Twitter は、もはや情報収集ツールとしては欠かせないものに
 
 まず、以下のリンクにアクセスします。
 
-https://twitter.com/search-advanced?lang=ja
+<https://twitter.com/search-advanced?lang=ja>
 
 収集したいキーワードを入力します。たとえば、「iPhone」に関連する情報を収集したい場合は、「これらのすべての単語」に「iPhone」と入力します。「iPad」の情報も収集したい場合は、「これらの単語のどれか」に「iPhone iPad」と半角スペースを空けて入力します。入力し終えたら、「検索」ボタンをクリックします。
 
@@ -31,7 +31,7 @@ https://twitter.com/search-advanced?lang=ja
 
 次に、以下のリンクにアクセスします。
 
-http://page2rss.com/
+<http://page2rss.com/>
 
 「Page2RSS」は、RSS に対応していないページを RSS へ変換してくれるサービスです。「Page URL」に先ほど検索したページの URL を入力します。
 

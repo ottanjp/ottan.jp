@@ -35,7 +35,7 @@ type: post
 
 まず、以下のリンクから Ubuntu 16.04 LTS の ISO ファイルをダウンロードします。「Download」をクリックします。
 
-http://www.ubuntu.com/download/desktop
+<http://www.ubuntu.com/download/desktop>
 
 ![](160430-57243089700d6.png)
 
@@ -69,15 +69,15 @@ http://www.ubuntu.com/download/desktop
 
 USB メモリのディスクの番号を控えておきます。ここでは「disk1」が該当の USB メモリです。誤って他のディスクを消去することがないよう注意しましょう。次に、ターミナルから以下のコマンドを実行します。「disk1」は該当の番号に置き換えてください。これで、アンマウントされます。
 
-    $ diskutil unmountDisk /dev/disk1
+    diskutil unmountDisk /dev/disk1
 
 続いて、ダウンロードした ISO ファイルの場所に移動します。たとえば、「ダウンロード」フォルダーに移動したい場合は、以下のコマンドを実行します。
 
-    $ cd ~/Downloads
+    cd ~/Downloads
 
 最後に、USB メモリに Ubuntu のインストールディスクの書き込みを行います。ターミナルから以下のコマンドを実行します。「ubuntu-16.04-desktop-amd64.iso」は実際にダウンロードしたファイル名、「/dev/rdisk1」は事前に控えたディスクの番号に読み替えてください。「/dev/disk1」でも良いのですが、「/dev/**r**disk1」とすると書き込みが速くなります。
 
-    $ sudo dd if=ubuntu-16.04-desktop-amd64.iso of=/dev/rdisk1 bs=1m
+    sudo dd if=ubuntu-16.04-desktop-amd64.iso of=/dev/rdisk1 bs=1m
 
 ![](160430-572430a06ea8e.png)
 
@@ -100,7 +100,7 @@ Ubuntu のパーティションを作成します。「パーティション」�
 次に、以下のリンクから「rEFInd」をダウンロードします。「A binary zip file」を選択してダウンロードしてください。ダウンロードしたら、任意のフォルダーに解凍しておいてください。「rEFInd」については、[macOS Yosemite と Ubuntu 14.04.2 LTS のデュアルブート環境を構築する](/posts/2015/05/os-x-ubuntu-dual-boot-2-1236/)
 を参照してください。なお、ここでは「Downloads」フォルダーに解凍してあるものとします。
 
-http://www.rodsbooks.com/refind/getting.html
+<http://www.rodsbooks.com/refind/getting.html>
 
 さて、El Capitan からは「SIP」と呼ばれる新たなセキュリティ機構が導入され、デフォルトの状態では「rEFInd」をインストールすることができません。そこで、Mac をリカバリーモードで起動する必要があります。
 
@@ -111,12 +111,11 @@ Mac を再起動し、⌘+R を押し続けてください。Mac がリカバリ
 3. `./refind-install`を実行。「Installation has completed successfully.」と表示されればインストールは完了です
 4. Mac を通常モードで再起動します
 
-
-    # cd /Volumes/Macintosh\ HD/Users/ottan/Downloads/refind-0.10.2
+# cd /Volumes/Macintosh\ HD/Users/ottan/Downloads/refind-0.10.2
 
 通常では、「rEFInd」のインストールが完了した時点で、作業は完了なのですが、どうも El Capitan の環境ではこのままではうまく動作しないようです。Ubuntu のインストール完了後に、Mac を ⌥（option）を押したまま再起動し、Ubuntu の起動ディスクが見えないようでしたら、以下の手順を試してみてください。
 
-https://wavisaviwasavi.amebaownd.com/posts/208897
+<https://wavisaviwasavi.amebaownd.com/posts/208897>
 
 こちらを参考に、少々小細工します。ターミナルを開いて、以下のコマンドを実行します。
 
@@ -135,8 +134,8 @@ https://wavisaviwasavi.amebaownd.com/posts/208897
 
 「EFI」の「IDENTIFIER」を控えておいてください。次に、ターミナルから以下のコマンドを実行します。
 
-    $ mkdir /Volumes/efi
-    $ sudo mount -t msdos /dev/disk0s1 /Volumes/efi
+    mkdir /Volumes/efi
+    sudo mount -t msdos /dev/disk0s1 /Volumes/efi
 
 「/dev/disk0s1」は事前に確認した「EFI」の「IDENTIFIER」です。適宜読み替えてください。次に、Finder を開き、`/Volumes/efi`に移動します。具体的には、Finder で、⇧+⌘+G で、移動する場所に上記を指定してください。
 
@@ -216,7 +215,7 @@ USB メモリの「/pool/main/d/dkms」に格納されているファイルを�
 
 「Home」にこのように格納されていれば OK です。続いて、「Terminal」（端末）を起動します。「Terminal」が起動したら、以下のコマンドを実行します。ドライバーを「Home」以外にコピーした場場合は、そのディレクトリに移動してからコマンドを実行してください。
 
-    $ sudo dpkg -i *.deb
+    sudo dpkg -i *.deb
 
 これで、Ubuntu が Wi-Fi に接続できるようになります。
 

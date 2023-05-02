@@ -37,7 +37,7 @@ type: post
 
 拡張機能は以下の URL からダウンロード可能です。「HTML Encode」をダウンロードしてください。
 
-https://pilotmoon.com/popclip/extensions/
+<https://pilotmoon.com/popclip/extensions/>
 
 ### 拡張機能「HTML Encode」の修正
 
@@ -95,13 +95,13 @@ https://pilotmoon.com/popclip/extensions/
 
 **Config.plist**
 
-    	<key>Extension Identifier</key>
-    	<string>com.pilotmoon.popclip.extension.htmlencode</string>
+     <key>Extension Identifier</key>
+     <string>com.pilotmoon.popclip.extension.htmlencode</string>
 
 `com.pilotmoon`を任意の文字列に変更します。`com.example`などでも良いです。`com.pilotmoon`は、PopClip の公式サイトで署名された拡張機能にのみ付与できます。改修した場合は、署名された内容とハッシュ値が異なるため同一の Identifier（識別子）を使用する事はできません。
 
-    	<key>Extension Identifier</key>
-    	<string>xyz.ottan.popclip.extension.htmlencode</string>
+     <key>Extension Identifier</key>
+     <string>xyz.ottan.popclip.extension.htmlencode</string>
 
 ### 拡張機能「HTML Encode」のインストール
 

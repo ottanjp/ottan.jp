@@ -81,6 +81,6 @@ API の詳細については、[How to use highlight.js](https://highlightjs.org
 
 ## 参考リンク
 
-https://highlightjs.org/
+<https://highlightjs.org/>
 
-http://marcschwieterman.com/blog/marsedit-preview-with-syntaxhighlighter/
+<http://marcschwieterman.com/blog/marsedit-preview-with-syntaxhighlighter/>

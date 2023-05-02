@@ -98,15 +98,15 @@ npm init
 
 ```json
 {
-	"name": "ottan",
-	"version": "0.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-	"test": "echo "Error: no test specified" && exit 1"
-	},
-	"author": "",
-	"license": "ISC"
+ "name": "ottan",
+ "version": "0.0.0",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+ "test": "echo "Error: no test specified" && exit 1"
+ },
+ "author": "",
+ "license": "ISC"
 }
 ```
 
@@ -137,25 +137,25 @@ npm install gulp gulp-sass ... --save-dev
 
 ```json
 {
-	"name": "www",
-	"version": "1.0.0",
-	"description": "",
-	"main": "gulpfile.js",
-	"scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"author": "",
-	"license": "ISC",
-	"devDependencies": {
-	"del": "^0.1.2",
-	"gulp": "^3.8.7",
-	"gulp-autoprefixer": "0.0.10",
-	"gulp-clean": "^0.3.1",
-	"gulp-cssmin": "^0.1.6",
-	"gulp-jsmin": "^0.1.4",
-	"gulp-rename": "^1.2.0",
-	"gulp-sass": "^0.7.3"
-	}
+ "name": "www",
+ "version": "1.0.0",
+ "description": "",
+ "main": "gulpfile.js",
+ "scripts": {
+ "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "author": "",
+ "license": "ISC",
+ "devDependencies": {
+ "del": "^0.1.2",
+ "gulp": "^3.8.7",
+ "gulp-autoprefixer": "0.0.10",
+ "gulp-clean": "^0.3.1",
+ "gulp-cssmin": "^0.1.6",
+ "gulp-jsmin": "^0.1.4",
+ "gulp-rename": "^1.2.0",
+ "gulp-sass": "^0.7.3"
+ }
 }
 ```
 
@@ -186,11 +186,11 @@ var jsmin = require('gulp-jsmin');
 var sass = require('gulp-sass');
 
 gulp.task('cssmin', function () {
-	gulp.src('/path/to/src/*.css')
-	.pipe(autoprefixer(["last 2 version", "ie 8", "ie 7"]))
-	.pipe(cssmin())
-	.pipe(rename({suffix: '.min'}))
-	.pipe(gulp.dest('/path/to/dist/css'));
+ gulp.src('/path/to/src/*.css')
+ .pipe(autoprefixer(["last 2 version", "ie 8", "ie 7"]))
+ .pipe(cssmin())
+ .pipe(rename({suffix: '.min'}))
+ .pipe(gulp.dest('/path/to/dist/css'));
 });
 ```
 
@@ -207,9 +207,11 @@ var sass = require('gulp-sass');
 
 次に、gulp.jsで自動実行したいタスクを宣言します。
 
+```js
     gulp.task('cssmin', function() {
-    	// do stuff
+     // do stuff
     }
+```
 
 実際のタスク定義は「function()」の中に記述します。
 
@@ -223,17 +225,17 @@ gulp.src('/path/to/src/*.css')
 
 タスクの大まかな流れは以下の通りです。「pipe」に書かれている処理を繰り返し繰り返し行うことになります。
 
--   「gulp」（ローカルインストール）パッケージの「src」メソッドで対象とするファイルを指定する
--   「pipe」メソッドで出力ファイルを引き継ぎ、さらに処理をする
--   「gulp」パッケージの「dest」メソッドで出力先を指定する
+- 「gulp」（ローカルインストール）パッケージの「src」メソッドで対象とするファイルを指定する
+- 「pipe」メソッドで出力ファイルを引き継ぎ、さらに処理をする
+- 「gulp」パッケージの「dest」メソッドで出力先を指定する
 
 具体的にタスクの意味を見てみましょう。
 
--   「gulp」パッケージの「src」メソッドで対象とするファイルを指定する
--   「autoprefixer」により、CSSファイルにベンダプレフィックスを付与する
--   「cssmin」により、CSSファイルを圧縮する
--   「rename」により、接尾辞（suffix）に「min」を付与する
--   「gulp」パッケージの「dest」メソッドで出力先にCSSファイルを出力する
+- 「gulp」パッケージの「src」メソッドで対象とするファイルを指定する
+- 「autoprefixer」により、CSSファイルにベンダプレフィックスを付与する
+- 「cssmin」により、CSSファイルを圧縮する
+- 「rename」により、接尾辞（suffix）に「min」を付与する
+- 「gulp」パッケージの「dest」メソッドで出力先にCSSファイルを出力する
 
 ここで定義したタスクは、以下のコマンドで実行できます。「gulpfile.js」と同階層で実行してください。「gulp」コマンドの引数に「gulpfile.js」で定義したタスク名を指定します。
 
@@ -245,13 +247,13 @@ gulp cssmin
 
 ```js
 gulp.task('sass', function () {
-	gulp.src('/path/to/src/*.scss')
-	.pipe(sass())
-	.pipe(autoprefixer(["last 2 version", "ie 8", "ie 7"]))
-	.pipe(gulp.dest('css/css/'))
-	.pipe(cssmin())
-	.pipe(rename({suffix: '.min'}))
-	.pipe(gulp.dest('path/to/dist/css'));
+ gulp.src('/path/to/src/*.scss')
+ .pipe(sass())
+ .pipe(autoprefixer(["last 2 version", "ie 8", "ie 7"]))
+ .pipe(gulp.dest('css/css/'))
+ .pipe(cssmin())
+ .pipe(rename({suffix: '.min'}))
+ .pipe(gulp.dest('path/to/dist/css'));
 });
 ```
 
@@ -259,10 +261,10 @@ gulp.task('sass', function () {
 
 ```js
 gulp.task('jsmin', function () {
-	gulp.src('/path/to/src/*.js')
-	.pipe(jsmin())
-	.pipe(rename({suffix: '.min'}))
-	.pipe(gulp.dest('/path/to/dist/js'));
+ gulp.src('/path/to/src/*.js')
+ .pipe(jsmin())
+ .pipe(rename({suffix: '.min'}))
+ .pipe(gulp.dest('/path/to/dist/js'));
 });
 ```
 
@@ -289,7 +291,7 @@ gulp.jsのタスクは、原則、非同期で実行されます。タスク同�
 
 ```js
 gulp.task('sass,  ['cssmin'], function() {
-	// do stuff
+ // do stuff
 });
 ```
 

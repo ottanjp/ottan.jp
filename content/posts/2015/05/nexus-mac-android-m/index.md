@@ -42,7 +42,7 @@ Android の新しいバージョン、「Android M」が発表されました。
 
 以下のリンクをクリックします。
 
-https://developer.android.com/about/versions/marshmallow/index.html
+<https://developer.android.com/about/versions/marshmallow/index.html>
 
 対応機種は、以下のとおりです。
 
@@ -59,11 +59,11 @@ https://developer.android.com/about/versions/marshmallow/index.html
 
 準備が整いましたので、いよいよ Android M への更新を行います。
 
-    $ brew install android-platform-tools
+    brew install android-platform-tools
 
 更新を行うためには、Android SDK が必要になります。Mac の場合、Homebrew から簡単にインストールできます。Homebrew については、[Mac でプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/posts/2014/09/mac-latex-presentation-92/)を参照してください。Windows の場合は、下記のリンクに従いセットアップを行ってください。
 
-https://developer.android.com/sdk/installing/index.html
+<https://developer.android.com/sdk/installing/index.html>
 
 ### ファームウェアの書き換え
 
@@ -71,7 +71,7 @@ https://developer.android.com/sdk/installing/index.html
 
 事前に USB デバッグモードにした状態の Nexus を Mac、または PC に接続しておきます。
 
-    $ adb reboot bootloader
+    adb reboot bootloader
 
 この状態で、ターミナル、またはコマンドプロンプトから上記のコマンドを実行します。
 
@@ -79,12 +79,12 @@ https://developer.android.com/sdk/installing/index.html
 
 次のステップを進むと、**端末のデータがすべて初期化されます**ので、事前に必ずバックアップを取得しておきましょう。
 
-    $ fastboot oem unlock
+    fastboot oem unlock
 
 ターミナル、またはコマンドプロンプトから上記のコマンドを実行します。音量大ボタン、音量小ボタンを使用して、「Yes」を選択し、電源ボタンを押します。
 
-    $ cd hammerhead-MPZ44Q
-    $ ./flash-all.sh
+    cd hammerhead-MPZ44Q
+    ./flash-all.sh
 
 最後に、事前にダウンロード、解凍したファームウェアのディレクトリに移動し、Mac の場合は「flash-all.sh」、Windows の場合は「flash-all.bat」を実行します。以上で Android M のインストールは完了です。
 
@@ -92,5 +92,5 @@ https://developer.android.com/sdk/installing/index.html
 
 「Android M」への更新完了後は、ブートローダーから以下のコマンドを実行しておきましょう。
 
-    $ adb reboot bootloader
-    $ fastboot oem lock
+    adb reboot bootloader
+    fastboot oem lock

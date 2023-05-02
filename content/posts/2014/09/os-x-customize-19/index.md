@@ -58,20 +58,20 @@ defaults コマンドによる環境変更は、その履歴を保存してお�
 
 macOS のデフォルトでは、QuickLook（␣ キーを押す）で開いたドキュメントの内容をコピーすることができません。以下のコマンドを実行することで、コピーできるようになります。なお、QuickLook については、[Mac を購入したら最初に導入しておきたい Quick Look のプラグイン](/posts/2014/09/quick-look-plugin-78/)も参照してください。そろそろ、この挙動をシステムのデフォルトにしてほしい。
 
-    $ defaults write com.apple.finder QLEnableTextSelection -bool true
-    $ killall Finder
+    defaults write com.apple.finder QLEnableTextSelection -bool true
+    killall Finder
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete com.apple.finder QLEnableTextSelection
-    $ killall Finder
+    defaults delete com.apple.finder QLEnableTextSelection
+    killall Finder
 
 ### 隠しファイルをすべて表示する
 
 Finder で隠しファイル（.DS_Store など「.」から始まるファイル）がすべて表示されるようになります。有効にする場合は、誤って重要なシステムファイルを削除しないように十分注意してください。怪しいファイルに「.」をつけて保存している場合は、とくに注意してください（？）
 
-    $ defaults write com.apple.finder AppleShowAllFiles TRUE
-    $ killall Finder
+    defaults write com.apple.finder AppleShowAllFiles TRUE
+    killall Finder
 
 元に戻したい場合は以下のコマンドを実行してください。
 
@@ -82,25 +82,25 @@ Finder で隠しファイル（.DS_Store など「.」から始まるファイ�
 
 デスクトップを綺麗サッパリにしてくれます。ただし、デスクトップからファイルが削除されたわけではなく、Finder からは参照可能です。もしものとき（？）のためのオマジナイですね。
 
-    $ defaults write com.apple.finder CreateDesktop -bool false
-    $ killall Finder
+    defaults write com.apple.finder CreateDesktop -bool false
+    killall Finder
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete com.apple.finder CreateDesktop
-    $ killall Finder
+    defaults delete com.apple.finder CreateDesktop
+    killall Finder
 
 ### Finder で開いた時のビューを常にリストビューにする
 
 **Finder で開いたときのデフォルトビューをリストビューに変更します**。これ便利です。Finder でいつも自分の好みのビューを使用できます。リストビューが一番見やすいと思うのは私だけでしょうか。その他にも、「icnv」（アイコンビュー）、「clmv」（カラムビュー）、「Flwv」（カバーフロービュー）から選択できます。
 
-    $ defaults write com.apple.Finder FXPreferredViewStyle Nlsv
-    $ killall Finder
+    defaults write com.apple.Finder FXPreferredViewStyle Nlsv
+    killall Finder
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete com.apple.Finder FXPreferredViewStyle
-    $ killall Finder
+    defaults delete com.apple.Finder FXPreferredViewStyle
+    killall Finder
 
 ## Dock
 
@@ -108,37 +108,37 @@ Finder で隠しファイル（.DS_Store など「.」から始まるファイ�
 
 Mission Control は、散らかったウインドウを探すのに便利な機能です。しかし、Mission Control の起動（アニメーション）の遅さにイライラしたことはありませんか？そんなあなたにはこのコマンドがオススメです。Mission Control の起動スピードが段違いに早くなります。
 
-    $ defaults write com.apple.dock expose-animation-duration -float 0.1
-    $ killall Dock
+    defaults write com.apple.dock expose-animation-duration -float 0.1
+    killall Dock
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete com.apple.dock expose-animation-duration
-    $ killall Dock
+    defaults delete com.apple.dock expose-animation-duration
+    killall Dock
 
 ### Dock を隠す／表示のアニメーションを無効化する
 
 MacBook Air など解像度の低いデバイスを使用している場合には、作業スペースを確保するため Dock を自動的に隠す設定にしている方も多いと思います。デフォルトでは、アニメーションがもたつくので、以下のコマンドを使用してスピードを上げることをオススメします。
 
-    $ defaults write com.apple.dock autohide-time-modifier -int 0.1
-    $ killall Dock
+    defaults write com.apple.dock autohide-time-modifier -int 0.1
+    killall Dock
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete com.apple.dock autohide-time-modifier
-    $ killall Dock
+    defaults delete com.apple.dock autohide-time-modifier
+    killall Dock
 
 ### Dock を自動的に表示するときのディレイ（遅延）を 0 にする
 
 Dock を自動的に隠す設定にしている場合、Dock の位置にカーソルを合わせてもすぐに Dock は表示されません。これは、Dock が誤って表示されるのを防ぐためのものですが、時にこの挙動がモタモタしイライラしたことはないでしょうか。そのような場合には、この表示されるまでの遅延を 0 にしてしまいましょう。すぐに表示されるようになります。
 
-    $ defaults write com.apple.Dock autohide-delay -float 0
-    $ killall Dock
+    defaults write com.apple.Dock autohide-delay -float 0
+    killall Dock
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete com.apple.Dock autohide-delay
-    $ killall Dock
+    defaults delete com.apple.Dock autohide-delay
+    killall Dock
 
 ## スクリーンショット
 
@@ -146,37 +146,37 @@ Dock を自動的に隠す設定にしている場合、Dock の位置にカー�
 
 スクリーンショットの保存場所は、デフォルトではユーザーのデスクトップです。画像なんだからピクチャフォルダーで良いのに！と思ったら今すぐ変更しましょう。
 
-    $ defaults write com.apple.screencapture location ~/Pictures
-    $ killall SystemUIServer
+    defaults write com.apple.screencapture location ~/Pictures
+    killall SystemUIServer
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete com.apple.screencapture location
-    $ killall SystemUIServer
+    defaults delete com.apple.screencapture location
+    killall SystemUIServer
 
 ### スクリーンショットのファイル名を変更する
 
 スクリーンショットのデフォルトの名称には「スクリーンショット〜」という長い日本語名称が付きます。長すぎるので短い名前に変えてしまいましょう。
 
-    $ defaults write com.apple.screencapture name "SS"
-    $ killall SystemUIServer
+    defaults write com.apple.screencapture name "SS"
+    killall SystemUIServer
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete com.apple.screencapture name
-    $ killall SystemUIServer
+    defaults delete com.apple.screencapture name
+    killall SystemUIServer
 
 ### スクリーンショットの影を消す
 
 スクリーンショットを撮影すると、デフォルトではウインドウの影も一緒に撮影します。しかし、ブログ用にスクリーンショットを使用したいのであれば、画像ファイルが重くなる影は取り除いたほうがよいでしょう。無効化するには以下のコマンドを実行します。
 
-    $ defaults write com.apple.screencapture disable-shadow -bool true
-    $ killall SystemUIServer
+    defaults write com.apple.screencapture disable-shadow -bool true
+    killall SystemUIServer
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete com.apple.screencapture disable-shadow
-    $ killall SystemUIServer
+    defaults delete com.apple.screencapture disable-shadow
+    killall SystemUIServer
 
 ### スクリーンショットの保存形式を変更する
 
@@ -184,13 +184,13 @@ Dock を自動的に隠す設定にしている場合、Dock の位置にカー�
 
 JPEG は写真のような画素数の多いイメージファイルに、PNG はその逆に向いています。どちらにも一長一短があり、使い方を誤るとムダにファイルサイズが大きくなったりします。JPEG、PNG、どちらにも一長一短がありますので注意してください。
 
-    $ defaults write com.apple.screencapture type -string jpg
-    $ killall SystemUIServer
+    defaults write com.apple.screencapture type -string jpg
+    killall SystemUIServer
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete com.apple.screencapture type
-    $ killall SystemUIServer
+    defaults delete com.apple.screencapture type
+    killall SystemUIServer
 
 ## その他
 
@@ -198,78 +198,78 @@ JPEG は写真のような画素数の多いイメージファイルに、PNG �
 
 古い Safari には「バックスペースで戻る」という機能がありました。しかし、最新の Safari では同機能が削除されてしまいました。往年の Safari を取り戻したい場合は以下のコマンドを実行しましょう。
 
-    $ defaults write com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool YES
+    defaults write com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool YES
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled
+    defaults delete com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled
 
 ### App Nap をシステム全体で無効化する
 
 macOS Mavericks のみ。App Nap とは、アプリケーションがバックグラウンドで待機している間は、CPU やメモリなどのリソース消費量を節約するための機能です。しかし、バックグラウンドで処理を行いたい場合には、弊害となったりします。Mountain Lion 以前の挙動に戻す場合は、以下のコマンドを実行します。なお、有効化するためには再ログイン、または再起動が必要です。
 
-    $ defaults write NSGlobalDomain NSAppSleepDisabled -bool yes
+    defaults write NSGlobalDomain NSAppSleepDisabled -bool yes
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete NSGlobalDomain NSAppSleepDisabled
+    defaults delete NSGlobalDomain NSAppSleepDisabled
 
 ### ディスクイメージマウント時の高速化
 
 通常、ディスクイメージ（.dmg）のマウントには、事前に検証というステップが入るため、ダブルクリックしてから参照できるようになるまで時間を要します。この「検証」という行為をスキップして、すぐにマウントするようにするのが以下のコマンドです。どんなディスクイメージでもすぐにマウントしてしまうため、セキュリティ事故を起こさないよう注意しましょう。
 
-    $ defaults write com.apple.frameworks.diskimages skip-verify -bool true
+    defaults write com.apple.frameworks.diskimages skip-verify -bool true
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete com.apple.frameworks.diskimages skip-verify
+    defaults delete com.apple.frameworks.diskimages skip-verify
 
 ### ネットワーク上のフォルダーに「.DS_Store」を作成しない
 
 共有ファイルサーバなど、ネットワーク上のフォルダーには「.DS_Store」を作成しなくなるのがこのコマンドです。Windows から参照した際に、「.DS_Store」が見られたらちょっとかっこ悪いですよね。
 
-    $ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+    defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete com.apple.desktopservices DSDontWriteNetworkStores
+    defaults delete com.apple.desktopservices DSDontWriteNetworkStores
 
 ### ヘルプ画面が常時全面に表示されるのを防ぐ
 
 macOS で一番偉いのはヘルプウィンドウです。なぜなら、他にどんなことをしていようと、常に最前面にへばりついているからです。さっさと最背面にでも後退してもらいたい場合はこのコマンドを実行しておきましょう。
 
-    $ defaults write com.apple.helpviewer DevMode -bool true
+    defaults write com.apple.helpviewer DevMode -bool true
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete com.apple.helpviewer DevMode
+    defaults delete com.apple.helpviewer DevMode
 
 ### 電源ボタンを押したら再起動やログオンメニューが出るようにする
 
 macOS Mavericks のみ。Mountain Lion 以前では電源ボタンを軽く押すと、再起動、ログアウト、スリープ、システム終了から選べるダイアログが表示されていましたが、Mavericks では問答無用でスリープします。同じダイアログを出すためには、1.5 秒程度電源ボタンを押しっぱなしにする必要があり、集中していないと思わず 5 秒以上長押しして強制電源 OFF になりかねません。Mountain Lion 以前に戻したい場合は、以下のコマンドを実行しておきましょう。
 
-    $ defaults write com.apple.loginwindow PowerButtonSleepsSystem -bool no
+    defaults write com.apple.loginwindow PowerButtonSleepsSystem -bool no
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete com.apple.loginwindow PowerButtonSleepsSystem
+    defaults delete com.apple.loginwindow PowerButtonSleepsSystem
 
 ### 標準のメールアプリでイメージのプレビューを行わない
 
 メールアプリが遅い、と思ったらイメージのプレビューをやめてみましょう。メールが高速になります。
 
-    $ defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
+    defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete com.apple.mail DisableInlineAttachmentViewing
+    defaults delete com.apple.mail DisableInlineAttachmentViewing
 
 ### ダッシュボードを無効にする
 
 使わない機能は無効化しておくことです。
 
-    $ defaults write com.apple.dashboard mcx-disabled -boolean YES
+    defaults write com.apple.dashboard mcx-disabled -boolean YES
 
 元に戻したい場合は以下のコマンドを実行してください。
 
-    $ defaults delete com.apple.dashboard mcx-disabled
+    defaults delete com.apple.dashboard mcx-disabled

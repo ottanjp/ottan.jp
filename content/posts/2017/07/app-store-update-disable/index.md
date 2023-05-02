@@ -48,8 +48,8 @@ iPhoneやiPadの特定のアプリのバージョンアップにより不具合�
     <plist version="1.0">
     <dict>
     ...
-    	<key>softwareVersionExternalIdentifier</key>
-    	<integer>822189866</integer>
+     <key>softwareVersionExternalIdentifier</key>
+     <integer>822189866</integer>
     ...
     </dict>
     </plist>

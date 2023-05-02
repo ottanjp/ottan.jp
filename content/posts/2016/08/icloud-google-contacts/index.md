@@ -31,7 +31,7 @@ iPhone では、何も意識していなければ iCloud で連絡先を管理�
 
 ### iCloud から連絡先情報をエクスポートする
 
-https://www.icloud.com
+<https://www.icloud.com>
 
 PC、Mac から iCloud.com にログインし「連絡先」をクリックします。
 
@@ -45,7 +45,7 @@ PC、Mac から iCloud.com にログインし「連絡先」をクリックし�
 
 ### Google コンタクトに連絡先情報をインポートする
 
-https://www.google.com/contacts/
+<https://www.google.com/contacts/>
 
 続いて、PC、Mac から Google コンタクトにアクセスします。なお、Google コンタクトには、プレビュー版が用意されていますが、プレビュー版は、「vCard」のインポートに対応していません。また、プレビュー版から、サードパーティ製のサービス経由で連絡先を直接 iCloud.com からインポートする方法もありますが、ふりがな等が正しくインポートされなかったため、ここでは方法は割愛します。
 

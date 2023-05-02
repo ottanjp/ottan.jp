@@ -32,7 +32,7 @@ type: post
 
 現在は、以下のページで公開されています。「Free Download」と書かれたボタンをクリックして、ディスクイメージファイル（.dmg）をダウンロードし、展開したらアプリケーションフォルダーにコピーしましょう。
 
-https://boostnote.io/
+<https://boostnote.io/>
 
 ### 使い方
 

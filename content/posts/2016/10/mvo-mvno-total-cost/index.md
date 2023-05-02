@@ -130,4 +130,4 @@ MVNOは敷居が高い、と思われている方もいるかもしれません�
 
 もし、IIJmioをご検討されている方がいらっしゃいましたら、下記のURLからお申し込みいただくと、2か月間データ通信量が10%増量になります。もしよろしければお使いください。
 
-https://www.iijmio.jp/campaign/mgm/invite/?id=523107509461902&sns;=0
+<https://www.iijmio.jp/campaign/mgm/invite/?id=523107509461902&sns;=0>

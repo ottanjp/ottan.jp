@@ -41,9 +41,9 @@ WordPress初期構築時に作成するデータベースの各テーブルの�
 
 `wp_postmeta`には、**カスタムフィールドの情報が格納されます**。アイキャッチ画像もカスタムフィールドの一種です。弊サイトでは、検索エンジン向けの記事ごとのキーワード情報を格納しています。これを応用すれば、何となく実装できそうな気がしませんか。
 
--   記事ごとに閲覧数を保持するメタ情報を`wp_postmeta`テーブルに格納する
--   記事が閲覧される都度、同テーブルに格納した値をインクリメントする
--   人気記事を表示したい場合は、同テーブルに格納した閲覧数をもとに記事をソートする
+- 記事ごとに閲覧数を保持するメタ情報を`wp_postmeta`テーブルに格納する
+- 記事が閲覧される都度、同テーブルに格納した値をインクリメントする
+- 人気記事を表示したい場合は、同テーブルに格納した閲覧数をもとに記事をソートする
 
 ### 記事表示時にカスタムフィールドを更新する
 
@@ -59,11 +59,11 @@ WordPress初期構築時に作成するデータベースの各テーブルの�
 
 ```php
 function update_custom_meta_views() {
-	global $post;
-	if ( 'publish' === get_post_status( $post ) && is_single() ) {
-		$views = intval( get_post_meta( $post->ID, '_custom_meta_views', true ) );
-		update_post_meta( $post->ID, '_custom_meta_views', ( $views + 1 ) );
-	}
+ global $post;
+ if ( 'publish' === get_post_status( $post ) && is_single() ) {
+  $views = intval( get_post_meta( $post->ID, '_custom_meta_views', true ) );
+  update_post_meta( $post->ID, '_custom_meta_views', ( $views + 1 ) );
+ }
 }
 add_action( 'wp_head', 'update_custom_meta_views' );
 ```
@@ -78,22 +78,22 @@ add_action( 'wp_head', 'update_custom_meta_views' );
 
 ```php
 function get_most_viewed() {
-	$args = array(
-		'post_type' => 'post',
-		'post_status' => 'publish',
-		'posts_per_page' => 5,
-		'orderby' => 'meta_value_num',
-		'meta_key' => '_custom_meta_views',
-		'order' => 'DESC'
-	);
-	$posts = get_posts( $args );
-	$output = "<ul>¥n";
-	foreach( $posts as $post ) {
-		$output .= "<li>" . $post->post_title . " - " . $post->_custom_meta_views . "Views</li>n";
-	}
+ $args = array(
+  'post_type' => 'post',
+  'post_status' => 'publish',
+  'posts_per_page' => 5,
+  'orderby' => 'meta_value_num',
+  'meta_key' => '_custom_meta_views',
+  'order' => 'DESC'
+ );
+ $posts = get_posts( $args );
+ $output = "<ul>¥n";
+ foreach( $posts as $post ) {
+  $output .= "<li>" . $post->post_title . " - " . $post->_custom_meta_views . "Views</li>n";
+ }
 
-	$output .= "</ul>n";
-	echo $output;
+ $output .= "</ul>n";
+ echo $output;
 }
 ```
 
@@ -141,28 +141,28 @@ function get_most_viewed() {
 
 ```php
 function get_most_viewed() {
-	$args = array(
-	'post_type' => 'post',
-	'post_status' => 'publish',
-	'posts_per_page' => 5,
-	'orderby' => 'meta_value_num',
-	'meta_key' => '_custom_meta_views',
-	'order' => 'DESC',
-	'date_query' => array(
-		array(
-		'after' => date( 'Y/n/j', strtotime( date( 'Y-m-1' ) . '-1 month' ) ),
-		'inclusive' => true,
-		),
-	),
-	);
-	$posts = get_posts( $args );
-	$output = "<ul>¥n";
-	foreach( $posts as $post ) {
-	$output .= "<li>" . $post->post_title . " - " . $post->_custom_meta_views . "Views</li>n";
-	}
+ $args = array(
+ 'post_type' => 'post',
+ 'post_status' => 'publish',
+ 'posts_per_page' => 5,
+ 'orderby' => 'meta_value_num',
+ 'meta_key' => '_custom_meta_views',
+ 'order' => 'DESC',
+ 'date_query' => array(
+  array(
+  'after' => date( 'Y/n/j', strtotime( date( 'Y-m-1' ) . '-1 month' ) ),
+  'inclusive' => true,
+  ),
+ ),
+ );
+ $posts = get_posts( $args );
+ $output = "<ul>¥n";
+ foreach( $posts as $post ) {
+ $output .= "<li>" . $post->post_title . " - " . $post->_custom_meta_views . "Views</li>n";
+ }
 
-	$output .= "</ul>n";
-	echo $output;
+ $output .= "</ul>n";
+ echo $output;
 }
 ```
 
@@ -176,8 +176,8 @@ function get_most_viewed() {
 
 ```php
 function add_column_custom_meta_views( $columns ) {
-	$columns['views'] = 'Views';
-	return $columns;
+ $columns['views'] = 'Views';
+ return $columns;
 }
 add_filter( 'manage_posts_columns', 'add_column_custom_meta_views' );
 ```
@@ -199,8 +199,8 @@ add_filter( 'manage_posts_columns', 'add_column_custom_meta_views' );
 
 ```php
 function add_column_custom_meta_views_content( $column_name, $post_id ) {
-	$views = intval( get_post_meta( $post_id, '_custom_meta_views', true ) );
-	echo $views;
+ $views = intval( get_post_meta( $post_id, '_custom_meta_views', true ) );
+ echo $views;
 }
 add_action( 'manage_posts_custom_column', 'add_column_custom_meta_views_content', 10, 2 );
 ```
@@ -213,8 +213,8 @@ add_action( 'manage_posts_custom_column', 'add_column_custom_meta_views_content'
 
 ```
 function sortable_column_custom_meta_views( $columns ) {
-	$columns['views'] = 'Views';
-	return $columns;
+ $columns['views'] = 'Views';
+ return $columns;
 }
 add_filter( 'manage_edit-post_sortable_columns', 'sortable_column_custom_meta_views' );
 ```
@@ -229,13 +229,13 @@ add_filter( 'manage_edit-post_sortable_columns', 'sortable_column_custom_meta_vi
 
 ```php
 function custom_orderby_custom_meta_views( $vars ) {
-	if ( isset( $vars['orderby'] ) && 'Views' == $vars['orderby'] ) {
-	$vars = array_merge( $vars, array(
-		'meta_key' => '_custom_meta_views',
-		'orderby' => 'meta_value_num'
-		));
-	}
-	return $vars;
+ if ( isset( $vars['orderby'] ) && 'Views' == $vars['orderby'] ) {
+ $vars = array_merge( $vars, array(
+  'meta_key' => '_custom_meta_views',
+  'orderby' => 'meta_value_num'
+  ));
+ }
+ return $vars;
 }
 add_filter( 'request', 'custom_orderby_custom_meta_views' );
 ```
@@ -252,5 +252,5 @@ URLに`orderby`が含まれ、かつ`orderby`の値が`Views`に等しいとき�
 
 今回、この記事を執筆するにあたって参考にさせていただいたサイトは以下の通りです。
 
-- http://notnil-creative.com/blog/archives/1476
-- http://www.webopixel.net/wordpress/167.html
+- <http://notnil-creative.com/blog/archives/1476>
+- <http://www.webopixel.net/wordpress/167.html>

@@ -191,10 +191,10 @@ Ubuntuのサポート期間には、通常版と長期サポート版（Long Ter
 
 ダウンロードするパッケージは全部で4種類です。
 
--   libfakeroot_1.20-3
--   fakeroot_1.20-3
--   dkms_2.2.0.3-1.1
--   bcmwl-kernel-source_6.30.223.248
+- libfakeroot_1.20-3
+- fakeroot_1.20-3
+- dkms_2.2.0.3-1.1
+- bcmwl-kernel-source_6.30.223.248
 
 上記4種類を下記のリンク先からダウンロードしてください。ダウンロードするサーバを選択できますが、アジアのサーバであれば比較的ダウンロードがスムーズです。
 
@@ -358,10 +358,10 @@ UbuntuはデフォルトではWi-Fiに接続できないため、ネットワー
 
 ターミナルを起動したら、あらかじめダウンロードしておいたネットワークアダプターのドライバーをインストールします。インストールには`dpkg`コマンドを使用します。下記の順番でインストールしてください。
 
-    $ sudo dpkg -i libfakeroot_1.20-3ubuntu2_amd64.deb
-    $ sudo dpkg -i fakeroot_1.20-3ubuntu2_amd64.deb
-    $ sudo dpkg -i dkms_2.2.0.3-1.1ubuntu5.14.04_all.deb
-    $ sudo dpkg -i bcmwl-kernel-source_6.30.223.248+bdcom-0ubuntu0.1_amd64.deb
+    sudo dpkg -i libfakeroot_1.20-3ubuntu2_amd64.deb
+    sudo dpkg -i fakeroot_1.20-3ubuntu2_amd64.deb
+    sudo dpkg -i dkms_2.2.0.3-1.1ubuntu5.14.04_all.deb
+    sudo dpkg -i bcmwl-kernel-source_6.30.223.248+bdcom-0ubuntu0.1_amd64.deb
 
 なお、`dpkg`コマンドに指定するファイルは、UbuntuのLive USB（起動ディスク）に保存していると思いますので、ターミナルで指定する場合はドラッグ＆ドロップが便利です。
 

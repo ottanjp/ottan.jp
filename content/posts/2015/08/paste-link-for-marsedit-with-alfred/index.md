@@ -59,22 +59,22 @@ Alfred の Workflow を開きます。「Paste link to MarsEdit with Alfred」�
 
     tell application "MarsEdit"
 
-    	set _resultHTML to ""
+     set _resultHTML to ""
 
-    	repeat with i from 1 to number of post of selected blog
+     repeat with i from 1 to number of post of selected blog
 
-    		set _tmpPostID to post id of (item i of post of selected blog)
+      set _tmpPostID to post id of (item i of post of selected blog)
 
-    		if (_tmpPostID is equal to _query) then
+      if (_tmpPostID is equal to _query) then
 
-    			set _tmpPermalink to permalink of (item i of post of selected blog)
-    			set _tmpTitle to title of (item i of post of selected blog)
+       set _tmpPermalink to permalink of (item i of post of selected blog)
+       set _tmpTitle to title of (item i of post of selected blog)
 
-    			set _resultHTML to "<a href=\"" & _tmpPermalink & "\">" & _tmpTitle & "</a>"
-    		end if
-    	end repeat
+       set _resultHTML to "<a href=\"" & _tmpPermalink & "\">" & _tmpTitle & "</a>"
+      end if
+     end repeat
 
-    	return _resultHTML
+     return _resultHTML
     end tell
 
 ### 注意事項
@@ -89,11 +89,11 @@ Alfred の Workflow を開きます。「Paste link to MarsEdit with Alfred」�
 
 Dropbox からダウンロードしてお使いいただけます。以下からダウンロードできます。自由に改変、再配布して使っていただいて構いませんが、フィードバックをいただけると助かります。
 
-https://www.dropbox.com/s/86px6b32xhnrgka/Paste%20link%20to%20MarsEdit%20with%20Alfred.alfredworkflow?dl=0"
+<https://www.dropbox.com/s/86px6b32xhnrgka/Paste%20link%20to%20MarsEdit%20with%20Alfred.alfredworkflow?dl=0>"
 
 GitHub にアップロードしました。
 
-https://github.com/ottanxyz/alfred-workflow
+<https://github.com/ottanxyz/alfred-workflow>
 
 ## インストール
 

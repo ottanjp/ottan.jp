@@ -31,7 +31,7 @@ iPhone 側の準備は、冒頭でご紹介した記事と同様のため詳細�
 
 Google Chrome で iPhone の Safari をデバッグする場合、Google が提供する「iOS WebKit Debug Proxy（iwdp）」を使用します。
 
--   [google/ios-webkit-debug-proxy: A DevTools proxy (Chrome Remote Debugging Protocol) for iOS devices (Safari Remote Web Inspector).](https://github.com/google/ios-webkit-debug-proxy)
+- [google/ios-webkit-debug-proxy: A DevTools proxy (Chrome Remote Debugging Protocol) for iOS devices (Safari Remote Web Inspector).](https://github.com/google/ios-webkit-debug-proxy)
 
 iwdp は、WebSocket 接続を介して USB 経由で接続された iOS の Safari に対して操作を行うことができるというものです。Mac であれば、Homebrew を使用することで簡単にインストールできる、はずだったのですが。iwdp を Homebrew 経由でインストールし起動したところ、iPhone を Mac に接続した際、下記のエラーが表示され正常にデバッグできませんでした。
 

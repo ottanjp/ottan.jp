@@ -21,12 +21,12 @@ type: post
 
 なお、macOS High Sierraに対応しているデバイスは以下の通りです（macOS Sierraと同様です）
 
--   MacBook（Late 2009）以降
--   MacBook Air（Late 2010）以降
--   MacBook Pro（Mid 2010）以降
--   iMac（Late 2009）以降
--   Mac mini（Mid 2010）以降
--   Mac Pro（Mid 2010）以降
+- MacBook（Late 2009）以降
+- MacBook Air（Late 2010）以降
+- MacBook Pro（Mid 2010）以降
+- iMac（Late 2009）以降
+- Mac mini（Mid 2010）以降
+- Mac Pro（Mid 2010）以降
 
 ## macOS High Sierraパブリックベータをインストールする
 

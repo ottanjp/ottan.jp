@@ -117,7 +117,7 @@ PRAM/NVRAM をリセットするためには、
 
 また、どのファイルが起動ディスクを大きく占有しているかを図示してくれる便利なフリーソフトもあります。Mac App Store からはダウンロードできませんので、以下のリンクからダウンロードして使用してください。四角の大きさが大きければ大きいほどディスクの容量を使用しています。
 
-http://sourceforge.net/projects/grandperspectiv/
+<http://sourceforge.net/projects/grandperspectiv/>
 
 なお、「GrandPerspective」については、[Mac のストレージの空き容量が少なくなったら、GrandPerspective で肥大化させている項目を特定しよう！](/posts/2016/02/mac-storage-grandperspective-6840/)でも詳しくご紹介しています。
 

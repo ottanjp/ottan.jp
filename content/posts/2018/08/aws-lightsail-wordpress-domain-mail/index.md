@@ -55,8 +55,8 @@ type: post
 
 以下の項目を入力し、「Verify This Domain」をクリックします。
 
--   Domain：前回 Route 53 に設定したドメイン名
--   Generate DKIM Settings：チェック
+- Domain：前回 Route 53 に設定したドメイン名
+- Generate DKIM Settings：チェック
 
 「DKIM」とは、「Domainkeys Identified Mail」の略称で、電子署名に関する規格で RFC4871、5672 として標準化されています。とりあえず、電子署名に関するものだということを頭に入れて、次へ進みます。（なお、後述の手順で DKIM を意識して設定する必要のある項目はありません）
 
@@ -76,7 +76,7 @@ type: post
 
 通常、メールを受信した場合、メールクライアントソフトを開いてメールをダウンロードして内容を確認する、という流れを思い浮かべます。しかし、前述のように SES ではそのようなサービスを提供していません。別途、WorkMail というサービスがありますが、月 4 ドルかかってしまうため、料金が約 2 倍に跳ね上がってしまいます（十分安いんですけどね…）。
 
-Amazon SES では、認証済のドメイン（xxx@example.com）に対するメールを受信した場合、そのメールに対してどのような操作を行うのか、ルールを作成できます。ルールは複数設定可能で、上から順番に優先的に処理され、ルールに合致しないメールが届いた場合には受信が拒否されます。
+Amazon SES では、認証済のドメイン（<xxx@example.com>）に対するメールを受信した場合、そのメールに対してどのような操作を行うのか、ルールを作成できます。ルールは複数設定可能で、上から順番に優先的に処理され、ルールに合致しないメールが届いた場合には受信が拒否されます。
 
 ![](8-fs8.png)
 
@@ -94,19 +94,19 @@ Amazon SES では、認証済のドメイン（xxx@example.com）に対するメ
 
 以下の項目を入力し、右下の「Next Step」をクリックします。
 
--   S3 bucket：作成するバケットの名称（半角英数字、または半角ハイフン、S3 全体で一意の名前である必要があります）
--   Object key prefix：空白
--   Encrypt Message：チェック無
--   SNS Topic：`<None>`
+- S3 bucket：作成するバケットの名称（半角英数字、または半角ハイフン、S3 全体で一意の名前である必要があります）
+- Object key prefix：空白
+- Encrypt Message：チェック無
+- SNS Topic：`<None>`
 
 ![](12-fs8-1.png)
 
 以下の項目を入力し、右下の「Next Step」をクリックします。
 
--   Rule name：任意の名称（メール受信を表す名前など）
--   Enabled：チェック有（ルールを有効化）
--   Require TLS：チェック無（受信するメールについて TLS による暗号化を必要としない）
--   Enable spam and virus scanning：チェック有（スパム、迷惑メール対策を実施する）
+- Rule name：任意の名称（メール受信を表す名前など）
+- Enabled：チェック有（ルールを有効化）
+- Require TLS：チェック無（受信するメールについて TLS による暗号化を必要としない）
+- Enable spam and virus scanning：チェック有（スパム、迷惑メール対策を実施する）
 
 ![](13-fs8.png)
 
@@ -206,11 +206,11 @@ SES のメール送信 API を介して AWS 外部にメールを送信する場
 
 貼り付けたコードの冒頭にある上記の箇所を、ご自身の内容に合わせて変更してください。
 
-* DOMAIN NAME：独自ドメイン（@より前も任意の値に変更可能です）
-* subjectPrefix：空白
-* emailBucket：SES で設定した S3 のバケット名
-* emailKeyPrefix：空白（デフォルトで半角スラッシュが入ってますが削除します）
-* forwardMapping：転送元アドレス、転送先アドレスのように記述します。
+- DOMAIN NAME：独自ドメイン（@より前も任意の値に変更可能です）
+- subjectPrefix：空白
+- emailBucket：SES で設定した S3 のバケット名
+- emailKeyPrefix：空白（デフォルトで半角スラッシュが入ってますが削除します）
+- forwardMapping：転送元アドレス、転送先アドレスのように記述します。
 
 1 つの転送元アドレスに対する転送先アドレスは複数設定可能です。また、転送元アドレスを複数記述することもできます。なお、「DOMAIN NAME」は SES で認証済のドメイン、転送先アドレス（FOWARDING ADDRESS）は SES で認証済のメールアドレスである必要があります。
 
@@ -232,9 +232,9 @@ SES のメール送信 API を介して AWS 外部にメールを送信する場
 
 ![](28-fs8.png)
 
-* Lambda function：SesForwarder
-* Invocation type：Event
-* SNS Topic：`<None>`
+- Lambda function：SesForwarder
+- Invocation type：Event
+- SNS Topic：`<None>`
 
 とします。
 

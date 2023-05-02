@@ -48,13 +48,13 @@ Time Machine でバックアップを行うためには、バックアップデ�
 
 MacBook Pro や MacBook Air の使用可能なディスクの領域は、それほど大きくはありません。また、常に Time Machine のバックアップディスクに接続可能な状況で使用するのであれば、本機能自体が意味を持ちません。ディスクを節約したい、などの理由があれば停止してしまっても構わないでしょう。
 
-**Mobile Time Machine の停止**
+#### Mobile Time Machine の停止
 
-    $ sudo tmutil disablelocal
+    sudo tmutil disablelocal
 
-**Mobile Time Machine の起動**
+#### Mobile Time Machine の起動
 
-    $ sudo tmutil enablelocal
+    sudo tmutil enablelocal
 
 Mobile Time Machine 停止直後のストレージの情報は下図のようになっています。「バックアップ」に注目してください。「0KB」となっているのがお分かりいただけるかと思います。
 

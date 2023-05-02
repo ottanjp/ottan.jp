@@ -25,7 +25,7 @@ type: post
 
 それは、Mac 愛用者の間では有名な、古典的な対処法です。
 
-https://support.apple.com/ja-jp/HT204063
+<https://support.apple.com/ja-jp/HT204063>
 
 そう、**NVRAM のリセット**です。
 

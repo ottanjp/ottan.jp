@@ -60,7 +60,7 @@ highlight.js のダウンロードは、[Getting highlight.js](https://highlight
 
 HTML のエンティティ文字列をエンコードしてくれる便利な Web サービスがありますのでそちらを使用するようにしましょう。
 
-http://www.web2generators.com/html/entities
+<http://www.web2generators.com/html/entities>
 
 ### 注意事項
 

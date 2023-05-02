@@ -31,7 +31,7 @@ iPhone は優秀なデバイスですが、操作するのは人間であるた�
 iCloud バックアップからカレンダーやリマインダーを復元するためには、以下のリンクにアクセスします。Apple ID で 2 段階認証を設定している場合（過去記事：[Apple ID の 2 段階認証を有効にする方法](/posts/2015/08/appleid-two-step-authentication-2163/)
 ）、かつはじめて iCloud.com にログインする場合は、本人確認を求められます。バナーの「確認」をクリックします。
 
-https://www.icloud.com/
+<https://www.icloud.com/>
 
 ![](160123-56a3243def7d1-1.png)
 
@@ -97,7 +97,7 @@ iCloud にバックアップされたカレンダー、およびリマインダ�
 
 iCloud.com の本人確認に使用する、信頼できるデバイスや電話番号は、以下のリンクから追加、削除できます。
 
-https://appleid.apple.com/
+<https://appleid.apple.com/>
 
 ![](160123-56a330832e590-1.png)
 

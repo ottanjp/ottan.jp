@@ -35,35 +35,35 @@ type: post
 
 チェックボックスをオンにするためには、以下のコマンドを実行します。
 
-    $ defaults write com.apple.screensaver askForPassword -bool true
+    defaults write com.apple.screensaver askForPassword -bool true
 
 スリープ、スクリーンセーバーに遷移したあと、パスワードを要求するまでの時間を設定します。単位は秒です。以下のコマンドを実行します。
 
-    $ defaults write com.apple.screensaver askForPasswordDelay -int 5
+    defaults write com.apple.screensaver askForPasswordDelay -int 5
 
 デフォルト（オフ）に戻すためには、以下のコマンドを実行します。
 
-    $ defaults delete com.apple.screensaver askForPassword
+    defaults delete com.apple.screensaver askForPassword
 
 #### 画面がロックされているときにメッセージを表示
 
 メッセージを表示するためには、以下のコマンドを実行します。[message]には、任意の文字列を入力してください。
 
-    $ sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText -string "[message]"
+    sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText -string "[message]"
 
 デフォルト（オフ）に戻すためには、以下のコマンドを実行します。
 
-    $ sudo defaults delete /Library/Preferences/com.apple.loginwindow LoginwindowText
+    sudo defaults delete /Library/Preferences/com.apple.loginwindow LoginwindowText
 
 #### 自動ログインを使用不可にする
 
 チェックボックスをオンにするためには、以下のコマンドを実行します。現在ログインしているユーザで自動ログインを可能にします。
 
-    $ sudo defaults write /Library/Preferences/com.apple.loginwindow autoLoginUser -string ${USER}
+    sudo defaults write /Library/Preferences/com.apple.loginwindow autoLoginUser -string ${USER}
 
 デフォルト（オフ）に戻すためには、以下のコマンドを実行します。
 
-    $ sudo defaults delete /Library/Preferences/com.apple.loginwindow autoLoginUser
+    sudo defaults delete /Library/Preferences/com.apple.loginwindow autoLoginUser
 
 ### FileVault
 
@@ -75,11 +75,11 @@ type: post
 
 ファイアウォールを「入」にするためには、以下のコマンドを実行します。
 
-    $ sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 1
+    sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 1
 
 デフォルト（切）に戻すためには、以下のコマンドを実行します。
 
-    $ sudo defaults delete /Library/Preferences/com.apple.alf globalstate
+    sudo defaults delete /Library/Preferences/com.apple.alf globalstate
 
 #### ファイアウォールオプション
 
@@ -89,31 +89,31 @@ type: post
 
 チェックボックスをオンにするためには、以下のコマンドを実行します。
 
-    $ sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 2
+    sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 2
 
 デフォルト（オフ）にするためには、以下のコマンドを実行します。
 
-    $ sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 1
+    sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 1
 
 ##### 署名されたソフトウェアが外部からの接続を受け入れるのを自動的に許可
 
 チェックボックスをオフにするためには、以下のコマンドを実行します。
 
-    $ sudo defaults write /Library/Preferences/com.apple.alf allowsignedenabled -bool false
+    sudo defaults write /Library/Preferences/com.apple.alf allowsignedenabled -bool false
 
 デフォルト（オン）に戻すためには、以下のコマンドを実行します。
 
-    $ sudo defaults delete /Library/Preferences/com.apple.alf allowsignedenabled
+    sudo defaults delete /Library/Preferences/com.apple.alf allowsignedenabled
 
 ##### ステルスモードを有効にする
 
 チェックボックスをオンにするためには、以下のコマンドを実行します。
 
-    $ sudo defaults write /Library/Preferences/com.apple.alf stealthenabled -bool true
+    sudo defaults write /Library/Preferences/com.apple.alf stealthenabled -bool true
 
 デフォルト（オフ）に戻すためには、以下のコマンドを実行します。
 
-    $ sudo defaults delete /Library/Preferences/com.apple.alf stealthenabled
+    sudo defaults delete /Library/Preferences/com.apple.alf stealthenabled
 
 ### プライバシー
 

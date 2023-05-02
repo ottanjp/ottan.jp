@@ -25,13 +25,13 @@ type: post
 
 以下の流れで手続きすることになります。
 
-1.  Apple Storeアプリのダウンロード
-2.  Apple StoreアプリでApple IDによるサインイン（決済情報の入力をお忘れなく）
-3.  Apple Storeアプリで目的のモデルを「お気に入り」に追加
-4.  Apple Storeアプリで目的のモデルのApple Storeの在庫状況を確認（この手順を繰り返し）
-5.  Apple Storeアプリで注文手続き（Apple IDのパスワードの入力、もしくはTouch IDによる認証が必要であるため、あらかじめパスワードをコピーしておきます）
-6.  Apple Storeアプリで在庫が確認できたら注文手続き
-7.  注文手続き完了後、Apple Store店舗で受け取り（本人確認書類が必要です）
+1. Apple Storeアプリのダウンロード
+2. Apple StoreアプリでApple IDによるサインイン（決済情報の入力をお忘れなく）
+3. Apple Storeアプリで目的のモデルを「お気に入り」に追加
+4. Apple Storeアプリで目的のモデルのApple Storeの在庫状況を確認（この手順を繰り返し）
+5. Apple Storeアプリで注文手続き（Apple IDのパスワードの入力、もしくはTouch IDによる認証が必要であるため、あらかじめパスワードをコピーしておきます）
+6. Apple Storeアプリで在庫が確認できたら注文手続き
+7. 注文手続き完了後、Apple Store店舗で受け取り（本人確認書類が必要です）
 
 ### Apple Storeアプリのダウンロード
 

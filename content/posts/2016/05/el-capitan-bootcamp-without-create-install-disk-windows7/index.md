@@ -44,7 +44,7 @@ type: post
 
 「名前」は任意（デフォルトのままで可）、**「フォーマット」は「MS-DOS（FAT）」、「方式」は「マスター・ブート・レコード」**を選択して、「消去」します。
 
-https://support.apple.com/ja-jp/HT205016
+<https://support.apple.com/ja-jp/HT205016>
 
 続いて、上記リンクにアクセスします。
 
@@ -64,7 +64,7 @@ ZIP ファイルをダウンロードしたら解凍し、先ほどフォーマ�
 
 まず、**光学式ドライブに Windows 7 のインストールディスクを挿入します**。内蔵、外付（SuperDrive）、どちらのドライブでも構いません。インストールディスクを紛失してしまった、という場合には、以下のリンクから Windows 7 の ISO ファイルをダウンロードできます。ただし、25 桁のプロダクトキーが必要です。
 
-https://www.microsoft.com/ja-jp/software-download/windows7
+<https://www.microsoft.com/ja-jp/software-download/windows7>
 
 光学式ドライブに空の DVD-R などを挿入して、ダウンロードした ISO ファイルを右クリックして、「ディスクイメージ"XXXXXXX.iso"をディスクに書き込む」を選択して、インストールディスクを作成してください。
 

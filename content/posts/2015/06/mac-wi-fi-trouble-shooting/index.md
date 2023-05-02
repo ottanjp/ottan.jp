@@ -40,8 +40,8 @@ Macで頻繁にWi-Fiネットワークから切断されてしまう、もしく
 
 チェックポイントは以下の通りです。
 
--   現在接続しているWi-Fiネットワークは、他のネットワークと同一のチャンネルを使用していないか（干渉しあっていないか）
--   現在接続しているWi-Fiネットワークの強度（RSSI）とノイズの差は十分か
+- 現在接続しているWi-Fiネットワークは、他のネットワークと同一のチャンネルを使用していないか（干渉しあっていないか）
+- 現在接続しているWi-Fiネットワークの強度（RSSI）とノイズの差は十分か
 
 ### Wi-Fiネットワーク同士のチャンネルの干渉について
 
@@ -79,7 +79,7 @@ Wi-Fiネットワークから頻繁に切断される場合は、Mac自身に問
 
 MTUとは送受信できる最大の通信量（パケットサイズ）です。あなたのMacは、Wi-Fiネットワークを司るルーターに対して、ルーターの限界を超えて通信しようとしているかもしれません。Macからルーターに対して以下のコマンドを実行してみてください。IPアドレスは仮であるため、適宜変更してください。正常に応答が返ってくるでしょうか。
 
-    $ ping -D -s 1472 192.168.1.1
+    ping -D -s 1472 192.168.1.1
 
 もし、「ping: sendto: Message too long」と表示されるなら、送信したサイズ（1472byte）は、ルーターにとっては大きすぎる値だったのかもしれません。値を下げて、何回も繰り返しチャレンジしてください。**安定する数値 + 28が最適なMTU値**です。
 
@@ -91,12 +91,12 @@ Macでは自動的にMTUが1500に設定されています。もし、1500を下
 
 もし、上記で改善できない場合は、Finderから以下のファイルを削除しましょう。削除する場合には管理者権限のパスワードを求められます。誤って他のシステムファイルを削除しないように注意してください。システムファイルの削除については、[MacでWi-Fiの速度が出ない、繋がらないなど、調子がおかしい時に試したい5つの対処法](/posts/2015/05/mac-wi-fi-1143/)を参照してください。具体的には下記の3つのファイルになります。
 
--   com.apple.airport.preferences.plist
--   com.apple.captive.probe.plist
--   com.apple.network.eapolclient.configuration.plist
--   com.apple.wifi.message-tracer.plist
--   NetworkInterfaces.plist
--   preferences.plist
+- com.apple.airport.preferences.plist
+- com.apple.captive.probe.plist
+- com.apple.network.eapolclient.configuration.plist
+- com.apple.wifi.message-tracer.plist
+- NetworkInterfaces.plist
+- preferences.plist
 
 削除後に、OSを再起動し再びネットワーク設定を行います。
 

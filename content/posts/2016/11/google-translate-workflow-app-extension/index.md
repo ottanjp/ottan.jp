@@ -31,7 +31,7 @@ Google 翻訳を呼び出すだけであれば、Safari のブックマークレ
 
 「Workflow」の良い点は、「App Extension」を一から作成しなくても、すでに Web 上に大量に公開されているものを簡単にインポートできるということです。「Workflow」は何でもできるがゆえに、初心者は「何をしたらいいかさっぱりわからない」という事態に陥りがちですが、すでに公開されている「Workflow」を参考にイノベーションすれば良いのです。
 
-https://workflow.is/workflows/75328e15409542be9ca6a6dbc531598d
+<https://workflow.is/workflows/75328e15409542be9ca6a6dbc531598d>
 
 今回は、上記リンクで公開されている「Workflow」を使用します。この「Workflow」は、 パラメーターとして「URL」を受け取り、Google 翻訳を Safari で開くだけという至って単純なものですが、これを実現できる App がなかなか見つからないのが現状です。Google 翻訳が対応してくれれば言うことないんですが。
 

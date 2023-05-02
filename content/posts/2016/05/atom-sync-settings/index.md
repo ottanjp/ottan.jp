@@ -32,7 +32,7 @@ Atom を起動したら、メニューの「Atom」→「Install Shell Commands�
 
 「sync-settings」パッケージは、GitHub の Gist を経由して Atom の設定やパッケージの情報を同期します。そのために、事前に GitHub にアクセスするためのアクセストークン、および「Secret Gist」の用意が必要です。
 
-https://github.com/
+<https://github.com/>
 
 まず、上記のリンクから「GitHub」にアクセスします。
 
@@ -68,7 +68,7 @@ https://github.com/
 
 次に、Secret Gist を作成します。
 
-https://gist.github.com/
+<https://gist.github.com/>
 
 まず、上記のリンクにアクセスします。
 

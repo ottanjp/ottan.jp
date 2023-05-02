@@ -45,7 +45,7 @@ IFTTT で Gmail を使用するためには、IFTTT と Gmail を連携する必
 
 IFTTT には、昼夜を問わず多数のレシピが作成され、公開され続けています。同じような事を考えている方はたくさんいらっしゃるようで、今回も先人の知恵をお借りしたいと思います。下記のレシピは、[How to Save Emails into Evernote with IFTTT](http://www.labnol.org/internet/evernote-email-notes/28961/)で紹介されていたものです。
 
-https://ifttt.com/recipes/311534-label-email-in-your-gmail-inbox-to-archive-it-in-a-notebook
+<https://ifttt.com/recipes/311534-label-email-in-your-gmail-inbox-to-archive-it-in-a-notebook>
 
 上記のリンクにアクセスしたら、「Apply this label to email」に**「Evernote」**と入力して、「Add」ボタンをクリックします。
 
@@ -55,15 +55,15 @@ https://ifttt.com/recipes/311534-label-email-in-your-gmail-inbox-to-archive-it-i
 
 ## Gmail のフィルターを利用して「Evernote」ラベルをつける
 
-Gmail は、**実質、無制限にメールアドレスを作成できる**事をご存知でしょうか？「◯◯◯◯@gmail.com」が通常のメールアドレスとすると、「◯◯◯◯+hogehoge@gmail.com」宛に送信されたメールも「◯◯◯◯@gmail.com」宛に送信されます。**「+」以降に付与された文字列は無視される**のです。
+Gmail は、**実質、無制限にメールアドレスを作成できる**事をご存知でしょうか？「◯◯◯◯@gmail.com」が通常のメールアドレスとすると、「◯◯◯◯<+hogehoge@gmail.com>」宛に送信されたメールも「◯◯◯◯@gmail.com」宛に送信されます。**「+」以降に付与された文字列は無視される**のです。
 
-Gmail のこの性質を利用して、Evernote 専用のメールアドレスを作成します。作成、と言っても、そのメールアドレス宛に送信するだけなので、改めてアカウントの設定の必要があるわけではありません。ここでは**「◯◯◯◯+evernote@gmail.com」**を Evernote 専用メールアドレスとします。
+Gmail のこの性質を利用して、Evernote 専用のメールアドレスを作成します。作成、と言っても、そのメールアドレス宛に送信するだけなので、改めてアカウントの設定の必要があるわけではありません。ここでは**「◯◯◯◯<+evernote@gmail.com>」**を Evernote 専用メールアドレスとします。
 
 ### Evernote 専用メールアドレスに送信されたメールに「Evernote」というラベルを付ける
 
 まずは、Gmail にアクセスします。
 
-https://mail.google.com/
+<https://mail.google.com/>
 
 「設定」アイコンをクリックし、「設定」メニューをクリックします。
 
@@ -77,7 +77,7 @@ https://mail.google.com/
 
 ![](150808-55c5f98894837.png)
 
-次に、「To」欄に「◯◯◯◯+evernote@gmail.com」（注：◯◯◯◯ は実際のアカウントを入力してください）と入力して、「この検索条件でフィルターを作成」をクリックします。
+次に、「To」欄に「◯◯◯◯<+evernote@gmail.com>」（注：◯◯◯◯ は実際のアカウントを入力してください）と入力して、「この検索条件でフィルターを作成」をクリックします。
 
 ![](150808-55c5f98a2eb63.png)
 
@@ -85,7 +85,7 @@ https://mail.google.com/
 
 ![](150808-55c5f98c888f7.png)
 
-以上で設定は完了です。従来の Evernote 専用のメールアドレスの代わりに、これからは**「◯◯◯◯+evernote@gmail.com」が Evernote 専用のメールアドレス**になります。
+以上で設定は完了です。従来の Evernote 専用のメールアドレスの代わりに、これからは**「◯◯◯◯<+evernote@gmail.com>」が Evernote 専用のメールアドレス**になります。
 
 ## まとめ
 

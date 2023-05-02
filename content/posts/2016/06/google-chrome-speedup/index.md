@@ -64,7 +64,7 @@ Google Chrome を開いて、設定を開きます。設定の最下部に「詳
 
 Google Chrome でメモリを大量消費する原因は、**タブの開きすぎか、拡張機能のロードのしすぎ**です。とくに、前者のタブに関しては顕著で、通常、1〜2 個のタブを開いている程度では問題ありませんが、10 個以上のタブを開くと非常にメモリ消費が激しくなります。そこで、使用していないタブはサスペンドしてしまいましょう。
 
-https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg
+<https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg>
 
 サスペンドとは、直前の状態を保存して、必要に応じて復旧できるようにしておくことです。使用していないタブのサスペンドは、「The Great Suspender」が便利です。例をご覧ください。
 
@@ -84,13 +84,13 @@ https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiok
 
 Google Chrome のタブを制御するもう 1 つの方法が、開いているタブの情報をセッションとして保存しておくことです。
 
-https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko?hl=ja&gl;=JP
+<https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko?hl=ja&gl;=JP>
 
 「Session Buddy」を使用すれば、開いているタブの情報を「セッション」として保存し、いつでも情報を復元できるようになります。一度、セッションとして保存してしまえば、もはやタブを開いておく必要がなくなるため、タブを閉じることができて、結果的にメモリ使用量を抑えることができるわけです。
 
 ### Google 提供のデータセーバーを使用する
 
-https://chrome.google.com/webstore/detail/data-saver/pfmgfdlgomnbgkofeojodiodmgpgmkac
+<https://chrome.google.com/webstore/detail/data-saver/pfmgfdlgomnbgkofeojodiodmgpgmkac>
 
 Google が自ら提供する拡張機能である「データセーバー」を使用することにより、通信量を軽減し、高速な通信を行うことができるようになります。結果的に、ページの読み込み速度が上がり、体感速度が向上することに繋がります。
 

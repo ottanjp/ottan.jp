@@ -56,4 +56,4 @@ Gist のソースコードを公開することで、
 
 今回、**functions.php**にコードを追加するにあたり、以下のリンクを参考にさせていただきました。ただし、以下で公開されているコードをそのまま使用したところ、正常に動作しなかったため改変させていただきました。
 
-http://targetimc.com/insertar-un-gist-de-github-en-wordpress-o-genesis/
+<http://targetimc.com/insertar-un-gist-de-github-en-wordpress-o-genesis/>

@@ -23,28 +23,28 @@ Apple Silicon搭載のM1 Mac（MacBook Air 2020のエントリーモデル）に
 
 ### 環境
 
-```
+```zsh
 Darwin MacBook-Air.local 21.2.0 Darwin Kernel Version 21.2.0: Sun Nov 28 20:29:10 PST 2021; root:xnu-8019.61.5~1/RELEASE_ARM64_T8101 arm64
 ```
 
 macOS Monterey（12.1）で試しました。
 
-```
-ProductName:	macOS
-ProductVersion:	12.1
-BuildVersion:	21C52
+```zsh
+ProductName: macOS
+ProductVersion: 12.1
+BuildVersion: 21C52
 ```
 
 UTMは、Homebrewでインストールしました。
 
-```
+```zsh
 utm: 2.4.1
 https://getutm.app/
 ```
 
 また、VHDX形式の仮想ディスクイメージファイルをQCOW2形式へ変換するためのツールが必要です。
 
-```
+```zsh
 qemu: stable 6.2.0 (bottled), HEAD
 Emulator for x86 and PowerPC
 https://www.qemu.org/

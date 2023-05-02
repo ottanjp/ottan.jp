@@ -24,7 +24,7 @@ type: post
 
 Windows 7 から以下のリンクにアクセスし、ツールのダウンロードを行います。
 
-https://www.microsoft.com/ja-jp/software-download/windows10ISO
+<https://www.microsoft.com/ja-jp/software-download/windows10ISO>
 
 アーキテクチャ（32bit／64bit）によってツールが分かれていますので、ご自身の Mac または PC のアーキテクチャに沿ったツールをダウンロードしてください。
 

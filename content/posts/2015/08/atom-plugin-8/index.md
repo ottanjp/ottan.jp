@@ -31,41 +31,41 @@ GitHub 謹製のエディター「Atom」、バージョンアップによる機
 
 右クリック 1 つで、好きな色を選択してさまざまな形式で貼り付けることのできるパッケージです。公式パッケージのリンクの動画をご覧になっていただければ、すぐに使い方が理解できると思います。
 
-https://atom.io/packages/color-picker
+<https://atom.io/packages/color-picker>
 
 インストールは、以下のコマンドを実施します。
 
-    $ apm install color-picker
+    apm install color-picker
 
 ### Emmet plugin Atom editor
 
 Emmet は、コーディングにはもはや欠かせないツールとなりつつあります。
 
-https://atom.io/packages/emmet
+<https://atom.io/packages/emmet>
 
 インストールは、以下のコマンドを実施します。
 
-    $ apm install emmet
+    apm install emmet
 
 ### Minimap package
 
 ソースコードの全体を俯瞰するためのミニマップを表示してくれるツールです。ソースコードが長い場合、今自分がどのあたりを修正しているのかが一発でわかります。
 
-https://atom.io/packages/minimap
+<https://atom.io/packages/minimap>
 
 インストールは、以下のコマンドを実施します。
 
-    $ apm install minimap
+    apm install minimap
 
 ### atom-beautify
 
 HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, SQL など、さまざまな言語でか書かれたソースコードを整形してくれるツールです。
 
-https://atom.io/packages/atom-beautify
+<https://atom.io/packages/atom-beautify>
 
 インストールは、以下のコマンドを実行します。
 
-    $ apm install atom-beautify
+    apm install atom-beautify
 
 #### PHP
 
@@ -73,7 +73,7 @@ atom-beautify を使用するためには、あらかじめインストールし
 
 インストールは、以下のコマンドを実行します。
 
-    $ brew install homebrew/php/php-cs-fixer
+    brew install homebrew/php/php-cs-fixer
 
 「PHP CS Fixer」の「CS」は「Coding Standard」の略です。文字通り、コーディングスタンダードに則り、PHP のソースコードを整形してくれるツールです。
 
@@ -81,15 +81,15 @@ atom-beautify を使用するためには、あらかじめインストールし
 
 「Linter」自体はこれからご紹介する、さまざまなパッケージ群を動作させるためのベースでしかありません。「Lint」とはソースコードのチェックを行うプログラムのことです。「Linter」はそのベースとなるパッケージです。
 
-https://atom.io/packages/linter
+<https://atom.io/packages/linter>
 
 インストールは、以下のコマンドを実行します。
 
-    $ apm install linter
+    apm install linter
 
 また、Atom でチェック可能なソースコードは、以下のリンク先から確認可能です。ただし、パッケージを導入しただけでは動作せず、あらかじめローカル環境に、各言語の「Linter」用のプログラムを用意しておく必要があります。
 
-https://atomlinter.github.io/
+<https://atomlinter.github.io/>
 
 #### CSS
 
@@ -97,8 +97,8 @@ https://atomlinter.github.io/
 
 インストールは、以下のコマンドを実行します。
 
-    $ apm install linter-csslint
-    $ npm install -g csslint
+    apm install linter-csslint
+    npm install -g csslint
 
 「CSS Lint」は、CSS で書かれたソースコードの誤りを指摘してくれるツールです。
 
@@ -108,8 +108,8 @@ https://atomlinter.github.io/
 
 インストールは、以下のコマンドを実行します。
 
-    $ apm install linter-tidy
-    $ brew install tidy-html5
+    apm install linter-tidy
+    brew install tidy-html5
 
 「Tidy HTML5」は、W3C の開発した、HTML5 で書かれたソースコードの誤りを指摘してくれるツールです。
 
@@ -119,8 +119,8 @@ JSON 形式のファイルを使用することは滅多にありませんが、
 
 インストールは以下のコマンドを実行します。
 
-    $ apm install linter-jsonlint
-    $ npm install -g jsonlint
+    apm install linter-jsonlint
+    npm install -g jsonlint
 
 #### JavaScript
 
@@ -128,26 +128,26 @@ JavaScript の Linter は 4 種類用意されています。普段愛用して�
 
 JavaScript の構文解析の定番、JSHint をインストールするためには以下のコマンドを実行します。
 
-    $ apm install linter-jshint
-    $ npm install -g jshint
+    apm install linter-jshint
+    npm install -g jshint
 
 JSCS は「JavaScript Code Style cheker」の略称で、こちらも JSHint 同様に JavaScirpt の構文解析を行ってくれます。
 
-    $ apm install linter-jscs
-    $ npm install -g jscs
+    apm install linter-jscs
+    npm install -g jscs
 
 続いて、ESLint は独自の構文解析ルールを追加することができるなど、JSHint や JSLint に比べて柔軟性が高いツールです。[JavaScript - ESLint についてのメモ - Qiita](http://qiita.com/makotot/items/822f592ff8470408be18)のページが参考になります。
 
-    $ apm install linter-eslint
-    $ npm install -g eslint
+    apm install linter-eslint
+    npm install -g eslint
 
 最後に「Closure Linter」のご紹介です。これは、Google 社の[Closure Linter  |  Google Developers](https://developers.google.com/closure/utilities/#what-is-the-closure-linter)にしたがって構文解析を行ってくれる、Google 社謹製ツールです。Google に愛を注ぎ込みたい場合は、ぜひ使用してみてください。
 
 ただし、インストールには、Python のパッケージマネージャーソフトウェアである「pip」が必要になります。あらかじめ、「easy_install」コマンドを使用して、「pip」をインストールしておいてください。
 
-    $ apm install linter-gjslint
-    $ sudo easy_install pip
-    $ sudo pip install https://github.com/google/closure-linter/zipball/master
+    apm install linter-gjslint
+    sudo easy_install pip
+    sudo pip install https://github.com/google/closure-linter/zipball/master
 
 インストール途中で、下記のような行が表示され停止した場合は、P キーを押したあと、↵ キーを押してください。
 
@@ -155,40 +155,40 @@ JSCS は「JavaScript Code Style cheker」の略称で、こちらも JSHint 同
 
 続いて「linter-flow package」のご紹介です。といってもこの記事を書くまで知りませんでした。どのような機能を具備しているのかわかりませんが、興味のある方は使用してみてください。
 
-    $ apm install linter-flow
-    $ brew install flow
+    apm install linter-flow
+    brew install flow
 
 続いて、ご紹介するのは、「linter-js-standard」です。といっても…「standard」「semistarndard」「happiness」の 3 種類のスタイルから選ぶことのできるのが特徴のようです。
 
-    $ apm install linter-js-standard
-    $ npm install -g standard
-    $ npm install -g semistandard
-    $ npm install -g happiness
+    apm install linter-js-standard
+    npm install -g standard
+    npm install -g semistandard
+    npm install -g happiness
 
 最後にご紹介するのは「linter-xo」こちらもこの記事を書くまで知りませんでした。どのような機能を具備しているのかわかりませんが、興味のある方は使用してみてください。
 
-    $ apm install linter-xo
-    $ npm install -g xo
+    apm install linter-xo
+    npm install -g xo
 
 #### PHP
 
 PHP にも 2 種類のパッケージが用意されています。まず、はじめに「PHP」がインストールされていれば問題なくすぐ利用できるのが「linter-php」です。PHP で書かれたファイルに対して、「php」コマンドに「-l」オプションを付与すると、構文チェックを行ってくれますが、それを Atom 上で実現するのがこのパッケージです。
 
-    $ apm install linter-php
+    apm install linter-php
 
 次にご紹介するのは、PEAR で開発された PHP の構文解析ツール「PHP CodeSniffer」です。インストールするためには、「pear
 」コマンドがインストールされている必要があります。
 
-    $ apm install linter-phpcs
-    $ sudo pear install PHP_CodeSniffer
+    apm install linter-phpcs
+    sudo pear install PHP_CodeSniffer
 
 ##### PEAR がインストールされていない場合
 
 「pear」コマンドをインストールするためには、以下のコマンドを実行します。「wget」がすでにインストール済みの場合は、最初のコマンドを実行する必要はありません。
 
-    $ brew install wget
-    $ wget http://pear.php.net/go-pear.phar
-    $ sudo php -d detect_unicode=0 go-pear.phar
+    brew install wget
+    wget http://pear.php.net/go-pear.phar
+    sudo php -d detect_unicode=0 go-pear.phar
 
 以下のような表示でインストールが止まってしまった場合には、そのまま ↵ キーを押してください。
 
@@ -215,47 +215,47 @@ PHP にも 2 種類のパッケージが用意されています。まず、は�
 
 最後にご紹介するのは、「linter-phpmd」です。「PHPMD」は「PHP Mess Detector」の略称です。PHP で書かれたソースコードにメスを入れ、潜在的なバグになりそうな箇所や実装上の問題を指摘してくれる、少し毛色の異なるツールです。こちらも、インストールには「pear」コマンドが必要です。
 
-    $ apm install linter-phpmd
-    $ sudo pear channel-discover pear.phpmd.org
-    $ sudo pear channel-discover pear.pdepend.org
-    $ sudo pear install --alldeps phpmd/PHP_PMD
+    apm install linter-phpmd
+    sudo pear channel-discover pear.phpmd.org
+    sudo pear channel-discover pear.pdepend.org
+    sudo pear install --alldeps phpmd/PHP_PMD
 
 #### SASS/SCSS
 
 SASS や SCSS のチェックには、「scss-lint」を使用します。インストールするためには、以下のコマンドを実行してください。
 
-    $ apm install linter-scss-lint
-    $ sudo gem install scss_lint
+    apm install linter-scss-lint
+    sudo gem install scss_lint
 
 ### file-icons
 
 file-icons は、プロジェクトのツリー上に表示されているファイルを、わかりやすくしてくれる、痒い所に手が届くパッケージです。インストールしておいて損はないでしょう。
 
-https://atom.io/packages/file-icons
+<https://atom.io/packages/file-icons>
 
 インストールは以下のコマンドを実行します。
 
-    $ apm install file-icons
+    apm install file-icons
 
 ### css-comb package
 
 CSSComb の Atom 版です。[【便利ツール】CSScomb for sublime text 2 で、CSS プロパティを整理・整頓【16 日目】 ｜ Developers.IO](https://dev.classmethod.jp/tool/csscomb/)のページで詳しく紹介されています。
 
-https://atom.io/packages/css-comb
+<https://atom.io/packages/css-comb>
 
 インストールは以下のコマンドを実行します。
 
-    $ apm install css-comb
+    apm install css-comb
 
 ### WordPress Core API Support
 
 WordPress のコードを補完してくれるパッケージです。
 
-https://atom.io/packages/wordpress-api
+<https://atom.io/packages/wordpress-api>
 
 インストールは、以下のコマンドを実行します。
 
-    $ apm install wordpress-api
+    apm install wordpress-api
 
 ## まとめ
 

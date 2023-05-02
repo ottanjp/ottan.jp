@@ -51,7 +51,7 @@ Mac の場合は、[Mac で頻繁に Wi-Fi ネットワークから頻繁に切�
 
 また、[Mac で頻繁に Wi-Fi ネットワークから頻繁に切断される、もしくは速度が出ない問題の対処法](/posts/2015/06/mac-wi-fi-trouble-shooting-1660/)に記した方法に従い、RSSI およびノイズの値が適正値かどうか見直してみましょう。
 
-https://www.apple.com/jp/airmac-extreme/
+<https://www.apple.com/jp/airmac-extreme/>
 
 ### ネットワーク設定のリセットを行う
 

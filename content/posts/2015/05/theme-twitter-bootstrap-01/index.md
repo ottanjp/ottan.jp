@@ -17,46 +17,18 @@ type: post
 
 ![](150523-5560217a37b10.jpg)
 
-
-
-
 Twitter Bootstrapを用いたWordPressテーマは数多く配信されています。その中からピックアップしてカスタマイズしても良いのですが、それでは面白味がありませんので、極力そういった類いのツールは借りず、自作に近い形でテーマを作成したいと思います。
-
-
-
-
 
 ## 簡単にレスポンシブに対応したデザインが作成できる「Initializr」
 
-
-
-
-
 [Initializr](http://www.initializr.com/)では、Twitter Bootstrapを使用した雛形を簡単に作成できます。今回は、この雛形をカスタマイズしていきたいと思います。[Initializr](http://www.initializr.com/)にアクセスし、以下の通りになっていることを確認して、「Download it!」ボタンをクリックしてください。
 
-
-
-
-
-
-  * 「1 - Pre-configuration」は「Bootstrap」を選択
-  * 「2 - Fine tunning」はデフォルトのまま変更しない
-
-
-
+* 「1 - Pre-configuration」は「Bootstrap」を選択
+* 「2 - Fine tunning」はデフォルトのまま変更しない
 
 ![](150523-55602176deacf.png)
 
-
-
-
-
-
 ダウンロードされた圧縮ファイルを展開すると下図のような構造になっているはずです。
-
-
-
-
 
     ├── apple-touch-icon.png
     ├── browserconfig.xml
@@ -87,52 +59,19 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
     ├── tile-wide.png
     └── tile.png
 
-
-
-
-
 「index.html」をブラウザで表示すると、大きな文字で「Hello, world!」と表示されているのが確認できたでしょうか。ここまでで下準備は完了です。
-
-
-
-
 
 ![](150523-5560217b5fbc7.png)
 
-
-
-
-
-
 ## WordPressテーマの作成
-
-
-
-
 
 では、いよいよWordPressテーマ作成に入っていきます。上記のフォルダーを、WordPressの`themes`フォルダーにコピーします。また、`index.html`を`index.php`にリネームします。
 
-
-
-
-
 続いて、WordPress自身にこれがテーマであることを認識させるためには、**style.css**を作成する必要があります。**style.css**に記述され内容から、WordPressはこれがテーマファイルであるかどうかを認識します。
-
-
-
-
 
 ### style.css
 
-
-
-
-
 以下のソースをコピーして、「index.html」と同じ階層に**style.css**という名前で格納してください。`Theme Name:` がWordPressが認識するテーマの名前になります。なお、`Theme URI:` 、`author`、`Version` については任意の文字列に変更してください。
-
-
-
-
 
     /*
     Theme Name: initializr
@@ -146,47 +85,17 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
     Text Domain:
     */
 
-
-
-
-
-
 スタイルシートの作成が完了したら、WordPressの管理画面にアクセスします。「外観」→「テーマ」と進み、新規作成した「Initializr」が表示されていることを確認してください。表示されていることが確認できたら、さっそくテーマを有効化しましょう。
-
-
-
-
 
 ![](150523-5560217f0eefc.png)
 
-
-
-
-
-
 はじめて有効化した時点では表示が崩れていると思いますが、今後修正しますので今のところは放置で大丈夫です。
-
-
-
-
 
 ### コンテンツからヘッダーとフッターの分離
 
-
-
-
-
 現在、すべてのファイルが「index.php」に集約化されていますが、メンテナンス性、拡張性を考慮して、ヘッダー部分とフッター部分を分離します。`<div class="jumbotron">` より前までをヘッダー、`<footer>` から後ろをフッターとして切り離し、各々を「**header.php**」、「**footer.php**」として別ファイルに切り出してください。一部内容を割愛していますが、切り離し後のヘッダー、フッターは以下のようになります。
 
-
-
-
-
 **header.php**
-
-
-
-
 
     <!doctype html>
     <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
@@ -243,16 +152,7 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
           </div>
         </nav>
 
-
-
-
-
-
 **footer.php**
-
-
-
-
 
           <footer>
             <p>&copy; Company 2015</p>
@@ -277,27 +177,11 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
         </body>
     </html>
 
-
-
-
-
 「**header.php**」「**footer.php**」に、各々`wp_head()`関数、`wp_footer()`関数を追加しています。これは、各種プラグインやウィジェット、WordPressのダッシュボードを正常に動作させるために必要な関数です。ここでは、何も考えず追加しておいてください。
-
-
-
-
 
 また、分割した「**header.php**」、「**footer.php**」をメインの「**index.php**」から呼ぶためにコードを修正します。この時点で、「**index.html**」ファイルの拡張子を「**index.php**」に変更しておいてください。「**index.php**」の冒頭と末尾に、`get_header()` 、`get_footer()`を追記します。これで、「**index.php**」からヘッダーとフッターを呼ぶことができるようになります。
 
-
-
-
-
 **index.php**
-
-
-
-
 
     <?php get_header(); ?>
     <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -309,46 +193,17 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
     <hr>
     <?php get_footer(); ?>
 
-
-
-
-
 ### スタイルシート、JavaScriptの呼び出し元をテンプレートディレクトリ配下に変更
-
-
-
-
 
 「**index.php**」にアクセスすると、以下の図のように表示が崩れてしまっています。これは、正しくスタイルシート、JavaScriptが読み込めていない（パスが正しくない）ためにおこる現象です。
 
-
-
-
-
 ![](150523-5560289b33576.png)
-
-
-
-
-
 
 サイトが正しく表示されるように先ほど分離した「**header.php**」、「**footer.php**」の内容を以下の通り変更します。テンプレートを格納したディレクトリを呼び出すためには、`get_template_directory_uri()` 関数を使用します。
 
-
-
-
-
 **header.php**
 
-
-
-
-
 `bootstrap.min.css` 、`bootstrap-theme.min.css` 、`main.css` 、`modernizr-2.6.2-respond-1.1.0.min.js` に対して、上記の関数を使用して呼び出し場所を調整します。
-
-
-
-
 
     <!doctype html>
     <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
@@ -405,21 +260,9 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
           </div>
         </nav>
 
-
-
-
-
 **footer.php**
 
-
-
-
-
 `jquery-1.11.2.min.js` 、`bootstrap.min.js` 、`main.js` に対して、`get_template_directory_uri()` 関数を使用して呼び出し元を修正します。なお、フッターのGoogle Analyticsのコードは、必要に応じて`UA-XXXXX-X` の内容を変更してください。
-
-
-
-
 
           <footer>
             <p>&copy; Company 2015</p>
@@ -444,33 +287,12 @@ Twitter Bootstrapを用いたWordPressテーマは数多く配信されていま
         </body>
     </html>
 
-
-
-
-
 ### 動作確認
-
-
-
-
 
 ![](150523-55602d0c77521.png)
 
-
-
-
-
-
 この図のように表示されていれば、正しく修正されています。
 
-
-
-
-
 ## まとめ
-
-
-
-
 
 Twitter Bootstrapを、WordPressのテーマにカスタマイズするところまでは完了です。次回以降は、本テーマを使用して、投稿の表示、サイドバーの表示についてチャレンジしたいと思います。

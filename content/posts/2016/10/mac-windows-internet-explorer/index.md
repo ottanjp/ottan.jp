@@ -28,7 +28,7 @@ type: post
 
 マイクロソフトは、「modern.IE」による、リモートでの Internet Explorer の再現環境の提供を中止し、代替手段として仮想マシンのイメージファイルを提供するようになりました。Mac で動作する「VirtualBox」「VMware Fusion」「Parallels Desktop」などの主要な仮想環境に対応した仮想マシンのイメージをダウンロードできます。
 
-https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
+<https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/>
 
 仮想マシンのイメージをダウンロードするためには、上記のリンクをクリックします。
 

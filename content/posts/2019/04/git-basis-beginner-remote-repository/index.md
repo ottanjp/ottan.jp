@@ -62,8 +62,8 @@ git remote -v
 
 `origin`という名前のリモートリポジトリが設定されていることがわかります。
 
-    origin	https://github.com/ottanxyz/training (fetch)
-    origin	https://github.com/ottanxyz/training (push)
+    origin https://github.com/ottanxyz/training (fetch)
+    origin https://github.com/ottanxyz/training (push)
 
 リモートリポジトリにあるブランチの情報も確認してみましょう。`git branch`コマンドに`-a`オプションを付与すると、リモートリポジトリのブランチも合わせて表示されます。
 

@@ -148,7 +148,7 @@ Web サーバ（Apache）の設定は「.htaccess」ファイルで行います�
 
 画像ファイルは圧縮した上でアップロードしているため、Web サーバによる圧縮の対象外としてます。また、mod_deflate はサーバの CPU 使用率を向上させる可能性があります。設定を間違えると、とくにレンタルサーバの場合、第三者が害を被ることがありますので注意してください。mod_deflate については以下のサイトが参考になりました。
 
-https://oxynotes.com/?p=6519
+<https://oxynotes.com/?p=6519>
 
 ## WordPress の設定
 
@@ -160,7 +160,7 @@ WordPress は、世界各国で使用されている万国共通の CMS です�
 
 そこで、この翻訳ファイルを改めて翻訳しないようキャッシュして表示を高速化するのがこのプラグインです。公式リポジトリに登録されているプラグインのため、WordPress のダッシュボードからインストールできます。オンにしておくだけで効果が表れますので、ぜひ導入しましょう。
 
-https://wordpress.org/plugins/001-prime-strategy-translate-accelerator/
+<https://wordpress.org/plugins/001-prime-strategy-translate-accelerator/>
 
 なお、WordPress のデバッグモードを ON にしている場合で、かつこのプラグインを利用している場合、以下のような警告が表示されます。動作に影響はありませんが、本番環境ではデバッグモードは OFF にしておきましょう。
 
@@ -176,7 +176,7 @@ https://wordpress.org/plugins/001-prime-strategy-translate-accelerator/
 
 アップロードした画像を自動で圧縮、最適化してくれます。投稿以外のファビコンで使用している画像など、意図せぬところにまだ最適化、圧縮の余地が残されている画像が存在したりするものです。導入しておいて損はないプラグインです。
 
-https://wordpress.org/plugins/ewww-image-optimizer/
+<https://wordpress.org/plugins/ewww-image-optimizer/>
 
 ### WP-Optimize
 
@@ -186,7 +186,7 @@ WordPress は、MySQL というリレーショナルデータベースを使用�
 
 そんなときに便利なのが、このプラグインです。一時的に使用されたテーブルのレコード削除や、データベース全体の最適化を行ってくれます。常時オンにしておく必要性はありませんが、導入しておいて損はないプラグインといえます。
 
-https://wordpress.org/plugins/wp-optimize/
+<https://wordpress.org/plugins/wp-optimize/>
 
 ### ソーシャルネットワーク
 
@@ -196,7 +196,7 @@ https://wordpress.org/plugins/wp-optimize/
 
 その他、非同期で読み込む方法はすでに定石化されています。下記のサイトの他、多数のサイトで紹介されていますので、読み込む時間が遅く感じる場合には参考にされてみてください。
 
-http://tokkono.cute.coocan.jp/blog/slow/index.php/xhtmlcss/asynchronous-loading-of-major-social-buttons/
+<http://tokkono.cute.coocan.jp/blog/slow/index.php/xhtmlcss/asynchronous-loading-of-major-social-buttons/>
 
 ## まとめ
 

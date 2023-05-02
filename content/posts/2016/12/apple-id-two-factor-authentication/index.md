@@ -100,7 +100,7 @@ Apple は、現在は「2 ステップ確認」ではなく「2 ファクター�
 
 「2 ステップ確認」が有効かどうかは、Apple ID の管理ページから確認できます。
 
-https://appleid.apple.com/
+<https://appleid.apple.com/>
 
 上記の URL より、Apple ID の管理ページにサインインします。
 
@@ -170,4 +170,4 @@ iCloud キーチェーンを使用している場合は、キーチェーンの�
 
 ## 参考リンク
 
-https://support.apple.com/ja-jp/HT204915
+<https://support.apple.com/ja-jp/HT204915>

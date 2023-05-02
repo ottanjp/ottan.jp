@@ -57,7 +57,7 @@ type: post
 | ----------- | ------------------------------------------------ |
 | Name        | 任意の名称だが必須項目                           |
 | Description | 空白のままで OK                                  |
-| URL         | https://280blocker.net/files/280blocker_host.txt |
+| URL         | <https://280blocker.net/files/280blocker_host.txt> |
 
 以上の項目を入力して「Done」をタップします。
 

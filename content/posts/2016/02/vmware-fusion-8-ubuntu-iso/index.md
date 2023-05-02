@@ -89,8 +89,8 @@ Ubuntu のインストールが完了すると、自動的に仮想マシンが�
 
 以下のコマンドを入力します。
 
-    $ cd ~/Desktop/vmware-tools-distrib
-    $ sudo ./vmware-install.pl -d
+    cd ~/Desktop/vmware-tools-distrib
+    sudo ./vmware-install.pl -d
 
 「Desktop」は VMware Tools を解凍したフォルダーです。適宜、解凍した場所に変更してください。また、VMware Tools で Ubuntu をインストールすると、キーボードの配置が異なるため、日本語キーボードを使用している場合、通常の方法で「~（チルダ）」を打つことができません。「~（チルダ）」を使用する場合は、「F10」を押してください。実行後は、ダイアログに従い、VMware Tools をインストールします。すべてデフォルトのままで構いませんので、インストールしておきましょう。
 
@@ -98,7 +98,7 @@ Ubuntu のインストールが完了すると、自動的に仮想マシンが�
 
 Ubuntu をインストールしたら、セキュリティの脆弱性が含まれるプログラム等が含まれている可能性があります。Ubuntu にインストールされているパッケージを最新版に更新しておきましょう。最新版に更新するためには、以下のコマンドを入力します。
 
-    $ sudo apt-get update
+    sudo apt-get update
 
 ![](160208-56b8afa48caa0.png)
 

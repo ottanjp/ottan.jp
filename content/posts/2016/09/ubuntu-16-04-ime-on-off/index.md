@@ -31,7 +31,7 @@ Ubuntu 16.04 LTS については、下記の記事でもご紹介しています
 
 Ubuntu 16.04 の ISO ファイル（ディスクイメージファイル）は、以下のリンクからダウンロードできます。
 
-http://www.ubuntu.com/download/desktop
+<http://www.ubuntu.com/download/desktop>
 
 ### Ubuntu 16.04 LTS のインストール
 

@@ -42,8 +42,8 @@ Macでブログを書くとき、文字入力の補助としてスニペット�
 | ------------ | -------------------------------------------------------------------------------- |
 | ;pp          | &lt;p&gt;@cursor&lt;/p&gt;                                                       |
 | ;<<          | &lt;                                                                             |
-| ;href        | &lt;a href="@clipboard" target="_blank"&gt;__placeholder__&lt;/a;&gt             |
-| ;twitter     | &lt;a href="https://twitter.com/ottanxyz" target="_blank"&gt;@ottanxyz&lt;/a&gt; |
+| ;href        | &lt;a href="@clipboard" target="_blank"&gt;**placeholder**&lt;/a;&gt             |
+| ;twitter     | &lt;a href="<https://twitter.com/ottanxyz>" target="_blank"&gt;@ottanxyz&lt;/a&gt; |
 
 たとえば、上記のようなスニペットを登録できます。「@」から始まる文字列は特殊文字列（プレースホルダー）です。
 
@@ -53,7 +53,7 @@ Macでブログを書くとき、文字入力の補助としてスニペット�
 | @cursor         | スニペット展開後にカーソル位置を移動します。&lt;p&gt;タグ等で多用します。                                                                                                     |
 | @date           | スニペット展開後に、現在日付に置換されます。日付のフォーマットは任意に変更可能です。私は使用していません。                                                                    |
 | @time           | スニペット展開後に、現在時刻に置換されます。時刻のフォーマットは任意に変更可能です。私は使用していません。                                                                    |
-| __placeholder__ | スニペット展開後、ダイアログが表示され、ダイアログで入力した文字列に置換されます。長文には向きません。                                                                        |
+| **placeholder** | スニペット展開後、ダイアログが表示され、ダイアログで入力した文字列に置換されます。長文には向きません。                                                                        |
 
 **placeholder**の使用方法がイメージしづらいですが、スニペット展開後に下記のダイアログが表示されます。下記では、参照先としてURLをクリップボードから展開し、タグの内容を自分で入力して補完するようにしています。
 
@@ -68,8 +68,8 @@ global pageURL
 global pageTitle
 
 tell application "Safari"
-	set pageTitle to get name of current tab of window 1
-	set pageURL to get URL of current tab of window 1
+ set pageTitle to get name of current tab of window 1
+ set pageURL to get URL of current tab of window 1
 end tell
 
 set the clipboard to "<a href=\"" & pageURL & "\" target=\"_blank\">" & pageTitle & "</a>"

@@ -36,12 +36,12 @@ VCCW を使用すれば簡単にローカルホストに WordPress の開発環�
 
 VCCW では、デフォルトで MailCatcher は有効化されていません。有効化するためには、VirtualBox の仮想マシンにログインして、MailCatcher を起動する必要があります。
 
-    $ cd ~/Documents/vccw-2.19.0
-    $ vagrant ssh
+    cd ~/Documents/vccw-2.19.0
+    vagrant ssh
 
 MailCatcher を起動するために仮想マシンにログインします。上記のパスは、VCCW の Vagrantfile が置いてある場所です。ログインしたら、以下のコマンドを実行します。
 
-    $ curl -L https://raw.githubusercontent.com/vccw-team/activate-mailcatcher/master/setup.sh | bash
+    curl -L https://raw.githubusercontent.com/vccw-team/activate-mailcatcher/master/setup.sh | bash
 
 これで、自動的に MailCatcher がセットアップされ、起動します。MailCatcher が起動したら、ブラウザから`http://192.168.33.10:1080`にアクセスします。
 
@@ -51,7 +51,7 @@ MailCatcher を起動するために仮想マシンにログインします。�
 
 もし、MailCatcher のデーモン（プログラム）が落ちたりした場合や、次回以降の起動には、仮想マシンにログインした状態で、以下のコマンドを実行します。
 
-    $ mailcatcher --ip=0.0.0.0
+    mailcatcher --ip=0.0.0.0
 
 ## まとめ
 

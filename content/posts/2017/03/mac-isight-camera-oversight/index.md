@@ -31,7 +31,7 @@ iSight カメラ起動中は、Mac に内蔵されている LED ライトが緑�
 
 「OverSight」は Mac App Store では配布されておらず、開発者の Web ページからダウンロードすることになります。
 
-https://objective-see.com/products/oversight.html
+<https://objective-see.com/products/oversight.html>
 
 上記リンク先の緑色の傘のアイコンをクリックしてダウンロードします。
 

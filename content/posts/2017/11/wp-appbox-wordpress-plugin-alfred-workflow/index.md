@@ -85,7 +85,7 @@ $url = "https://itunes.apple.com/search?term=" . urlencode( $in ) . "&country=jp
 $json = $w->request( $url );
 $json = json_decode($json, true);
 foreach ($json['results'] as $app) {
-	$w->result( time(), $app['trackId'], $app['trackName'], $app['sellerName'], $icon );
+ $w->result( time(), $app['trackId'], $app['trackName'], $app['sellerName'], $icon );
 }
 
 echo $w->toxml();

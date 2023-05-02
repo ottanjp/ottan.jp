@@ -30,9 +30,9 @@ WordPressでは、無料・有料問わず多数のテーマが公開されて�
 そこで、親テーマのアップデートの影響も受けず、子テーマに親テーマの内容を転記することなく、独自に「Favicon」を追加するためには、子テーマの`functions.php`に以下を追記します。`functions.php`は、親テーマ、子テーマで独立しているため（厳密には、子テーマの`functions.php`が読み込まれた後に、親テーマの同ファイルが読み込まれます）、影響を受けません。
 
     add_action(
-    	'wp_head', function() {
-    		echo '<link rel="shortcut icon" href="' . get_stylesheet_directory_uri() . '/favicon.ico"/>';
-    	}
+     'wp_head', function() {
+      echo '<link rel="shortcut icon" href="' . get_stylesheet_directory_uri() . '/favicon.ico"/>';
+     }
     );
 
 ポイントは、`wp_head()`関数をフックすることと、`get_stylesheet_directory_uri()`関数を使用することです。使用しているテーマのパスを取得するためには、通常`get_template_directory_uri()`関数を使用しますが、子テーマで同関数を使用してしまうと、親テーマのパスが取得されてしまいます。そのため、子テーマでは、`get_stylesheet_directory_uri()`関数を使用しましょう。これで、親テーマの`header.php`を修正することなく、かつ親テーマに影響を受けず子テーマをカスタマイズできます。

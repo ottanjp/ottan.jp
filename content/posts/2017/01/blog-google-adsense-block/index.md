@@ -32,7 +32,7 @@ Google AdSense をブロックするユーザを計測するために、今回�
 今回は、Google Analytics のイベントを使用して Google AdSense をブロックしているユーザの数を計測します。計測する方法の性質上
 、正確な数は把握できませんが、目安にはなると思います。ブログを運営されている方で Google Analytics を導入されていない方は少ないと思いますが、まだの方はこれを機に Google Analytics を導入しましょう。導入の方法については割愛します。
 
-https://analytics.google.com/
+<https://analytics.google.com/>
 
 ### Google AdSense をブロックするユーザを計測する JavaScript を設置する
 

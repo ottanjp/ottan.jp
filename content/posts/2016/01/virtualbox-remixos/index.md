@@ -30,7 +30,7 @@ Remix OS をインストールするためには、8GB 以上の USB メモリ�
 
 Remix OS は、Jide の公式サイトから ISO ファイル、または IMG ファイルのダウンロードができます。ダウンロードするためには、以下のリンクにアクセスします。今回は、VirtualBox にインストールことが目的であるため、ISO ファイルをダウンロードします。
 
-http://www.jide.com/en/remixos-for-pc#downloadNow
+<http://www.jide.com/en/remixos-for-pc#downloadNow>
 
 「I am a developer and have read the above message.」をチェックし、「Remix OS for PC Package (Legacy)」の「Download」をクリックします。ZIP ファイルがダウンロードされるため、解凍しておきます。
 

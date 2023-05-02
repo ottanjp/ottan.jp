@@ -27,7 +27,7 @@ GIF アニメーションを作成するためには、[ImageMagick: Convert, Ed
 
 Homebrew のインストールについては、[Mac でプレゼン資料に数式を貼り付けるのに便利な「LaTeXiT」](/posts/2014/09/mac-latex-presentation-92/)でも詳しくご紹介していますのでご覧ください。インストールは以下のコマンドを実行するだけです。インストール方法は随時変更になる可能性もありますので、詳細は[Homebrew — macOS 用パッケージマネージャー](https://brew.sh/index_ja.html)を参照してください。
 
-    $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 ### ImageMagick のインストール
 

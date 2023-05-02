@@ -23,7 +23,7 @@ type: post
 
 簡単にオシャレなリンクを生成するためには、はてなブログで実装されている「はてなブログ oEmbed」を使用するという事も考えられます。その方法は、下記のサイトで詳しく紹介されていました。しかし、下記のサイトでも注意点として記述されているように、この方法には問題があります。今回は、この問題を解消した別の方法をご紹介します。
 
-https://mbdb.jp/hacks/hatenablog-blogcard-ogp-correspondence.html
+<https://mbdb.jp/hacks/hatenablog-blogcard-ogp-correspondence.html>
 
 ### はてなブログカードの問題点
 
@@ -45,7 +45,7 @@ https://mbdb.jp/hacks/hatenablog-blogcard-ogp-correspondence.html
 
 そこで登場するのが、以下のサービスです。当サイトはすべてこのサービスを使用しています（つい最近、使用し始めました）。
 
-http://embed.ly/
+<http://embed.ly/>
 
 この Web サービスを使用して、リンクを生成すると、[Embed Code Generator | Embedly](http://embed.ly/code?url=http%3A%2F%2Fottan.jp)のような感じになります。実際に生成されるコードは以下の通りです。`<a>`タグに、`embedly-card`クラスを付与して、普通にリンクを生成すれば良いことがわかります。また、JavaScript を別途読み込む必要があることがわかります。
 
@@ -95,4 +95,4 @@ http://embed.ly/
 
 下記のサイトが大変参考になりました。
 
-https://hayashikejinan.com/webwork/bookmarklet/1249/
+<https://hayashikejinan.com/webwork/bookmarklet/1249/>

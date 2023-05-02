@@ -220,47 +220,47 @@ $client = new Google_Client();
 $client->setApplicationName('Google Analytics for Macious');
 $client->setClientId(CLIENT_ID);
 $client->setAssertionCredentials(new Google_Auth_AssertionCredentials(
-	SERVICE_ACCOUNT_NAME,
-	array('https://www.googleapis.com/auth/analytics'),
-	file_get_contents(KEY_FILE, true)
+ SERVICE_ACCOUNT_NAME,
+ array('https://www.googleapis.com/auth/analytics'),
+ file_get_contents(KEY_FILE, true)
 ));
 
 $service = new Google_Service_Analytics($client);
 $results = $service->data_ga->get(
-	'ga:' . PROFILE_ID,
-	'2005-01-01',  // 開始日
-	'2100-01-01',  // 終了日
-	'ga:pageviews',
-	array(
-	'dimensions'  =>  'ga:pagePath', // 投稿記事のスラッグを取得
-	'sort'      =>  '-ga:pageviews'  // ページビュー数で並べ替え
-	// 'max-results'  =>  '-1'  //件数
-	)
+ 'ga:' . PROFILE_ID,
+ '2005-01-01',  // 開始日
+ '2100-01-01',  // 終了日
+ 'ga:pageviews',
+ array(
+ 'dimensions'  =>  'ga:pagePath', // 投稿記事のスラッグを取得
+ 'sort'      =>  '-ga:pageviews'  // ページビュー数で並べ替え
+ // 'max-results'  =>  '-1'  //件数
+ )
 );
 
 foreach ($results['rows'] as $result) {
-	$post_url = home_url() . $result[0];
+ $post_url = home_url() . $result[0];
 
-	// パーマリンクから投稿記事のIDを取得
-	$post_id = url_to_postid($post_url);
+ // パーマリンクから投稿記事のIDを取得
+ $post_id = url_to_postid($post_url);
 
-	// 投稿記事、固定ページのみを取得
-	// 投稿後に記事のタイトルを変更した場合、
-	// 同一の$post_idが複数取得される可能性があるため排除
-	if ($post_id <=0 || in_array($post_id, $check)) {
-	continue;
-	}
+ // 投稿記事、固定ページのみを取得
+ // 投稿後に記事のタイトルを変更した場合、
+ // 同一の$post_idが複数取得される可能性があるため排除
+ if ($post_id <=0 || in_array($post_id, $check)) {
+ continue;
+ }
 
-	// 投稿記事のIDから投稿情報を取得
-	$post = get_post($post_id);
+ // 投稿記事のIDから投稿情報を取得
+ $post = get_post($post_id);
 
-	// 投稿記事の状態が「publish」（公開済み）かつ、固定ページを除く
-	if ('publish' === get_post_status($post) && 'post' === get_post_type($post)) {
+ // 投稿記事の状態が「publish」（公開済み）かつ、固定ページを除く
+ if ('publish' === get_post_status($post) && 'post' === get_post_type($post)) {
 
-	// wp_postmetaテーブルに投稿記事のID毎のPV数をアップデート
-	update_post_meta($post->ID, '_custom_pageviews', $result[1]);
-	}
-	$check[] = $post_id;
+ // wp_postmetaテーブルに投稿記事のID毎のPV数をアップデート
+ update_post_meta($post->ID, '_custom_pageviews', $result[1]);
+ }
+ $check[] = $post_id;
 }
 ```
 
@@ -299,9 +299,9 @@ $client = new Google_Client();
 $client->setApplicationName('Google Analytics for Macious');
 $client->setClientId(CLIENT_ID);
 $client->setAssertionCredentials(new Google_Auth_AssertionCredentials(
-	SERVICE_ACCOUNT_NAME,
-	array('https://www.googleapis.com/auth/analytics'),
-	file_get_contents(KEY_FILE, true)
+ SERVICE_ACCOUNT_NAME,
+ array('https://www.googleapis.com/auth/analytics'),
+ file_get_contents(KEY_FILE, true)
 ));
 ```
 
@@ -310,15 +310,15 @@ Google Analyticsに対する認証を行います。認証情報に、事前に�
 ```php
 $service = new Google_Service_Analytics($client);
 $results = $service->data_ga->get(
-	'ga:' . PROFILE_ID,
-	'2005-01-01',  // 開始日
-	'2100-01-01',  // 終了日
-	'ga:pageviews',
-	array(
-	'dimensions'  =>  'ga:pagePath', // 投稿記事のスラッグを取得
-	'sort'      =>  '-ga:pageviews'  // ページビュー数で並べ替え
-	// 'max-results'  =>  '-1'  //件数
-	)
+ 'ga:' . PROFILE_ID,
+ '2005-01-01',  // 開始日
+ '2100-01-01',  // 終了日
+ 'ga:pageviews',
+ array(
+ 'dimensions'  =>  'ga:pagePath', // 投稿記事のスラッグを取得
+ 'sort'      =>  '-ga:pageviews'  // ページビュー数で並べ替え
+ // 'max-results'  =>  '-1'  //件数
+ )
 );
 ```
 
@@ -337,16 +337,16 @@ Google Analyticsから取得した情報は、`$result['rows']`に格納され�
 
 ```php
 foreach ($results['rows'] as $result) {
-	$post_url = home_url() . $result[0];
-	$post_id = url_to_postid($post_url);
-	if ($post_id <=0 || in_array($post_id, $check)) {
-	continue;
-	}
-	$post = get_post($post_id);
-	if ('publish' === get_post_status($post) && 'post' === get_post_type($post)) {
-	update_post_meta($post->ID, '_custom_pageviews', $result[1]);
-	}
-	$check[] = $post_id;
+ $post_url = home_url() . $result[0];
+ $post_id = url_to_postid($post_url);
+ if ($post_id <=0 || in_array($post_id, $check)) {
+ continue;
+ }
+ $post = get_post($post_id);
+ if ('publish' === get_post_status($post) && 'post' === get_post_type($post)) {
+ update_post_meta($post->ID, '_custom_pageviews', $result[1]);
+ }
+ $check[] = $post_id;
 }
 ```
 
@@ -384,13 +384,13 @@ Google Analyticsから取得した記事をページビュー順に表示する�
 
 ```php
 $r = new WP_Query(array(
-	'post_type' => 'post',
-	'posts_per_page' => 6,
-	'post_status' => 'publish',
-	'ignore_sticky_posts' => true,
-	'orderby' => 'meta_value_num',
-	'meta_key' => '_custom_pageviews',
-	'order' => 'DESC',
+ 'post_type' => 'post',
+ 'posts_per_page' => 6,
+ 'post_status' => 'publish',
+ 'ignore_sticky_posts' => true,
+ 'orderby' => 'meta_value_num',
+ 'meta_key' => '_custom_pageviews',
+ 'order' => 'DESC',
 ));
 ```
 

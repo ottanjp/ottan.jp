@@ -27,13 +27,13 @@ type: post
 
 「youtube-dl」をインストールするためには、以下のコマンドを実行します。
 
-    $ brew install youtube-dl
+    brew install youtube-dl
 
 ### 「youtube-dl」の使い方
 
 「youtube-dl」の使い方はとても簡単です。「youtube-dl」の後にダウンロードしたい YouTube の動画の URL を指定するだけです。
 
-https://www.youtube.com/watch?v=2MNL2mU8pBE
+<https://www.youtube.com/watch?v=2MNL2mU8pBE>
 
     $ youtube-dl https://www.youtube.com/watch?v=2MNL2mU8pBE
     youtube-dl https://www.youtube.com/watch\?v\=2MNL2mU8pBE
@@ -47,6 +47,6 @@ https://www.youtube.com/watch?v=2MNL2mU8pBE
 
 たった 1 行で YouTube の動画をダウンロードすることができるので非常に便利です。また、単独の動画だけではなく、あらかじめ作成したプレイリストからもダウンロードできます。使い方は、単独の動画をダウンロードする場合と同様です。
 
-    $ youtube-dl https://www.youtube.com/playlist?list=PLgegCeSlC24bFHsvEUYBAYj4wkOd8-BbK
+    youtube-dl https://www.youtube.com/playlist?list=PLgegCeSlC24bFHsvEUYBAYj4wkOd8-BbK
 
 当たり前ですが、違法にアップロードされていると知りながら、その動画をダウンロードする行為は禁止されています。著作権にはお気をつけくださいね。

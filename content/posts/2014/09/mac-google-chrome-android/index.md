@@ -38,8 +38,8 @@ type: post
 
 ![](140924-542288fb3468f.png)
 
--   'minimum_chrome_version' is only allowed for extensions, hosted apps, legacy packaged apps, and packaged apps, but this is a shared module.
--   Unrecognized manifest key 'arc_build_tag'.
+- 'minimum_chrome_version' is only allowed for extensions, hosted apps, legacy packaged apps, and packaged apps, but this is a shared module.
+- Unrecognized manifest key 'arc_build_tag'.
 
 ### apkファイルを拡張機能としてChromeに登録するコマンド
 
@@ -47,7 +47,7 @@ type: post
 
 なお、弊サイトでも[はじめてのgulp.js！MacでCSSファイル、JavaScriptの圧縮を行おう](/posts/2014/09/gulp-css-sass-268/)で`npm`コマンドについて詳しく解説していますので、そちらも合わせて参照してください。
 
-    $ sudo npm install chromeos-apk -g
+    sudo npm install chromeos-apk -g
 
 ### Google Playからapkファイルをダウンロードする
 
@@ -69,7 +69,7 @@ type: post
 
 続いて、ダウンロードしたAmazonアプリのapkファイルを、Google Chromeの拡張機能として登録するために、`chromeos-apk`コマンドを使用します。ダウンロードしたフォルダーで以下のコマンドを実行してください。
 
-    $ chromeos-apk jp.amazon.mShop.android.apk
+    chromeos-apk jp.amazon.mShop.android.apk
 
 すると、apkファイルとは別に拡張機能の登録に必要なフォルダーが作成されているかと思います。このフォルダーを先ほどと同じ要領で拡張機能に登録します。「パッケージ化されていない拡張機能を読み込む」を選択しましょう。
 
@@ -81,7 +81,7 @@ type: post
 
 拡張機能としての登録時に1点警告が表示されますが、動作に支障はありませんのでそのまま無視していただいて構いません。
 
--   Unrecognized manifest key 'arc_metadata'.
+- Unrecognized manifest key 'arc_metadata'.
 
 ![](140924-542289034aa6f.png)
 
@@ -105,6 +105,6 @@ type: post
 
 初期構築時はさまざまな障壁が存在する様に感じますが、一連の流れを一度行ってしまえば、後はapkファイルを入手して拡張機能として登録するだけです。
 
--   Google Playでお気に入りのアプリを見つけてそのURLをコピーする
--   APK Downloaderからお気に入りのアプリのapkファイルを入手する
--   「chromeos-apk」コマンドで入手したアプリを拡張機能に変換する\`
+- Google Playでお気に入りのアプリを見つけてそのURLをコピーする
+- APK Downloaderからお気に入りのアプリのapkファイルを入手する
+- 「chromeos-apk」コマンドで入手したアプリを拡張機能に変換する\`

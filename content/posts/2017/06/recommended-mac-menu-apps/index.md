@@ -72,14 +72,14 @@ Dashは、言語のリファレンスをオフラインで参照できる便利�
     global pageTitle
 
     tell application "Safari"
-    	set pageTitle to get name of current tab of window 1
-    	set pageURL to get URL of current tab of window 1
+     set pageTitle to get name of current tab of window 1
+     set pageURL to get URL of current tab of window 1
     end tell
 
     set the clipboard to "<a href=\"" & pageURL & "\" target=\"_blank\">" & pageTitle & "</a>"
 
     tell application "System Events"
-    	keystroke "v" using {command down}
+     keystroke "v" using {command down}
     end tell
 
 TextExpanderでは、スニペットにAppleScript（またはJavaScript）を組み込むことが可能でしたが、Dashでは使用できません。スニペットの展開でSafariのアクティブなタブを取得し、タイトルとURLからHTMLタグを整形するということを行なっていましたが、Dashではできません。ただし、私の場合、スニペットの展開はブログエディターであるMarsEditにおける使用が主であったため、MarsEditのスクリプトに上記を追加することにより補完するようにすることですべて解決しました。

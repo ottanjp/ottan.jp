@@ -29,7 +29,7 @@ Sublime Text はお気に入りのエディターですが、有償のソフト�
 
 何はともあれ、Atom をダウンロードしましょう。
 
-https://atom.io/
+<https://atom.io/>
 
 ### 下準備
 
@@ -59,7 +59,7 @@ https://atom.io/
 
 WordPress のコーディング規約では、インデントは半角スペースではなくタブ文字を使用するように決められています。そこで、インデントを強制的にタブ文字で行うように設定を変更します。「Settings」の「Tab Type」を「hard」に設定しておきましょう。
 
-https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/
+<https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/>
 
 ### WordPress 開発のために Atom に導入したいパッケージ
 

@@ -22,7 +22,7 @@ Go 言語製の静的サイトジェネレータ Hugo で Netlify に構築し�
 
 ドメインは「お名前.com」等のレジストラですでに取得済み、DNS サービスは「Netlify DNS」を使用することを前提とします。ただし、「Netlify DNS」は記事執筆時点で β 版です。
 
--   [Managed DNS | Netlify](https://www.netlify.com/docs/dns/)
+- [Managed DNS | Netlify](https://www.netlify.com/docs/dns/)
 
 「Netlify DNS」を使用する利点として、ルートドメインや「www」などのサブドメインに Netlify の爆速 CDN サービスを利用できるようになります。当サイトも、引っ越し当時は「Route 53」を使用していましたが、「Netlify DNS」に切り替えました。
 
@@ -38,10 +38,10 @@ Netlify には Web サイトをホスティングする機能はありますが�
 
 そこで、今回は以下の構成で独自ドメインによるメール送受信環境を構築します。
 
--   Netlify CMS（ホスト）
--   Netlify DNS（Netlify のマネージド DNS サービス）
--   Hugo（Go 言語製静的サイトジェネレータ）
--   AWS SES（メール送受信サービス）
+- Netlify CMS（ホスト）
+- Netlify DNS（Netlify のマネージド DNS サービス）
+- Hugo（Go 言語製静的サイトジェネレータ）
+- AWS SES（メール送受信サービス）
 
 ### AWS SES を使用する利点
 
@@ -49,7 +49,7 @@ AWS SES[^1]は、Amazon Web Services が提供するメール送受信のフル�
 
 [^1]: Simple Email Service
 
--   [[新機能]Amazon SES でメール受信が出来るようになりました！ ｜ DevelopersIO](https://dev.classmethod.jp/cloud/receiving-email-with-amazon-ses/)
+- [[新機能]Amazon SES でメール受信が出来るようになりました！ ｜ DevelopersIO](<https://dev.classmethod.jp/cloud/receiving-email-with-amazon-ses/>)
 
 SES の最大の利点は、従量課金です。
 
@@ -73,8 +73,8 @@ SES は米国東部（バージニア北部）、米国西部（オレゴン）�
 
 以下の項目を入力し、「Verify This Domain」をクリックします。
 
--   Domain：メールの送受信に使用するドメイン
--   Generate DKIM Settings：チェック有
+- Domain：メールの送受信に使用するドメイン
+- Generate DKIM Settings：チェック有
 
 ![](190125-92e34382e706e67.png)
 
@@ -108,7 +108,7 @@ AWS のコンソールに戻り、「Identity Management」の「Email Addresses
 
 承認されたメールアドレス以外にメールを送信するには、AWS のサポート宛に申請する必要があります。以下のリンクから、AWS のサポート宛に連絡しましょう（日本語で問題ありませんが、しっかり内容を確認しましょう）。1営業日以内にサポートから返信があり、承諾されれば申請完了です。なお、申請フォーム中の「クォータ」とは 1 日あたりの送信先メールアドレス件数、「レート」とは 1 秒間に送信するメール件数を表しています。
 
--   [AWS サポートダッシュボード](http://aws.amazon.com/ses/extendedaccessrequest)
+- [AWS サポートダッシュボード](http://aws.amazon.com/ses/extendedaccessrequest)
 
 #### 送信元を amazonses.com から独自ドメインに変更する
 
@@ -124,8 +124,8 @@ AWS のコンソールで設定したいドメインをクリックします。�
 
 以下の項目を入力し、「Set MAIL FROM domain」をクリックします。
 
--   MAIL FROM domain：任意のサブドメイン名。例）`mail`.example.com
--   Behavior if MX record not found：Reject message
+- MAIL FROM domain：任意のサブドメイン名。例）`mail`.example.com
+- Behavior if MX record not found：Reject message
 
 ![](190125-72e34302e706e67.png)
 
@@ -144,7 +144,7 @@ AWS コンソール上で「MAIL FROM domain status」が「verified」と表示
 
 さて、ここまでで SES によるメール送信環境が整いました。お疲れ様でした！ここからはメール受信の環境構築になりますが、Netlify DNS 範疇外になります。そのため、手前味噌ですが、設定方法の一例については当サイトの別記事に譲りたいと思います。主にメール受信に関する設定についてじっくり解説していますので、参考にしてみてください！
 
--   [Amazon Lightsail で月 5 ドルから始める WordPress（独自ドメインでのメール送受信）](/posts/2018/08/aws-lightsail-wordpress-domain-mail-6945/)
+- [Amazon Lightsail で月 5 ドルから始める WordPress（独自ドメインでのメール送受信）](/posts/2018/08/aws-lightsail-wordpress-domain-mail-6945/)
 
 ## まとめ
 

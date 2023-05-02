@@ -31,7 +31,7 @@ Ubuntu のインストールについては、[macOS Yosemite と Ubuntu 14.04.2
 
 Ubuntu のダウンロードは、以下のリンクから行います。
 
-http://www.ubuntu.com/desktop
+<http://www.ubuntu.com/desktop>
 
 「Download Ubuntu」をクリックします。
 

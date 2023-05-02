@@ -27,9 +27,9 @@ type: post
 
 ```html
 <ul>
-	<li><i class="fa fa-twitter"></i>&nbsp;<span class="social_twitter" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
-	<li><i class="fa fa-facebook"></i>&nbsp;<span class="social_facebook" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
-	<li><b>B!</b>&nbsp;<span class="social_hatena" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
+ <li><i class="fa fa-twitter"></i>&nbsp;<span class="social_twitter" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
+ <li><i class="fa fa-facebook"></i>&nbsp;<span class="social_facebook" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
+ <li><b>B!</b>&nbsp;<span class="social_hatena" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
 </ul>
 ```
 
@@ -37,23 +37,23 @@ type: post
 
 ```js
 jQuery(function($) {
-	$("[class^=social_]").each(function() {
-		var obj = this;
-		var urlJson = {
-			social_facebook: "//graph.facebook.com/?id={url}",
-			social_twitter: "//opensharecount.com/count.json?url={url}",
-			social_hatena: "//api.b.st-hatena.com/entry.count?url={url}&callback=?"
-			},
-			targetURL = urlJson[obj.className].replace('{url}', encodeURIComponent(($(obj).data()).url));
+ $("[class^=social_]").each(function() {
+  var obj = this;
+  var urlJson = {
+   social_facebook: "//graph.facebook.com/?id={url}",
+   social_twitter: "//opensharecount.com/count.json?url={url}",
+   social_hatena: "//api.b.st-hatena.com/entry.count?url={url}&callback=?"
+   },
+   targetURL = urlJson[obj.className].replace('{url}', encodeURIComponent(($(obj).data()).url));
 
-		$.getJSON(targetURL, function(json) {
-			if (typeof json === 'object') {
-			$(obj).text(json.count || json.share.share_count || 0);
-			} else {
-			$(obj).text(json || 0);
-			}
-		});
-	});
+  $.getJSON(targetURL, function(json) {
+   if (typeof json === 'object') {
+   $(obj).text(json.count || json.share.share_count || 0);
+   } else {
+   $(obj).text(json || 0);
+   }
+  });
+ });
 });
 ```
 
@@ -67,9 +67,9 @@ jQuery(function($) {
 
 ```html
 <ul>
-	<li><i class="fa fa-twitter"></i>&nbsp;<span class="social_twitter" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
-	<li><i class="fa fa-facebook"></i>&nbsp;<span class="social_facebook" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
-	<li><b>B!</b>&nbsp;<span class="social_hatena" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
+ <li><i class="fa fa-twitter"></i>&nbsp;<span class="social_twitter" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
+ <li><i class="fa fa-facebook"></i>&nbsp;<span class="social_facebook" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
+ <li><b>B!</b>&nbsp;<span class="social_hatena" data-url="https://ottan.jp/tethering-tripmode-1363/"><i class="fa fa-spinner fa-spin"></i></span></li>
 </ul>
 ```
 
@@ -95,9 +95,9 @@ $("[class^=social_]").each(function(){//do stuff};
 ```js
 var obj = this;
 var urlJson = {
-	social_facebook: "//graph.facebook.com/?id={url}",
-	social_twitter: "//cdn.api.twitter.com/1/urls/count.json?url={url}&callback=?",
-	social_hatena: "//api.b.st-hatena.com/entry.count?url={url}&callback=?"
+ social_facebook: "//graph.facebook.com/?id={url}",
+ social_twitter: "//cdn.api.twitter.com/1/urls/count.json?url={url}&callback=?",
+ social_hatena: "//api.b.st-hatena.com/entry.count?url={url}&callback=?"
 },
 targetURL = urlJson[obj.className].replace('{url}', encodeURIComponent(($(obj).data()).url));
 ```
@@ -114,11 +114,11 @@ targetURL = urlJson[obj.className].replace('{url}', encodeURIComponent(($(obj).d
 
 ```js
 $.getJSON(targetURL, function(json) {
-	if (typeof json === 'object') {
-		$(obj).text(json.count || json.share.share_count || 0);
-	} else {
-		$(obj).text(json || 0);
-	}
+ if (typeof json === 'object') {
+  $(obj).text(json.count || json.share.share_count || 0);
+ } else {
+  $(obj).text(json || 0);
+ }
 });
 ```
 
@@ -139,9 +139,9 @@ Twitter、Facebookはオブジェクトを返すのに対して、はてなブ�
 
 このサンプルはそのまま使用できますが、何点か注意事項があります。
 
--   TwitterのAPIは1.0を使用しているため、いずれ廃止される可能性があります。最新バージョンのAPI 1.1を使用する場合、認証が必要になります。
--   jQuery 1.11.0で動作確認済みです。jQuery 2.xでは動作確認していません。
--   はてなブックマーク数取得のAPIの動作が安定しないため取得できないこともあります。
+- TwitterのAPIは1.0を使用しているため、いずれ廃止される可能性があります。最新バージョンのAPI 1.1を使用する場合、認証が必要になります。
+- jQuery 1.11.0で動作確認済みです。jQuery 2.xでは動作確認していません。
+- はてなブックマーク数取得のAPIの動作が安定しないため取得できないこともあります。
 
 ## まとめ
 

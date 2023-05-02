@@ -31,7 +31,7 @@ Homebrew は、macOS のパッケージ管理マネージャーです。Homebrew
 
 まず、正常に Homebrew がアップデート、アップグレードできる状態であるかどうか、以下のコマンドをターミナルから実行して確認してください。
 
-    $ brew doctor
+    brew doctor
 
 macOS El Capitan にアップデートしてから、ありがちなのがパーミッション問題。以下のようなエラーが表示されていませんか？
 
@@ -39,17 +39,17 @@ macOS El Capitan にアップデートしてから、ありがちなのがパー
 
 このようなエラーが表示された場合には、下記のコマンドを実行して強制的にパーミッションを書き換えてください。
 
-    $ sudo chown -R $(whoami) /usr/local
+    sudo chown -R $(whoami) /usr/local
 
 ### terminal-notifier のインストール
 
 terminal-notifier は、文字通りターミナルから macOS の通知を利用して、任意の通知を行ってくれるコマンドです。terminal-notifier は、以下のコマンドを実行してインストールします。
 
-    $ brew install terminal-notifier
+    brew install terminal-notifier
 
 たとえば、以下のコマンドを実行すると、60 秒後に terminal-notifier で通知されます。実行に時間のかかるコンパイルなどと合わせて実行すると、終わったことが分かりやすくなり非常に便利です。
 
-    $ sleep 60 && terminal-notifier -message "hoge"
+    sleep 60 && terminal-notifier -message "hoge"
 
 ### LaunchAgents に登録
 
@@ -65,7 +65,7 @@ terminal-notifier は、文字通りターミナルから macOS の通知を利�
 
 以下のコマンドを実行して、`launchd`に登録します。
 
-    $ launchctl load ~/Library/LaunchAgents/localhost.homebrew-upgrade.plist
+    launchctl load ~/Library/LaunchAgents/localhost.homebrew-upgrade.plist
 
 アップデート完了後、以下のダイアログが表示されることを確認してください。
 
@@ -73,4 +73,4 @@ terminal-notifier は、文字通りターミナルから macOS の通知を利�
 
 ## 参考リンク
 
-https://github.com/herrbischoff/awesome-osx-command-line
+<https://github.com/herrbischoff/awesome-osx-command-line>

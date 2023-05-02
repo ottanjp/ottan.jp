@@ -96,10 +96,10 @@ iTunes上でiPhoneを認識させたら、iTunesでiPhoneのアイコンをタ�
 
 簡単にまとめると以下になります。
 
--   iTunesにiPhoneを認識させる場合は、一度USBケーブル経由でMac（PC）をiPhoneと接続し「信頼」させる必要がある
--   「信頼しない」をタップした、もしくは誤って「信頼」をタップしたという場合は、iPhone側で「位置情報とプライバシーのリセット」
--   Wi-Fiネットワーク経由でiTunesとiPhoneを同期させるためには、iTunes側で「Wi-Fi経由でこのiPhoneと同期」をチェック後、「適用」
--   iPhoneで再生したい音楽が多い場合は、Apple Music（iCloudミュージックライブラリ）、もしくはiTunes Matchを使用すると、何も意識しなくてもMacでもiPhoneでも同じ音楽が聴ける（同じApple IDでサインインする必要有り）
+- iTunesにiPhoneを認識させる場合は、一度USBケーブル経由でMac（PC）をiPhoneと接続し「信頼」させる必要がある
+- 「信頼しない」をタップした、もしくは誤って「信頼」をタップしたという場合は、iPhone側で「位置情報とプライバシーのリセット」
+- Wi-Fiネットワーク経由でiTunesとiPhoneを同期させるためには、iTunes側で「Wi-Fi経由でこのiPhoneと同期」をチェック後、「適用」
+- iPhoneで再生したい音楽が多い場合は、Apple Music（iCloudミュージックライブラリ）、もしくはiTunes Matchを使用すると、何も意識しなくてもMacでもiPhoneでも同じ音楽が聴ける（同じApple IDでサインインする必要有り）
 
 Apple Music、もしくはiTunes Matchを使用しない場合は、iPhoneのミュージックライブラリを削除する事故を防止するために、iTunesからドラッグ＆ドロップで音楽をコピーするために、iTunes側で「音楽とビデオを手動で管理」をチェック後、「適用」
 

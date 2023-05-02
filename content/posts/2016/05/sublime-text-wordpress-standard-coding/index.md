@@ -28,7 +28,7 @@ Sublime Text のパッケージに「SublimeLinter-phpcs」がありますが、
 
 PHP CodeSniffer を使用するには、PHP のパッケージ管理ソフトウェアである「Composer」をあらかじめインストールしておく必要があります。その他の PHP のパッケージ管理にも使用できますので、これを機に導入しておくと後々便利になります。
 
-https://getcomposer.org/download/
+<https://getcomposer.org/download/>
 
 インストールは上記のリンクから行います。具体的には、ターミナルを開いて以下のコマンドを実行します。なお、Composer のアップデートによりハッシュ値等が変更になる場合がありますので、最新情報は上記のサイトで確認するようにしてください。
 
@@ -63,7 +63,7 @@ https://getcomposer.org/download/
 
 次に、PHP CodeSniffer でチェックする WordPress Coding Standard をインストールします。
 
-https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards
+<https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards>
 
 具体的にはターミナルを開いて以下のコマンドを実行します。
 
@@ -115,7 +115,7 @@ PHP CodeSniffer でダウンロードした WordPress Coding Standard が使用�
 
 このように WordPress コーディング規約に違反する箇所に「赤い丸」が表示されるようになります。また、該当行にカーソルを合わせると、ステータスバーに具体的なエラーメッセージが表示されるようになります。
 
-https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/
+<https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/>
 
 WordPress のコーディング規約に従い、可読性のあるコーディングを心がけましょう！
 

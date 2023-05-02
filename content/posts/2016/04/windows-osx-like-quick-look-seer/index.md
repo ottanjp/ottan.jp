@@ -21,7 +21,7 @@ Quick Look といえば、macOS の代表的な機能であり、Finder で ␣�
 
 これと同等の機能を、Windows で実現したのが「Seer」です。
 
-https://sourceforge.net/projects/ccseer/
+<https://sourceforge.net/projects/ccseer/>
 
 「Seer」を使用すれば、Mac と同様に、Windows のファイルエクスプローラー上で、␣（スペース）を押すだけで、ファイルの内容をプレビューできるようになります。
 

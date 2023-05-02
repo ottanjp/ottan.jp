@@ -21,10 +21,10 @@ type: post
 
 「Anka」の特徴として、以下の要素が挙げられています。（詳細は、[Anka Documentation](https://ankadoc.bitbucket.io/)を参照）
 
--   Easy installation
--   Native hypervisor - use macOS resource scheduling and power management for guest VMs
--   Para virtual drivers increase network and disk performance
--   anka CLI - automate management workflows or call them directly
+- Easy installation
+- Native hypervisor - use macOS resource scheduling and power management for guest VMs
+- Para virtual drivers increase network and disk performance
+- anka CLI - automate management workflows or call them directly
 
 インストールは、インストーラーパッケージをダウンロードし、ウィザードの内容に沿ってインストールするだけです。何と言っても、VMware FusionやParallels Desktopと異なり、インストールに必要な容量は10MB程度と超軽量です。また、「Veertu Desktop」と同様にmacOSネイティブのフレームワークを使用しているため、リソース、電源管理はすべてmacOSが適切に行います。さらに、専用に用意されている準仮想化ドライバー（Para-Virtual Drivers）を使用することによりネットワークおよびディスクI/Oの高パフォーマンスを引き出します。準仮想化ドライバーは、多くの同様のソフトウェアで用いられていますが、OS、仮想マシン間におけるボトルネックを解消するための技術です。「準」と呼ばれているのは、完全に仮想化（直接OSとやり取り）しないことからそう呼ばれています。
 

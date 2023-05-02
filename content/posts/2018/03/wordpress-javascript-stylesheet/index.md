@@ -75,8 +75,8 @@ JavaScriptは、デフォルトでは次のように出力されます。後述�
 
 不必要なJavaScriptやCSSを見つけるコツは、
 
--   `script_loader_tag`、`style_loader_tag`フィルターを使用して、ハンドル名の一覧を取得する
--   JavaScriptの場合は、`wp_print_scripts`アクションの中で、`wp_dequeue_script`を呼び出す
--   CSSの場合は、`wp_print_styles`アクションの中で、`wp_dequeue_style`を呼びだす
+- `script_loader_tag`、`style_loader_tag`フィルターを使用して、ハンドル名の一覧を取得する
+- JavaScriptの場合は、`wp_print_scripts`アクションの中で、`wp_dequeue_script`を呼び出す
+- CSSの場合は、`wp_print_styles`アクションの中で、`wp_dequeue_style`を呼びだす
 
 以上の手順で簡単に制御できますので、ぜひお試しください。

@@ -22,9 +22,9 @@ WordPressではさまざまな方法で投稿を取得できます。今回は�
 ```php
 $r = new WP_Query();
 if ( $r->have_posts() ) {
-	while ( $r->have_posts() ) : the_post();
-	// do stuff
-	endwhile;
+ while ( $r->have_posts() ) : the_post();
+ // do stuff
+ endwhile;
 }
 ```
 
@@ -51,11 +51,11 @@ if ( $r->have_posts() ) {
 
 ```php
 $r = new WP_Query( array(
-	'post_type' => 'post',
-	'posts_per_page' => 6,
-	'post_status' => 'publish',
-	'ignore_sticky_posts' => 1,
-	));
+ 'post_type' => 'post',
+ 'posts_per_page' => 6,
+ 'post_status' => 'publish',
+ 'ignore_sticky_posts' => 1,
+ ));
 //do stuff
 ```
 
@@ -67,13 +67,13 @@ $r = new WP_Query( array(
 
 ```php
 $r = new WP_Query( array(
-	'post_type' => 'post',
-	'posts_per_page' => 6,
-	'post_status' => 'publish',
-	'ignore_sticky_posts' => true,
-	'orderby' => 'meta_value_num',
-	'meta_key' => '_custom_pageviews',
-	'order' => 'DESC',
+ 'post_type' => 'post',
+ 'posts_per_page' => 6,
+ 'post_status' => 'publish',
+ 'ignore_sticky_posts' => true,
+ 'orderby' => 'meta_value_num',
+ 'meta_key' => '_custom_pageviews',
+ 'order' => 'DESC',
 ));
 //do stuff
 ```
@@ -91,17 +91,17 @@ global $post;
 $tags = wp_get_post_tags($post->ID);
 $tag_ids = array();
 if ($tags) {
-	foreach ($tags as $individual_tag) {
-		$tag_ids[] = $individual_tag->term_id;
-	}
-	$args = array (
-		'tag__in' => $tag_ids,
-		'post__not_in' => array($post->ID),
-		'posts_per_page' => 6,
-		'ignore_sticky_posts' => 1,
-		'orderby' => 'rand', );
-	$r = new WP_Query( $args );
-	// do stuff
+ foreach ($tags as $individual_tag) {
+  $tag_ids[] = $individual_tag->term_id;
+ }
+ $args = array (
+  'tag__in' => $tag_ids,
+  'post__not_in' => array($post->ID),
+  'posts_per_page' => 6,
+  'ignore_sticky_posts' => 1,
+  'orderby' => 'rand', );
+ $r = new WP_Query( $args );
+ // do stuff
 }
 ```
 
@@ -114,20 +114,20 @@ global $post;
 $categories = get_the_category($post->ID);
 $category_ids = array();
 if ($categories) {
-	foreach ($categories as $category) {
-		$category_id = $category->term_id;
-		$category_child = get_term_children($category_id, 'category');
-		if ($category_child != true) {
-			$category_ids[] = $category->term_id;
-		}
-	}
-	$r = new WP_Query( array(
-		'category__in' =>
-		$category_ids, 'post__not_in' => array($post->ID),
-		'posts_per_page' => 6,
-		'ignore_sticky_posts' => 1,
-		'orderby' => 'rand' ));
-	// do stuff
+ foreach ($categories as $category) {
+  $category_id = $category->term_id;
+  $category_child = get_term_children($category_id, 'category');
+  if ($category_child != true) {
+   $category_ids[] = $category->term_id;
+  }
+ }
+ $r = new WP_Query( array(
+  'category__in' =>
+  $category_ids, 'post__not_in' => array($post->ID),
+  'posts_per_page' => 6,
+  'ignore_sticky_posts' => 1,
+  'orderby' => 'rand' ));
+ // do stuff
 }
 ```
 
@@ -137,10 +137,10 @@ if ($categories) {
 
 ```php
 $r = new WP_Query( array(
-	'post_type' => 'news',
-	'posts_per_page' => 6,
-	'post_status' => 'publish',
-	'ignore_sticky_posts' => true,
+ 'post_type' => 'news',
+ 'posts_per_page' => 6,
+ 'post_status' => 'publish',
+ 'ignore_sticky_posts' => true,
 ));
 // do stuff
 ```
@@ -149,15 +149,15 @@ $r = new WP_Query( array(
 
 ```php
 register_post_type(
-	'news',
-	array(
-		'labels' => array(
-		'name' => __('News'),
-		'singular_name' => __('News') ) ,
-		'public' => true,
-		'has_archive' => true,
-		'rewrite' => array( 'slug' => 'news' )
-	));
+ 'news',
+ array(
+  'labels' => array(
+  'name' => __('News'),
+  'singular_name' => __('News') ) ,
+  'public' => true,
+  'has_archive' => true,
+  'rewrite' => array( 'slug' => 'news' )
+ ));
 ```
 
 ### 表示する記事の順番によって処理を振り分ける
@@ -170,10 +170,10 @@ register_post_type(
 
 ```php
 $r = new WP_Query( array(
-	'post_type' => 'post',
-	'posts_per_page' => 6,
-	'post_status' => 'publish',
-	'ignore_sticky_posts' => true,
+ 'post_type' => 'post',
+ 'posts_per_page' => 6,
+ 'post_status' => 'publish',
+ 'ignore_sticky_posts' => true,
 ));
 if ( $r->have_posts() ) : while ($r->have_posts()) : $r->the_post();
 if ( $r->current_post % 3 == 0) : ?>
@@ -186,10 +186,10 @@ if ( $r->current_post % 3 == 0) : ?>
 
 ```php
 $r = new WP_Query( array(
-	'post_type' =>
-	'post', 'posts_per_page' => 6,
-	'post_status' => 'publish',
-	'ignore_sticky_posts' => true,
+ 'post_type' =>
+ 'post', 'posts_per_page' => 6,
+ 'post_status' => 'publish',
+ 'ignore_sticky_posts' => true,
 ));
 if ( $r->have_posts() ) : while ($r->have_posts()) : $r->the_post();
 if ( $r->current_post == 0) : ?>
@@ -202,10 +202,10 @@ if ( $r->current_post == 0) : ?>
 
 ```php
 $r = new WP_Query( array(
-	'post_type' => 'post',
-	'posts_per_page' => 6,
-	'post_status' => 'publish',
-	'ignore_sticky_posts' => true,
+ 'post_type' => 'post',
+ 'posts_per_page' => 6,
+ 'post_status' => 'publish',
+ 'ignore_sticky_posts' => true,
 ));
 if ( $r->have_posts() ) : while ($r->have_posts()) : $r->the_post();
 if ( $r->current_post == $r->post_count - 1 ) : ?>

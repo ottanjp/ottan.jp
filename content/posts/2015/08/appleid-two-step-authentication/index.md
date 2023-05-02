@@ -36,7 +36,7 @@ Apple ID の 2 段階認証プロセスを有効化する方法をご紹介し�
 
 Apple ID の 2 段階認証を有効にするためには、以下のリンクから Apple ID の管理ページにアクセスします。
 
-https://appleid.apple.com/
+<https://appleid.apple.com/>
 
 「Apple ID を管理」ボタンをクリックします。
 

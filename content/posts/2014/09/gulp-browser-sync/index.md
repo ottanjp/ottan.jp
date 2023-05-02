@@ -82,19 +82,19 @@ WordPress の環境構築は、[Vagrant](https://www.vagrantup.com/)を使用す
 
 ### VirtualBox のインストール
 
-https://www.virtualbox.org/
+<https://www.virtualbox.org/>
 
 ### Vagrant のインストール
 
 仮想マシンをエミュレートするソフトウエアを「Vagrant」では「Provider」（プロバイダーー）と表現しており、「VirtualBox」の他、有償ソフトウエアとして VMware 社の「VMware Fusion」や Parallels 社の「Parallels Desktop」をサポートしています。そのため、「Vagrant」とここでご紹介したエミュレーターソフトウエアが 1 つあれば、CUI 操作のみで誰でも簡単に仮想マシンを構築できます。
 
-https://www.vagrantup.com/
+<https://www.vagrantup.com/>
 
 ### VCCW のインストール
 
-次に、仮想マシンのイメージファイルである「Box」を構築します。今回は、前述のように「[VCCW](http://vccw.cc/)」を使用します。「[VCCW ](http://vccw.cc/)」を導入するだけで、WordPress でのプラグインやテーマの開発に必要なすべてがそろいます。
+次に、仮想マシンのイメージファイルである「Box」を構築します。今回は、前述のように「[VCCW](http://vccw.cc/)」を使用します。「[VCCW](http://vccw.cc/)」を導入するだけで、WordPress でのプラグインやテーマの開発に必要なすべてがそろいます。
 
-[VCCW ](http://vccw.cc/)の手順に従いインストールします。「hostsupdater」とは、文字通り「hosts」ファイルを自動的に「update」してくれる優れたプラグインです。仮想マシン起動時、仮想マシンに割り当てたプライベート IP アドレス、ホスト名を自動的に「hosts」ファイルに追加してくれます。
+[VCCW](http://vccw.cc/)の手順に従いインストールします。「hostsupdater」とは、文字通り「hosts」ファイルを自動的に「update」してくれる優れたプラグインです。仮想マシン起動時、仮想マシンに割り当てたプライベート IP アドレス、ホスト名を自動的に「hosts」ファイルに追加してくれます。
 
 ```zsh
 vagrant plugin install vagrant-hostsupdater
@@ -136,7 +136,7 @@ vagrant up
 brew install node
 ```
 
-### gulp.js のインストール
+### gulp.js のインストール①
 
 続いて、gulp.js のインストールを行います。gulp.js は Node.js ベースであるため、プラグインの管理はすべて`npm`コマンドで行います。まずは、`gulp`コマンドを利用するために、「gulp.js」をグローバルインストールします。ローカルインストール、グローバルインストールの違いについては[はじめての gulp.js！Mac で CSS ファイル、JavaScript の圧縮を行おう](/posts/2014/09/gulp-css-sass-268/)をご覧ください。
 
@@ -264,7 +264,7 @@ gulp.task('default', ['browser-sync'], function () {
 
 また、`watch`により、scss ファイルに変更があった場合は「sass」タスクを、PHP ファイルに変更があった場合は「bs-reload」タスクを実行するよう定義します。PHP ファイルは、BrowserSync によりストリーミングできないため、手動でブラウザをリロードさせます。
 
-## 動作確認
+## 動作確認②
 
 ### SCSS ファイルの場合
 

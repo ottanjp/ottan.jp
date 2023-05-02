@@ -29,9 +29,9 @@ WordPressのテーマやプラグイン開発者の方であれば、Node.jsの�
 
 従来のNode.jsのローカルパッケージの実行方法としては、以下の方法がありました。
 
--   ./node_modules/bin/<Package Name>
--   $(npm bin)/<Package Name>
--   `package.json`に`npm-scripts`を記述
+- ./node_modules/bin/<Package Name>
+- $(npm bin)/<Package Name>
+- `package.json`に`npm-scripts`を記述
 
 また、パッケージそのものを、ローカルではなくグローバルパッケージとしてインストールして、コマンド指定で実行するという方法もありましたが、`package.json`から脱却することになり、かつローカルパッケージとグローバルパッケージのバージョン乖離等によって、問題が生じる可能性がありました。
 

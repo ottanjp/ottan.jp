@@ -34,7 +34,7 @@ type: post
 
 ターミナルを起動し、Docker コンテナーが起動していることを確認してください。確認したら「wordpress」コンテナーに仮想端末経由でログインします。
 
-    $ docker exec -it wordpress /bin/bash
+    docker exec -it wordpress /bin/bash
 
 `wordpress`は、コンテナーの名称です。コンテナーの名称を変更している方は、任意の値に変更してください。以下、`#`プロンプトで始まる作業は、すべて Docker コンテナーでの作業です。
 
@@ -100,14 +100,14 @@ type: post
 
 なるほど、「db」というコンテナーの名称が名前解決できるように`hosts`に記載がありますね。
 
-    127.0.0.1	localhost
-    ::1	localhost ip6-localhost ip6-loopback
-    fe00::0	ip6-localnet
-    ff00::0	ip6-mcastprefix
-    ff02::1	ip6-allnodes
-    ff02::2	ip6-allrouters
-    172.17.0.2	mysql 8f698b11cdea db
-    172.17.0.3	bf0b08f3764c
+    127.0.0.1 localhost
+    ::1 localhost ip6-localhost ip6-loopback
+    fe00::0 ip6-localnet
+    ff00::0 ip6-mcastprefix
+    ff02::1 ip6-allnodes
+    ff02::2 ip6-allrouters
+    172.17.0.2 mysql 8f698b11cdea db
+    172.17.0.3 bf0b08f3764c
 
 というわけで試行錯誤しながら作成した「Movefile」の全容がこちらです。ターミナルで以下のコマンドを実行します（ホームディレクトリに作成していることを前提とします）。
 
@@ -199,11 +199,11 @@ WordMove 実行時に以下のエラーが表示される場合は、Ruby のエ
 
 さて、ここまで苦労して作り上げたコンテナーですが、コンテナーを削除してしまえば元の木阿弥です。なぜなら、コンテナーは「イメージ」から作り上げたものであって、「イメージ」に変更が加わるわけではないからです。とはいえ、一度作った環境は保存しておきたい。そうしたい場合には、一度コンテナーからログアウトし、以下のコマンドを実行し、「イメージ」を保存します。
 
-    $ docker commit wordpress ottan
+    docker commit wordpress ottan
 
 `wordpress`は実行しているコンテナーの名前、`ottan`はイメージの名前。
 
-    $ docker images
+    docker images
 
 上記のコマンドを実行すると、「イメージ」が新規に保存されていることがわかります。
 
@@ -217,7 +217,7 @@ WordMove 実行時に以下のエラーが表示される場合は、Ruby のエ
 
 起動中のコンテナーにログインして、テーマやプラグインファイルを編集するのは面倒くさいですよね。そういう場合には、コンテナーのファイルを、Mac 側で編集できるように、コンテナーを新規作成するときに以下のコマンドを実行します。
 
-    $ docker run -v ~/Dropbox/vccw/www/wordpress/wp-content/themes/ottan-xyz-v3:/var/www/html/wp-content/themes/ottan-xyz-v3:cached --name ottan --link db:mysql -p 8080:80 -d ottan
+    docker run -v ~/Dropbox/vccw/www/wordpress/wp-content/themes/ottan-xyz-v3:/var/www/html/wp-content/themes/ottan-xyz-v3:cached --name ottan --link db:mysql -p 8080:80 -d ottan
 
 #### 「cahched」オプションによるホスト、コンテナー間のボリュームの同期の高速化（2017/11/23 追記）
 

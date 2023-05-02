@@ -23,11 +23,11 @@ WordPressの開発環境の構築には、Dockerが便利であることは[Dock
 
 MacからGUIでMySQLのデータベースや、データベース内のテーブル、データを参照、編集できる便利なソフトウェアが[Sequel Pro](https://www.sequelpro.com/)です。Mac App Storeでは配布されていませんので、[Sequel Pro](https://www.sequelpro.com/)から直接ダウンロードしてインストールしてください。「Sequel Pro」の特徴は以下の通りです。
 
--   私用、商用利用とわず無償で使用できる（「Sequel Pro」はドネーションウェアです）
--   TCP、ソケットなどMySQLへ接続するために必要なすべてのプロトコルに対応している
--   phpMyAdminのように特別なコンテナーや、実行環境を別途用意する必要がない
--   GUIから直感的にデータベースの内容を操作できる
--   テーブルの最適化、分析、トリガーなどMySQLでできることは大抵なんでもできる
+- 私用、商用利用とわず無償で使用できる（「Sequel Pro」はドネーションウェアです）
+- TCP、ソケットなどMySQLへ接続するために必要なすべてのプロトコルに対応している
+- phpMyAdminのように特別なコンテナーや、実行環境を別途用意する必要がない
+- GUIから直感的にデータベースの内容を操作できる
+- テーブルの最適化、分析、トリガーなどMySQLでできることは大抵なんでもできる
 
 phpMyAdminをDockerの専用コンテナーとして作成しても良いのですが、専用のコンテナーを起動する必要があるため、ある程度のリソース（CPU、メモリ、ストレージ等）を消費することになります。その点、「Sequel Pro」を使用すれば必要な時に必要に応じて起動することが可能になりますし、Webアプリケーションとは異なるため（MySQLのレスポンス次第ですが）レスポンスも良好です。WordPress開発のみならずMySQLを使用しているならば、ぜひ試してみただきたいソフトウェアです。
 
@@ -38,22 +38,22 @@ phpMyAdminをDockerの専用コンテナーとして作成しても良いので�
 ```yaml
 # mysql
 db:
-	image: mysql
-	container_name: db
-	environment:
-	MYSQL_ROOT_PASSWORD: pass
-	ports:
-	- "13306:3306"
+ image: mysql
+ container_name: db
+ environment:
+ MYSQL_ROOT_PASSWORD: pass
+ ports:
+ - "13306:3306"
 # wordpress
 wordpress:
-	image: wordpress
-	container_name: wordpress
-	links:
-	- db:mysql
-	ports:
-	- "8080:80"
-	volumes:
-	- ~/Dropbox/vccw/www/wordpress/wp-content/themes:/var/www/html/wp-content/themes:cached
+ image: wordpress
+ container_name: wordpress
+ links:
+ - db:mysql
+ ports:
+ - "8080:80"
+ volumes:
+ - ~/Dropbox/vccw/www/wordpress/wp-content/themes:/var/www/html/wp-content/themes:cached
 ```
 
 「db」コンテナーに「ports」セクションを追加しました。MySQLのデフォルトの待ち受けポート番号は「3306」ですが、ホストからアクセスする際に「13306」からアクセスできるように設定しました。既存のサービスのポート番号と重複しないように注意してください。「13306」がすでに使用されていないかどうかは以下のコマンドで確認できます。

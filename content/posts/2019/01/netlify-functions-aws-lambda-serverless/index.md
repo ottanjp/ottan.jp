@@ -126,7 +126,7 @@ hello_slack.js  18.3 KiB       4  [emitted]  hello_slack
 
 なお、これからご紹介するサンプルスクリプトは、すべて`src/lambda`配下にあります。
 
-#### Hello, World!
+#### Hello, World
 
 Netlify Functionsでもっとも基本となる、アクセスすると「Hello, World!」と表示するだけのサンプルアプリケーションです。ブラウザを開いて、以下のURLにアクセスしてください。Netlifyにデプロイ後は、`localhost:9000`をNetlifyのドメインに置き換えてください。
 
@@ -138,10 +138,10 @@ http://localhost:9000/.netlify/functions/hello
 
 ```javascript
 exports.handler = function(event, context, callback) {
-	callback(null, {
-		statusCode: 200,
-		body: 'Hello, World',
-	});
+ callback(null, {
+  statusCode: 200,
+  body: 'Hello, World',
+ });
 };
 ```
 
@@ -171,7 +171,7 @@ AWS Lambdaのように、呼び出された関数名等を`context`パラメー�
 * [Functions | Netlify](https://www.netlify.com/docs/functions/#event-triggered-functions)
 * [Identity | Netlify](https://www.netlify.com/docs/identity/)
 
-#### 非同期でHello, World!
+#### 非同期でHello, World
 
 続いて、`async`キーワードを使用するパターンです。Node.js 8.1x系で使用可能です（つまりデフォルト）。
 
@@ -183,15 +183,15 @@ http://localhost:9000/.netlify/functions/hello_async
 
 ```javascript
 exports.handler = async (event, context) => {
-	return {
-		statusCode: 200,
-		body: 'Hello, World',
-	};
-	// エラーを返却したい場合は、throw new Error('...');
+ return {
+  statusCode: 200,
+  body: 'Hello, World',
+ };
+ // エラーを返却したい場合は、throw new Error('...');
 };
 ```
 
-#### 指定されたパラメータでHello, World!
+#### 指定されたパラメータでHello, World
 
 もう少し実用的な例を挙げましょう。パラメータに指定した文字列を受け取り、画面に表示する例を考えます。GETメソッド、POSTメソッドを使用した場合で挙動が異なります。
 
@@ -203,36 +203,35 @@ http://localhost:9000/.netlify/functions/hello_name?name=World
 
 ```javascript
 exports.handler = async (event, context) => {
-	const name = event.queryStringParameters.name || 'World';
+ const name = event.queryStringParameters.name || 'World';
 
-	return {
-		statusCode: 200,
-		body: `Hello, ${name}`,
-	};
+ return {
+  statusCode: 200,
+  body: `Hello, ${name}`,
+ };
 };
 ```
 
 続いて、POSTの場合の例です。GETかPOSTメソッドのどちらが使用されたかは、`event`引数の`httpMethod`で判定可能です。下記の例では、POST以外の場合、405エラーを返却しています。
 
-
 ```javascript
 import querystring from 'querystring';
 
 exports.handler = async (event, context) => {
-	// Only allow POST
-	if (event.httpMethod !== 'POST') {
-		return { statusCode: 405, body: 'Method Not Allowed' };
-	}
+ // Only allow POST
+ if (event.httpMethod !== 'POST') {
+  return { statusCode: 405, body: 'Method Not Allowed' };
+ }
 
-	// When the method is POST, the name will no longer be in the event’s
-	// queryStringParameters – it’ll be in the event body encoded as a query string
-	const params = querystring.parse(event.body);
-	const name = params.name || 'World';
+ // When the method is POST, the name will no longer be in the event’s
+ // queryStringParameters – it’ll be in the event body encoded as a query string
+ const params = querystring.parse(event.body);
+ const name = params.name || 'World';
 
-	return {
-		statusCode: 200,
-		body: `Hello, ${name}`,
-	};
+ return {
+  statusCode: 200,
+  body: `Hello, ${name}`,
+ };
 };
 ```
 
@@ -264,16 +263,16 @@ https://play.google.com/store/apps/details?id=com.google.android.googlequicksear
 import gplay from 'google-play-scraper';
 
 exports.handler = async (event, context) => {
-	return gplay
-		.app({
-			appId: event.queryStringParameters.appId,
-			lang: 'jp',
-			country: 'jp',
-		})
-		.then(data => ({
-			statusCode: 200,
-			body: JSON.stringify(data, null, 2),
-		}));
+ return gplay
+  .app({
+   appId: event.queryStringParameters.appId,
+   lang: 'jp',
+   country: 'jp',
+  })
+  .then(data => ({
+   statusCode: 200,
+   body: JSON.stringify(data, null, 2),
+  }));
 };
 ```
 

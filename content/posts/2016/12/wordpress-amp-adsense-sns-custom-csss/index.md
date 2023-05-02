@@ -56,7 +56,7 @@ iTunes のアフィリエイトリンクについても、スタイルが何も�
 
 では、AMP の表示をカスタマイズしていきましょう。カスタマイズ方法は、「AMP」プラグインの開発元である Automattic 社の GitHub に公開されています。
 
-https://github.com/Automattic/amp-wp
+<https://github.com/Automattic/amp-wp>
 
 「AMP」プラグインに同梱されているテンプレートを上書きすると、プラグインアップデートの都度、テンプレートを書き直さなくてはなりません。そのため、記事ページのテンプレートをコピーしておきます。「AMP」プラグインインストールディレクトリ配下の`single.php`をコピーします。
 
@@ -90,7 +90,7 @@ https://github.com/Automattic/amp-wp
 
 弊サイトでは、Font Awesome による Web フォントを使用しています。通常は、CDN（コンテンツ・デリバリー・ネットワーク）で配信されている CSS ファイルを読み込むだけなのですが、AMP では外部スタイルシートを読み込むことができません。そこで、前述のカスタマイズ CSS に追加する必要があります。
 
-https://fontawesome.com//
+<https://fontawesome.com//>
 
 まずは、上記リンクから Font Awesome の本体をダウンロードします。本体の中の「Fonts」フォルダーを開いて、以下のファイルのみ WordPress のテーマフォルダーにコピーしておきます。今回は、以下のフォルダーにコピーしました。
 

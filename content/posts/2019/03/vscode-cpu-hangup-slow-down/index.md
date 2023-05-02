@@ -21,9 +21,9 @@ type: post
 Macの動作が重くなってしまったため、アクティビティモニターを眺めていたところ、「Code Helper」と呼ばれるプロセスがCPUを占有していました。同プロセスは、VS Codeの子プロセスで、複数のプロセスが起動します。拡張機能の一部が暴走している可能性があるのかと思い、拡張機能の停止や削除を繰り返したのですが事象はおさまりません。今回は、VS Codeを使用していてMac全体の動作が重くなった場合の、ワークアラウンドをご紹介します。
 
 ```
-ProductName:	Mac OS X
-ProductVersion:	10.14.3
-BuildVersion:	18D109
+ProductName: Mac OS X
+ProductVersion: 10.14.3
+BuildVersion: 18D109
 ```
 
 ## VS Codeのプロセス「Code Helper」の暴走を止めるワークアラウンド
@@ -81,16 +81,16 @@ VS CodeのIssueに同様の報告がありました。他のIssueも参照して
 ```json
 "files.useExperimentalFileWatcher": true,
 "files.exclude": {
-	"/.git": true,
-	"/.DS_Store": true,
-	"/node_modules": true,
-	"/node_modules/": true
+ "/.git": true,
+ "/.DS_Store": true,
+ "/node_modules": true,
+ "/node_modules/": true
 },
 "search.exclude": {
-	"/node_modules": true
+ "/node_modules": true
 },
 "files.watcherExclude": {
-	"/node_modules/": true
+ "/node_modules/": true
 }
 ```
 

@@ -34,7 +34,7 @@ MacにUSBメモリを差し込んだら、「アプリケーション」→「�
 
 次にWindows 10のISOファイルをダウンロードします。ISOファイルは、Microsoftの公式サイトで配布されています。
 
--   <https://www.microsoft.com/ja-jp/software-download/windows10ISO>
+- <https://www.microsoft.com/ja-jp/software-download/windows10ISO>
 
 まず、エディションを選択します。「エディションの選択」から「Windows 10」を選択してください。選択したら、「確認」ボタンをクリックします。
 

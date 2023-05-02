@@ -24,17 +24,17 @@ Parallels Desktop 12 for Mac では、Ubuntu 18.04 LTS が正式にサポート�
 
 なお、Ubuntu 18.04 LTS の ISO ファイルは以下のリンクからダウンロード可能です。
 
--   [Download Ubuntu Desktop | Download | Ubuntu](https://www.ubuntu.com/download/desktop)
+- [Download Ubuntu Desktop | Download | Ubuntu](https://www.ubuntu.com/download/desktop)
 
 ## Ubuntu 18.04 LTS のインストールには成功するものの、Parallels Tools が動作しない
 
 Parallels Desktop for Mac には標準で Parallels Tools が提供されています。Parallels Tools で提供されている主な機能は以下の通りです。
 
--   マウス入力のキャプチャ、自動的な解放（Ctrl + Option キーによるマウス入力の手動の解放が不要に）
--   ホスト OS（今回の場合は Mac）との時刻同期
--   ドラッグ＆ドロップによるホスト OS、仮想マシン間のファイル共有
--   ホスト OS と仮想マシン間のクリップボードの共有
--   解像度の最適化
+- マウス入力のキャプチャ、自動的な解放（Ctrl + Option キーによるマウス入力の手動の解放が不要に）
+- ホスト OS（今回の場合は Mac）との時刻同期
+- ドラッグ＆ドロップによるホスト OS、仮想マシン間のファイル共有
+- ホスト OS と仮想マシン間のクリップボードの共有
+- 解像度の最適化
 
 その他にもさまざまな機能がありますが、とくにマウス入力の自動的な解放、クリップボードの共有、解像度の最適化は仮想マシンを使用する上でも欠かせない機能でしょう。
 
@@ -42,7 +42,7 @@ Parallels Desktop for Mac には標準で Parallels Tools が提供されてい�
 
 Gist に、有志による解決策が提供されていましたのでご紹介します。
 
--   [Parallels Tools fix for Ubuntu 18.04 and other Linux distributions with Kernel version >= 4.15](https://gist.github.com/rudolfratusinski/a4d9e3caff11a4d9d81d2e84abc9afbf)
+- [Parallels Tools fix for Ubuntu 18.04 and other Linux distributions with Kernel version >= 4.15](https://gist.github.com/rudolfratusinski/a4d9e3caff11a4d9d81d2e84abc9afbf)
 
 ### Parallels Tools のインストール方法
 
@@ -83,7 +83,7 @@ Error: failed not install kernel modules
 
 どうも必要モジュールの make に失敗しているようです。これらのメッセージを手掛かりにして事例を探したところ、以下の Gist に行き着きました。
 
--   [Parallels Tools fix for Ubuntu 18.04 and other Linux distributions with Kernel version >= 4.15](https://gist.github.com/rudolfratusinski/a4d9e3caff11a4d9d81d2e84abc9afbf)
+- [Parallels Tools fix for Ubuntu 18.04 and other Linux distributions with Kernel version >= 4.15](https://gist.github.com/rudolfratusinski/a4d9e3caff11a4d9d81d2e84abc9afbf)
 
 ### Parallels Tools を Ubuntu 18.04 LTS ヘインストールする方法
 
@@ -153,7 +153,7 @@ set number
 
 日本語環境でファイルを編集する手順が整いました。以下のリンクに沿ってファイルを編集しましょう。
 
--   [Parallels Tools fix for Ubuntu 18.04 and other Linux distributions with Kernel version >= 4.15](https://gist.github.com/rudolfratusinski/a4d9e3caff11a4d9d81d2e84abc9afbf)
+- [Parallels Tools fix for Ubuntu 18.04 and other Linux distributions with Kernel version >= 4.15](https://gist.github.com/rudolfratusinski/a4d9e3caff11a4d9d81d2e84abc9afbf)
 
 大まかな手順は以下の通りです。
 
@@ -171,5 +171,5 @@ Parallels Tools のインストール失敗時に表示されたメッセージ�
 
 ## 参考リンク
 
--   [Download Ubuntu Desktop | Download | Ubuntu](https://www.ubuntu.com/download/desktop)
--   [Parallels Tools fix for Ubuntu 18.04 and other Linux distributions with Kernel version >= 4.15](https://gist.github.com/rudolfratusinski/a4d9e3caff11a4d9d81d2e84abc9afbf)
+- [Download Ubuntu Desktop | Download | Ubuntu](https://www.ubuntu.com/download/desktop)
+- [Parallels Tools fix for Ubuntu 18.04 and other Linux distributions with Kernel version >= 4.15](https://gist.github.com/rudolfratusinski/a4d9e3caff11a4d9d81d2e84abc9afbf)

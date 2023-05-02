@@ -23,10 +23,10 @@ type: post
 
 まず、メインの作成へ着手する前に、Twitter Bootstrapの根幹ともいえるグリッドシステムについてご紹介します。Twitter Bootstrapでは、デバイスを以下の4種類に分類し、デバイスの横幅に応じて表示を変える、いわゆる**レスポンシブデザイン**に対応しています。
 
--   デバイスの横幅が768px未満
--   デバイスの横幅が768px以上、992px未満
--   デバイスの横幅が992px以上、1200px未満
--   デバイスの横幅が1200px以上
+- デバイスの横幅が768px未満
+- デバイスの横幅が768px以上、992px未満
+- デバイスの横幅が992px以上、1200px未満
+- デバイスの横幅が1200px以上
 
 また、表示エリアを縦に12分割し、その分割したカラムの組み合わせで自由自在にレイアウトできるようになっています。たとえば、メイン表示領域を9カラム、サイドバー領域を3カラム、のようにカラムの合計が12になるように調整します。
 
@@ -49,15 +49,15 @@ type: post
 ```html
 <!-- Example row of columns -->
 <div class="row">
-	<div class="col-sm-8">
-		<h2>Heading</h2>
-		<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+ <div class="col-sm-8">
+  <h2>Heading</h2>
+  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div>
     <div class="col-sm-4">
-		<h2>Heading</h2>
-		<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+  <h2>Heading</h2>
+  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div>
 </div>
 ```
@@ -66,25 +66,25 @@ type: post
 
 ```css
 .container {
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
+ padding-right: 15px;
+ padding-left: 15px;
+ margin-right: auto;
+ margin-left: auto;
 }
 @media (min-width: 768px) {
-	.container {
-	width: 750px;
-	}
+ .container {
+ width: 750px;
+ }
 }
 @media (min-width: 992px) {
-	.container {
-	width: 970px;
-	}
+ .container {
+ width: 970px;
+ }
 }
 @media (min-width: 1200px) {
-	.container {
-	width: 1170px;
-	}
+ .container {
+ width: 1170px;
+ }
 }
 ```
 
@@ -94,16 +94,16 @@ type: post
 
 ```css
 .row {
-	margin-right: -15px;
-	margin-left: -15px;
+ margin-right: -15px;
+ margin-left: -15px;
 }
 .row:before,
 .row:after {
-	display: table;
-	content: " ";
+ display: table;
+ content: " ";
 }
 .row:after {
-	clear: both;
+ clear: both;
 }
 ```
 
@@ -119,13 +119,13 @@ type: post
 <?php if ( have_posts() ) : ?>
 <?php while ( have_posts() ) : the_post() ?>
 <div class="row">
-	<div class="col-sm-4">
-		<a href="<?php the_permalink(); ?>">
-		<?php the_post_thumbnail( array( 180,9999) ); ?> </a>
-	</div>
-	<div class="col-sm-8">
-		<h3> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> </h3>
-	<div>
+ <div class="col-sm-4">
+  <a href="<?php the_permalink(); ?>">
+  <?php the_post_thumbnail( array( 180,9999) ); ?> </a>
+ </div>
+ <div class="col-sm-8">
+  <h3> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> </h3>
+ <div>
 <?php the_excerpt(); ?>
 </div>
 <?php endwhile; ?>
@@ -137,8 +137,8 @@ type: post
 
 `col-sm-8` クラス配下に、さらに`col-sm-4` 、`col-sm-8` クラスを作りました。ここでは上位のグリッド（`col-sm-8`）に合わせて、下位のグリッドも`col-sm-xx` としましたが、上位と下位で異なるグリッドを使用しても構いません。
 
--   グリッド構造はネストすることが可能
--   上位のグリッドと下位のグリッドは別々の横幅を指定する事が可能
+- グリッド構造はネストすることが可能
+- 上位のグリッドと下位のグリッドは別々の横幅を指定する事が可能
 
 #### 例
 
@@ -146,11 +146,11 @@ type: post
 
 ```html
 <div class="col-xs-12 col-sm-4">
-	<?php the_post_thumbnail( array( 180,9999) ); ?>
+ <?php the_post_thumbnail( array( 180,9999) ); ?>
 </div>
 <div class="col-xs-12 col-sm-8">
-	<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-	<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+ <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+ <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 </div>
 ```
 
@@ -164,9 +164,9 @@ type: post
 
 たとえば、投稿が1つの場合は、`the_post()` 関数が呼び出された時点でインデックスは最大値に達します。最大値に達した時点で`have_posts()` 関数は投稿が存在しないものとして`false` を返します。これで、`while` によるループは終了になります。
 
--   `have_posts()` 関数は、投稿が存在するかどうかを判定する関数
--   `the_posts()` 関数は、投稿を取得し内部のインデックスをインクリメントする関数
--   `have_posts()` 関数と`the_posts()` 関数はセットで用いるのが定石
+- `have_posts()` 関数は、投稿が存在するかどうかを判定する関数
+- `the_posts()` 関数は、投稿を取得し内部のインデックスをインクリメントする関数
+- `have_posts()` 関数と`the_posts()` 関数はセットで用いるのが定石
 
 ### the_XXXX()関数とget_the_XXXX()関数について
 

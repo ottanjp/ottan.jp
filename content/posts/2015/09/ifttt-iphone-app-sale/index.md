@@ -28,7 +28,7 @@ type: post
 
 [Connect the apps you love - IFTTT](https://ifttt.com/)にログインした状態で以下の URL にアクセスします。
 
-https://ifttt.com/appzapp
+<https://ifttt.com/appzapp>
 
 AppZapp に接続していない場合は「Connect」ボタンをクリックし接続します。接続した状態で再度上記の URL にアクセスしてください。
 

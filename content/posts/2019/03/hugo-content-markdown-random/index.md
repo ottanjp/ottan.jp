@@ -69,17 +69,17 @@ Google AdSenseのコードを挿入する位置、`.Content`を分割した配�
 {{ /* <p>タグの数をカウントするための一時変数をセット */ }}
 {{ $.Scratch.Set "Counter" 0 }}
 {{ range $contents }}
-	{{ /* 現在の行の末尾に改行コードを付与して追記 */ }}
-	{{ /* 改行コードを付与しないと、生成されるHTMLの改行が削除されるため注意 */ }}
-	{{ $.Scratch.Add "Content" (print . "\n") }}
-	{{ if hasPrefix . "<p>" }}
-		{{ /* <p>タグから始まる行をカウント */ }}
-		{{ $.Scratch.Add "Counter" 1 }}
-		{{ if eq ($.Scratch.Get "Counter") $position }}
-			{{ /* Google AdSenseのコードをテンプレートから読み込み */ }}
-			{{ $.Scratch.Add "Content" (partial "google-adsense.html") }}
-		{{ end }}
-	{{ end }}
+ {{ /* 現在の行の末尾に改行コードを付与して追記 */ }}
+ {{ /* 改行コードを付与しないと、生成されるHTMLの改行が削除されるため注意 */ }}
+ {{ $.Scratch.Add "Content" (print . "\n") }}
+ {{ if hasPrefix . "<p>" }}
+  {{ /* <p>タグから始まる行をカウント */ }}
+  {{ $.Scratch.Add "Counter" 1 }}
+  {{ if eq ($.Scratch.Get "Counter") $position }}
+   {{ /* Google AdSenseのコードをテンプレートから読み込み */ }}
+   {{ $.Scratch.Add "Content" (partial "google-adsense.html") }}
+  {{ end }}
+ {{ end }}
 {{ end }}
 ```
 
@@ -154,7 +154,7 @@ Google AdSenseのコードを直接記述しても構わないのですが、メ
 <ins class="adsbygoogle"
      style="..."
      data-ad-client="ca-pub-..."
-	 data-ad-slot="..."></ins>
+  data-ad-slot="..."></ins>
 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 ```
 

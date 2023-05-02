@@ -27,9 +27,9 @@ Microsoft Edge の拡張機能を使用するためには、最新のビルド�
 
 最新のビルド（Build 14322）では、Microsoft Edge の拡張機能は Windows ストアからダウンロードできるようになりました。ただし、記事執筆時点では「AdBlock」および「AdBlock Plus」を Windows ストアで検索してもまだヒットしません。そこで、Microsoft Edge を起動して、以下の URL を直接アドレスバーに入力します。今回は、「AdBlock Plus」をインストールしてみます。
 
-https://www.microsoft.com/ja-jp/store/apps/adblock/9nblggh4rfhk
+<https://www.microsoft.com/ja-jp/store/apps/adblock/9nblggh4rfhk>
 
-https://www.microsoft.com/ja-jp/store/apps/adblock-plus/9nblggh4r9nz
+<https://www.microsoft.com/ja-jp/store/apps/adblock-plus/9nblggh4r9nz>
 
 ![](160507-572e0057cf09b.png)
 

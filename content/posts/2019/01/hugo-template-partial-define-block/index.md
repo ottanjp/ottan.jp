@@ -28,10 +28,10 @@ Hugo Static Site Generator v0.53/extended darwin/amd64 BuildDate: unknown
 
 Hugo にはさまざまなテンプレート構文が用意されています。今回は、その中でも基本となる以下の 4 つについて、とくにつまずきやすい点を中心に解説します。記事の内容に対するご質問やご指摘等はコメント欄でお待ちしております。
 
--   `template`
--   `partial`
--   `block`
--   `define`
+- `template`
+- `partial`
+- `block`
+- `define`
 
 ### template
 
@@ -45,14 +45,14 @@ Hugo にはさまざまなテンプレート構文が用意されています。
 
 Hugo 0.53 では、以下のテンプレートが用意されています。テンプレートの中身の説明は別の機会に譲り、ここでは詳細は割愛します。
 
--   [hugo/disqus.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/disqus.html)
--   [hugo/google_analytics.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/google_analytics.html)
--   [hugo/google_analytics_async.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/google_analytics_async.html)
--   [hugo/google_news.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/google_news.html)
--   [hugo/opengraph.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/opengraph.html)
--   [hugo/pagination.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/pagination.html)
--   [hugo/schema.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/schema.html)
--   [hugo/twitter_cards.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/twitter_cards.html)
+- [hugo/disqus.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/disqus.html)
+- [hugo/google_analytics.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/google_analytics.html)
+- [hugo/google_analytics_async.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/google_analytics_async.html)
+- [hugo/google_news.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/google_news.html)
+- [hugo/opengraph.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/opengraph.html)
+- [hugo/pagination.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/pagination.html)
+- [hugo/schema.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/schema.html)
+- [hugo/twitter_cards.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/twitter_cards.html)
 
 内包されているテンプレートのソースも、Hugo の構文にしたがって記載されています。そのため、テンプレートのソースを読み込むことで、Hugo の構文の理解に役立ちます。時間のあるときに一度目を通しておくことをオススメします。オススメは、[hugo/opengraph.html at master · gohugoio/hugo](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/opengraph.html)です。
 
@@ -149,31 +149,31 @@ Hugo のテンプレートには予約されているファイルがあります
 <html lang="{{ $.Site.LanguageCode | default "ja" }}" class="no-js">
 
 <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="robots" content="noindex, nofollow">
+ <meta charset="utf-8" />
+ <meta http-equiv="x-ua-compatible" content="ie=edge">
+ <title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <meta name="robots" content="noindex, nofollow">
 
-	{{ if .RSSLink }}
-	<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-	<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
-	{{ end }}
+ {{ if .RSSLink }}
+ <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+ <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+ {{ end }}
 
-	{{- template "_internal/opengraph.html" . -}}
-	{{- template "_internal/google_news.html" . -}}
-	{{- template "_internal/schema.html" . -}}
-	{{- template "_internal/twitter_cards.html" . -}}
-	{{- template "_internal/google_analytics_async.html" . -}}
+ {{- template "_internal/opengraph.html" . -}}
+ {{- template "_internal/google_news.html" . -}}
+ {{- template "_internal/schema.html" . -}}
+ {{- template "_internal/twitter_cards.html" . -}}
+ {{- template "_internal/google_analytics_async.html" . -}}
 </head>
 
 <body>
-	{{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
-	<main class="grid-container" role="main">
-		{{ block "main" . }}{{ end }}
-	</main>
-	{{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
-	{{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}
+ {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
+ <main class="grid-container" role="main">
+  {{ block "main" . }}{{ end }}
+ </main>
+ {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
+ {{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}
 </body>
 
 </html>
@@ -184,9 +184,9 @@ Hugo のテンプレートには予約されているファイルがあります
 ここで、下記の部分に注目してください。
 
 ```go-html-template
-	<main class="grid-container" role="main">
-		{{ block "main" . }}{{ end }}
-	</main>
+ <main class="grid-container" role="main">
+  {{ block "main" . }}{{ end }}
+ </main>
 ```
 
 `main`と呼ばれるブロックが定義されていることがわかります。ブロックの内容は空であり定義されていません。`index.html`であれば個別の記事への誘導やホームページに関する情報、`single.html`であれば個別記事の内容、`list.html`であれば記事の一覧を表示するべきです。そこで、`baseof.html`では`main`と呼ばれる空のブロックのみ定義しておき、実際のブロックの実装は各テンプレートに委ねています。こうすることで、各テンプレート側では個別に実装する部分のみを意識すればよく、サイトのヘッダーやフッター等の共通部分は`baseof.html`にお任せすれば良いことになります。
@@ -196,12 +196,12 @@ Hugo のテンプレートには予約されているファイルがあります
 ```go-html-template
 {{ define "main" }}
 <div id="main" class="grid-x grid-margin-x" style="margin-top: 5rem;">
-	<div class="cell small-12 article-list">
-		{{ range .Paginator.Pages }}
-		{{ .Render "li" }}
-		{{ end }}
-	</div>
-	{{ template "_internal/pagination.html" . }}
+ <div class="cell small-12 article-list">
+  {{ range .Paginator.Pages }}
+  {{ .Render "li" }}
+  {{ end }}
+ </div>
+ {{ template "_internal/pagination.html" . }}
 </div>
 {{ end }}
 ```
@@ -240,6 +240,6 @@ Hugo のテンプレートには予約されているファイルがあります
 
 ## 参考リンク
 
--   [Hugo's Lookup Order | Hugo](https://gohugo.io/templates/lookup-order/)
--   [Base Templates and Blocks | Hugo](https://gohugo.io/templates/base/)
--   [Internal Templates | Hugo](https://gohugo.io/templates/internal/)
+- [Hugo's Lookup Order | Hugo](https://gohugo.io/templates/lookup-order/)
+- [Base Templates and Blocks | Hugo](https://gohugo.io/templates/base/)
+- [Internal Templates | Hugo](https://gohugo.io/templates/internal/)

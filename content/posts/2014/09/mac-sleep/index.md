@@ -32,8 +32,8 @@ pmset -g
 以下のような結果が得られたでしょうか。
 
     Active Profiles:
-    Battery Power		-1*
-    AC Power		-1
+    Battery Power  -1*
+    AC Power  -1
     Currently in use:
      standbydelay         10800
      standby              1
@@ -116,17 +116,17 @@ pmset -g log
 
 これで電源管理（スリープ、休止）に関するログが出力されます。その中から「Timedout」を探します。
 
-    2014/09/18 21:38:10 JST  Sleep               	Idle Sleep: Using BATT (Charge:57%)                                        	673 secs
-    2014/09/18 21:38:11 JST  SlowResponse        	PMConnection: Response from mDNSResponder is slow (powercaps:0x0)          	          614 ms
-    2014/09/18 21:38:11 JST  WakeRequests        	Clients requested wake events: None
-    2014/09/18 21:49:23 JST  DarkWake            	DarkWake [CDN] due to EC.LidClose/Maintenance: Using BATT (Charge:57%)
-    2014/09/18 21:49:23 JST  HibernateStats      	hibmode=3 standbydelay=10800                                               	          rd=224 ms
-    2014/09/18 21:49:23 JST  Timedout            	Kernel: Response from Creative Cloud timed out (powercaps:0x9)             	          30000 ms
-    2014/09/18 21:49:23 JST  Timedout            	Kernel: Response from Adobe CEF Helper timed out (powercaps:0x9)           	          30000 ms
-    2014/09/18 21:49:23 JST  Sleep               	Maintenance Sleep: Using BATT (Charge:57%)                                 	2014 secs
-    2014/09/18 21:49:23 JST  WakeRequests        	Clients requested wake events: None
-    2014/09/18 22:22:57 JST  Wake                	Wake [CDNVA] due to EC.LidOpen/Lid Open: Using BATT (Charge:56%)
-    2014/09/18 22:22:57 JST  HibernateStats      	hibmode=3 standbydelay=10800
+    2014/09/18 21:38:10 JST  Sleep                Idle Sleep: Using BATT (Charge:57%)                                         673 secs
+    2014/09/18 21:38:11 JST  SlowResponse         PMConnection: Response from mDNSResponder is slow (powercaps:0x0)                     614 ms
+    2014/09/18 21:38:11 JST  WakeRequests         Clients requested wake events: None
+    2014/09/18 21:49:23 JST  DarkWake             DarkWake [CDN] due to EC.LidClose/Maintenance: Using BATT (Charge:57%)
+    2014/09/18 21:49:23 JST  HibernateStats       hibmode=3 standbydelay=10800                                                          rd=224 ms
+    2014/09/18 21:49:23 JST  Timedout             Kernel: Response from Creative Cloud timed out (powercaps:0x9)                        30000 ms
+    2014/09/18 21:49:23 JST  Timedout             Kernel: Response from Adobe CEF Helper timed out (powercaps:0x9)                      30000 ms
+    2014/09/18 21:49:23 JST  Sleep                Maintenance Sleep: Using BATT (Charge:57%)                                  2014 secs
+    2014/09/18 21:49:23 JST  WakeRequests         Clients requested wake events: None
+    2014/09/18 22:22:57 JST  Wake                 Wake [CDNVA] due to EC.LidOpen/Lid Open: Using BATT (Charge:56%)
+    2014/09/18 22:22:57 JST  HibernateStats       hibmode=3 standbydelay=10800
 
 Adobe Creative Cloudが原因で30,000ミリ秒（30秒）間待機していることがわかります。最近、Adobe製品を触る機会はめっきりなくなったので、Adobe Creative Cloudは真っ先に削除しました。
 

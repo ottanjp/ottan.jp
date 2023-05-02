@@ -21,7 +21,7 @@ Homebrew については、[Mac でプレゼン資料に数式を貼り付ける
 
 ## Homebrew でエラーが発生した場合の対処法
 
-    $ brew search <keyword>
+    brew search <keyword>
 
 一定期間中に、繰り返し連続して以下のコマンドを実行すると、下記のエラーが表示されることがあります。「XXX.XXX.XXX.XXX」は、自身の IP アドレスを示しています。期間を置いて実行するか、トークンを取得しなさいという意味のエラーです。期間を置いて実行するのも面倒臭いので、トークンで解決したいと思います。
 
@@ -34,7 +34,7 @@ Homebrew については、[Mac でプレゼン資料に数式を貼り付ける
 
 以下のリンクにアクセスし、GitHub にログインしてください。
 
-https://github.com/settings/tokens
+<https://github.com/settings/tokens>
 
 「Generate new token」ボタンをクリックします。
 
@@ -57,18 +57,18 @@ https://github.com/settings/tokens
 
 現在、自分が何のログインシェルを使用しているかわからない場合は、以下のコマンドを実行してください。大抵の場合、`/bin/zsh`、または`/bin/bash`と思われます。
 
-    $ echo $SHELL
+    echo $SHELL
 
 ### ログインシェルに bash を使用している場合
 
 ログインシェルに`/bin/bash`を使用している場合は、以下のコマンドを実行してください。`XXXXXXXX`にはさきほど入手したアクセストークンを入力します。`/bin/zsh`の場合と比較して、やや複雑ですが、これはログイン時に`~/.bashrc`が読み込まれないことを未然に防止するものです。
 
-    $ echo HOMEBREW_GITHUB_API_TOKEN=XXXXXXXX >> ~/.bashrc
-    $ echo export HOMEBREW_GITHUB_API_TOKEN >> ~/.bashrc
+    echo HOMEBREW_GITHUB_API_TOKEN=XXXXXXXX >> ~/.bashrc
+    echo export HOMEBREW_GITHUB_API_TOKEN >> ~/.bashrc
 
-    $ echo "if [ -f ~/.bashrc ] ; then" >> ~/.bash_profile
-    $ echo ". ~/.bashrc" >> ~/.bash_profile
-    $ echo "fi" >> ~/.bash_profile
+    echo "if [ -f ~/.bashrc ] ; then" >> ~/.bash_profile
+    echo ". ~/.bashrc" >> ~/.bash_profile
+    echo "fi" >> ~/.bash_profile
 
 ## まとめ
 

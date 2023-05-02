@@ -32,8 +32,8 @@ WordMove による開発環境から本番環境への接続方法には、FTP�
 
 秘密鍵と公開鍵を作成するために、開発環境の VCCW にログインします。ターミナルを開いて、以下のコマンドを実行してください。
 
-    $ cd ~/Documents/vccw-2.19.0
-    $ vagrant ssh
+    cd ~/Documents/vccw-2.19.0
+    vagrant ssh
 
 `~/Documents/vccw-2.19.0`は、Vagrantfile が存在するパスです。適宜読み替えてください。VCCW にログインしたら、以下のコマンドを実行します。
 
@@ -45,7 +45,7 @@ WordMove による開発環境から本番環境への接続方法には、FTP�
 
 すべてデフォルトの状態のまま、↵ を押します。これで、公開鍵と秘密鍵が作成されました。最後に、公開鍵をエックスサーバーに登録するために、公開鍵の内容を表示します。
 
-    $ cat ~/.ssh/id_rsa.pub
+    cat ~/.ssh/id_rsa.pub
 
 ![](160502-572755670a9b8.png)
 
@@ -65,7 +65,7 @@ WordMove による開発環境から本番環境への接続方法には、FTP�
 
 次に、ターミナルから以下のコマンドを実行します。VCCW にログインした状態で行います。`username`は、エックスサーバーのアカウント名に適宜読み替えてください。
 
-    $ ssh -p 10022 username@username.xsrv.jp
+    ssh -p 10022 username@username.xsrv.jp
 
 初回接続時には、以下のように表示されます。「yes」と入力して、↵ を押します。次回以降、「known_hosts」と呼ばれるファイルに登録され、下記の表示が出なくなります。この作業を必ず行っておきましょう。そうしないと、WordMove で自動化できません。
 
@@ -142,30 +142,30 @@ WordMove による開発環境から本番環境への接続方法には、FTP�
 
 変更箇所は太字の通りです。
 
-- `staging:`の`your-domain`を本番環境の WordPress の URL に変更する
-- `staging:`の`wordpress_path`を本番環境の WordPress の絶対パス（wp-load.php の置かれているディレクトリ）に変更する
-- `staging:`の`database:`の項目を本番環境の値（wp-config.php に記載されています）に変更する
-- `exclude:`に`.htaccess`を追加する。これは、本番環境の余計な設定（エックスサーバー独自の設定）を開発環境に適用しないようにするため）
-- `ssh:`、および配下の項目のコメントアウトを外す
-- `ssh:`の、`host:`、`user:`を本番環境の値に変更する（`username`は適宜読み替えてください）
-- `ssh:`の、`port:`を`10022`に変更する
+* `staging:`の`your-domain`を本番環境の WordPress の URL に変更する
+* `staging:`の`wordpress_path`を本番環境の WordPress の絶対パス（wp-load.php の置かれているディレクトリ）に変更する
+* `staging:`の`database:`の項目を本番環境の値（wp-config.php に記載されています）に変更する
+* `exclude:`に`.htaccess`を追加する。これは、本番環境の余計な設定（エックスサーバー独自の設定）を開発環境に適用しないようにするため）
+* `ssh:`、および配下の項目のコメントアウトを外す
+* `ssh:`の、`host:`、`user:`を本番環境の値に変更する（`username`は適宜読み替えてください）
+* `ssh:`の、`port:`を`10022`に変更する
 
 さて、Movefile ですが、1 行ごとのインデントが非常に重要です。半角スペース 1 つずれると動作しません。不安な場合は、[YAMLlint - The YAML Validator](http://www.yamllint.com/)に値を貼り付けて、チェックしてみてください。ハマリがちなのが、コメントアウトする箇所。
 
-- `ssh:`の前の半角スペースは 2 つ
-- `host:`、`user:`、`port:`、`rsync_options:`の前の半角スペースは 4 つ
+* `ssh:`の前の半角スペースは 2 つ
+* `host:`、`user:`、`port:`、`rsync_options:`の前の半角スペースは 4 つ
 
 ### WordMove を実行する
 
 ここまでで準備が整いました。ここからは次回以降、WordMove を実行するために、1 回 VCCW からログアウトした状態であると仮定して話を進めます。ターミナルを起動して、以下のコマンドを実行します。
 
-    $ cd ~/Documents/vccw-2.19.0
-    $ vagrant ssh
+    cd ~/Documents/vccw-2.19.0
+    vagrant ssh
 
 `~/Documents/vccw-2.19.0`は、Vagrantfile が存在するパスです。適宜読み替えてください。VCCW にログインしたら、以下のコマンドを実行します。
 
-    $ cd /vagrant
-    $ wordmove pull --all
+    cd /vagrant
+    wordmove pull --all
 
 これで、一気に本番環境と開発環境が同期されます！`pull`と`push`を間違えないでください。`push`すると、開発環境のデータが本番環境に上書きされてしまいます。
 

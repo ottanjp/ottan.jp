@@ -179,34 +179,34 @@ Elasticsearchから特定の単語が含まれる文字列を検索するサン�
 import elasticsearch from 'elasticsearch'
 
 exports.handler = async (event, context) => {
-	const client = new elasticsearch.Client({
-		// 実際はクレデンシャル情報は外部から取得する
-		hosts: ['https://user123:pass456@my-awesome-cluster-1234.us-east-1.bonsai.io/'],
-	})
-	return client
-		.search({
-			// 'title'または'content'にクエリ文字列が含むドキュメントを検索
-			body: {
-				query: {
-					bool: {
-						should: [
-							{ term: { 'title': event.queryStringParameters.q } },
-							{ term: { 'content': event.queryStringParameters.q } },
-						],
-					},
-				},
-				// スコア（一致率）の高い最初の10件のみ取得
-				size: 10,
-				// 'title'と'relpermalink'フィールドのみ取得
-				_source: ['title', 'relpermalink'],
-			},
-		})
-		.then(res => ({
-			statusCode: 200,
-			// ドメインをまたいだリクエストを有効化（ほんとはドメイン指定が良い）
-			headers: { 'Access-Control-Allow-Origin': '*' },
-			body: JSON.stringify(res.hits.hits, null, 2),
-		}))
+ const client = new elasticsearch.Client({
+  // 実際はクレデンシャル情報は外部から取得する
+  hosts: ['https://user123:pass456@my-awesome-cluster-1234.us-east-1.bonsai.io/'],
+ })
+ return client
+  .search({
+   // 'title'または'content'にクエリ文字列が含むドキュメントを検索
+   body: {
+    query: {
+     bool: {
+      should: [
+       { term: { 'title': event.queryStringParameters.q } },
+       { term: { 'content': event.queryStringParameters.q } },
+      ],
+     },
+    },
+    // スコア（一致率）の高い最初の10件のみ取得
+    size: 10,
+    // 'title'と'relpermalink'フィールドのみ取得
+    _source: ['title', 'relpermalink'],
+   },
+  })
+  .then(res => ({
+   statusCode: 200,
+   // ドメインをまたいだリクエストを有効化（ほんとはドメイン指定が良い）
+   headers: { 'Access-Control-Allow-Origin': '*' },
+   body: JSON.stringify(res.hits.hits, null, 2),
+  }))
 }
 ```
 
@@ -218,37 +218,37 @@ exports.handler = async (event, context) => {
 
 ```js
 ...
-	// Go Templateのデリミタとの重複を避ける
-	delimiters: ['[[', ']]'],
+ // Go Templateのデリミタとの重複を避ける
+ delimiters: ['[[', ']]'],
 ...
-	created: function() {
-	       // サーバ負荷軽減のため500msに1回リクエストを送信する
-		this.debouncedSearch = _.debounce(this.search, 500)
-	},
-	methods: {
-		search: function() {
-			if (this.query.length === 0) {
-				this.results = []
-				return
-			}
-			// 実際は環境変数からURLを取得する
-			fetch('http://localhost:9000/search?q=' + this.query, {
-				// ドメインをまたいだリクエストを有効化
-				mode: 'cors',
-			})
-				.then(response => {
-					return response.json()
-				})
-				.then(results => {
-					this.results = results
-				})
-		},
-	},
-	watch: {
-		query: function() {
-			this.debouncedSearch()
-		},
-	},
+ created: function() {
+        // サーバ負荷軽減のため500msに1回リクエストを送信する
+  this.debouncedSearch = _.debounce(this.search, 500)
+ },
+ methods: {
+  search: function() {
+   if (this.query.length === 0) {
+    this.results = []
+    return
+   }
+   // 実際は環境変数からURLを取得する
+   fetch('http://localhost:9000/search?q=' + this.query, {
+    // ドメインをまたいだリクエストを有効化
+    mode: 'cors',
+   })
+    .then(response => {
+     return response.json()
+    })
+    .then(results => {
+     this.results = results
+    })
+  },
+ },
+ watch: {
+  query: function() {
+   this.debouncedSearch()
+  },
+ },
 ...
 ```
 

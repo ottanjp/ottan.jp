@@ -89,8 +89,8 @@ Alfredは、ランチャーのみならず、ファイラーとしても機能�
 
 なお、検索エンジン登録時の以下の設定はデフォルトでオンにしています。Amazonの場合、販売元をAmazon.co.jpに限定するための文字列である「&emi=AN1VRQENFRJN5」を末尾に付与しています。
 
--   Encode query using UTF8（クエリ文字列をUTF-8にエンコードする）
--   Encode spaces as +（スペース文字列を+に変換する）
+- Encode query using UTF8（クエリ文字列をUTF-8にエンコードする）
+- Encode spaces as +（スペース文字列を+に変換する）
 
 とくに後者については検索エンジンの性質にもよりますので、「Test」ボタンで試してみてください。
 

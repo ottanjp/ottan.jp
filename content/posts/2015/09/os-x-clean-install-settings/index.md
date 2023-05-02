@@ -147,9 +147,9 @@ Finder をリスト表示にした状態で、「表示オプションを表示�
 
 スクリーンショットのデフォルトの保存先はデスクトップフォルダーですが、それをピクチャフォルダーに変更します。また、デフォルトではスクリーンショットに影がついた立体的な状態で表示されますが、ブログで紹介する際にはファイルサイズが増えるだけなので、影もオフにしておきます。
 
-    $ defaults write com.apple.screencapture location ~/Pictures/
-    $ defaults write com.apple.screencapture disable-shadow -boolean true
-    $ killall SystemUIServer
+    defaults write com.apple.screencapture location ~/Pictures/
+    defaults write com.apple.screencapture disable-shadow -boolean true
+    killall SystemUIServer
 
 ### Safari
 
@@ -165,19 +165,19 @@ WordPress でよく URL を確認したい場合が多いので、Safari の環�
 
 「1Password」は、もちろんパスワードの入力・参照に使います。
 
-https://agilebits.com/onepassword/extensions
+<https://agilebits.com/onepassword/extensions>
 
 ##### Awesome Screenshot
 
 「Awesome Screenshot」は、サイトやアプリケーション紹介時に、そのサイトのトップページをアイキャッチ画像として使用するために使います。
 
-https://extensions.apple.com/?q=Awesome%20Screenshot
+<https://extensions.apple.com/?q=Awesome%20Screenshot>
 
 ##### Buffer
 
 「Buffer」は、Twitter、Facebook ページ、Google+に一度に記事を配信できるので、とても便利です。
 
-https://buffer.com/extras
+<https://buffer.com/extras>
 
 ### アプリケーションのインストール（App Store）
 
@@ -273,13 +273,13 @@ PopClip は、トラックパッド、マウスに革命を起こすアプリケ
 
 MacBook Pro と iMac、iPhone で共有するために、ほとんどすべての情報を「Dropbox」で共有しています。後述するアプリケーションの設定ファイルの共有は非常に便利です。ぜひ試してみてみてください。「Dropbox」については、[1Password Anyware で、会社の PC など 1Password が使えない状況で、パスワード情報にアクセスする方法](/posts/2015/06/1password-anyware-1638/)や、[WordPress のテーマ開発、ブログの執筆作業を効率化する方法のまとめ](/posts/2014/12/efficiency-blog-736/)でもご紹介しています。
 
-https://www.dropbox.com/home
+<https://www.dropbox.com/home>
 
 #### TextExpander
 
 さまざまなスニペットを簡単に呼び出すことができる、非常に便利なアプリケーションです。たとえば、「.pp」と入力するだけで`<p></p>`と変換されるようにしています。その他、便利な使い方については、[ブログ執筆時に便利！TextExpander で Safari、Google Chrome から URL、タイトルを瞬時に取得する方法](/posts/2014/12/textexpander-safari-googlechrome-730/)をご参照ください。
 
-https://smilesoftware.com/TextExpander/index.html
+<https://smilesoftware.com/TextExpander/index.html>
 
 「TextExpander」に登録しているスニペットはすべて Dropbox に保管しています。
 
@@ -297,7 +297,7 @@ Dock に「TextExpander」のアイコンは不要なので「Hide TextExpander 
 
 「BetterTouchTool」を使用すれば、トラックパッドの使い方が無限に広がります。ただし、私はどちらかというと、BetterTouchTool の「Windows Snapping」機能を主に使用しています。画面左端にウインドウを持っていくと画面左半分にウインドウがリサイズされたり、画面上部の真ん中あたりにウインドウを持っていくとフルサイズにリサイズされたりと、非常に便利な機能なのです。
 
-http://www.bettertouchtool.net/
+<http://www.bettertouchtool.net/>
 
 「BetterTouchTool」起動時に表示されるダイアログで、「Yes, activate the window snapping!」をクリックしておきましょう。
 
@@ -315,7 +315,7 @@ http://www.bettertouchtool.net/
 
 言わずと知れた、Mac の最強ランチャーアプリ。これなしでの生活は考えられません。この熱い思いは[Mac ユーザーが恋する必須の神アプリ Alfred を 120%使いこなすための手引](/posts/2014/09/alfred-guidance-181/)で確認してください。
 
-https://www.alfredapp.com/
+<https://www.alfredapp.com/>
 
 PowerPack が前提となりますが、Dropbox で同期するようにしておくと、再インストール時に一から設定をし直す必要がなくなります。
 
@@ -325,7 +325,7 @@ PowerPack が前提となりますが、Dropbox で同期するようにして�
 
 「Transmit」はファイル転送アプリケーションです。主に、ローカルのファイルを、ブログを運営している X サーバにアップロードするために使用しています。ローカルファイルとリモートファイルを同期できるのが非常に便利です。また、同期先をローカルファイル、リモートファイルから選択できるのも、痒いところに手が届いていい感じです。
 
-https://panic.com/jp/transmit/
+<https://panic.com/jp/transmit/>
 
 「Transmit」の設定も「Dropbox」で同期しています。次回以降、サーバの設定をし直す必要がなくなります。
 
@@ -339,35 +339,35 @@ https://panic.com/jp/transmit/
 
 後述の Vagrant のため、および Ubuntu の検証に使用しています。
 
-https://www.virtualbox.org/wiki/Downloads
+<https://www.virtualbox.org/wiki/Downloads>
 
 #### Vagrant
 
 Vagrant は、[仮想環境構築ツール「Vagrant」で開発環境を仮想マシン上に自動作成する | OSDN Magazine](https://osdn.jp/magazine/15/02/13/200000)で紹介されているように、仮想環境を簡単に構築することができるツールです。
 
-https://www.vagrantup.com/downloads.html
+<https://www.vagrantup.com/downloads.html>
 
 ##### VCCW
 
 VirtualBox と Vagrant を使用して、WordPress の環境を自動で構築できるのが「VCCW」です。公式サイトの案内にしたがってインストールしてください。
 
-http://vccw.cc/
+<http://vccw.cc/>
 
 たった 3 行のコマンドで WordPress の環境構築が完了です。
 
-    $ vagrant plugin install vagrant-hostsupdater
-    $ cd /path/to/vccw
-    $ vagrant up
+    vagrant plugin install vagrant-hostsupdater
+    cd /path/to/vccw
+    vagrant up
 
 また、WordPress の本体は Dropbox 上に保存し、MacBook Pro、iMac 間で同期しています。そのため、上記コマンド時に生成される WordPress の保存先を Dropbox に変更しておくと便利です。「VCCW」については、[gulp.js と Browser Sync で快適な WordPress 開発環境を手に入れる](/posts/2014/09/gulp-browser-sync-476/)でもご紹介しています。
 
-    $ ln -s ~/Dropbox/path/to/vccw/www .
+    ln -s ~/Dropbox/path/to/vccw/www .
 
 また、本番環境から検証環境に WordPress の投稿をインポートする際に、ファイルサイズが 2M を超えるとインポートできません。これは、PHP によるデフォルトの制約です。そこで、仮想マシンにログインして、「php.ini」の設定を変更します。
 
-    $ cd /path/to/vccw
-    $ vagrant ssh
-    $ sudo vi /etc/php.ini
+    cd /path/to/vccw
+    vagrant ssh
+    sudo vi /etc/php.ini
 
 「File Uploads」の項目のうち、`upload_max_filesize`の値をデフォルトの 2M から 10M 程度に変更しておきます。これで 2M を超えるファイルもインポートすることができるようになります。
 
@@ -387,21 +387,21 @@ http://vccw.cc/
 
 アップロードのファイルサイズ変更後は Web サーバ（Apache）の再インストールが必要になります。以下のコマンドを実行しておきましょう。
 
-    $ sudo apachectl restart
+    sudo apachectl restart
 
 #### Sublime Text
 
 PHP、HTML、CSS ファイルの編集に欠かせないのがテキストエディター「Sublime Text」。豊富なプラグインのおかげで快適な編集が実現できます。プラグインについては、[Sublime Text に導入しているオススメのプラグイン 23 選](/posts/2014/09/sublime-text-plugin-321/)をご覧ください。
 
-http://www.sublimetext.com/3
+<http://www.sublimetext.com/3>
 
 Sublime Text に導入しているプラグインも、iMac、MacBook Pro 間で同期したいため、Dropbox を利用しています。Dropbox を利用して同期する場合には、「Sublime Text」のプラグインフォルダーをそのまま Dropbox に作成し、ローカルはショートカットを作成して対応します。以下のコマンドを実行しましょう。
 
-    $ cd ~/Library/Application\ Support/Sublime\ Text\ 3
-    $ rm -r Installed\ Packages
-    $ rm -r Packages
-    $ ln -s ~/Dropbox/Sublime\ Text/Installed\ Packages .
-    $ ln -s ~/Dropbox/Sublime\ Text/Packages .
+    cd ~/Library/Application\ Support/Sublime\ Text\ 3
+    rm -r Installed\ Packages
+    rm -r Packages
+    ln -s ~/Dropbox/Sublime\ Text/Installed\ Packages .
+    ln -s ~/Dropbox/Sublime\ Text/Packages .
 
 ~/Dropbox/Sublime Text/に、「Installed Packages」および「Packages」が保存されている前提です。ショートカットを作成する方法については、[WordPress のテーマ開発、ブログの執筆作業を効率化する方法のまとめ](/posts/2014/12/efficiency-blog-736/)でもご紹介しています。
 
@@ -409,7 +409,7 @@ Sublime Text に導入しているプラグインも、iMac、MacBook Pro 間で
 
 macOS のパッケージ管理ソフトウェアです。これも無くてはならない存在です。ここでは、ブログに使用しているパッケージのみをご紹介します。まず、インストールするためには、以下のコマンドを実行します。
 
-    $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 Xcode のコマンドライン・デベロッパー・ツールがインストールされていない場合は、以下のダイアログが表示されますので、「インストール」をクリックしてください。
 
@@ -421,7 +421,7 @@ Homebrew については、[Mac でプレゼン資料に数式を貼り付ける
 
 PNG ファイルを圧縮してくれるツールです。以下のコマンドを実行してインストールします。
 
-    $ brew install pngquant
+    brew install pngquant
 
 基本的な使い方は、`pngquant --force /path/to/pngfile.png`です。ワイルドカード（\*）指定、範囲指定（[1-10]）のような使い方もできます。PNG ファイルのサイズを大幅に削減してくれるツールのため、macOS や iPhone のスクリーンショットをブログにアップする際は必須のツールです。
 
@@ -429,7 +429,7 @@ PNG ファイルを圧縮してくれるツールです。以下のコマンド�
 
 JPEG ファイルを圧縮してくれるツールです。以下のコマンドを実行してインストールします。
 
-    $ brew install jpegoptim
+    brew install jpegoptim
 
 基本的な使い方は、`jpegoptim -s -m80 /path/to/jpegfile.jpg`です。「-m」パラメーターは、オリジナルファイルと比較してどの程度の画質に落とすか、を指定します。これまでの経験上、80%程度が画質を落とすことなく、ファイルサイズを大幅に減らしてくれる値です。
 
@@ -439,7 +439,7 @@ JPEG ファイルを圧縮してくれるツールです。以下のコマンド
 
 いよいよ大詰め、「MarsEdit」です。Mac でブログをかくならコレ、というくらい定番のブログエディターです。
 
-https://red-sweater.com/marsedit/
+<https://red-sweater.com/marsedit/>
 
 エディターの設定がデフォルトでは文字が小さいため、フォントとそのサイズを変更して使用しています。
 

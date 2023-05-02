@@ -22,13 +22,13 @@ Gitは、分散型バージョン管理システムです。それに対して�
 
 <!-- textlint-disable -->
 
--   [ガチで5分で分かる分散型バージョン管理システムGit (3/6) - ＠IT](https://www.atmarkit.co.jp/ait/articles/1307/05/news028_3.html)
+- [ガチで5分で分かる分散型バージョン管理システムGit (3/6) - ＠IT](https://www.atmarkit.co.jp/ait/articles/1307/05/news028_3.html)
     <!-- textlint-enable -->
 
 今回は、分散型バージョン管理システムであるGitについて、以下の読者を対象にGitコマンドの基本をおさらいします。
 
--   Gitコマンドの概念はなんとなく知っている
--   VS CodeなどGitを統合したIDE等のGUIで使用したことはあるが、コマンドはよくわからない
+- Gitコマンドの概念はなんとなく知っている
+- VS CodeなどGitを統合したIDE等のGUIで使用したことはあるが、コマンドはよくわからない
 
 ぜひ、実際にターミナル上で手を動かして作業を行ってみてください。ただ読むだけより、実際に作業してみたほうが身につきます。
 
@@ -110,7 +110,7 @@ No commits yet
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	training-1.txt
+ training-1.txt
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
@@ -134,7 +134,7 @@ git add training-1.txt
     Changes to be committed:
       (use "git rm --cached <file>..." to unstage)
 
-    	new file:   training-1.txt
+     new file:   training-1.txt
 
 ステータスが、「Untracked files」から「Changes to be commited」に変更されました。コミットできる準備が整ったということです。また、このコミットに含まれる変更の内容がその下に記載されています。今回の場合は、「training-1.txt」ファイルがリポジトリに追加されることを表しています。
 
@@ -219,7 +219,7 @@ echo training-1_1 >> training-1.txt
       (use "git add <file>..." to update what will be committed)
       (use "git checkout -- <file>..." to discard changes in working directory)
 
-    	modified:   training-1.txt
+     modified:   training-1.txt
 
     no changes added to commit (use "git add" and/or "git commit -a")
 
@@ -254,7 +254,7 @@ rm training-3.txt
       (use "git add/rm <file>..." to update what will be committed)
       (use "git checkout -- <file>..." to discard changes in working directory)
 
-    	deleted:    training-3.txt
+     deleted:    training-3.txt
 
     no changes added to commit (use "git add" and/or "git commit -a")
 
@@ -270,7 +270,7 @@ git add .
     Changes to be committed:
       (use "git reset HEAD <file>..." to unstage)
 
-    	deleted:    training-3.txt
+     deleted:    training-3.txt
 
 インデックスに削除対象のファイルが追加されました。続いてコミットしましょう。コミットのメッセージは割愛します。任意の内容で構いません。
 
@@ -414,7 +414,7 @@ git add training-1.txt
     Changes to be committed:
       (use "git reset HEAD <file>..." to unstage)
 
-    	modified:   training-1.txt
+     modified:   training-1.txt
 
 インデックスに追加する前の状態に戻す方法は、`git status`に示されているように、`git reset`コマンドを使用します。また、`git reset`コマンドの引数に`HEAD`と元に戻したいファイルのパスを指定します。`.`を指定すると、カレントディレクトリのすべてのディレクトリやファイルに対して変更が行われます。
 
@@ -429,7 +429,7 @@ git reset HEAD training-1.txt
       (use "git add <file>..." to update what will be committed)
       (use "git checkout -- <file>..." to discard changes in working directory)
 
-    	modified:   training-1.txt
+     modified:   training-1.txt
 
     no changes added to commit (use "git add" and/or "git commit -a")
 
@@ -460,7 +460,7 @@ git add training-1.txt
     Changes to be committed:
       (use "git reset HEAD <file>..." to unstage)
 
-    	modified:   training-1.txt
+     modified:   training-1.txt
 
 指示通り、`git reset`によりファイルをインデックスから削除します。
 
@@ -475,7 +475,7 @@ git reset HEAD training-1.txt
       (use "git add <file>..." to update what will be committed)
       (use "git checkout -- <file>..." to discard changes in working directory)
 
-    	modified:   training-1.txt
+     modified:   training-1.txt
 
     no changes added to commit (use "git add" and/or "git commit -a")
 
@@ -527,7 +527,7 @@ rm training-1.txt
       (use "git add/rm <file>..." to update what will be committed)
       (use "git checkout -- <file>..." to discard changes in working directory)
 
-    	deleted:    training-1.txt
+     deleted:    training-1.txt
 
     no changes added to commit (use "git add" and/or "git commit -a")
 
@@ -674,7 +674,7 @@ git reset --soft HEAD^
     Changes to be committed:
       (use "git reset HEAD <file>..." to unstage)
 
-    	new file:   training-4.txt
+     new file:   training-4.txt
 
 作業ツリー上に新規ファイルを作成した、という形跡は残っています。また、作業ツリー上の状態を確認してみると、以下のようにファイルは新規作成されたままになっています。
 
@@ -836,7 +836,7 @@ git status
     Untracked files:
       (use "git add <file>..." to include in what will be committed)
 
-    	branch-1.txt
+     branch-1.txt
 
     nothing added to commit but untracked files present (use "git add" to track)
 
@@ -853,7 +853,7 @@ git status
     Changes to be committed:
       (use "git reset HEAD <file>..." to unstage)
 
-    	new file:   branch-1.txt
+     new file:   branch-1.txt
 
 では、コミットしてみます。
 
@@ -1177,7 +1177,7 @@ git status
     Unmerged paths:
       (use "git add <file>..." to mark resolution)
 
-    	both modified:   branch-2.txt
+     both modified:   branch-2.txt
 
     no changes added to commit (use "git add" and/or "git commit -a")
 
