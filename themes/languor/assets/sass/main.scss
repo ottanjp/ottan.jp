@@ -10,25 +10,29 @@ body {
 }
 
 .markdown-body {
-  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
-    "Hiragino Sans", Meiryo, sans-serif !important;
-    font-feature-settings: "palt";
+  font-feature-settings: "palt";
+  font-size: 17px !important;
+  line-height: 1.6 !important;
 }
 
 .sticky {
   position: sticky;
+
   &.sticky-20vh {
     top: 20vh;
   }
 }
+
 .is-flex {
   &-centered {
     justify-content: center;
   }
+
   &-space,
   &-widescreen-space {
     justify-content: space-around;
   }
+
   &-column {
     display: flex;
     flex-direction: column;
@@ -67,6 +71,7 @@ body {
     position: relative;
     overflow: hidden;
   }
+
   .copy-button {
     position: absolute;
     top: 0.25rem;
@@ -84,11 +89,11 @@ body {
 }
 
 .admonition-content {
-    display: block;
-    margin: 0px;
-    padding: 1em 1em;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    overflow-x: auto;
-    background-color: rgba(0, 0, 0, .05);
-  }
+  display: block;
+  margin: 0px;
+  padding: 1em 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  overflow-x: auto;
+  background-color: rgba(0, 0, 0, .05);
+}
